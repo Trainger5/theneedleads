@@ -32,7 +32,7 @@
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="footerlogo">
-                        <a href="index.php"><img src="./assets/img/whitelogo.png"></a>
+                        <a href="index.php"><img src="./assets/img/sitelogo.png"></a>
                     </div>
                     <p class="pt-3">At NeedleAds Technology, we pride ourselves on our commitment to delivering
                         exceptional results and exceeding our clients' expectations. With our proven track record of
