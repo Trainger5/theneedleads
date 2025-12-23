@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^theneedleads\.com [NC]
+RewriteRule ^(.*)$ http://www.theneedleads.com/$1 [L,R=301]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+RewriteRule ^index\.php$ / [L,R=301]
+
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /hero\.php/.+?\ HTTP [NC]
+RewriteRule ^ - [R=404,L]
+
+ErrorDocument 404 /404.php

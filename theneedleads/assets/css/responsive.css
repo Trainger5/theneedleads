@@ -1,0 +1,437 @@
+@media only screen and (max-width: 1263px) {
+.boxservices {
+    padding: 30px 20px;
+}
+.contactformimg {
+    left: 0;
+}
+.recentpostdetails {
+    width: 56%;
+}
+.bannercontent h1 {
+    font-size: 40px;
+}
+.pltr .sectionheading {
+    margin-bottom: 10px;
+}
+
+.pltr .sectionheading h2 {
+    font-size: 27px;
+}
+.contactusdetails .boxservices {
+    min-height: 250px !important;
+}
+nav ul li a, nav ul li a:visited {
+    padding: 0 8px;
+}
+}
+
+@media only screen and (max-width: 1200px) {
+.bannersectionstr {
+    background-position: 40% 50% !important;
+}
+.aboutinnerservices .row {
+    align-items: inherit !important;
+}
+.brand {
+    padding-left: 0;
+}
+nav ul li:last-child a {
+    padding-right: 0;
+}
+.contactusdetails .boxservices {
+    min-height: 252px !important;
+}
+.headermenu a {
+    padding: 0 30px !important;
+}
+#posts {
+    gap: 20px;
+}
+}
+
+@media only screen and (max-width: 1069px) {
+.contactformimg {
+    width: 56%;
+}
+.sectionheading p {
+    width: 80%;
+}
+.recentimgbox {
+    width: 100%;
+}
+.recentpostdetails {
+    width: 100%;
+}
+.iframset iframe {
+    height: 530px;
+}
+.contactusdetails .boxservices {
+    min-height: 249px !important;
+}
+
+#posts .post {
+    width: 31%;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+.sicon {
+    width: 30%;
+    padding-bottom: 10px;
+}
+.contactformimg {
+    width: 56%;
+}
+.industriesbox p {
+    font-size: 14px;
+}
+.contactusdetails .boxservices {
+    min-height: 261px !important;
+}
+.count-area .row {
+    row-gap: 25px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+.bannercontent h1 {
+    font-size: 45px;
+    text-align: center;
+}
+.bannercontent p {
+    text-align: center;
+}
+.webbtn {
+    text-align: center;
+}
+.sectionheading h2 {
+    text-align: center;
+}
+.aboutcontent {
+    text-align: center;
+}
+ .aboutcontent-res{
+    text-align:start !important;
+}
+.btnofset {
+    width: 35% !important;
+    margin: 0 auto;
+}
+.outerofformsection .row .col-md-2 {
+    width: 100%;
+    margin-bottom: 12px;
+}
+.outerofservicessection .row {
+    row-gap: 25px;
+}
+.boxservices {
+    padding: 30px 50px;
+}
+.callcontent h3 {
+    font-size: 32px;
+}
+.callbtn .webbtnset a {
+    padding: 20px 23px;
+    font-size: 17px;
+}
+.count-area-content {
+    padding: 40px 10px;
+}
+.count-digit.counter-loaded {
+    font-size: 47px;
+}
+
+.outerofcontactform .row {
+    flex-direction: column-reverse;
+}
+.formcontent .sectionheading p {
+    text-align: center;
+}
+.contactformimg {
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.contactformset {
+    padding-bottom: 440px;
+}
+
+nav ul {
+    position: absolute;
+    width: 91%;
+    z-index: 9;
+}
+.navbar-dropdown {
+    width: 100%;
+}
+footer .row {
+    row-gap: 25px;
+}
+.ourservicestwo .boxservices {
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.outerofformsection .row .col-md-3 {
+    width: 100%;
+    margin-bottom: 12px;
+}
+.sectionheading {
+    margin-bottom: 20px;
+}
+.colre {
+    flex-direction: column-reverse;
+}
+.websitemaintenanceservicesection h4 {
+    font-size: 21px;
+}
+.texCenter {
+    text-align: center;
+}
+.contactusdetails .boxservices {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.contactpageform {
+    padding-bottom: 0;
+}
+.contactusdetails .sicon {
+    display: flex;
+    justify-content: center;
+}
+
+.headermenu {
+    display: none;
+}
+.dropdown {
+    position: inherit;
+    top: 0;
+    width: 100%;
+}
+.childdrop {
+    position: inherit;
+    left: 0;
+    width: 100%;
+}
+.setofdown {
+    right: 369px;
+}
+#posts .post {
+    width: 48%;
+}
+.margin_sec {
+    margin-top: 22px !important;
+    margin-bottom: 30px;
+}
+    .secondmin {
+    padding-left: 50px;
+}
+
+}
+
+
+@media only screen and (max-width: 425px) {
+.bannercontent h1 {
+    font-size: 30px;
+}
+
+.outerofbanner {
+    padding: 80px 0;
+}
+.btnofset {
+    width: 100% !important;
+}
+.sectionpadding {
+    padding: 40px 0;
+}
+.sectionheading p {
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+}
+.callcontent h3 {
+    font-size: 25px;
+    text-align: center;
+}
+.callbtn {
+    text-align: center;
+    margin-top: 10px;
+}
+.count-digit.counter-loaded {
+    font-size: 55px;
+}
+.outerofourpartner .sectionheading p {
+    margin-bottom: 0;
+}
+.outerofindustriessection .col-xs-6 {
+    width: 50%;
+}
+.reviewbox {
+    width: 100%;
+}
+.contactformimg {
+    width: 100%;
+}
+.contactformset {
+    padding-bottom: 300px !important;
+}
+.faq {
+    margin-bottom: 0;
+}
+.bannercontent h1 {
+    font-size: 25px;
+}
+.breadcrumb {
+    display: none;
+}
+.innerpagebanner .outerofbanner {
+    padding: 40px 0;
+}
+.recentimgbox {
+    width: 38%;
+}
+.recentpostdetails {
+    width: 57%;
+}
+.blogdetailcontent h2 {
+    font-size: 22px;
+}
+.bannersectionstr {
+    background-position: 20% 50% !important;
+}
+.sectionheading {
+    margin-bottom: 18px;
+}
+.count-title {
+    font-size: 16px;
+}
+.count-area-content span {
+    font-size: 55px;
+}
+.count-area .col-sm-6 {
+    width: 50%;
+}
+.industriesbox p {
+    font-size: 16px;
+}
+.sectionheading h2 {
+    font-size: 23px;
+}
+.outerofcopy p {
+    padding: 20px 10px;
+    font-size: 14px;
+}
+.aboutusinntersection .col-xs-6 {
+    width: 100%;
+}
+.aboutimg {
+    width: 90%;
+}
+.pltr {
+    padding: 20px 10px 20px 10px;
+}
+.pltr .sectionheading h2 {
+    font-size: 23px;
+}
+.iframset iframe {
+    height: 330px;
+    padding-bottom: 20px;
+}
+.contactpageform {
+    padding-bottom: 0 !important;
+}
+.outerofperpsalsection .contactpageform {
+    width: 100%;
+}
+.setofdown {
+    right: 115px;
+}
+.bnrform {
+    width: 90%;
+    margin: 0 auto;
+}
+#posts .post {
+    width: 100%;
+}
+.outerofmiddlecontent-1 .col-sm-6 {
+    width: 50%;
+}
+.mobilepoffer {
+    display: block;
+}
+img.desktopoffer {
+    display: none;
+}
+.webbtns{
+    display:block;
+    margin-top: 30px;
+}
+
+    .sicon_block img {
+    width: 24% !important;
+}
+     .webbtn-1 {
+        margin-bottom: 30px;
+    }
+
+.margin_sec {
+    margin-top: 35px ;
+}
+.mobile-res{
+    display: none;
+}
+    .secondmin {
+    padding-left: 0px;
+}
+    .middlecontentbox {
+    padding: 0px !important;
+}
+
+.sideviewform .bnrform {
+    margin: 0;
+    width: 100%;
+}
+
+.sideviewform form {
+    padding: 0;
+}
+
+
+.sideviewform form input {
+    width: 100%;
+}
+    
+    
+    
+}
+
+
+
+
+@media only screen and (max-width: 375px) {
+.count-digit.counter-loaded {
+    font-size: 45px;
+}
+.count-area-content span {
+    font-size: 45px;
+}
+.count-area-content {
+    padding: 30px 8px;
+}
+.count-title {
+    font-size: 15px;
+}
+.aboutimg {
+    width: 95%;
+}
+.setofdown {
+    right: 95px;
+}
+.outerofmiddlecontent-1 .col-sm-6 {
+    width: 100%;
+}
+    .sicon_block img {
+    width: 24% !important;
+}
+}
