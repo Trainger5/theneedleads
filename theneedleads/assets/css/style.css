@@ -384,9 +384,9 @@ ul.socialmedia li a i.fa {
     font-size: 20px;
     color: #fff;
 }
-.footerlogo {
+/* .footerlogo {
     width: 120px;
-}
+} */
 .contactformimg {
     position: absolute;
     bottom: 0;
@@ -1703,7 +1703,8 @@ ul.socialmedia li a i.fa {
     color: #fff;
 }
 .footerlogo {
-    width: 160px;
+    width: 220px;
+    height: auto;
 }
 .contactformimg {
     position: absolute;

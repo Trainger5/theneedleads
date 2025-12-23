@@ -20,7 +20,7 @@
     align-items:center;
   ">
 
-    <img src="assets/img/logo.png" alt="Logo"
+    <img src="assets/img/sitelogo.png" alt="Logo"
          style="width:180px; margin-bottom:25px;">
 
     <div style="
