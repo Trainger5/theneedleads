@@ -32,7 +32,7 @@ $admin_cfg = require __DIR__ . '/config.php';
         <p class="admin-subtitle">Create, edit, and delete blog posts</p>
       </div>
       <div class="admin-actions">
-        <a class="admin-link" href="<?php echo htmlspecialchars($site_cfg["basePath"]); ?>">É≈? View Blog</a>
+        <a class="admin-link" href="<?php echo htmlspecialchars($site_cfg["basePath"]); ?>">View Blog</a>
       </div>
     </div>
   </header>
