@@ -32,7 +32,7 @@
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="footerlogo">
-                        <a href="index.php"><img src="./assets/img/sitelogo.png"></a>
+                        <a href="<?php echo $linkBase ?? ''; ?>index.php"><img src="<?php echo $assetBase ?? ''; ?>assets/img/sitelogo.png"></a>
                     </div>
                     <p class="pt-3">At NeedleAds Technology, we pride ourselves on our commitment to delivering
                         exceptional results and exceeding our clients' expectations. With our proven track record of
@@ -66,19 +66,19 @@
                         <h3>Explore</h3>
                         <ul>
                             <li>
-                                <a href="index.php">Home</a>
+                                <a href="<?php echo $linkBase ?? ''; ?>index.php">Home</a>
                             </li>
                             <li>
-                                <a href="about-us.php">About Us</a>
+                                <a href="<?php echo $linkBase ?? ''; ?>about-us.php">About Us</a>
                             </li>
                             <li>
-                                <a href="contact-us.php">Contact Us</a>
+                                <a href="<?php echo $linkBase ?? ''; ?>contact-us.php">Contact Us</a>
                             </li>
                             <li>
-                                <a href="privacy-policy.php">Privacy Policy</a>
+                                <a href="<?php echo $linkBase ?? ''; ?>privacy-policy.php">Privacy Policy</a>
                             </li>
                             <li>
-                                <a href="term-condition.php">Terms & Conditions</a>
+                                <a href="<?php echo $linkBase ?? ''; ?>term-condition.php">Terms & Conditions</a>
                             </li>
                         </ul>
                     </div>
@@ -88,25 +88,25 @@
                         <h3>Services</h3>
                         <ul>
                             <li>
-                                <a href="website-design.php">Website Design</a>
+                                <a href="<?php echo $linkBase ?? ''; ?>website-design.php">Website Design</a>
                             </li>
                             <li>
-                                <a href="website-development.php">Website Development</a>
+                                <a href="<?php echo $linkBase ?? ''; ?>website-development.php">Website Development</a>
                             </li>
                             <li>
-                                <a href="mobile-app-development.php">Mobile Application</a>
+                                <a href="<?php echo $linkBase ?? ''; ?>mobile-app-development.php">Mobile Application</a>
                             </li>
                             <li>
-                                <a href="email-marketing.php">Email Marketing</a>
+                                <a href="<?php echo $linkBase ?? ''; ?>email-marketing.php">Email Marketing</a>
                             </li>
                             <li>
-                                <a href="ppc-company-delhi.php">Google Ads</a>
+                                <a href="<?php echo $linkBase ?? ''; ?>ppc-company-delhi.php">Google Ads</a>
                             </li>
                             <li>
-                                <a href="social-media-marketing.php">SMM</a>
+                                <a href="<?php echo $linkBase ?? ''; ?>social-media-marketing.php">SMM</a>
                             </li>
                             <li>
-                                <a href="seo-company-janakpuri.php">SEO Services</a>
+                                <a href="<?php echo $linkBase ?? ''; ?>seo-company-janakpuri.php">SEO Services</a>
                             </li>
                         </ul>
                     </div>
@@ -221,40 +221,53 @@ function makeContact() {
 <script type="text/javascript">
 function visible(partial) {
     var $t = partial,
-        $w = jQuery(window),
-        viewTop = $w.scrollTop(),
+        $w = jQuery(window);
+
+    // If there is no element to check, treat as not visible
+    if (!$t || !$t.length) {
+        return false;
+    }
+
+    var viewTop = $w.scrollTop(),
         viewBottom = viewTop + $w.height(),
-        _top = $t.offset().top,
+        off = $t.offset();
+
+    // Guard against unexpected undefined offsets
+    if (!off) {
+        return false;
+    }
+
+    var _top = off.top,
         _bottom = _top + $t.height(),
         compareTop = partial === true ? _bottom : _top,
         compareBottom = partial === true ? _top : _bottom;
 
     return ((compareBottom <= viewBottom) && (compareTop >= viewTop) && $t.is(':visible'));
-
 }
 
 $(window).scroll(function() {
+    var $digits = $('.count-digit');
+    if (!$digits.length) return;
 
-    if (visible($('.count-digit'))) {
-        if ($('.count-digit').hasClass('counter-loaded')) return;
-        $('.count-digit').addClass('counter-loaded');
+    if (visible($digits)) {
+        if ($digits.hasClass('counter-loaded')) return;
+        $digits.addClass('counter-loaded');
 
-        $('.count-digit').each(function() {
+        $digits.each(function() {
             var $this = $(this);
-            jQuery({
-                Counter: 0
-            }).animate({
-                Counter: $this.text()
-            }, {
-                duration: 5000,
-                easing: 'swing',
-                step: function() {
-                    $this.text(Math.ceil(this.Counter));
+            jQuery({ Counter: 0 }).animate(
+                { Counter: $this.text() },
+                {
+                    duration: 5000,
+                    easing: 'swing',
+                    step: function() {
+                        $this.text(Math.ceil(this.Counter));
+                    }
                 }
-            });
+            );
         });
     }
-})
+});
 </script>
 
 <!-- ===============================our partner====================== -->
