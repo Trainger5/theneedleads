@@ -34,7 +34,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,300&family=Roboto:wght@300;400;700&display=swap"
      rel="stylesheet">
-    <script src="js/modernizr.js"></script>
 
 
 
@@ -96,8 +95,8 @@
                 <!-- Modal body -->
                 <div class="modal-body">
                     <div class="imgoffer">
-                        <img src="<?php echo $assetBase ?? ''; ?>assets/img/new-year.jpg" class="desktopoffer">
-                        <img src="<?php echo $assetBase ?? ''; ?>assets/img/new-year.jpg" class="mobilepoffer">
+                        <img src="<?php echo $assetBase ?? ''; ?>assets/img/banner.jpg" class="desktopoffer">
+                        <img src="<?php echo $assetBase ?? ''; ?>assets/img/banner.jpg" class="mobilepoffer">
                     </div>
                 </div>
 
