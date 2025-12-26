@@ -2,12 +2,17 @@ const BLOG_CONFIG = window.__BLOG_CONFIG || { apiBase: "/api", basePath: "/blog/
 const API_BASE = (BLOG_CONFIG.apiBase || "/api").replace(/\/$/, "");
 const BASE_PATH = (BLOG_CONFIG.basePath || "/blog/").replace(/([^\/])$/, "$1/");
 
-// Identify the current blog either by id (query) or slug (pretty URL / injected)
+// Identify the current blog either by id (query) or slug (query / injected)
 const urlParams = new URLSearchParams(window.location.search);
 const blogId = urlParams.get("id");
 const slugFromQuery = urlParams.get("slug");
 const slugFromInjected = (window.__BLOG_SLUG || "").toString().trim();
-const blogSlug = (slugFromInjected || slugFromQuery || "").toString().trim();
+let blogSlug = (slugFromInjected || slugFromQuery || "").toString().trim();
+
+// Guard against bad slugs like "index.php" that may come from misrouted URLs
+if (blogSlug && /\.php$/i.test(blogSlug)) {
+  blogSlug = "";
+}
 
 const els = {
   content: document.getElementById("blogContent"),
@@ -221,7 +226,7 @@ async function loadBlogAndSidebar() {
 
   if (!id && !slug) {
     el.innerHTML =
-      "<h2>Missing blog identifier</h2><a href='index.php' class='back-btn'>ƒÅ? Back to Blogs</a>";
+      "<h2>Missing blog identifier</h2><a href='index.php' class='back-btn'>Back to Blogs</a>";
     return;
   }
 
@@ -233,23 +238,27 @@ async function loadBlogAndSidebar() {
       const res = await fetch(`${API_BASE}/posts/${encodeURIComponent(id)}`);
       if (res.status === 404) {
         el.innerHTML =
-          "<h2>Blog not found</h2><a href='index.php' class='back-btn'>ƒÅ? Back to Blogs</a>";
+          "<h2>Blog not found</h2><a href='index.php' class='back-btn'>Back to Blogs</a>";
         return;
       }
       if (!res.ok) throw new Error("Failed to load post by id");
       blog = await res.json();
-    } else {
+    } else if (slug) {
       // Load by slug (pretty URL /blog/<slug> -> post.php?slug=<slug>)
       const res = await fetch(
         `${API_BASE}/posts/slug/${encodeURIComponent(slug)}`
       );
       if (res.status === 404) {
         el.innerHTML =
-          "<h2>Blog not found</h2><a href='index.php' class='back-btn'>ƒÅ? Back to Blogs</a>";
+          "<h2>Blog not found</h2><a href='index.php' class='back-btn'>Back to Blogs</a>";
         return;
       }
       if (!res.ok) throw new Error("Failed to load post by slug");
       blog = await res.json();
+    } else {
+      el.innerHTML =
+        "<h2>Missing blog identifier</h2><a href='index.php' class='back-btn'>Back to Blogs</a>";
+      return;
     }
 
     const img = normalizeImagePath(blog.post_image) || PLACEHOLDER_IMG;
@@ -269,7 +278,7 @@ async function loadBlogAndSidebar() {
     await loadLatestSidebar(Number(blog.id));
   } catch (e) {
     el.innerHTML =
-      "<h2>Error loading blog</h2><a href='index.php' class='back-btn'>ƒÅ? Back to Blogs</a>";
+      "<h2>Error loading blog</h2><a href='index.php' class='back-btn'>Back to Blogs</a>";
     console.error(e);
   }
 }
@@ -296,7 +305,9 @@ async function loadLatestSidebar(currentId) {
         const slug = (b.post_name || b.slug || b.id || "").toString().trim();
 
         return `
-        <a class="latest-item" href="${BASE_PATH}${encodeURIComponent(slug)}">
+        <a class="latest-item" href="${BASE_PATH}post.php?id=${encodeURIComponent(
+          b.id
+        )}&slug=${encodeURIComponent(slug)}">
           <img class="latest-thumb" src="${img}" onerror="this.src='${PLACEHOLDER_IMG}'" />
           <div class="latest-meta">
             <p class="latest-title">${esc(b.post_title || "")}</p>
