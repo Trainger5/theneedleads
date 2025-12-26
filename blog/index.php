@@ -30,6 +30,6 @@ require __DIR__ . '/../include/header.php';
     basePath: <?php echo json_encode($cfg['basePath']); ?>,
   };
 </script>
-<script src="<?php echo $cfg['basePath']; ?>assets/js/script.js" defer></script>
+<script src="<?php echo $cfg['basePath']; ?>assets/js/blogList.js" defer></script>
 
 <?php require __DIR__ . '/../include/footer.php'; ?>
