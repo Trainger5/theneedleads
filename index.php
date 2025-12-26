@@ -1170,56 +1170,47 @@ document.getElementById('spinForm').addEventListener('submit', e => {
 });
 </script>
 <script>
+// Recent Blog section: use local Node API instead of old WordPress JSON to avoid CORS
 document.addEventListener("DOMContentLoaded", function() {
+    const postsContainer = document.getElementById('posts');
+    if (!postsContainer) return;
 
-    const apiUrl = "https://www.theneedleads.com/blog/wp-json/wp/v2/posts?per_page=3";
+    const apiUrl = "/api/posts";
+
     async function fetchPosts() {
         try {
             const response = await fetch(apiUrl);
+            if (!response.ok) throw new Error("Failed to load posts");
             const posts = await response.json();
 
-            const postsContainer = document.getElementById('posts');
-            posts.forEach(async post => {
-
+            // Take latest 3 posts
+            posts.slice(0, 3).forEach(post => {
                 const postElement = document.createElement('div');
                 postElement.classList.add('post');
 
                 const postTitle = document.createElement('h2');
-                postTitle.innerHTML = post.title.rendered;
+                postTitle.textContent = post.post_title || "";
                 postElement.appendChild(postTitle);
 
-
-                const postExcerpt = document.createElement('p');
-                postExcerpt.innerHTML = post.excerpt.rendered;
-                postElement.appendChild(postExcerpt);
-
-
-                const readMoreLink = document.createElement('a');
-                readMoreLink.href = post.link;
-                readMoreLink.textContent = 'Read More';
-                postElement.appendChild(readMoreLink);
-
-
-                if (post.featured_media) {
-                    const mediaResponse = await fetch(
-                        `https://www.theneedleads.com/blog/wp-json/wp/v2/media/${post.featured_media}`
-                    );
-                    const mediaData = await mediaResponse.json();
-                    if (mediaData.source_url) {
-                        const postImage = document.createElement('img');
-                        postImage.src = mediaData.source_url;
-                        postElement.insertBefore(postImage, postElement.firstChild);
-                    }
+                if (post.post_content) {
+                    const excerpt = document.createElement('p');
+                    const text = post.post_content.toString();
+                    excerpt.textContent = text.length > 180 ? text.slice(0, 177) + "..." : text;
+                    postElement.appendChild(excerpt);
                 }
 
+                const readMoreLink = document.createElement('a');
+                const slug = (post.post_name || post.slug || post.id || "").toString().trim();
+                readMoreLink.href = "/blog/" + encodeURIComponent(slug);
+                readMoreLink.textContent = "Read More";
+                postElement.appendChild(readMoreLink);
 
                 postsContainer.appendChild(postElement);
             });
         } catch (error) {
-            console.error('Error fetching posts:', error);
+            console.error("Error fetching posts:", error);
         }
     }
-
 
     fetchPosts();
 });
