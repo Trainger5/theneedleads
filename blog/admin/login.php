@@ -3,7 +3,16 @@
 session_start();
 $cfg = require __DIR__ . '/config.php';
 $error = '';
+$csrf = '';
+if (empty($_SESSION['blog_admin_csrf'])) {
+  $_SESSION['blog_admin_csrf'] = bin2hex(random_bytes(16));
+}
+$csrf = $_SESSION['blog_admin_csrf'];
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+  $token = isset($_POST['csrf']) ? $_POST['csrf'] : '';
+  if (!hash_equals($_SESSION['blog_admin_csrf'] ?? '', $token)) {
+    $error = 'Invalid session token, please try again.';
+  } else {
   $u = isset($_POST['username']) ? trim($_POST['username']) : '';
   $p = isset($_POST['password']) ? (string)$_POST['password'] : '';
 
@@ -28,6 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   }
 
   $error = 'Invalid username or password';
+  }
 }
 ?>
 <!doctype html>
@@ -51,6 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <h1>Admin Login</h1>
     <?php if ($error): ?><div class="err"><?php echo htmlspecialchars($error); ?></div><?php endif; ?>
     <form method="post">
+      <input type="hidden" name="csrf" value="<?php echo htmlspecialchars($csrf, ENT_QUOTES); ?>">
       <label>Username</label>
       <input name="username" autocomplete="username" required>
       <label>Password</label>

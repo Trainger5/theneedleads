@@ -72,18 +72,37 @@ function validateInput(input, { partial = false } = {}) {
     out.post_image = normalizeString(input.post_image);
   }
 
+  if (!partial || input.status !== undefined) {
+    const rawStatus = normalizeString(input.status).toLowerCase();
+    if (rawStatus && rawStatus !== "draft" && rawStatus !== "published") {
+      const err = new Error("status must be draft or published");
+      err.code = "VALIDATION";
+      throw err;
+    }
+    if (rawStatus) out.status = rawStatus;
+  }
+
   return out;
 }
 
-async function listPosts({ q = "" } = {}) {
+async function listPosts({ q = "", status } = {}) {
   const posts = await postsRepo.list();
   const qq = normalizeString(q).toLowerCase();
-  const filtered = qq
-    ? posts.filter(p => {
-        const hay = `${p.post_title || ""} ${p.post_name || ""} ${p.post_content || ""}`.toLowerCase();
-        return hay.includes(qq);
-      })
-    : posts;
+  const targetStatus = normalizeString(status).toLowerCase();
+
+  const filtered = posts.filter((p) => {
+    if (qq) {
+      const hay = `${p.post_title || ""} ${p.post_name || ""} ${p.post_content || ""}`.toLowerCase();
+      if (!hay.includes(qq)) return false;
+    }
+
+    if (targetStatus) {
+      const s = normalizeString(p.status).toLowerCase() || "published";
+      if (s !== targetStatus) return false;
+    }
+
+    return true;
+  });
 
   // Sort newest first by date
   filtered.sort((a, b) => {
@@ -126,7 +145,8 @@ async function createPost(input) {
     post_content: cleaned.post_content || "",
     post_date: cleaned.post_date || nowIso(),
     guid: cleaned.guid || "",
-    post_image: cleaned.post_image || ""
+    post_image: cleaned.post_image || "",
+    status: cleaned.status || "published"
   };
 
   newPost.guid = ensureGuid(newPost);

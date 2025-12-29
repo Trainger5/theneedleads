@@ -4,11 +4,12 @@ const router = express.Router();
 const postsService = require("../services/postsService");
 const { requireAdmin } = require("../middleware/auth");
 
-// GET /api/posts?q=search
+// GET /api/posts?q=search&status=published|draft
 router.get("/", async (req, res) => {
   try {
     const q = (req.query.q || "").toString().trim();
-    const posts = await postsService.listPosts({ q });
+    const status = (req.query.status || "").toString().trim();
+    const posts = await postsService.listPosts({ q, status });
     res.json(posts);
   } catch (err) {
     console.error(err);

@@ -61,6 +61,29 @@ function formatDate(iso) {
   return iso ? new Date(iso).toLocaleString() : "";
 }
 
+function sanitizeContentHtml(html) {
+  if (!html) return "";
+  let out = (html || "").toString();
+
+  // Remove script blocks
+  out = out.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, "");
+
+  // Demote any h1 to h2 to preserve single-H1 rule
+  out = out.replace(/<\s*h1(\s[^>]*)?>/gi, "<h2$1>");
+  out = out.replace(/<\s*\/\s*h1\s*>/gi, "</h2>");
+
+  // Strip inline event handlers
+  out = out.replace(/\son\w+\s*=\s*"[^"]*"/gi, "");
+  out = out.replace(/\son\w+\s*=\s*'[^']*'/gi, "");
+  out = out.replace(/\son\w+\s*=\s*[^ >]+/gi, "");
+
+  // Neutralize javascript: URLs
+  out = out.replace(/(href|src)\s*=\s*"javascript:[^"]*"/gi, '$1="#"');
+  out = out.replace(/(href|src)\s*=\s*'javascript:[^']*'/gi, "$1='#'");
+
+  return out;
+}
+
 // ---------- COMMENTS (localStorage for now) ----------
 function currentCommentKey() {
   const key = (blogId || blogSlug || "").toString().trim();
@@ -264,13 +287,13 @@ async function loadBlogAndSidebar() {
     const img = normalizeImagePath(blog.post_image) || PLACEHOLDER_IMG;
 
     const dateText = formatDate(blog.post_date);
-    const content = (blog.post_content || "").toString().replace(/\n/g, "<br>");
+    const contentHtml = sanitizeContentHtml(blog.post_content || "");
 
     el.innerHTML = `
       <img src="${img}" class="blog-banner" onerror="this.src='${PLACEHOLDER_IMG}'" />
       <h1 class="blog-title">${esc(blog.post_title || "")}</h1>
       <p class="blog-date">${esc(dateText)}</p>
-      <p>${content}</p>
+      <div class="blog-body">${contentHtml}</div>
       <a href="index.php" class="back-btn">Back to Blogs</a>
     `;
 
@@ -287,7 +310,7 @@ async function loadLatestSidebar(currentId) {
   if (!els.latest) return;
 
   try {
-    const res = await fetch(`${API_BASE}/posts`);
+    const res = await fetch(`${API_BASE}/posts?status=published`);
     if (!res.ok) throw new Error("Failed to load latest posts");
 
     let blogs = await res.json();

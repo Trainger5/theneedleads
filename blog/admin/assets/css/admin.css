@@ -332,3 +332,106 @@ body.modal-open{
     max-height: calc(100vh - 32px);
   }
 }
+
+/* =========================
+   Editor (WYSIWYG)
+========================= */
+.editor-mode-toggle{
+  display:flex;
+  align-items:center;
+  gap: 8px;
+  font-size: 13px;
+}
+
+.editor-mode-toggle input[type="radio"]{
+  margin-right: 4px;
+}
+
+.editor-toolbar{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 6px;
+  padding: 6px;
+  border-radius: 10px;
+  border: 1px solid #e2e2e2;
+  background:#fafafa;
+}
+
+.editor-toolbar button{
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background:#fff;
+  cursor:pointer;
+  font-size: 12px;
+}
+
+.editor-toolbar button:hover{
+  background:#f5f5f5;
+}
+
+.toolbar-sep{
+  width:1px;
+  align-self: stretch;
+  background: #e0e0e0;
+  margin:0 2px;
+}
+
+.editor-area{
+  min-height: 220px;
+  max-height: 420px;
+  overflow:auto;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.editor-area:focus{
+  outline: 2px solid #111;
+  outline-offset: 1px;
+}
+
+.editor-area p{
+  margin: 0 0 8px 0;
+}
+
+.editor-area h2,
+.editor-area h3,
+.editor-area h4,
+.editor-area h5,
+.editor-area h6{
+  margin: 14px 0 6px 0;
+}
+
+.editor-area ul,
+.editor-area ol{
+  margin: 0 0 10px 20px;
+  padding-left: 18px;
+}
+
+.editor-area blockquote{
+  border-left: 3px solid #ddd;
+  margin: 10px 0;
+  padding: 6px 10px;
+  color:#555;
+  background:#fafafa;
+}
+
+.editor-area pre{
+  font-family: Menlo, Consolas, Monaco, monospace;
+  font-size: 12px;
+  background:#111;
+  color:#f3f3f3;
+  border-radius: 8px;
+  padding: 8px 10px;
+  overflow:auto;
+}
+
+.editor-area code{
+  font-family: Menlo, Consolas, Monaco, monospace;
+  font-size: 12px;
+}

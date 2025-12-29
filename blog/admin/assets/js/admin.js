@@ -51,6 +51,7 @@ const els = {
   status: document.getElementById("statusBar"),
   search: document.getElementById("searchInput"),
   sort: document.getElementById("sortSelect"),
+  statusFilter: document.getElementById("statusFilter"),
   newBtn: document.getElementById("newBtn"),
 
   formTitle: document.getElementById("formTitle"),
@@ -65,7 +66,12 @@ const els = {
   // File input (uploads into assets/images)
   imageFile: document.getElementById("postImageFile"),
 
+  // CKEditor content field
   content: document.getElementById("postContent"),
+
+  author: document.getElementById("postAuthor"),
+  statusField: document.getElementById("postStatus"),
+
   saveBtn: document.getElementById("saveBtn"),
   resetBtn: document.getElementById("resetBtn"),
   deleteBtn: document.getElementById("deleteBtn"),
@@ -122,6 +128,117 @@ async function api(url, opts = {}) {
   return body;
 }
 
+function initRichEditor() {
+  if (window.CKEDITOR && els.content) {
+    CKEDITOR.replace("postContent", {
+      height: 320,
+      removePlugins: "elementspath",
+      resize_enabled: true,
+      toolbar: [
+        { name: "basicstyles", items: ["Bold", "Italic", "Underline", "-", "RemoveFormat"] },
+        { name: "paragraph", items: ["NumberedList", "BulletedList", "-", "Outdent", "Indent", "-", "Blockquote"] },
+        { name: "links", items: ["Link", "Unlink"] },
+        { name: "insert", items: ["Table"] },
+        { name: "styles", items: ["Format"] },
+        { name: "clipboard", items: ["Undo", "Redo"] }
+      ],
+      format_tags: "p;h2;h3;h4;h5;h6" // no H1 inside content
+    });
+  }
+}
+
+function getEditorHtml() {
+  if (window.CKEDITOR && CKEDITOR.instances && CKEDITOR.instances.postContent) {
+    return CKEDITOR.instances.postContent.getData() || "";
+  }
+  return (els.content && els.content.value) ? els.content.value : "";
+}
+
+function setEditorHtml(html) {
+  const safe = (html || "").toString();
+  if (window.CKEDITOR && CKEDITOR.instances && CKEDITOR.instances.postContent) {
+    CKEDITOR.instances.postContent.setData(safe);
+  } else if (els.content) {
+    els.content.value = safe;
+  }
+}
+
+function sanitizeHtml(html) {
+  const container = document.createElement("div");
+  container.innerHTML = html || "";
+
+  const allowedTags = new Set([
+    "p", "br", "strong", "b", "em", "i", "u",
+    "a", "ul", "ol", "li",
+    "h2", "h3", "h4", "h5", "h6",
+    "blockquote", "code", "pre", "span"
+  ]);
+
+  const allowedAttrs = {
+    a: new Set(["href", "title", "target", "rel"]),
+    span: new Set([]),
+    code: new Set([]),
+    pre: new Set([])
+  };
+
+  function clean(node) {
+    if (node.nodeType === Node.ELEMENT_NODE) {
+      const tag = node.tagName.toLowerCase();
+
+      if (tag === "h1") {
+        const h2 = document.createElement("h2");
+        while (node.firstChild) h2.appendChild(node.firstChild);
+        node.replaceWith(h2);
+        clean(h2);
+        return;
+      }
+
+      if (!allowedTags.has(tag)) {
+        const parent = node.parentNode;
+        while (node.firstChild) parent.insertBefore(node.firstChild, node);
+        parent.removeChild(node);
+        return;
+      }
+
+      const allowedForTag = allowedAttrs[tag] || new Set();
+      for (const attr of Array.from(node.attributes)) {
+        const name = attr.name.toLowerCase();
+        if (name.startsWith("on")) {
+          node.removeAttribute(attr.name);
+          continue;
+        }
+        if (name === "style") {
+          node.removeAttribute(attr.name);
+          continue;
+        }
+        if (!allowedForTag.has(name)) {
+          node.removeAttribute(attr.name);
+        }
+      }
+    }
+
+    for (const child of Array.from(node.childNodes)) {
+      clean(child);
+    }
+  }
+
+  for (const child of Array.from(container.childNodes)) {
+    clean(child);
+  }
+
+  return container.innerHTML.trim();
+}
+
+function escapeHtmlInline(str) {
+  return (str || "")
+    .toString()
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
 // Uploads a file and returns an exact url like: assets/images/<auto>.jpg
 async function uploadImageAndGetUrl(file) {
   const formData = new FormData();
@@ -142,8 +259,14 @@ async function uploadImageAndGetUrl(file) {
 async function loadPosts() {
   showStatus("Loading...", "");
   const q = els.search.value.trim();
-  const url = q
-    ? `${API_BASE}/posts?q=${encodeURIComponent(q)}`
+  const status = els.statusFilter ? els.statusFilter.value.trim() : "";
+
+  const params = [];
+  if (q) params.push(`q=${encodeURIComponent(q)}`);
+  if (status) params.push(`status=${encodeURIComponent(status)}`);
+
+  const url = params.length
+    ? `${API_BASE}/posts?${params.join("&")}`
     : `${API_BASE}/posts`;
   postsCache = await api(url);
   renderTable();
@@ -169,7 +292,7 @@ function renderTable() {
 
   list.forEach((p) => {
     const tr = document.createElement("tr");
-  const img = normalizeImagePath(p.post_image) || PLACEHOLDER_IMG;
+    const img = normalizeImagePath(p.post_image) || PLACEHOLDER_IMG;
     const dateText = p.post_date ? new Date(p.post_date).toLocaleString() : "";
     tr.innerHTML = `
       <td><img class="thumb" src="${img}" onerror="this.src='${PLACEHOLDER_IMG}'"/></td>
@@ -206,10 +329,12 @@ function resetForm() {
   els.slug.value = "";
   els.date.value = "";
   els.image.value = "";
-  els.content.value = "";
+  if (els.author) els.author.value = "";
+  if (els.statusField) els.statusField.value = "draft";
   els.deleteBtn.style.display = "none";
   els.preview.src = PLACEHOLDER_IMG;
   if (els.imageFile) els.imageFile.value = "";
+  setEditorHtml("");
 }
 
 function fillForm(post) {
@@ -220,10 +345,15 @@ function fillForm(post) {
   els.slug.value = post.post_name || "";
   els.date.value = toDatetimeLocal(post.post_date);
   els.image.value = post.post_image || "";
-  els.content.value = post.post_content || "";
   els.deleteBtn.style.display = "inline-block";
   els.preview.src = normalizeImagePath(post.post_image) || PLACEHOLDER_IMG;
   if (els.imageFile) els.imageFile.value = "";
+  if (els.author) els.author.value = post.author || "";
+  if (els.statusField) {
+    const status = (post.status || "").toString().trim().toLowerCase();
+    els.statusField.value = status === "draft" || status === "published" ? status : "published";
+  }
+  setEditorHtml(post.post_content || "");
 }
 
 async function onTableClick(e) {
@@ -275,7 +405,7 @@ async function onSubmit(e) {
 
   const slug = els.slug.value.trim() || makeSlug(title);
 
-  // If user selected a file, upload first and store returned URL
+  // If user selected a main image file, upload first and store returned URL
   let img = els.image.value.trim();
   if (els.imageFile && els.imageFile.files && els.imageFile.files[0]) {
     try {
@@ -295,7 +425,9 @@ async function onSubmit(e) {
     post_name: slug,
     post_date: fromDatetimeLocal(els.date.value),
     post_image: img,
-    post_content: els.content.value
+    author: els.author ? (els.author.value || "").trim() : "",
+    status: els.statusField ? (els.statusField.value || "").trim() : "",
+    post_content: sanitizeHtml(getEditorHtml())
   };
 
   try {
@@ -333,6 +465,7 @@ async function onDelete() {
 }
 
 function hook() {
+  initRichEditor();
   els.tbody.addEventListener("click", onTableClick);
   els.form.addEventListener("submit", onSubmit);
   els.resetBtn.addEventListener("click", () => {
@@ -343,6 +476,9 @@ function hook() {
 
   els.search.addEventListener("input", debounce(loadPosts, 250));
   els.sort.addEventListener("change", renderTable);
+  if (els.statusFilter) {
+    els.statusFilter.addEventListener("change", loadPosts);
+  }
 
   els.newBtn.addEventListener("click", () => {
     resetForm();

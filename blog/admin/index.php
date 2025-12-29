@@ -47,7 +47,12 @@ $admin_cfg = require __DIR__ . '/config.php';
           <select id="sortSelect">
             <option value="newest" selected>Newest first</option>
             <option value="oldest">Oldest first</option>
-            <option value="title">Title A→Z</option>
+            <option value="title">Title A–Z</option>
+          </select>
+          <select id="statusFilter">
+            <option value="">All statuses</option>
+            <option value="published">Published</option>
+            <option value="draft">Drafts</option>
           </select>
           <button id="newBtn" class="admin-btn primary">+ New Post</button>
         </div>
@@ -81,7 +86,7 @@ $admin_cfg = require __DIR__ . '/config.php';
         <div class="panel-header modal-header">
           <h2 id="formTitle">Create Post</h2>
           <button type="button" id="modalCloseBtn" class="modal-close" aria-label="Close">
-            ✕
+            ×
           </button>
         </div>
 
@@ -118,8 +123,22 @@ $admin_cfg = require __DIR__ . '/config.php';
           </label>
 
           <label>
+            Author
+            <input id="postAuthor" type="text" placeholder="Optional author name" />
+          </label>
+
+          <label>
+            Status
+            <select id="postStatus">
+              <option value="draft">Draft</option>
+              <option value="published">Published</option>
+            </select>
+            <small>Use Draft while editing. Switch to Published to show on the public blog.</small>
+          </label>
+
+          <label>
             Content
-            <textarea id="postContent" rows="10" placeholder="Write your post..."></textarea>
+            <textarea id="postContent" rows="12" placeholder="Write your post content here..."></textarea>
           </label>
 
           <div class="form-actions">
@@ -137,11 +156,8 @@ $admin_cfg = require __DIR__ . '/config.php';
     </div>
   </div>
 
-  
-
+  <script src="https://cdn.ckeditor.com/4.22.1/standard/ckeditor.js"></script>
   <script src="assets/js/admin.js" defer></script>
 </body>
 </html>
-
-
 

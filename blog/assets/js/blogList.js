@@ -26,7 +26,7 @@ async function loadBlogs() {
   const loadMoreBtn = document.getElementById("loadMoreBtn");
 
   try {
-    const res = await fetch(`${API_BASE}/posts`);
+    const res = await fetch(`${API_BASE}/posts?status=published`);
     if (!res.ok) throw new Error("Failed to load posts");
 
     allBlogs = await res.json();
