@@ -199,13 +199,10 @@ gtag('config', 'G-0GQ7EZTWNF');
 
 
 
-<section class="bannersectionstr" style="
-         background: url(assets/img/banner2.jpg);
-         background-repeat: no-repeat;
-         background-size: cover;">
+<section class="bannersectionstr">
     <div class="outerofbanner">
         <div class="container">
-            <div class="row row-gap-4 justify-content-center align-items-center">
+            <div class="row row-gap-4 justify-content-center align-items-center hero_section">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
                     <div class="bannercontent">
                         <h1>Best Digital Marketing Agency in Janakpuri, Delhi</h1>
@@ -216,8 +213,10 @@ gtag('config', 'G-0GQ7EZTWNF');
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-5 col-lg-5 col-md-7 col-sm-12">
-                    <div class="bnrform">
+
+                <div class="col-xl-5 col-lg-5 col-md-7 col-sm-12 hero_right">
+                    <img src="./assets/img/hero_img.png" alt="">
+                    <!-- <div class="bnrform">
                         <form action="bnr-form.php" method="POST" id="emailForm">
                             <h3>Get Free Quote</h3>
                             <div class="mb-3">
@@ -258,7 +257,7 @@ gtag('config', 'G-0GQ7EZTWNF');
                                 <button type="Submit" class="btn fbtn">Submit</button>
                             </div>
                         </form>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
