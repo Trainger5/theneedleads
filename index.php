@@ -1175,7 +1175,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const postsContainer = document.getElementById('posts');
     if (!postsContainer) return;
 
-    const apiUrl = "/api/posts";
+    // Only show published posts on the homepage
+    const apiUrl = "/api/posts?status=published";
 
     async function fetchPosts() {
         try {
@@ -1201,7 +1202,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 const readMoreLink = document.createElement('a');
                 const slug = (post.post_name || post.slug || post.id || "").toString().trim();
-                readMoreLink.href = "/blog/" + encodeURIComponent(slug);
+                readMoreLink.href = "/blog/post.php?id="
+                  + encodeURIComponent(post.id)
+                  + "&slug=" + encodeURIComponent(slug);
                 readMoreLink.textContent = "Read More";
                 postElement.appendChild(readMoreLink);
 

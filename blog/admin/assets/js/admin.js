@@ -365,8 +365,9 @@ async function onTableClick(e) {
   if (action === "view") {
     const post = postsCache.find(p => Number(p.id) === id);
     if (post) {
-      const slug = encodeURIComponent(post.post_name || post.slug || post.id);
-      window.open(`${BASE_PATH}${slug}`, "_blank");
+      const slug = (post.post_name || post.slug || post.id || "").toString().trim();
+      const url = `${BASE_PATH}post.php?id=${encodeURIComponent(post.id)}&slug=${encodeURIComponent(slug)}`;
+      window.open(url, "_blank");
     }
     return;
   }

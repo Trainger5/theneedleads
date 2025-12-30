@@ -435,3 +435,12 @@ body.modal-open{
   font-family: Menlo, Consolas, Monaco, monospace;
   font-size: 12px;
 }
+
+/* =========================
+   CKEditor Notifications
+   (hide version warning banner)
+========================= */
+.cke_notifications_area,
+.cke_notification_warning{
+  display: none !important;
+}
