@@ -1,3 +1,17 @@
+@media only screen and (max-width:1400px) {
+.hero_right {
+    position: relative;
+    margin-bottom: -102px;
+}   
+}
+
+@media only screen  and (max-width: 1350px) {
+.hero_right {
+    position: relative;
+    margin-bottom: -101px;
+}   
+}
+
 @media only screen and (max-width: 1263px) {
 .boxservices {
     padding: 30px 20px;
@@ -27,6 +41,10 @@ nav ul li a, nav ul li a:visited {
 }
 
 @media only screen and (max-width: 1200px) {
+.hero_right {
+    position: relative;
+    margin-bottom: -87px;
+}
 .bannersectionstr {
     background-position: 40% 50% !important;
 }
@@ -48,6 +66,14 @@ nav ul li:last-child a {
 #posts {
     gap: 20px;
 }
+}
+
+@media only screen and (max-width: 1080px) {
+.hero_right {
+    position: relative;
+    margin-bottom: -88px;
+}
+    
 }
 
 @media only screen and (max-width: 1069px) {
@@ -94,7 +120,20 @@ nav ul li:last-child a {
 }
 }
 
+
+@media only screen and (max-width: 991px) {
+    .hero_right {
+    position: relative;
+    margin-bottom: -92px;
+}
+    
+}
+
 @media only screen and (max-width: 768px) {
+.hero_right {
+    position: relative;
+    margin-bottom: -114px;
+}
 .bannercontent h1 {
     font-size: 45px;
     text-align: center;
@@ -230,8 +269,18 @@ footer .row {
 
 }
 
+@media only  screen and (max-width: 576px) {
+.hero_right {
+    position: relative;
+    margin-bottom: -105px;
+}
+}
 
 @media only screen and (max-width: 425px) {
+.hero_right {
+    position: relative;
+    margin-bottom: -103px;
+}
 .bannercontent h1 {
     font-size: 30px;
 }
@@ -410,6 +459,11 @@ img.desktopoffer {
 
 
 @media only screen and (max-width: 375px) {
+.hero_right {
+    position: relative;
+    margin-bottom: -94px;
+}
+
 .count-digit.counter-loaded {
     font-size: 45px;
 }
@@ -433,5 +487,12 @@ img.desktopoffer {
 }
     .sicon_block img {
     width: 24% !important;
+}
+}
+
+@media only screen and (max-width: 320px) {
+.hero_right {
+    position: relative;
+    margin-bottom: -84px;
 }
 }
