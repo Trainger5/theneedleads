@@ -80,9 +80,9 @@ nav ul li:last-child a {
 .contactformimg {
     width: 56%;
 }
-.sectionheading p {
+/* .sectionheading p {
     width: 80%;
-}
+} */
 .recentimgbox {
     width: 100%;
 }
@@ -133,6 +133,9 @@ nav ul li:last-child a {
 .hero_right {
     position: relative;
     margin-bottom: -114px;
+}
+.Achieve_reverse {
+    flex-direction: column-reverse;
 }
 .bannercontent h1 {
     font-size: 45px;
@@ -292,7 +295,7 @@ footer .row {
     width: 100% !important;
 }
 .sectionpadding {
-    padding: 40px 0;
+    padding: 70px 0;
 }
 .sectionheading p {
     width: 100%;
@@ -471,7 +474,7 @@ img.desktopoffer {
     font-size: 45px;
 }
 .count-area-content {
-    padding: 30px 8px;
+    padding: 30px 0px;
 }
 .count-title {
     font-size: 15px;
