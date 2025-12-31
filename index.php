@@ -1175,13 +1175,30 @@ document.addEventListener("DOMContentLoaded", function() {
     if (!postsContainer) return;
 
     // Only show published posts on the homepage
-    const apiUrl = "/api/posts?status=published";
+    // Local (WAMP) uses Node API on port 3001; production uses same-origin /api
+    const isLocal =
+        window.location.hostname === "localhost" ||
+        window.location.hostname === "127.0.0.1";
+    const apiBase = isLocal ? "http://localhost:3001" : "";
+    const apiUrl = apiBase + "/api/posts?status=published";
 
     async function fetchPosts() {
         try {
             const response = await fetch(apiUrl);
             if (!response.ok) throw new Error("Failed to load posts");
             const posts = await response.json();
+
+            function decodeHtmlEntities(str) {
+                const textarea = document.createElement('textarea');
+                textarea.innerHTML = str;
+                return textarea.value;
+            }
+
+            function stripHtml(html) {
+                const div = document.createElement('div');
+                div.innerHTML = html;
+                return (div.textContent || div.innerText || "").trim();
+            }
 
             // Take latest 3 posts
             posts.slice(0, 3).forEach(post => {
@@ -1193,15 +1210,23 @@ document.addEventListener("DOMContentLoaded", function() {
                 postElement.appendChild(postTitle);
 
                 if (post.post_content) {
-                    const excerpt = document.createElement('p');
-                    const text = post.post_content.toString();
-                    excerpt.textContent = text.length > 180 ? text.slice(0, 177) + "..." : text;
-                    postElement.appendChild(excerpt);
+                    const raw = post.post_content.toString();
+                    const decoded = decodeHtmlEntities(raw);
+                    const plainText = stripHtml(decoded);
+
+                    if (plainText) {
+                        const excerpt = document.createElement('p');
+                        const text = plainText.length > 180 ? plainText.slice(0, 177) + "..." : plainText;
+                        excerpt.textContent = text;
+                        postElement.appendChild(excerpt);
+                    }
                 }
 
                 const readMoreLink = document.createElement('a');
                 const slug = (post.post_name || post.slug || post.id || "").toString().trim();
-                readMoreLink.href = "/blog/post.php?id="
+                // Use a path relative to the site root so it works
+                // both on localhost subfolders and on production
+                readMoreLink.href = "blog/post.php?id="
                   + encodeURIComponent(post.id)
                   + "&slug=" + encodeURIComponent(slug);
                 readMoreLink.textContent = "Read More";
