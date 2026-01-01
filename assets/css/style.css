@@ -193,6 +193,9 @@ img {
     background: #f7f7f7;
 }
 
+/* .bgsection {
+	background: #04487e12;
+} */
 .count-icon img {
     width: 17%;
 }
@@ -421,13 +424,8 @@ ul.socialmedia li a i.fa {
     color: #fff;
 }
 
-.contactformimg {
-    position: absolute;
-    bottom: 0;
-}
-
-.contactformset {
-    position: relative;
+.contactformimg img {
+    width: 75%;
 }
 
 .callcontent h3 {

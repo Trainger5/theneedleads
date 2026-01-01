@@ -20,7 +20,8 @@
 }
 
 .socialmedia li a:hover {
-    background: #ff4d4d;
+    /* background: #ff4d4d; */
+    background: #f47a24;
     color: #fff;
 }
 </style>
