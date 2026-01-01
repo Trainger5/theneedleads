@@ -269,14 +269,14 @@ gtag('config', 'G-0GQ7EZTWNF');
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row Achieve_reverse">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-right">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-down">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/Marketing_Goals.png" alt="Digital Marketing Agency">
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-down">
                     <div class="aboutcontent">
                         <div class="sectionheading section-paragraph ">
                             <h2>Achieve Your Marketing Goals with NeedleAds Technologies</h2>
@@ -307,7 +307,7 @@ gtag('config', 'G-0GQ7EZTWNF');
 <section class="sectionpadding bgsection">
     <div class="outerofaboutsection">
         <div class="container">
-            <div class="row">
+            <div class="row gy-3">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
                         <div class="sectionheading">
@@ -396,7 +396,7 @@ gtag('config', 'G-0GQ7EZTWNF');
 
 <!-- form start -->
 <section class="sectionpadding pt-0">
-    <div class="outerofformsection aboutsidimgwithform">
+    <div class="outerofformsection aboutsidimgwithform" data-aos="fade-up">
         <div class="container">
             <form method="post" action="lead-form.php" id="emailForm">
                 <div class="row">
@@ -435,10 +435,10 @@ gtag('config', 'G-0GQ7EZTWNF');
     </div>
 </section>
 <!-- form end -->
-<section class="sectionpadding pb-0 bgsection">
+<section class="sectionpadding  bgsection">
     <div class="outerofaboutsection">
         <div class="container">
-            <div class="row">
+            <div class="row gy-3">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up-right">
                     <div class="aboutcontent">
                         <div class="sectionheading">
@@ -894,7 +894,7 @@ gtag('config', 'G-0GQ7EZTWNF');
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="contactformimg">
-                        <img src="assets/img/callaction.png">
+                        <img src="assets/img/Your Project.png">
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
