@@ -20,7 +20,8 @@
 }
 
 .socialmedia li a:hover {
-    background: #ff4d4d;
+    /* background: #ff4d4d; */
+    background: #f47a24;
     color: #fff;
 }
 </style>
@@ -436,3 +437,12 @@ function makeCallOrWhatsApp() {
 }
 </script>
 
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    easing: 'ease-in-out',
+    once: false,     
+    mirror: true    
+  });
+</script>

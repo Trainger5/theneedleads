@@ -113,7 +113,7 @@ gtag('config', 'AW-11492145247');
                     presence, we have the expertise to help.</p>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="./assets/img/keyword-research.png" alt="SEO company Janakpuri">
@@ -127,7 +127,7 @@ gtag('config', 'AW-11492145247');
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-down">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="./assets/img/on-page-optimization.png">
@@ -141,7 +141,7 @@ gtag('config', 'AW-11492145247');
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="./assets/img/link-building.png" alt="Link Building company Janakpuri">
@@ -155,7 +155,7 @@ gtag('config', 'AW-11492145247');
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-down">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="./assets/img/performance-tracking.png" alt="SEO Performance Tracking">
@@ -169,7 +169,7 @@ gtag('config', 'AW-11492145247');
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="./assets/img/quality-content-creation.png" alt="SEO content Optimization">

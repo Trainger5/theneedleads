@@ -204,7 +204,7 @@ gtag('config', 'G-0GQ7EZTWNF');
         <div class="container">
             <div class="row row-gap-4 justify-content-center align-items-center hero_section">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
-                    <div class="bannercontent">
+                    <div class="bannercontent" data-aos="fade-right">
                         <h1>Best Digital Marketing Agency in Janakpuri, Delhi</h1>
                         <p>Looking to improve your brand's visibility? Partner with NeedleAds Technology! Our expert
                             team offers SEO, SMM, PPC, Web Design, and more. Contact us now!</p>
@@ -214,7 +214,7 @@ gtag('config', 'G-0GQ7EZTWNF');
                     </div>
                 </div>
 
-                <div class="col-xl-5 col-lg-5 col-md-7 col-sm-12 hero_right">
+                <div class="col-xl-5 col-lg-5 col-md-7 col-sm-12 hero_right" data-aos="fade-left">
                     <img src="./assets/img/hero_img.png" alt="">
                     <!-- <div class="bnrform">
                         <form action="bnr-form.php" method="POST" id="emailForm">
@@ -268,15 +268,15 @@ gtag('config', 'G-0GQ7EZTWNF');
 <section class="sectionpadding">
     <div class="outerofaboutsection">
         <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+            <div class="row Achieve_reverse">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-down">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
-                            <img src="assets/img/about.png" alt="Digital Marketing Agency">
+                            <img src="assets/img/Marketing_Goals.png" alt="Digital Marketing Agency">
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-down">
                     <div class="aboutcontent">
                         <div class="sectionheading section-paragraph ">
                             <h2>Achieve Your Marketing Goals with NeedleAds Technologies</h2>
@@ -307,7 +307,7 @@ gtag('config', 'G-0GQ7EZTWNF');
 <section class="sectionpadding bgsection">
     <div class="outerofaboutsection">
         <div class="container">
-            <div class="row">
+            <div class="row gy-3">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
                         <div class="sectionheading">
@@ -350,7 +350,7 @@ gtag('config', 'G-0GQ7EZTWNF');
                 <h2>Our Packages</h2>
             </div>
             <div class="row justify-content-center gap-2">
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12" data-aos="fade-up">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/pac2.png">
@@ -363,7 +363,7 @@ gtag('config', 'G-0GQ7EZTWNF');
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12" data-aos="fade-down">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/pac3.png">
@@ -376,7 +376,7 @@ gtag('config', 'G-0GQ7EZTWNF');
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12" data-aos="fade-up">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/pac4.png">
@@ -396,7 +396,7 @@ gtag('config', 'G-0GQ7EZTWNF');
 
 <!-- form start -->
 <section class="sectionpadding pt-0">
-    <div class="outerofformsection aboutsidimgwithform">
+    <div class="outerofformsection aboutsidimgwithform" data-aos="fade-up">
         <div class="container">
             <form method="post" action="lead-form.php" id="emailForm">
                 <div class="row">
@@ -435,11 +435,11 @@ gtag('config', 'G-0GQ7EZTWNF');
     </div>
 </section>
 <!-- form end -->
-<section class="sectionpadding pb-0 bgsection">
+<section class="sectionpadding  bgsection">
     <div class="outerofaboutsection">
         <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+            <div class="row gy-3">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up-right">
                     <div class="aboutcontent">
                         <div class="sectionheading">
                             <h2>Best Digital Marketing Services in Delhi NCR</h2>
@@ -461,10 +461,10 @@ gtag('config', 'G-0GQ7EZTWNF');
                             your business to new heights!</p>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up-left">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
-                            <img src="assets/img/new1.png" alt="Digital Marketing Agency">
+                            <img   src="assets/img/Digital_Marketing.png" alt="Digital Marketing Agency">
                         </div>
                     </div>
                 </div>
@@ -524,7 +524,7 @@ gtag('config', 'G-0GQ7EZTWNF');
                     presence, we have the expertise to help.</p>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12" data-aos="fade-up">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/i3.png">
@@ -538,7 +538,7 @@ gtag('config', 'G-0GQ7EZTWNF');
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12" data-aos="fade-down">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/i2.png">
@@ -552,7 +552,7 @@ gtag('config', 'G-0GQ7EZTWNF');
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12" data-aos="fade-up">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/i1.png">
@@ -566,7 +566,7 @@ gtag('config', 'G-0GQ7EZTWNF');
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12" data-aos="fade-down">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/i4.png">
@@ -891,10 +891,10 @@ gtag('config', 'G-0GQ7EZTWNF');
 <section class="sectionpadding bgsection contactformset">
     <div class="outerofcontactform">
         <div class="container">
-            <div class="row">
+            <div class="row gy-3">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="contactformimg">
-                        <img src="assets/img/callaction.png">
+                        <img src="assets/img/Your Project.png">
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
