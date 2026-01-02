@@ -46,7 +46,7 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-luck
                         <div class="sectionheading">
                             <h2>Comprehensive Website Development Company in Lucknow</h2>
                         </div>
-                        <p>NeedleAds Technology is a top-tier <b>website development company in Lucknow</b>, offering
+                        <p class="text-justify">NeedleAds Technology is a top-tier <b>website development company in Lucknow</b>, offering
                             comprehensive solutions for businesses seeking to establish a robust online presence. Our
                             skilled team specializes in crafting dynamic websites tailored to your specific needs,
                             ensuring a seamless user experience across all platforms. Whether you require a simple
@@ -96,7 +96,7 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-luck
                         <div class="sectionheading">
                             <h3>Additional Benefits</h3>
                         </div>
-                        <p>In addition to our core <b>website development services</b>, NeedleAds Technology offers a
+                        <p class="text-justify">In addition to our core <b>website development services</b>, NeedleAds Technology offers a
                             range of additional benefits to clients in Lucknow. This includes comprehensive SEO services
                             to enhance your website's visibility and ranking on search engine results pages, driving
                             organic traffic and increasing conversions. Our digital marketing solutions encompass social

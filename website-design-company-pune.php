@@ -46,7 +46,7 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-pune.php";
                         <div class="sectionheading">
                             <h2>Comprehensive Website Design Company in Pune</h2>
                         </div>
-                        <p>NeedleAds Technology is a leading <b>website design company in Pune</b>, offering
+                        <p class="text-justify">NeedleAds Technology is a leading <b>website design company in Pune</b>, offering
                             comprehensive solutions to businesses of all sizes. Our team of expert <b>website designers
                                 in Pune</b> specializes in creating visually stunning and user-friendly websites that
                             help businesses establish a strong online presence. From responsive design to custom
@@ -100,17 +100,17 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-pune.php";
                         <div class="sectionheading">
                             <h3>Additional Benefits</h3>
                         </div>
-                        <p>In addition to our core <b>website design services</b>, NeedleAds Technology offers a range
+                        <p class="text-justify">In addition to our core <b>website design services</b>, NeedleAds Technology offers a range
                             of additional benefits to clients in Pune. These include search engine optimization (SEO)
                             services, digital marketing solutions, e-commerce development, and website hosting.
                         </p>
 
 
-                        <p>Our SEO experts can optimize your website to improve its visibility and ranking on search
+                        <p class="text-justify">Our SEO experts can optimize your website to improve its visibility and ranking on search
                             engine results pages, driving organic traffic and increasing conversions. Our digital
                             marketing services encompass social media marketing, pay-per-click advertising, content
                             marketing, and more, helping you reach your target audience effectively.</p>
-                        <p>Furthermore, our e-commerce development services can help you establish an online store that
+                        <p class="text-justify">Furthermore, our e-commerce development services can help you establish an online store that
                             drives sales and maximizes revenue. With NeedleAds Technology as your trusted partner, you
                             can achieve your business goals and thrive in the digital world.</p>
                     </div>

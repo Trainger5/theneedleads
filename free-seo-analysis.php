@@ -75,17 +75,17 @@ header("Location:thankyou.php");
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <p>
+                        <p class="text-justify">In today's digital landscape, having a strong online presence is crucial for businesses to
                             <b>Website Audit:</b> Our free SEO analysis thoroughly evaluates your website's current
                             performance. We assess various aspects, including on-page SEO, off-page SEO, technical SEO,
                             and content quality.
                         </p>
-                        <p><b>Keyword Analysis:</b> Gain insights into the performance of your current keywords and
+                        <p class="text-justify"><b>Keyword Analysis:</b> Gain insights into the performance of your current keywords and
                             discover new keyword opportunities to enhance your search engine rankings.</p>
-                        <p><b>Competitor Analysis:</b> In addition to evaluating your website, our free SEO analysis
+                        <p class="text-justify"><b>Competitor Analysis:</b> In addition to evaluating your website, our free SEO analysis
                             also includes a competitor analysis. We assess your competitors' websites to identify their
                             strengths and weaknesses, helping you gain valuable insights into their SEO strategies.</p>
-                        <p class="mb-0"><b>Transparent Reporting:</b> Transparency is critical to our free SEO analysis
+                        <p class="mb-0 text-justify"><b>Transparent Reporting:</b> Transparency is critical to our free SEO analysis
                             process. We provide you with detailed reports that outline our findings and recommendations
                             in a clear and easy-to-understand manner.</p>
                     </div>

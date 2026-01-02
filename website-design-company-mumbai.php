@@ -46,7 +46,7 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-in-mumbai.
                         <div class="sectionheading">
                             <h2>Comprehensive Website Design and Development Solutions in Mumbai</h2>
                         </div>
-                        <p>NeedleAds Technology is one of the best <b>website design Company in Mumbai</b>. As a leading
+                        <p class="text-justify">NeedleAds Technology is one of the best <b>website design Company in Mumbai</b>. As a leading
                             web design company, we specialize in creating stunning and functional websites that help
                             businesses thrive online. Our team of skilled designers and developers works closely with
                             clients to understand their unique needs and objectives. Whether you need a simple

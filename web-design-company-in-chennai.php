@@ -46,7 +46,7 @@ $canonical_url = "https://www.theneedleads.com/web-design-company-in-chennai.php
                         <div class="sectionheading">
                             <h2>Comprehensive web design company in Chennai</h2>
                         </div>
-                        <p>NeedleAds Technology is a leading <b>web design company in Chennai</b>, specializing in
+                        <p class="text-justify">NeedleAds Technology is a leading <b>web design company in Chennai</b>, specializing in
                             providing comprehensive solutions to businesses of all sizes. Our team of expert <b>website
                                 designers in Chennai </b>is dedicated to creating visually stunning and user-friendly
                             websites that help businesses establish a strong online presence. From responsive design to
@@ -101,16 +101,16 @@ $canonical_url = "https://www.theneedleads.com/web-design-company-in-chennai.php
                         <div class="sectionheading">
                             <h3>Additional Benefits</h3>
                         </div>
-                        <p>In addition to our core web design services, NeedleAds Technology offers a range of
+                        <p class="text-justify">In addition to our core web design services, NeedleAds Technology offers a range of
                             additional benefits to clients in Chennai. These include search engine optimization (SEO)
                             services, digital marketing solutions, e-commerce development, and website hosting.</p>
 
 
-                        <p>Our SEO experts can optimize your website to improve its visibility and ranking on search
+                        <p class="text-justify">Our SEO experts can optimize your website to improve its visibility and ranking on search
                             engine results pages, driving organic traffic and increasing conversions. Our digital
                             marketing services encompass social media marketing, pay-per-click advertising, content
                             marketing, and more, helping you reach your target audience effectively.</p>
-                        <p>Furthermore, our e-commerce development services can help you establish an online store that
+                        <p class="text-justify">Furthermore, our e-commerce development services can help you establish an online store that
                             drives sales and maximizes revenue. With NeedleAds Technology as your trusted partner, you
                             can achieve your business goals and thrive in the digital world.</p>
                     </div>

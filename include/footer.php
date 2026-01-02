@@ -142,6 +142,7 @@
                                             +1(702) 727-6095</a></li>
                                 </ul>
                             </li>
+
                             <li class="pl0">
                                 <h4>UK Office</h4>
                                 <ul>
@@ -151,13 +152,15 @@
                                             20 4602 2672</a></li>
                                 </ul>
                             </li>
-                            <li>
+
+                        <ul><li>
                             <li>
                                 <a href="mailto:info@theneedleads.com"><i class="fa fa-envelope" aria-hidden="true"></i>
                                     info@theneedleads.com</a>
                             </li>
 
                             </li>
+                            </ul>
                         </ul>
                     </div>
                 </div>

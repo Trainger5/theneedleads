@@ -47,13 +47,13 @@ $canonical_url = "https://www.theneedleads.com/website-design.php";
                             <div class="sectionheading">
                                 <h2>Your Premier Website Design Company in Janakpuri, Delhi</h2>
                             </div>
-                            <p>NeedleAds Technology is the best <a
+                            <p class="text-justify">NeedleAds Technology is the best <a
                                     href="https://www.theneedleads.com/website-design.php">website designing company in
                                     Janakpuri</a>, Delhi. As a leading web design company in Janakpuri, we specialize in
                                 crafting stunning websites tailored to your unique requirements. Our team is dedicated
                                 to creating visually appealing and user-friendly websites that stand out in the digital
                                 landscape.</p>
-                            <p>At NeedleAds Technology, we prioritize SEO-friendly designs to provide maximum visibility
+                            <p class="text-justify">At NeedleAds Technology, we prioritize SEO-friendly designs to provide maximum visibility
                                 and reach for your online presence. Trust us to deliver top-notch web solutions that
                                 elevate your brand and drive results. Contact us today and let's bring your vision to
                                 life with our expert website designing services in Janakpuri.</p>
@@ -75,7 +75,7 @@ $canonical_url = "https://www.theneedleads.com/website-design.php";
                             <div class="sectionheading">
                                 <h2>Crafting Websites Responsive to All Devices</h2>
                             </div>
-                            <p>Crafting websites responsive to all devices is crucial in today's digital landscape. As a
+                            <p class="text-justify">Crafting websites responsive to all devices is crucial in today's digital landscape. As a
                                 leading website designing company in Janakpuri, we understand the importance of creating
                                 a seamless user experience across desktops, tablets, and mobile devices. Our expertise
                                 as a web design company in Janakpuri ensures that your website looks stunning and
@@ -84,7 +84,7 @@ $canonical_url = "https://www.theneedleads.com/website-design.php";
                                 practices to create responsive websites that adapt to different screen sizes and
                                 resolutions. This approach improves the user experience, your website's visibility, and
                                 rankings on search engines.</p>
-                            <p>Whether you are a small business or a large corporation, having a responsive website is
+                            <p class="text-justify">Whether you are a small business or a large corporation, having a responsive website is
                                 essential in today's competitive market. Contact us today to learn more about our web
                                 design services in Janakpuri, and let us help you create a website that stands out on
                                 all devices.</p>
@@ -144,12 +144,12 @@ $canonical_url = "https://www.theneedleads.com/website-design.php";
                         <div class="sectionheading">
                             <h2>Is It Right to Get a Website Design Done for an Online Business?</h2>
                         </div>
-                        <p>Getting a website design done for an online business is not just right; it's essential. In
+                        <p class="text-justify">Getting a website design done for an online business is not just right; it's essential. In
                             today's digital age, your website is often the first point of contact for possible
                             customers. A well-designed website can help you show credibility, attract more visitors, and
                             convert them into customers. It also provides a platform to showcase your products or
                             services and reach a wider audience.</p>
-                        <p class="mb-0">At our web design company, we specialize in creating stunning websites that are
+                        <p class="mb-0 text-justify">At our web design company, we specialize in creating stunning websites that are
                             tailored to meet your business needs. Whether you're starting a new online business or
                             looking to revamp your existing website, we can help. <a
                                 href="https://www.theneedleads.com/contact-us.php">Contact us today</a> to discuss your

@@ -46,7 +46,7 @@ $canonical_url = "https://www.theneedleads.com/website-development-company-surat
                         <div class="sectionheading">
                             <h2>Hire The Best Website Development Company in Surat</h2>
                         </div>
-                        <p>NeedleAds Technology is a leading <b>website development company in Surat</b>, offering
+                        <p class="text-justify">NeedleAds Technology is a leading <b>website development company in Surat</b>, offering
                             comprehensive solutions to businesses of all sizes. Our team of expert <b>website developers
                             </b>specializes in creating high-quality websites that are tailored to meet the unique needs
                             of each client. From custom web applications to e-commerce platforms, we have the expertise
@@ -96,16 +96,16 @@ $canonical_url = "https://www.theneedleads.com/website-development-company-surat
                         <div class="sectionheading">
                             <h3>Additional Benefits</h3>
                         </div>
-                        <p>In addition to our core <b>website development services</b>, NeedleAds Technology offers a
+                        <p class="text-justify">In addition to our core <b>website development services</b>, NeedleAds Technology offers a
                             range of additional benefits to clients in Surat. These include search engine optimization
                             (SEO) services, digital marketing solutions, e-commerce development, and website hosting.
                         </p>
 
-                        <p>Our SEO experts can optimize your website to improve its visibility and ranking on search
+                        <p class="text-justify">Our SEO experts can optimize your website to improve its visibility and ranking on search
                             engine results pages, driving organic traffic and increasing conversions. Our digital
                             marketing services encompass social media marketing, pay-per-click advertising, content
                             marketing, and more, helping you reach your target audience effectively.</p>
-                        <p>Furthermore, our e-commerce development services can help you establish an online store that
+                        <p class="text-justify">Furthermore, our e-commerce development services can help you establish an online store that
                             drives sales and maximizes revenue. With NeedleAds Technology as your trusted partner, you
                             can achieve your business goals and thrive in the digital world.
                         </p>

@@ -46,7 +46,7 @@ $canonical_url = "https://www.theneedleads.com/mobile-app-development.php";
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
 
-                        <p><b>NeedleAds Technology</b> is your premier destination for <a
+                        <p class="text-justify"><b>NeedleAds Technology</b> is your premier destination for <a
                                 href="https://www.theneedleads.com/mobile-app-development.php">mobile app development
                                 company in Janakpuri</a>, Delhi. We are a full-service mobile app development offering
                             innovative and customized solutions to clients across various industries. Our focus on
@@ -153,12 +153,12 @@ $canonical_url = "https://www.theneedleads.com/mobile-app-development.php";
                             <div class="sectionheading">
                                 <h2>Mobile App Development Services in Janakpuri</h2>
                             </div>
-                            <p>NeedleAds Technology offers top-notch mobile app development services in Janakpuri,
+                            <p class="text-justify">NeedleAds Technology offers top-notch mobile app development services in Janakpuri,
                                 Delhi. As a leading mobile app development company, we specialize in creating custom
                                 solutions for businesses of all sizes. Our experienced team of developers and designers
                                 works closely with clients to understand their needs and deliver high-quality mobile
                                 apps that exceed expectations.</p>
-                            <p class="mb-0">Whether you're looking for iOS, Android, or cross-platform development,
+                            <p class="mb-0 text-justify">Whether you're looking for iOS, Android, or cross-platform development,
                                 NeedleAds Technology has the expertise to bring your app idea to life. Contact us today
                                 to learn more about our mobile app development services and how we can help you achieve
                                 your business goals.</p>
@@ -178,7 +178,7 @@ $canonical_url = "https://www.theneedleads.com/mobile-app-development.php";
                             <div class="sectionheading">
                                 <h2>Mobile Application Deployment and Redesigning</h2>
                             </div>
-                            <p>Looking to deploy or redesign your mobile application? NeedleAds Technology, a leading
+                            <p class="text-justify">Looking to deploy or redesign your mobile application? NeedleAds Technology, a leading
                                 mobile app development company in Janakpuri, Delhi, offers expert deployment and
                                 redesigning services. Our experienced team specializes in optimizing your app for
                                 performance and user experience, providing seamless operation across all devices. </p>
@@ -217,11 +217,11 @@ $canonical_url = "https://www.theneedleads.com/mobile-app-development.php";
                             <div class="sectionheading">
                                 <h2>Mobile App Development Expert in Janakpuri</h2>
                             </div>
-                            <p>Looking for a mobile app development expert in Janakpuri? Look no further than NeedleAds
+                            <p class="text-justify">Looking for a mobile app development expert in Janakpuri? Look no further than NeedleAds
                                 Technology. As a leading mobile app development company in Janakpuri, we offer
                                 innovative solutions tailored to your needs. Our experienced team specializes in
                                 creating high-quality mobile apps that drive results.</p>
-                            <p class="mb-b">Whether you need an iOS app, an Android app, or a cross-platform app, we
+                            <p class="mb-b text-justify">Whether you need an iOS app, an Android app, or a cross-platform app, we
                                 have the expertise to deliver. <a
                                     href="https://www.theneedleads.com/contact-us.php">Contact us today</a> for all your
                                 mobile app development needs in Janakpuri, Delhi, and let us help you turn your app idea

@@ -44,7 +44,7 @@ $canonical_url = "https://www.theneedleads.com/email-marketing.php";
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                         <div class="aboutcontent">
-                            <p class="mb-0">NeedleAds Technology is your premier choice for <a
+                            <p class="mb-0 text-justify">NeedleAds Technology is your premier choice for <a
                                     href="https://www.theneedleads.com/email-marketing.php">email marketing services in
                                     Delhi.</a> As the leading email marketing company and agency in Delhi, we specialize
                                 in providing innovative and results-driven email marketing campaigns that help

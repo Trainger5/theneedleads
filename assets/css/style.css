@@ -25,7 +25,9 @@ img {
     width: 100%;
 }
 
-
+.text-justify {
+    text-align: justify
+}
 
 .bannercontent h1 {
     color: #fff;
@@ -90,8 +92,8 @@ img {
 
 .aboutsidimgwithform form {
     box-shadow: 0 0 16px #e7e7e7;
-    border-radius: 12px;
-    padding: 30px 20px;
+    border-radius: 20px;
+    padding: 50px 50px;
     border-bottom: solid 4px #f47a24;
     margin: 0 auto;
     margin-top: 25px;
@@ -166,12 +168,16 @@ img {
 }
 
 .boxservices {
-    box-shadow: 0 0 11px #dbdbdb;
+    /* box-shadow: 0 0 11px #dbdbdb; */
     padding: 30px 30px;
     border-radius: 12px;
     transition: .3s;
     text-align: center;
     background: #fff;
+}
+
+.boxservices{
+    box-shadow: 0 0 11px #054a8024;
 }
 
 .sicon {
@@ -189,13 +195,13 @@ img {
     border-bottom: solid 2px #f47a24;
 }
 
-.bgsection {
-    background: #f7f7f7;
-}
-
 /* .bgsection {
-	background: #04487e12;
+    background: #f7f7f7;
 } */
+
+.bgsection {
+	background: #f47a241f;
+}
 .count-icon img {
     width: 17%;
 }
@@ -268,7 +274,8 @@ img {
 }
 
 .industriesbox {
-    border: solid 1px #e7e7e7;
+    /* border: solid 1px #e7e7e7; */
+    border: solid 1px #034170;
     text-align: center;
     padding: 40px 10px;
     transition: .3s;
@@ -341,9 +348,9 @@ img {
     margin-bottom: 10px;
 }
 
-.formset {
+/* .formset {
     background: #fff;
-}
+} */
 
 .owl-dots {
     display: none;
@@ -387,7 +394,9 @@ footer p {
     text-decoration: none;
     font-size: 15px;
 }
-
+.footerlist a:hover {
+    color: #f47a24;     
+}
 .contactinfo ul li {
     position: relative;
     padding-left: 26px;

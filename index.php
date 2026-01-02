@@ -280,20 +280,20 @@ gtag('config', 'G-0GQ7EZTWNF');
                     <div class="aboutcontent">
                         <div class="sectionheading section-paragraph ">
                             <h2>Achieve Your Marketing Goals with NeedleAds Technologies</h2>
-                            <p>Are you looking for a reliable <a href="https://www.theneedleads.com/">digital
+                            <p class="text-justify">Are you looking for a reliable <a href="https://www.theneedleads.com/">digital
                                     marketing agency in Janakpuri</a> that can elevate your online presence and
                                 boost your business growth? Look no further! NeedleAds Technology is here to help.
                             </p>
-                            <p>As the best digital marketing company in Janakpuri, we offer a comprehensive range of
+                            <p class="text-justify">As the best digital marketing company in Janakpuri, we offer a comprehensive range of
                                 services to meet all your digital marketing needs. Whether you need SEO, <a
                                     href="https://www.theneedleads.com/local-seo-services.php">Local SEO</a>, SMM,
                                 PPC, or Website Design services, we have the expertise to deliver outstanding
                                 results.</p>
-                            <p>Our team of experts is dedicated to providing you with personalized solutions
+                            <p class="text-justify">Our team of experts is dedicated to providing you with personalized solutions
                                 tailored to your specific requirements. We understand that every business is unique,
                                 and we work closely with you to develop strategies that align with your goals and
                                 objectives.</p>
-                            <p>Interested in learning more about our digital marketing services in Janakpuri?
+                            <p class="text-justify">Interested in learning more about our digital marketing services in Janakpuri?
                                 Contact us today at +91-8750500075, and let's discuss how we can help you achieve
                                 your business goals.</p>
                         </div>
@@ -313,14 +313,14 @@ gtag('config', 'G-0GQ7EZTWNF');
                         <div class="sectionheading">
                             <h2>Google Channel Partner</h2>
                         </div>
-                        <p>Are you looking to promote your business to new heights? Joining forces with <a
+                        <p class="text-justify">Are you looking to promote your business to new heights? Joining forces with <a
                                 href="https://www.theneedleads.com/google-partner-india.php">Google Channel
                                 Partner</a> offers unparalleled opportunities for growth and innovation. Access
                             cutting-edge solutions like Google Workspace and <a href="https://cloud.google.com/">Google
                                 Cloud Platform</a> to stay ahead of the
                             curve. Benefit from premier support and resources tailored to your success, giving you
                             the tools and guidance to thrive in today's dynamic landscape.</p>
-                        <p> By aligning with Google, you instantly boost your credibility and reputation, attracting
+                        <p class="text-justify"> By aligning with Google, you instantly boost your credibility and reputation, attracting
                             more clients and solidifying your position in the market. Take advantage of the chance
                             to maximize your revenue potential and expand your business horizons. Choose to partner
                             with Google and unleash the full potential of your enterprise.</p>
@@ -439,29 +439,29 @@ gtag('config', 'G-0GQ7EZTWNF');
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row gy-3">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up-right">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-down">
                     <div class="aboutcontent">
                         <div class="sectionheading">
                             <h2>Best Digital Marketing Services in Delhi NCR</h2>
                         </div>
-                        <p>Promote your brand's visibility and reach with our cutting-edge <a
+                        <p class="text-justify">Promote your brand's visibility and reach with our cutting-edge <a
                                 href="https://www.theneedleads.com/">digital marketing services in Delhi</a> and
                             Delhi NCR. As a leading digital marketing company, we understand the dynamic landscape
                             of online marketing and offer tailored solutions to meet your business goals.</p>
-                        <p>Our team of skilled professionals specializes in various digital marketing services in
+                        <p class="text-justify">Our team of skilled professionals specializes in various digital marketing services in
                             Delhi, including search engine optimization (SEO), <a
                                 href="https://www.theneedleads.com/ppc-company-delhi.php">pay-per-click</a> (PPC)
                             advertising, social media marketing, content creation, and more. Whether you're a
                             startup or a based enterprise, we have the expertise to help you achieve your goals.</p>
-                        <p>By leveraging the latest tools and techniques, we ensure your brand stands out in the
+                        <p class="text-justify">By leveraging the latest tools and techniques, we ensure your brand stands out in the
                             competitive digital space. From driving targeted traffic to your website to increasing
                             conversions and generating leads, our comprehensive solutions are designed to deliver
                             measurable results.</p>
-                        <p>Partner with us today and experience the power of strategic digital marketing to take
+                        <p class="text-justify">Partner with us today and experience the power of strategic digital marketing to take
                             your business to new heights!</p>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up-left">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-down">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img   src="assets/img/Digital_Marketing.png" alt="Digital Marketing Agency">

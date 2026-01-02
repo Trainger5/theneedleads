@@ -46,7 +46,7 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-rajkot.php
                         <div class="sectionheading">
                             <h2>Comprehensive Website Design Company in Rajkot</h2>
                         </div>
-                        <p>NeedleAds Technology is a trusted name when it comes to <b>website design services in
+                        <p class="text-justify">NeedleAds Technology is a trusted name when it comes to <b>website design services in
                                 Rajkot</b>. Our team specializes in crafting bespoke websites that align perfectly with
                             your business goals. Whether you're a startup or a well-established enterprise, we have the
                             expertise to create stunning and functional websites that leave a lasting impression on your
@@ -90,7 +90,7 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-rajkot.php
                         <div class="sectionheading">
                             <h3>Additional Benefits</h3>
                         </div>
-                        <p>In addition to website design, we also offer a range of additional services to enhance your
+                        <p class="text-justify">In addition to website design, we also offer a range of additional services to enhance your
                             online presence. This includes search engine optimization (SEO) to improve your website's
                             visibility in search results, digital marketing to reach your target audience effectively,
                             and website maintenance to keep your site running smoothly.</p>
