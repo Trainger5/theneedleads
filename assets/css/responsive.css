@@ -102,12 +102,18 @@ nav ul li:last-child a {
 }
 
 @media only screen and (max-width: 1024px) {
+.outerofcontactform .row{
+    align-items: center;
+}
+.contactformimg img {
+    width: 90%;
+}
 .sicon {
     width: 30%;
     padding-bottom: 10px;
 }
 .contactformimg {
-    width: 56%;
+    width: 100%;
 }
 .industriesbox p {
     font-size: 14px;
@@ -194,7 +200,7 @@ nav ul li:last-child a {
     text-align: center;
 }
 .contactformimg {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     left: 0;
     right: 0;

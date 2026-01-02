@@ -1181,6 +1181,7 @@ li.navdrop:hover ul#dropshowtwo {
 
 /*======================call icon=============*/
 .call-back-1 {
+    left: 10px;
     position: fixed;
     bottom: 50px;
     z-index: +9999;

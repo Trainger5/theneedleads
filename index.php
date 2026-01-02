@@ -891,7 +891,7 @@ gtag('config', 'G-0GQ7EZTWNF');
 <section class="sectionpadding bgsection contactformset">
     <div class="outerofcontactform">
         <div class="container">
-            <div class="row">
+            <div class="row gy-3">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="contactformimg">
                         <img src="assets/img/Your Project.png">
