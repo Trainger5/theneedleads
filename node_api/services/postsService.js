@@ -79,7 +79,12 @@ function validateInput(input, { partial = false } = {}) {
       err.code = "VALIDATION";
       throw err;
     }
-    if (rawStatus) out.status = rawStatus;
+    if (rawStatus) {
+      out.status = rawStatus;
+    } else if (!partial) {
+      // For new posts where status is omitted/blank, default to draft
+      out.status = "draft";
+    }
   }
 
   return out;
@@ -146,7 +151,8 @@ async function createPost(input) {
     post_date: cleaned.post_date || nowIso(),
     guid: cleaned.guid || "",
     post_image: cleaned.post_image || "",
-    status: cleaned.status || "published"
+    // Ensure new posts are never accidentally published when status is missing
+    status: cleaned.status || "draft"
   };
 
   newPost.guid = ensureGuid(newPost);

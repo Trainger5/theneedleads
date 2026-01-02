@@ -64,6 +64,9 @@ function renderNextBlogs() {
       ? new Date(blog.post_date).toLocaleString()
       : "";
     const slug = (blog.post_name || blog.slug || blog.id || "").toString().trim();
+    const postUrl = `${BASE_PATH}post.php?id=${encodeURIComponent(
+      blog.id
+    )}&slug=${encodeURIComponent(slug)}`;
 
     const card = document.createElement("div");
     card.className = "card";
@@ -73,11 +76,13 @@ function renderNextBlogs() {
       <div class="card-body">
         <p class="card-date">${dateText}</p>
         <h3 class="card-title">${blog.post_title || ""}</h3>
-        <a href="${BASE_PATH}post.php?id=${encodeURIComponent(blog.id)}&slug=${encodeURIComponent(slug)}" class="read-more-btn">
-          Read More
-        </a>
       </div>
     `;
+
+    card.addEventListener("click", () => {
+      window.location.href = postUrl;
+    });
+    card.style.cursor = "pointer";
 
     container.appendChild(card);
   });
