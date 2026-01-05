@@ -891,13 +891,13 @@ gtag('config', 'G-0GQ7EZTWNF');
 <section class="sectionpadding bgsection contactformset">
     <div class="outerofcontactform">
         <div class="container">
-            <div class="row gy-3">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+            <div class="row gy-3 Your_Project">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-down">
                     <div class="contactformimg">
-                        <img src="assets/img/Your Project.png">
+                        <img src="assets/img/your_project.png">
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-down">
                     <div class="formcontent">
                         <div class="sectionheading">
                             <h2>Let's Talk About Your Project</h2>
@@ -933,6 +933,7 @@ gtag('config', 'G-0GQ7EZTWNF');
         </div>
     </div>
 </section>
+
 <section class="sectionpadding">
     <div class="outerofourpartner1">
         <div class="container">

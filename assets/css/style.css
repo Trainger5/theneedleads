@@ -434,7 +434,7 @@ ul.socialmedia li a i.fa {
 }
 
 .contactformimg img {
-    width: 75%;
+    width: 100%;
 }
 
 .callcontent h3 {
@@ -979,6 +979,11 @@ ul.ctglist li:before {
     color: #ffff;
     border: none;
 }
+
+.Your_Project {
+    flex-direction: row-reverse;
+}
+
 
 .outerofperpsalsection .contactpageform {
     box-shadow: 0 0 11px #e5e5e5;
