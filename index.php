@@ -269,14 +269,14 @@ gtag('config', 'G-0GQ7EZTWNF');
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row Achieve_reverse">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-down">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/Marketing_Goals.png" alt="Digital Marketing Agency">
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-down">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutcontent">
                         <div class="sectionheading section-paragraph ">
                             <h2>Achieve Your Marketing Goals with NeedleAds Technologies</h2>
@@ -308,7 +308,7 @@ gtag('config', 'G-0GQ7EZTWNF');
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row gy-3">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutcontent">
                         <div class="sectionheading">
                             <h2>Google Channel Partner</h2>
@@ -329,7 +329,7 @@ gtag('config', 'G-0GQ7EZTWNF');
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/googlepartner.png" alt="Digital Marketing Agency">
