@@ -276,24 +276,24 @@ gtag('config', 'G-0GQ7EZTWNF');
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
                         <div class="sectionheading section-paragraph ">
-                            <h2>Achieve Your Marketing Goals with NeedleAds Technologies</h2>
-                            <p class="text-justify">Are you looking for a reliable <a href="https://www.theneedleads.com/">digital
+                            <h2 data-aos="fade-up">Achieve Your Marketing Goals with NeedleAds Technologies</h2>
+                            <p class="text-justify" data-aos="fade-up" data-aos-duration="800" >Are you looking for a reliable <a href="https://www.theneedleads.com/">digital
                                     marketing agency in Janakpuri</a> that can elevate your online presence and
                                 boost your business growth? Look no further! NeedleAds Technology is here to help.
                             </p>
-                            <p class="text-justify">As the best digital marketing company in Janakpuri, we offer a comprehensive range of
+                            <p class="text-justify" data-aos="fade-up" data-aos-duration="800">As the best digital marketing company in Janakpuri, we offer a comprehensive range of
                                 services to meet all your digital marketing needs. Whether you need SEO, <a
                                     href="https://www.theneedleads.com/local-seo-services.php">Local SEO</a>, SMM,
                                 PPC, or Website Design services, we have the expertise to deliver outstanding
                                 results.</p>
-                            <p class="text-justify">Our team of experts is dedicated to providing you with personalized solutions
+                            <p class="text-justify" data-aos="fade-up" data-aos-duration="600">Our team of experts is dedicated to providing you with personalized solutions
                                 tailored to your specific requirements. We understand that every business is unique,
                                 and we work closely with you to develop strategies that align with your goals and
                                 objectives.</p>
-                            <p class="text-justify">Interested in learning more about our digital marketing services in Janakpuri?
+                            <p class="text-justify" data-aos="fade-up" data-aos-duration="500">Interested in learning more about our digital marketing services in Janakpuri?
                                 Contact us today at +91-8750500075, and let's discuss how we can help you achieve
                                 your business goals.</p>
                         </div>
@@ -308,23 +308,23 @@ gtag('config', 'G-0GQ7EZTWNF');
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row gy-3">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
                         <div class="sectionheading">
-                            <h2>Google Channel Partner</h2>
+                            <h2 data-aos="fade-up" data-aos-duration="800">Google Channel Partner</h2>
                         </div>
-                        <p class="text-justify">Are you looking to promote your business to new heights? Joining forces with <a
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="800">Are you looking to promote your business to new heights? Joining forces with <a
                                 href="https://www.theneedleads.com/google-partner-india.php">Google Channel
                                 Partner</a> offers unparalleled opportunities for growth and innovation. Access
                             cutting-edge solutions like Google Workspace and <a href="https://cloud.google.com/">Google
                                 Cloud Platform</a> to stay ahead of the
                             curve. Benefit from premier support and resources tailored to your success, giving you
                             the tools and guidance to thrive in today's dynamic landscape.</p>
-                        <p class="text-justify"> By aligning with Google, you instantly boost your credibility and reputation, attracting
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="700"> By aligning with Google, you instantly boost your credibility and reputation, attracting
                             more clients and solidifying your position in the market. Take advantage of the chance
                             to maximize your revenue potential and expand your business horizons. Choose to partner
                             with Google and unleash the full potential of your enterprise.</p>
-                        <div class="webbtnset">
+                        <div class="webbtnset" data-aos="fade-up" data-aos-duration="600">
                             <a href="google-partner-india.php">Explore Now</a>
                         </div>
                     </div>
@@ -347,7 +347,7 @@ gtag('config', 'G-0GQ7EZTWNF');
     <div class="outerofpackagesection">
         <div class="container">
             <div class="sectionheading">
-                <h2>Our Packages</h2>
+                <h2 data-aos="fade-up" data-aos-duration="800">Our Packages</h2>
             </div>
             <div class="row justify-content-center gap-2">
                 <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12" data-aos="fade-up">
@@ -355,7 +355,7 @@ gtag('config', 'G-0GQ7EZTWNF');
                         <div class="sicon">
                             <img src="assets/img/pac2.png">
                         </div>
-                        <div class="servicecontent">
+                        <div class="servicecontent"> 
                             <h4>Google Ads PPC Package</h4>
                             <div class="webbtnset">
                                 <a href="ppc-packages.php">Read More</a>
@@ -439,29 +439,29 @@ gtag('config', 'G-0GQ7EZTWNF');
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row gy-3">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-down">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
                         <div class="sectionheading">
-                            <h2>Best Digital Marketing Services in Delhi NCR</h2>
+                            <h2 data-aos="fade-up" data-aos-duration="800">Best Digital Marketing Services in Delhi NCR</h2>
                         </div>
-                        <p class="text-justify">Promote your brand's visibility and reach with our cutting-edge <a
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="700">Promote your brand's visibility and reach with our cutting-edge <a
                                 href="https://www.theneedleads.com/">digital marketing services in Delhi</a> and
                             Delhi NCR. As a leading digital marketing company, we understand the dynamic landscape
                             of online marketing and offer tailored solutions to meet your business goals.</p>
-                        <p class="text-justify">Our team of skilled professionals specializes in various digital marketing services in
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="600">Our team of skilled professionals specializes in various digital marketing services in
                             Delhi, including search engine optimization (SEO), <a
                                 href="https://www.theneedleads.com/ppc-company-delhi.php">pay-per-click</a> (PPC)
                             advertising, social media marketing, content creation, and more. Whether you're a
                             startup or a based enterprise, we have the expertise to help you achieve your goals.</p>
-                        <p class="text-justify">By leveraging the latest tools and techniques, we ensure your brand stands out in the
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="700">By leveraging the latest tools and techniques, we ensure your brand stands out in the
                             competitive digital space. From driving targeted traffic to your website to increasing
                             conversions and generating leads, our comprehensive solutions are designed to deliver
                             measurable results.</p>
-                        <p class="text-justify">Partner with us today and experience the power of strategic digital marketing to take
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="700">Partner with us today and experience the power of strategic digital marketing to take
                             your business to new heights!</p>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-down">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img   src="assets/img/Digital_Marketing.png" alt="Digital Marketing Agency">
@@ -479,7 +479,7 @@ gtag('config', 'G-0GQ7EZTWNF');
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                     <div class="aboutcontent">
                         <div class="sectionheading">
-                            <h2 class="text-center">A Specialized Digital Marketing Agency in Delhi</h2>
+                            <h2 class="text-center" data-aos="fade-up" data-aos-duration="800">A Specialized Digital Marketing Agency in Delhi</h2>
                         </div>
                         <p class="text-center">Delhi, one of the busiest metropolises in the world, makes it
                             difficult for a business to stand out in the digital arena. We are one of the leading
@@ -516,7 +516,7 @@ gtag('config', 'G-0GQ7EZTWNF');
     <div class="outerofservicessection">
         <div class="container">
             <div class="sectionheading">
-                <h2>Our Offered Services</h2>
+                <h2 data-aos="fade-up" data-aos-duration="800">Our Offered Services</h2>
                 <p>The power of digital marketing with NeedleAds Technology! As a leading digital marketing agency
                     in Janakpuri, we offer a range of services, including SEO, SMM, PPC, and web design. Our team is
                     dedicated to helping businesses like yours succeed online. Whether you're looking to increase
@@ -590,7 +590,7 @@ gtag('config', 'G-0GQ7EZTWNF');
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
-                    <div class="callcontent">
+                    <div class="callcontent" data-aos="fade-up" data-aos-duration="800">
                         <h3>Ready To Speak With Our Marketing Expert?</h3>
                     </div>
                 </div>
@@ -653,8 +653,8 @@ gtag('config', 'G-0GQ7EZTWNF');
     <div class="outerofourpartner">
         <div class="container">
             <div class="sectionheading">
-                <h2>Our Partners</h2>
-                <p>Partner with NeedleAds Technology and join our roster of valued clients who trust us for
+                <h2 data-aos="fade-up" data-aos-duration="800">Our Partners</h2>
+                <p data-aos="fade-up" data-aos-duration="1000">Partner with NeedleAds Technology and join our roster of valued clients who trust us for
                     top-notch digital marketing solutions.</p>
             </div>
             <div class="owl-slider">
@@ -719,8 +719,8 @@ gtag('config', 'G-0GQ7EZTWNF');
     <div class="outerofindustriessection">
         <div class="container">
             <div class="sectionheading">
-                <h2>Industries We've Supported</h2>
-                <p>NeedleAds Technology has proudly supported a wide collection of industries, including E-Commerce,
+                <h2 data-aos="fade-up" data-aos-duration="800">Industries We've Supported</h2>
+                <p data-aos="fade-up" data-aos-duration="1000">NeedleAds Technology has proudly supported a wide collection of industries, including E-Commerce,
                     Real Estate, Hotels, Blogging, Food & Beverage, Schools, Doctors, Law Firms, Hospitals,
                     Logistics, Software Companies, Tour & Travel Agencies, and Sports Organizations. Our expertise
                     spans across diverse sectors, providing tailored advertising solutions for each unique industry.
@@ -892,16 +892,16 @@ gtag('config', 'G-0GQ7EZTWNF');
     <div class="outerofcontactform">
         <div class="container">
             <div class="row gy-3 Your_Project">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-down">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="contactformimg">
                         <img src="assets/img/your_project.png">
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-down">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="formcontent">
                         <div class="sectionheading">
-                            <h2>Let's Talk About Your Project</h2>
-                            <p>To start working with NeedleAds Technology, please fill out your information here to
+                            <h2 data-aos="fade-up" data-aos-duration="800">Let's Talk About Your Project</h2>
+                            <p data-aos="fade-up" data-aos-duration="700">To start working with NeedleAds Technology, please fill out your information here to
                                 send us a message. We will contact you as soon as possible.</p>
                         </div>
                         <div class="formset aboutsidimgwithform">
