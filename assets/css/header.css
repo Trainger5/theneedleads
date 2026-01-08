@@ -20,6 +20,13 @@ header.navigation .container {
     position: relative;
 }
 
+.brand {
+    width: 250px;
+}
+
+.brand img {
+    width: 100%;
+}
 .header-top-info {
     font-size: 15px;
     font-weight:600;

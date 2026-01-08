@@ -116,7 +116,7 @@
     <!-- <span class="separator">|</span> -->
     <span><i class="fa-solid fa-phone"></i> Sales: <a href="tel:+919717107250">+91-9717107250</a></span>
     <span class="separator">|</span>
-    <span><i class="fa-solid fa-phone"></i> Inquiry: <a href="tel:+918447967520">+91-8447967520</a></span>
+    <span class="d-none d-md-block"><i class="fa-solid fa-phone"></i> Inquiry: <a href="tel:+918447967520">+91-8447967520</a></span>
     <span class="separator">|</span>
     <span><i class="fa-solid fa-envelope"></i> <a href="mailto:info@theneedleads.com">info@theneedleads.com</a></span>
 </div>
@@ -127,18 +127,18 @@
                 </div>
                 <nav>
                     <div class="nav-mobile"><a id="navbar-toggle" href="javascript:void()"><span></span></a></div>
-                    <ul class="nav-list">
+                    <ul class="nav-list mobile_list">
                         <li>
                             <a href="<?php echo $linkBase ?? ''; ?>index.php">Home</a>
                         </li>
                         <li class="services_dropdown">
                             <a href="javascript:void()">Services <i class="fa fa-sort-desc setofdowntop"
                                     aria-hidden="true"></i></a>
-                            <ul class="services_dropdown_box">
+                            <ul class="services_dropdown_box mobile_dropdown">
                                 <li>
                                     <a href="<?php echo $linkBase ?? ''; ?>seo-company-janakpuri.php">SEO Services</a>
                                 </li>
-                                <li class="navdrop">
+                                <li class="navdrop mobile_dropdown">
                                     <a href="<?php echo $linkBase ?? ''; ?>website-design.php">Website Design</a>
                                     <i class="fa fa-sort-desc setofdown" aria-hidden="true" id="droptwo"></i>
                                     <ul class="childdrop" id="dropshowtwo">
@@ -180,7 +180,7 @@
                             <a href="<?php echo $linkBase ?? ''; ?>Products.php" id="dropftwo" class="product">
                                 Products <i class="fa fa-sort-desc setofdowntop" aria-hidden="true"></i>
                             </a>
-                            <ul class="services_dropdown_box" id="dropshowftwo">
+                            <ul class="services_dropdown_box  mobile_dropdown" id="dropshowftwo">
                                 <li><a href="https://mailer123.com/" target="_blank">Mailer</a></li>
                                 <li><a href="#">Notify</a></li>
                             </ul>
@@ -190,7 +190,7 @@
 
                             <a href="javascript:void()">Features <i class="fa fa-sort-desc setofdowntop"
                                     aria-hidden="true"></i></a>
-                            <ul class="services_dropdown_box">
+                            <ul class="services_dropdown_box mobile_dropdown">
                                 <li><a href="<?php echo $linkBase ?? ''; ?>free-seo-analysis.php">Free SEO Analysis</a></li>
                                 <li><a href="<?php echo $linkBase ?? ''; ?>page-speed-analysis.php">Page Speed Analysis</a></li>
                                 <li><a href="<?php echo $linkBase ?? ''; ?>google-penalty-analysis.php">Google Penalty Analysis</a></li>

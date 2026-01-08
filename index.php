@@ -204,7 +204,7 @@ gtag('config', 'G-0GQ7EZTWNF');
         <div class="container">
             <div class="row row-gap-4 justify-content-center align-items-center hero_section">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
-                    <div class="bannercontent" data-aos="fade-right">
+                    <div class="bannercontent" data-aos="fade-up" data-aos-duration="800">
                         <h1>Best Digital Marketing Agency in Janakpuri, Delhi</h1>
                         <p>Looking to improve your brand's visibility? Partner with NeedleAds Technology! Our expert
                             team offers SEO, SMM, PPC, Web Design, and more. Contact us now!</p>
@@ -214,7 +214,7 @@ gtag('config', 'G-0GQ7EZTWNF');
                     </div>
                 </div>
 
-                <div class="col-xl-5 col-lg-5 col-md-7 col-sm-12 hero_right" data-aos="fade-left">
+                <div class="col-xl-5 col-lg-5 col-md-7 col-sm-12 hero_right" data-aos="fade-up" data-aos-duration="800">
                     <img src="./assets/img/hero_img.png" alt="">
                     <!-- <div class="bnrform">
                         <form action="bnr-form.php" method="POST" id="emailForm">
@@ -350,7 +350,7 @@ gtag('config', 'G-0GQ7EZTWNF');
                 <h2 data-aos="fade-up" data-aos-duration="800">Our Packages</h2>
             </div>
             <div class="row justify-content-center gap-2">
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12" data-aos="fade-up">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 mb-4 mb-md-0" data-aos="fade-up">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/pac2.png">
@@ -363,7 +363,7 @@ gtag('config', 'G-0GQ7EZTWNF');
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12" data-aos="fade-down">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 mb-4 mb-md-0" data-aos="fade-down">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/pac3.png">
@@ -376,7 +376,7 @@ gtag('config', 'G-0GQ7EZTWNF');
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12" data-aos="fade-up">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 mb-4 mb-md-0" data-aos="fade-up">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/pac4.png">

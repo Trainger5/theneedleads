@@ -45,6 +45,10 @@ footer p {
     margin-bottom: 3px;
 }
 
+.footerlogo{
+    width: 250px;
+    height: auto;
+}
 .footerlogo .a {
     width: 250px;
     height: auto;

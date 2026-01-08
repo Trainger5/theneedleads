@@ -27,15 +27,14 @@
 </style> -->
 
 <!-- footer start -->
-<footer class="sectionpadding">
+<!-- <footer class="sectionpadding">
     <div class="outeroffooter">
-        <div class="container">
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="footerlogo">
                         <a href="<?php echo $linkBase ?? ''; ?>index.php"><img src="<?php echo $assetBase ?? ''; ?>assets/img/sitelogo.png"></a>
                     </div>
-                    <p class="pt-3">At NeedleAds Technology, we pride ourselves on our commitment to delivering
+                    <p class="pt-3 ps-1">At NeedleAds Technology, we pride ourselves on our commitment to delivering
                         exceptional results and exceeding our clients' expectations. With our proven track record of
                         success, you can trust us to take your business to new heights.</p>
                     <ul class="socialmedia">
@@ -164,10 +163,172 @@
                         </ul>
                     </div>
                 </div>
+
+                
+
+
+
             </div>
+    </div>
+</footer> -->
+
+
+
+<footer class="sectionpadding">
+    <div class="outeroffooter">
+        <div class="row">
+
+            <!-- Logo & About -->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div class="footerlogo">
+                    <a href="<?php echo $linkBase ?? ''; ?>index.php">
+                        <img src="<?php echo $assetBase ?? ''; ?>assets/img/sitelogo.png">
+                    </a>
+                </div>
+
+                <p class="pt-3 ps-1">
+                    At NeedleAds Technology, we pride ourselves on our commitment to delivering
+                    exceptional results and exceeding our clients' expectations. With our proven
+                    track record of success, you can trust us to take your business to new heights.
+                </p>
+
+                <ul class="socialmedia">
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=61552220380398">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/needle_ads/">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/103366697/admin/dashboard/">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://in.pinterest.com/theneedleads/">
+                            <i class="fa-brands fa-pinterest-p"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Explore -->
+            <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+                <div class="footerlist">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="<?php echo $linkBase ?? ''; ?>index.php">Home</a></li>
+                        <li><a href="<?php echo $linkBase ?? ''; ?>about-us.php">About Us</a></li>
+                        <li><a href="<?php echo $linkBase ?? ''; ?>contact-us.php">Contact Us</a></li>
+                        <li><a href="<?php echo $linkBase ?? ''; ?>privacy-policy.php">Privacy Policy</a></li>
+                        <li><a href="<?php echo $linkBase ?? ''; ?>term-condition.php">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Services -->
+            <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+                <div class="footerlist">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="<?php echo $linkBase ?? ''; ?>website-design.php">Website Design</a></li>
+                        <li><a href="<?php echo $linkBase ?? ''; ?>website-development.php">Website Development</a></li>
+                        <li><a href="<?php echo $linkBase ?? ''; ?>mobile-app-development.php">Mobile Application</a></li>
+                        <li><a href="<?php echo $linkBase ?? ''; ?>email-marketing.php">Email Marketing</a></li>
+                        <li><a href="<?php echo $linkBase ?? ''; ?>ppc-company-delhi.php">Google Ads</a></li>
+                        <li><a href="<?php echo $linkBase ?? ''; ?>social-media-marketing.php">SMM</a></li>
+                        <li><a href="<?php echo $linkBase ?? ''; ?>seo-company-janakpuri.php">SEO Services</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Address -->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div class="footerlist contactinfo">
+                    <h3>Address</h3>
+
+                    <ul class="pl02">
+                        <!-- Head Branch -->
+                        <li class="pl0">
+                            <h4>Head Branch</h4>
+                            <ul>
+                                <li>
+                                    <a href="https://maps.app.goo.gl/eeYEakh6bU2eWKe27">
+                                        <i class="fa fa-map-marker"></i>
+                                        146-C Hastsal, Uttam Nagar, Delhi-110059 <br>
+                                        Near Kendriya Vidyalaya
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-map-marker"></i>
+                                        Plot No 202, Phase 8B, Industrial Area, Sector 74,
+                                        Sahibzada Ajit Singh Nagar, Punjab 140308
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="tel:+918750500075">
+                                        <i class="fa fa-phone"></i> +91-8750500075
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- Branch Office -->
+                        <li class="pl0">
+                            <h4>Branch Office</h4>
+                            <ul>
+                                <li>
+                                    <a href="https://maps.app.goo.gl/e26D5JVerMapDFKt9">
+                                        <i class="fa fa-map-marker"></i>
+                                        60 Goodwin Drive, North Brunswick, New Jersey 08902
+                                        <br>10 Briggs Ave Monroe NJ 08831
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="tel:+17027276095">
+                                        <i class="fa fa-phone"></i> +1 (702) 727-6095
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- UK Office -->
+                        <li class="pl0">
+                            <h4>UK Office</h4>
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-map-marker"></i>
+                                        20 Dowson Close, SE5 8AS, London
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="tel:+442046022672">
+                                        <i class="fa fa-phone"></i> +44 20 4602 2672
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- Email -->
+                        <li class="pl0">
+                            <a href="mailto:info@theneedleads.com">
+                                <i class="fa fa-envelope"></i> info@theneedleads.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
     </div>
 </footer>
+
 <!--Start of Tawk.to Script-->
 <!-- <script type="text/javascript">
 var Tawk_API = Tawk_API || {},
