@@ -28,6 +28,8 @@
     <link rel="stylesheet" href="<?php echo $assetBase ?? ''; ?>assets/css/style.css">
     <link rel="stylesheet" href="<?php echo $assetBase ?? ''; ?>assets/css/responsive.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $assetBase ?? ''; ?>assets/css/menu.css">
+    <link rel="stylesheet" href="<?php echo $assetBase ?? ''; ?>assets/css/header.css">
+    <link rel="stylesheet" href="<?php echo $assetBase ?? ''; ?>assets/css/footer.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/266dcfee24.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -106,19 +108,19 @@
         </div>
     </div>
 
-    <!-- Scrolling Info Bar -->
-    <div style="background-color: #fff; border-bottom: 2px solid orange; padding: 8px 0;">
-        <marquee behavior="scroll" direction="left" scrollamount="5"
-            style="color: #000; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 15px;">
-            Call Us for Flat 20% OFF &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-            <i class="fa-solid fa-phone" style="color: #ffa500;"></i> Sales: <a href="tel:+919717107250"
-                style="color:#000; text-decoration:none;">+91-9717107250</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-            <i class="fa-solid fa-phone" style="color: #ffa500;"></i> Inquiry: <a href="tel:+918447967520"
-                style="color:#000; text-decoration:none;">+91-8447967520</a>
-        </marquee>
-    </div>
+    <div class="header-hover-zone"></div>
     <header class="navigation">
-        <div class="container">
+        <!-- <div class="container"> -->
+            <div class="header-top-info">
+    <!-- <span>Call Us for Flat 20% OFF</span> -->
+    <!-- <span class="separator">|</span> -->
+    <span><i class="fa-solid fa-phone"></i> Sales: <a href="tel:+919717107250">+91-9717107250</a></span>
+    <span class="separator">|</span>
+    <span><i class="fa-solid fa-phone"></i> Inquiry: <a href="tel:+918447967520">+91-8447967520</a></span>
+    <span class="separator">|</span>
+    <span><i class="fa-solid fa-envelope"></i> <a href="mailto:info@theneedleads.com">info@theneedleads.com</a></span>
+</div>
+
             <div class="header_inner_box">
                 <div class="brand">
                     <a href="<?php echo $linkBase ?? ''; ?>index.php"><img src="<?php echo $assetBase ?? ''; ?>assets/img/sitelogo.png" alt="Digital marketing Agency"></a>
@@ -217,7 +219,7 @@
                 </nav>
             </div>
 
-        </div>
+        <!-- </div> -->
     </header>
 
     <div class="call-back-1">

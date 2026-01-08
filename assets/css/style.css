@@ -360,79 +360,6 @@ img {
     align-items: flex-end;
 }
 
-footer.sectionpadding {
-    background: #303030;
-}
-
-footer p {
-    color: #fff;
-}
-
-.footerlist h3 {
-    color: #fff;
-    font-size: 22px;
-    font-weight: 400;
-}
-
-.footerlist ul {
-    padding: 0;
-    list-style: none;
-    margin: 0;
-    padding-left: 5px;
-}
-
-.footerlist ul li {
-    padding-bottom: 11px;
-}
-
-.footerlist ul li:last-child {
-    padding-bottom: 0;
-}
-
-.footerlist ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 15px;
-}
-.footerlist a:hover {
-    color: #f47a24;     
-}
-.contactinfo ul li {
-    position: relative;
-    padding-left: 26px;
-}
-
-.contactinfo ul li a i.fa {
-    position: absolute;
-    top: 5px;
-    left: 0px;
-    font-size: 20px;
-}
-
-.contactinfo ul li a i.fa.fa-envelope {
-    font-size: 18px !important;
-}
-
-ul.socialmedia {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-ul.socialmedia li {
-    display: inline-block;
-    padding: 0 10px;
-}
-
-ul.socialmedia li:first-child {
-    padding-left: 0;
-}
-
-ul.socialmedia li a i.fa {
-    font-size: 20px;
-    color: #fff;
-}
-
 .contactformimg img {
     width: 100%;
 }
@@ -453,18 +380,6 @@ ul.socialmedia li a i.fa {
     padding: 20px 40px;
     border-radius: 72px;
     font-size: 20px;
-}
-
-.outerofcopy {
-    background: #000;
-    border-top: solid 1px #4e4e4e;
-}
-
-.outerofcopy p {
-    color: #fff;
-    text-align: center;
-    margin: 0;
-    padding: 20px 20px;
 }
 
 .seoservicessection .boxservices {
@@ -1022,32 +937,12 @@ ul.ctglist li:before {
     gap: 22px;
 }
 
-.footerlist ul li h4 {
-    color: #fff;
-    font-size: 17px;
-    font-weight: 400;
-    margin-bottom: 3px;
-}
-
 .pl0 {
     padding-left: 0 !important;
 }
 
 .pl02 {
     padding-left: 0 !important;
-}
-
-.headermenu a {
-    background: #f47a24 !important;
-    padding: 0px 23px !important;
-    border-radius: 60px;
-    color: #fff !important;
-    line-height: 2;
-    margin-top: 0px !important;
-}
-
-.headermenu:hover a {
-    background: #000 !important;
 }
 
 .dropdown {
@@ -1195,41 +1090,59 @@ li.navdrop:hover ul#dropshowtwo {
 
 /*======================call icon=============*/
 .call-back-1 {
-    left: 10px;
+    left: 25px;
     position: fixed;
-    bottom: 50px;
+    bottom: 25px;
     z-index: +9999;
-    animation-name: mover1;
-    -webkit-animation: mover1 1s infinite alternate;
-    animation: mover1 1s infinite alternate;
-    animation: mover1 1s infinite alternate;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .call-back-1 img {
     width: 50px;
-    margin-bottom: 5px;
     display: block;
     margin-left: 0 !important;
-
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgba(244, 122, 36, 0.6);
+    animation: pulse-wave 1.6s infinite;
 }
 
-@-webkit-keyframes mover1 {
+.call-back-1 a:nth-child(2) img {
+    animation-delay: 0.4s;
+}
+
+@-webkit-keyframes pulse-wave {
     0% {
-        transform: translateY(0);
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(244, 122, 36, 0.6);
+    }
+
+    70% {
+        transform: scale(1.1);
+        box-shadow: 0 0 0 18px rgba(244, 122, 36, 0);
     }
 
     100% {
-        transform: translateY(-10px);
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(244, 122, 36, 0);
     }
 }
 
-@keyframes mover1 {
+@keyframes pulse-wave {
     0% {
-        transform: translateY(0);
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(244, 122, 36, 0.6);
+    }
+
+    70% {
+        transform: scale(1.1);
+        box-shadow: 0 0 0 18px rgba(244, 122, 36, 0);
     }
 
     100% {
-        transform: translateY(-10px);
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(244, 122, 36, 0);
     }
 }
 
@@ -1418,18 +1331,12 @@ li.navdrop:hover ul#dropshowtwo {
     border-color: #000;
 }
 
-header.navigation {
-    padding: 20px 0px;
+body {
+    padding-top: 120px;
 }
 
 img {
     width: 100%;
-}
-
-.header_inner_box {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .outerofbanner {
@@ -1448,28 +1355,10 @@ img {
     margin-top: 10px !important;
 }
 
-.footerlogo {
-    width: 220px;
-    height: auto;
-}
-
-
-
 .servicecontent p a {
     color: #000;
     text-decoration: none;
 }
-
-
-.headermenu a {
-    background: #f47a24 !important;
-    padding: 8px 23px !important;
-    border-radius: 60px;
-    color: #fff !important;
-    line-height: 2;
-    margin-top: 10px;
-}
-
 
 
 .btnofportfolio a {

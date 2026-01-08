@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
 .socialmedia {
     list-style: none;
     padding: 0;
@@ -24,7 +24,7 @@
     background: #f47a24;
     color: #fff;
 }
-</style>
+</style> -->
 
 <!-- footer start -->
 <footer class="sectionpadding">
@@ -422,7 +422,6 @@ $('.moreless-button').click(function() {
 });
 </script>
 
-
 <!-- call or WhatsApp msg-->
 <script>
 function makeCallOrWhatsApp() {
@@ -438,6 +437,34 @@ function makeCallOrWhatsApp() {
         window.open(`https://wa.me/${phone.replace('+','')}?text=${message}`, '_blank');
     }
 }
+</script>
+
+<!-- Hide header on scroll down, show on hover/top -->
+<script>
+(function() {
+    var nav = document.querySelector('header.navigation');
+    var hoverZone = document.querySelector('.header-hover-zone');
+    if (!nav || !hoverZone) return;
+
+    var lastScrollY = window.scrollY || window.pageYOffset;
+    var hideThreshold = 100;
+
+    window.addEventListener('scroll', function() {
+        var currentY = window.scrollY || window.pageYOffset;
+
+        if (currentY > hideThreshold && currentY > lastScrollY) {
+            nav.classList.add('header-hidden');
+        } else {
+            nav.classList.remove('header-hidden');
+        }
+
+        lastScrollY = currentY;
+    });
+
+    hoverZone.addEventListener('mouseenter', function() {
+        nav.classList.remove('header-hidden');
+    });
+})();
 </script>
 
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>

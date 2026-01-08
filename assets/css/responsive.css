@@ -60,9 +60,6 @@ nav ul li:last-child a {
 .contactusdetails .boxservices {
     min-height: 252px !important;
 }
-.headermenu a {
-    padding: 0 30px !important;
-}
 #posts {
     gap: 20px;
 }
@@ -217,9 +214,6 @@ nav ul {
 .navbar-dropdown {
     width: 100%;
 }
-footer .row {
-    row-gap: 25px;
-}
 .ourservicestwo .boxservices {
     padding-left: 30px;
     padding-right: 50px;
@@ -252,9 +246,6 @@ footer .row {
     justify-content: center;
 }
 
-.headermenu {
-    display: none;
-}
 .dropdown {
     position: inherit;
     top: 0;
@@ -378,10 +369,6 @@ footer .row {
 }
 .sectionheading h2 {
     font-size: 23px;
-}
-.outerofcopy p {
-    padding: 20px 10px;
-    font-size: 14px;
 }
 .aboutusinntersection .col-xs-6 {
     width: 100%;
