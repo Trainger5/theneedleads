@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "reviewer_name": "Sandeep Kaur",
+    "reviewer_type": "User",
+    "rating": 5,
+    "review_date": "2 weeks ago",
+    "review_text": "Great experience with NeedleAds Technologies. They delivered a clean, fast, and professional website exactly as promised. Very supportive team."
+  },
+  {
+    "id": 2,
+    "reviewer_name": "Mamta Kashyap",
+    "reviewer_type": "Local Guide",
+    "rating": 5,
+    "review_date": "3 weeks ago",
+    "review_text": "Really impressed with Needleads! The team understands digital marketing very well and provides smart solutions tailored to your business. Their communication and support are excellent too."
+  },
+  {
+    "id": 3,
+    "reviewer_name": "Jagpreet Kaur",
+    "reviewer_type": "User",
+    "rating": 5,
+    "review_date": "3 weeks ago",
+    "review_text": "Needleads Delhi has been amazing for our business growth. Their digital marketing strategies are creative, targeted, and genuinely effective. We saw a noticeable increase in leads within a short time. Highly recommended!"
+  },
+  {
+    "id": 4,
+    "reviewer_name": "Happy Thakur",
+    "reviewer_type": "Local Guide",
+    "rating": 5,
+    "review_date": "12 weeks ago",
+    "review_text": "Our business is located in Lajpat Nagar, and after signing up with NeedleAds, we noticed a huge improvement in our visibility on Google Maps and local listings. Their local SEO strategies were customized and executed perfectly. They helped us optimize our Google Business Profile and manage reviews, which significantly boosted our credibility and reach."
+  },
+  {
+    "id": 5,
+    "reviewer_name": "Suujaay Salliaan",
+    "reviewer_type": "User",
+    "rating": 5,
+    "review_date": "49 weeks ago",
+    "review_text": "I had an exceptional experience with Needleads. We engaged with their website development services, and I must commend the team for their professionalism. They demonstrated remarkable patience in addressing all our inquiries and delivered results that met our specifications. We look forward to collaborating with them again in the future and would highly recommend their quality services to others."
+  },
+  {
+    "id": 6,
+    "reviewer_name": "Dhruv Uniyal",
+    "reviewer_type": "User",
+    "rating": 5,
+    "review_date": "10 Dec 2024",
+    "review_text": "I had a fantastic experience with Needleads Technologies! Their team is highly professional and helped us improve our online presence significantly. Thanks to their innovative strategies, our website traffic increased by 40% in just three months. The communication throughout the process was seamless, and they truly understood our business needs. Highly recommend their services to anyone looking to grow their digital footprint!"
+  },
+  {
+    "id": 7,
+    "reviewer_name": "CHANDRA PAL SINGH",
+    "reviewer_type": "Local Guide",
+    "rating": 5,
+    "review_date": "11 May 2024",
+    "review_text": "Service is outstanding, for lead generation for my business happy with the work and the team is supportive happy to suggest for best lead generation service company in delhi"
+  },
+  {
+    "id": 8,
+    "reviewer_name": "deepk sharma",
+    "reviewer_type": "User",
+    "rating": 5,
+    "review_date": "10 May 2024",
+    "review_text": "I am happy with the service they provide me for developing my website for my business. They provide me proper guidance and assist me for everything. This company is best for website development service. And am personally suggesting it."
+  },
+  {
+    "id": 9,
+    "reviewer_name": "anshuman prakash",
+    "reviewer_type": "Local Guide",
+    "rating": 5,
+    "review_date": "10 May 2024",
+    "review_text": "Happy to say that needle ads providing the best digital marketing services and also providing lead generation services or ppc services. and helping the startups and all businesses to grow in the market. am happy to work with needle ads technologies."
+  }
+]
+

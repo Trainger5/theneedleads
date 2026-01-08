@@ -827,56 +827,71 @@ gtag('config', 'G-0GQ7EZTWNF');
         </div>
     </div>
 </section>
+<?php
+// Load customer reviews from JSON file
+$reviews = [];
+$reviewsFile = __DIR__ . '/reviews.json';
+if (file_exists($reviewsFile)) {
+    $json = file_get_contents($reviewsFile);
+    $data = json_decode($json, true);
+    if (is_array($data)) {
+        $reviews = $data;
+    }
+}
+?>
 <section class="sectionpadding">
     <div class="outerofreview">
         <div class="container">
             <div class="sectionheading">
                 <h2>Customer Reviews</h2>
             </div>
+            <?php if (!empty($reviews)) : ?>
             <div class="owl-slider googlereview">
                 <div id="carouseltwo" class="owl-carousel">
+                    <?php foreach ($reviews as $review) : ?>
                     <div class="item">
                         <div class="reviewbox">
-                            <img src="assets/img/review/r1.jpg">
+                            <div class="review-header">
+                                <div class="review-avatar">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                </div>
+                                <div class="review-header-text">
+                                    <h3 class="reviewer-name">
+                                        <?php echo htmlspecialchars($review['reviewer_name'] ?? '', ENT_QUOTES, 'UTF-8'); ?>
+                                    </h3>
+                                    <?php if (!empty($review['reviewer_type'])) : ?>
+                                    <p class="reviewer-type">
+                                        <?php echo htmlspecialchars($review['reviewer_type'], ENT_QUOTES, 'UTF-8'); ?>
+                                    </p>
+                                    <?php endif; ?>
+                                    <?php if (!empty($review['review_date'])) : ?>
+                                    <p class="review-date">
+                                        <?php echo htmlspecialchars($review['review_date'], ENT_QUOTES, 'UTF-8'); ?>
+                                    </p>
+                                    <?php endif; ?>
+                                    <?php
+                                    $rating = isset($review['rating']) ? (int) $review['rating'] : 0;
+                                    if ($rating > 0) :
+                                    ?>
+                                    <div class="review-rating">
+                                        <?php for ($i = 1; $i <= 5; $i++) : ?>
+                                        <i class="fa fa-star<?php echo $i <= $rating ? '' : '-o'; ?>" aria-hidden="true"></i>
+                                        <?php endfor; ?>
+                                    </div>
+                                    <?php endif; ?>
+                                </div>
+                            </div>
+                            <?php if (!empty($review['review_text'])) : ?>
+                            <p class="review-text">
+                                <?php echo htmlspecialchars($review['review_text'], ENT_QUOTES, 'UTF-8'); ?>
+                            </p>
+                            <?php endif; ?>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="reviewbox">
-                            <img src="assets/img/review/r2.jpg">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="reviewbox">
-                            <img src="assets/img/review/r3.jpg">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="reviewbox">
-                            <img src="assets/img/review/r4.jpg">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="reviewbox">
-                            <img src="assets/img/review/r5.jpg">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="reviewbox">
-                            <img src="assets/img/review/r6.jpg">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="reviewbox">
-                            <img src="assets/img/review/r7.jpg">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="reviewbox">
-                            <img src="assets/img/review/r8.jpg">
-                        </div>
-                    </div>
+                    <?php endforeach; ?>
                 </div>
             </div>
+            <?php endif; ?>
             <div class="writereview">
                 <div class="webbtnset">
                     <a
@@ -1189,6 +1204,18 @@ document.addEventListener("DOMContentLoaded", function() {
             if (!response.ok) throw new Error("Failed to load posts");
             const posts = await response.json();
 
+            function resolvePostImage(path) {
+                if (!path) return "";
+                const s = String(path).trim();
+                if (!s) return "";
+                if (/^https?:\/\//i.test(s)) return s;
+                if (s.startsWith("/blog/")) return s;
+                if (s.startsWith("/")) return s;
+                if (s.startsWith("blog/assets/")) return s;
+                if (s.startsWith("assets/")) return "blog/" + s;
+                return "blog/" + s;
+            }
+
             function decodeHtmlEntities(str) {
                 const textarea = document.createElement('textarea');
                 textarea.innerHTML = str;
@@ -1205,6 +1232,15 @@ document.addEventListener("DOMContentLoaded", function() {
             posts.slice(0, 3).forEach(post => {
                 const postElement = document.createElement('div');
                 postElement.classList.add('post');
+
+                // Image thumbnail (if available)
+                if (post.post_image) {
+                    const img = document.createElement('img');
+                    img.src = resolvePostImage(post.post_image);
+                    img.alt = post.post_title || '';
+                    img.loading = 'lazy';
+                    postElement.appendChild(img);
+                }
 
                 const postTitle = document.createElement('h2');
                 postTitle.textContent = post.post_title || "";
@@ -1223,15 +1259,15 @@ document.addEventListener("DOMContentLoaded", function() {
                     }
                 }
 
-                const readMoreLink = document.createElement('a');
                 const slug = (post.post_name || post.slug || post.id || "").toString().trim();
-                // Use a path relative to the site root so it works
-                // both on localhost subfolders and on production
-                readMoreLink.href = "blog/post.php?id="
+                const postUrl = "blog/post.php?id="
                   + encodeURIComponent(post.id)
                   + "&slug=" + encodeURIComponent(slug);
-                readMoreLink.textContent = "Read More";
-                postElement.appendChild(readMoreLink);
+
+                postElement.style.cursor = "pointer";
+                postElement.addEventListener("click", function () {
+                    window.location.href = postUrl;
+                });
 
                 postsContainer.appendChild(postElement);
             });
