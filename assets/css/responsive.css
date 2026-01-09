@@ -1,4 +1,4 @@
-@media only screen and (max-width:1400px) {
+@media only screen and (max-width:1500px) {
     .header_inner_box {
         padding: 10px 10px !important;
     }
@@ -407,7 +407,7 @@
 
     .setofdown {
         left: 130px !important;
-        top: 28px;
+        top: 20px;
     }
 
     #posts .post {
@@ -681,7 +681,7 @@
 
     .header-top-info {
         padding: 10px 5px !important;
-        font-size: 12px !important;
+        font-size: 11px !important;
         display: flex;
         justify-content: space-between !important;
     }

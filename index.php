@@ -960,28 +960,28 @@ if (file_exists($reviewsFile)) {
                 <div id="carouseltwoo" class="owl-carousel">
                     <div class="item">
                         <div class="img1 text-center">
-                            <img src="assets/img/team/gourav.png" alt="team" title="team">
+                            <img src="assets/img/team/simardeepS.jpeg" alt="team" title="team">
                             <div class="contand">
-                                <h5>Gourav Jasuja</h5>
-                                <p>SEO Expert</p>
+                                <h5>Simardeep Singh</h5>
+                                <p>Digital Marketing Manager</p>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="img1 text-center">
-                            <img src="assets/img/team/sumrit.jpg" alt="team" title="team">
+                            <img src="assets/img/team/riyajudin.jpeg" alt="team" title="team">
                             <div class="contand">
-                                <h5>Sumrit Singh</h5>
-                                <p>Web Developer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="img1 text-center">
-                            <img src="assets/img/team/nchal.jpg" alt="team" title="team">
-                            <div class="contand">
-                                <h5>Anchal Dhiman </h5>
+                                <h5>Riyajudin </h5>
                                 <p>SEO Executive</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img1 text-center">
+                            <img src="assets/img/team/radhikaS.jpeg" alt="team" title="team">
+                            <div class="contand">
+                                <h5>Radhika Sharma</h5>
+                                <p>SEO Intern</p>
                             </div>
                         </div>
                     </div>
@@ -996,19 +996,19 @@ if (file_exists($reviewsFile)) {
                     </div>
                     <div class="item">
                         <div class="img1 text-center">
-                            <img src="assets/img/team/Ritu.jpg" alt="team" title="team">
+                            <img src="assets/img/team/amandeepS.png" alt="team" title="team">
                             <div class="contand">
-                                <h5>Ritu Chauhan</h5>
-                                <p>Business Developer</p>
+                                <h5>Amandeep Singh</h5>
+                                <p>Google Ads Executive</p>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="img1 text-center">
-                            <img src="assets/img/team/sweety.jpg" alt="team" title="team">
+                            <img src="assets/img/team/bhavika.jpeg" alt="team" title="team">
                             <div class="contand">
-                                <h5>Sweety Kumari</h5>
-                                <p>Business Developer</p>
+                                <h5>Bhavika</h5>
+                                <p>Graphic Designer</p>
                             </div>
                         </div>
                     </div>
@@ -1017,10 +1017,10 @@ if (file_exists($reviewsFile)) {
         </div>
     </div>
 </section>
-<section class="sectionpadding pt-0">
+<section class="sectionpadding pt-0" style="background: #f47a241f;">
     <div class="container">
         <div class="outerofpost">
-            <div class="sectionheading">
+            <div class="sectionheading" style="padding-top: 50px;">
                 <h2>Recent Blog</h2>
             </div>
             <div id="posts"></div>
@@ -1242,22 +1242,20 @@ document.addEventListener("DOMContentLoaded", function() {
                     postElement.appendChild(img);
                 }
 
+                const dateText = post.post_date
+                    ? new Date(post.post_date).toLocaleString()
+                    : "";
+
+                if (dateText) {
+                    const dateEl = document.createElement('p');
+                    dateEl.classList.add('post-date');
+                    dateEl.textContent = dateText;
+                    postElement.appendChild(dateEl);
+                }
+
                 const postTitle = document.createElement('h2');
                 postTitle.textContent = post.post_title || "";
                 postElement.appendChild(postTitle);
-
-                if (post.post_content) {
-                    const raw = post.post_content.toString();
-                    const decoded = decodeHtmlEntities(raw);
-                    const plainText = stripHtml(decoded);
-
-                    if (plainText) {
-                        const excerpt = document.createElement('p');
-                        const text = plainText.length > 180 ? plainText.slice(0, 177) + "..." : plainText;
-                        excerpt.textContent = text;
-                        postElement.appendChild(excerpt);
-                    }
-                }
 
                 const slug = (post.post_name || post.slug || post.id || "").toString().trim();
                 const postUrl = "blog/post.php?id="
@@ -1292,7 +1290,8 @@ function loadNotificationSDK() {
             await PN.init({
                 apiKey: API_KEY,
                 baseUrl: SERVER_URL,
-                serviceWorkerPath: '/pn-sw.js'
+                // Use a path relative to the current site root so it works from /theneedleads/
+                serviceWorkerPath: 'pn-sw.js'
             });
 
             console.log("✅ Push SDK ready");

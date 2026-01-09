@@ -132,9 +132,9 @@
                             <a href="<?php echo $linkBase ?? ''; ?>index.php">Home</a>
                         </li>
                         <li class="services_dropdown">
-                            <a href="javascript:void()">Services <i class="fa fa-sort-desc setofdowntop"
+                            <a href="javascript:void()" id="drop">Services <i class="fa fa-sort-desc setofdowntop"
                                     aria-hidden="true"></i></a>
-                            <ul class="services_dropdown_box mobile_dropdown">
+                            <ul class="services_dropdown_box mobile_dropdown" id="dropshow">
                                 <li>
                                     <a href="<?php echo $linkBase ?? ''; ?>seo-company-janakpuri.php">SEO Services</a>
                                 </li>
@@ -182,15 +182,14 @@
                             </a>
                             <ul class="services_dropdown_box  mobile_dropdown" id="dropshowftwo">
                                 <li><a href="https://mailer123.com/" target="_blank">Mailer</a></li>
-                                <li><a href="#">Notify</a></li>
+                                <li><a href="https://pushads123.com/" target="_blank">Notify</a></li>
                             </ul>
                         </li>
 
                         <li class="services_dropdown">
-
-                            <a href="javascript:void()">Features <i class="fa fa-sort-desc setofdowntop"
+                            <a href="javascript:void()" id="dropf">Features <i class="fa fa-sort-desc setofdowntop"
                                     aria-hidden="true"></i></a>
-                            <ul class="services_dropdown_box mobile_dropdown">
+                            <ul class="services_dropdown_box mobile_dropdown" id="dropshowf">
                                 <li><a href="<?php echo $linkBase ?? ''; ?>free-seo-analysis.php">Free SEO Analysis</a></li>
                                 <li><a href="<?php echo $linkBase ?? ''; ?>page-speed-analysis.php">Page Speed Analysis</a></li>
                                 <li><a href="<?php echo $linkBase ?? ''; ?>google-penalty-analysis.php">Google Penalty Analysis</a></li>

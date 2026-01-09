@@ -513,24 +513,45 @@ $(".text-box p").text(function(index, currentText) {
 
 <script>
 $(document).ready(function() {
-    $("#drop").click(function() {
+    function isMobileNav() {
+        return window.innerWidth <= 991;
+    }
+
+    $("#drop").click(function(e) {
+        if (!isMobileNav()) return;
+        e.preventDefault();
         $("#dropshow").slideToggle("slow");
     });
 
-    $("#dropf").click(function() {
+    $("#dropf").click(function(e) {
+        if (!isMobileNav()) return;
+        e.preventDefault();
         $("#dropshowf").slideToggle("slow");
     });
 
-    $("#dropftwo").click(function() {
+    $("#dropftwo").click(function(e) {
+        if (!isMobileNav()) return;
+        e.preventDefault();
         $("#dropshowftwo").slideToggle("slow");
     });
 
-    $("#droptwo").click(function() {
+    $("#droptwo, .navdrop > a").click(function(e) {
+        if (!isMobileNav()) return;
+        e.preventDefault();
         $("#dropshowtwo").slideToggle("slow");
     });
 
     $("#navbar-toggle").click(function() {
         $(".nav-list").slideToggle("slow");
+        $("#navbar-toggle").toggleClass("active");
+    });
+
+    // Ensure nav is reset correctly when resizing between mobile and desktop
+    $(window).on("resize", function() {
+        if (!isMobileNav()) {
+            $(".nav-list").removeAttr("style");
+            $("#navbar-toggle").removeClass("active");
+        }
     });
 });
 </script>
@@ -600,31 +621,24 @@ function makeCallOrWhatsApp() {
 }
 </script>
 
-<!-- Hide header on scroll down, show on hover/top -->
+<!-- Hide only the top header info bar on scroll, show it again at page top -->
 <script>
 (function() {
-    var nav = document.querySelector('header.navigation');
-    var hoverZone = document.querySelector('.header-hover-zone');
-    if (!nav || !hoverZone) return;
+    var infoBar = document.querySelector('.header-top-info');
+    if (!infoBar) return;
 
-    var lastScrollY = window.scrollY || window.pageYOffset;
-    var hideThreshold = 100;
-
-    window.addEventListener('scroll', function() {
-        var currentY = window.scrollY || window.pageYOffset;
-
-        if (currentY > hideThreshold && currentY > lastScrollY) {
-            nav.classList.add('header-hidden');
+    function updateInfoBar() {
+        var scrollY = window.scrollY || window.pageYOffset;
+        if (scrollY > 0) {
+            infoBar.classList.add('header-top-info--hidden');
         } else {
-            nav.classList.remove('header-hidden');
+            infoBar.classList.remove('header-top-info--hidden');
         }
+    }
 
-        lastScrollY = currentY;
-    });
-
-    hoverZone.addEventListener('mouseenter', function() {
-        nav.classList.remove('header-hidden');
-    });
+    window.addEventListener('scroll', updateInfoBar);
+    // Initial state on load
+    updateInfoBar();
 })();
 </script>
 
