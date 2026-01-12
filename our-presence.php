@@ -45,18 +45,18 @@ $canonical_url = "https://www.theneedleads.com/our-presence.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <p class="text-justify">Our Presence" epitomizes our commitment to being where it matters most—within
+                        <p>Our Presence" epitomizes our commitment to being where it matters most—within
                             communities, industries, and hearts. From bustling urban centers to tranquil rural
                             landscapes, our reach extends far and wide, bridging gaps and fostering connections.</p>
-                        <p class="text-justify">With offices strategically positioned across key regions, we anchor ourselves within the
+                        <p>With offices strategically positioned across key regions, we anchor ourselves within the
                             fabric of local economies, offering support, expertise, and opportunity. Our physical
                             presence serves as a testament to our dedication to serving clients with integrity and
                             professionalism.</p>
-                        <p class="text-justify">In the digital realm, our online presence amplifies our impact, reaching audiences across
+                        <p>In the digital realm, our online presence amplifies our impact, reaching audiences across
                             the globe with compelling content and innovative solutions. Through websites, social
                             media platforms, and digital campaigns, we engage with audiences, building relationships
                             and driving results.</p>
-                        <p class="text-justify">Our presence is more than just a footprint—it's a reflection of our values, our vision,
+                        <p>Our presence is more than just a footprint—it's a reflection of our values, our vision,
                             and our unwavering commitment to making a difference. Whether in person or online, we
                             strive to leave a lasting impression, enriching lives and empowering communities
                             wherever we go.</p>

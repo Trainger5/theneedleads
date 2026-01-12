@@ -58,16 +58,16 @@ gtag('config', 'AW-11492145247');
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading" data-aos="fade-up" data-aos-duration="800">
+                        <div class="sectionheading">
                             <h2>Grow Your Website Traffic with Our SEO Service</h2>
                         </div>
-                        <p class="text-justify" data-aos="fade-up" data-aos-duration="900">Boost your online presence and attract more visitors to your website with NeedleAds
+                        <p>Boost your online presence and attract more visitors to your website with NeedleAds
                             Technology, your premier <a
                                 href="https://www.theneedleads.com/seo-company-janakpuri.php">SEO company in
                                 Janakpuri</a>. Our tailored SEO services in Janakpuri are designed to skyrocket your
                             website traffic and improve your search engine rankings. With a team of experienced
                             professionals, we craft customized strategies to suit your business needs and goals.</p>
-                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1000">Let us help you dominate the digital landscape and reach your target audience. Take the
+                        <p>Let us help you dominate the digital landscape and reach your target audience. Take the
                             first step towards success today – contact NeedleAds Technology for top-notch SEO
                             services in Janakpuri. Watch your website traffic soar and achieve your business
                             objectives with us!</p>
@@ -83,7 +83,7 @@ gtag('config', 'AW-11492145247');
     <div class="outerofcallsection">
         <div class="container">
             <div class="row">
-                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12" data-aos="fade-up" data-aos-duration="800">
+                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
                     <div class="callcontent">
                         <h3>Are You Ready to Grow Your Business to the Next Level?</h3>
                     </div>
@@ -105,8 +105,8 @@ gtag('config', 'AW-11492145247');
     <div class="outerofservicessection">
         <div class="container">
             <div class="sectionheading">
-                <h2 data-aos="fade-up" data-aos-duration="800">Our SEO Strategies</h2>
-                <p data-aos="fade-up" data-aos-duration="1000">The power of digital marketing with NeedleAds Technology! As a leading digital marketing agency
+                <h2>Our SEO Strategies</h2>
+                <p>The power of digital marketing with NeedleAds Technology! As a leading digital marketing agency
                     in Janakpuri, we offer a range of services, including SEO, SMO, PPC, and web design. Our team is
                     dedicated to helping businesses like yours succeed online. Whether you're looking to increase
                     your online visibility, drive more traffic to your website, or improve your general digital
@@ -195,23 +195,23 @@ gtag('config', 'AW-11492145247');
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading" data-aos="fade-up" data-aos-duration="800">
+                        <div class="sectionheading">
                             <h2>Professional SEO Services in Janakpuri, Delhi</h2>
                         </div>
-                        <p class="text-justify" data-aos="fade-up" data-aos-duration="800">Unlock the full potential of your online presence with our professional SEO services in
+                        <p>Unlock the full potential of your online presence with our professional SEO services in
                             Janakpuri, Delhi. At our agency, we understand the importance of visibility in the
                             digital landscape. That's why we offer Best <a
                                 href="https://www.theneedleads.com/contact-us.php">SEO solutions</a> tailored to
                             your specific needs and goals.</p>
-                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1000">Our team of seasoned experts specializes in optimizing websites to improve search engine
+                        <p>Our team of seasoned experts specializes in optimizing websites to improve search engine
                             rankings and drive organic traffic. Through meticulous keyword research, strategic
                             on-page optimization, and quality content creation, we ensure that your website stands
                             out amidst the competition.</p>
-                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1000">With our proven track record of success, we've helped numerous businesses in Janakpuri
+                        <p>With our proven track record of success, we've helped numerous businesses in Janakpuri
                             and beyond achieve their online objectives. Whether you're a small local business or a
                             large enterprise, we're committed to delivering results that exceed your expectations.
                         </p>
-                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1000">Ready to boost your online presence and attract more customers? Contact us today for a
+                        <p>Ready to boost your online presence and attract more customers? Contact us today for a
                             personalized consultation and take the first step towards growing your business with our
                             professional SEO services in Janakpuri, Delhi. Let's propel your website to new heights
                             and unlock its full potential together!</p>
@@ -234,7 +234,7 @@ gtag('config', 'AW-11492145247');
 <section class="sectionpadding bgsection">
     <div class="outerofindustriessection">
         <div class="container">
-            <div class="sectionheading" data-aos="fade-up" data-aos-duration="800">
+            <div class="sectionheading">
                 <h2 class="mb-4">Our SEO Services in Janakpuri, Delhi</h2>
             </div>
             <div class="row justify-content-center">
@@ -286,7 +286,7 @@ gtag('config', 'AW-11492145247');
 <!-- faq section start -->
 <section class="faq-section sectionpadding">
     <div class="container">
-        <div class="sectionheading" data-aos="fade-up" data-aos-duration="800">
+        <div class="sectionheading">
             <h2 class="mb-4">Frequently Asked Questions?</h2>
         </div>
         <div class="row justify-content-center">
