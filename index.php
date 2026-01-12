@@ -616,28 +616,28 @@ gtag('config', 'G-0GQ7EZTWNF');
                     <div class="row">
                         <div class="col-12 col-lg-3 col-sm-6 col-md-6">
                             <div class="count-area-content">
-                                <div class="count-digit">96</div>
+                                <div class="count-digit counter-loaded">96</div>
                                 <span>+</span>
                                 <div class="count-title"> Client Retention </div>
                             </div>
                         </div>
                         <div class="col-12 col-lg-3 col-sm-6 col-md-6">
                             <div class="count-area-content">
-                                <div class="count-digit">12</div>
+                                <div class="count-digit counter-loaded">12</div>
                                 <span>+</span>
                                 <div class="count-title"> Years of Experience</div>
                             </div>
                         </div>
                         <div class="col-12 col-lg-3 col-sm-6 col-md-6">
                             <div class="count-area-content">
-                                <div class="count-digit">70</div>
+                                <div class="count-digit counter-loaded">70</div>
                                 <span>+</span>
                                 <div class="count-title">Profession</div>
                             </div>
                         </div>
                         <div class="col-12 col-lg-3 col-sm-6 col-md-6">
                             <div class="count-area-content">
-                                <div class="count-digit">690</div>
+                                <div class="count-digit counter-loaded">690</div>
                                 <span>+</span>
                                 <div class="count-title">Satisfied Clients</div>
                             </div>

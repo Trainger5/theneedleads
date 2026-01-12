@@ -143,6 +143,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .mobile_dropdown {
+        position: relative;
+        top: 0px !important;
+    }
+
     h2 {
         font-size: 1.8rem !important;
     }
@@ -203,9 +208,6 @@
         row-gap: 25px;
     }
 
-    /* .boxservices {
-        padding: 30px 50px;
-    } */
     .boxservices {
         padding: 40px 10px;
     }
@@ -240,6 +242,16 @@
         margin: 0 auto;
         left: 0;
         right: 0;
+    }
+
+    nav ul {
+        position: absolute;
+        width: 91%;
+        z-index: 9;
+    }
+
+    .navbar-dropdown {
+        width: 100%;
     }
 
     .ourservicestwo .boxservices {
@@ -280,6 +292,28 @@
     .contactusdetails .sicon {
         display: flex;
         justify-content: center;
+    }
+
+    .dropdown {
+        position: inherit;
+        top: 0;
+        width: 100%;
+    }
+
+    .childdrop {
+        position: relative;
+        left: 54px;
+        width: 100%;
+        padding: 0px !important;
+        top: 0;
+        top: 0;
+        bottom: 0;
+        top: 0 !important;
+    }
+
+    .setofdown {
+        left: 130px !important;
+        top: 20px;
     }
 
     #posts .post {
@@ -565,5 +599,16 @@
 
     .aboutsidimgwithform form {
         padding: 50px 20px;
+    }
+
+    /* .header-top-info{
+    display: none !important;
+} */
+    .header-hover-zone {
+        display: none !important;
+    }
+
+    .header_inner_box {
+        padding: 10px 10px !important;
     }
 }
