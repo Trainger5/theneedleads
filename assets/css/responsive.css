@@ -1,8 +1,4 @@
 @media only screen and (max-width:1500px) {
-    .header_inner_box {
-        padding: 10px 10px !important;
-    }
-
     .hero_right {
         position: relative;
         margin-bottom: -102px;
@@ -10,10 +6,6 @@
 }
 
 @media only screen and (max-width: 1350px) {
-    .header_inner_box {
-        padding: 10px 10px !important;
-    }
-
     .hero_right {
         position: relative;
         margin-bottom: -101px;
@@ -21,14 +13,6 @@
 }
 
 @media only screen and (max-width: 1263px) {
-    body {
-        padding-top: 110px !important;
-    }
-
-    .header_inner_box {
-        padding: 10px 10px !important;
-    }
-
     .boxservices {
         padding: 30px 20px;
     }
@@ -56,22 +40,9 @@
     .contactusdetails .boxservices {
         min-height: 250px !important;
     }
-
-    nav ul li a,
-    nav ul li a:visited {
-        padding: 0 8px;
-    }
 }
 
 @media only screen and (max-width: 1200px) {
-    body {
-        padding-top: 110px !important;
-    }
-
-    .header_inner_box {
-        padding: 10px 10px !important;
-    }
-
     .hero_right {
         position: relative;
         margin-bottom: -87px;
@@ -85,14 +56,6 @@
         align-items: inherit !important;
     }
 
-    .brand {
-        padding-left: 0;
-    }
-
-    nav ul li:last-child a {
-        padding-right: 0;
-    }
-
     .contactusdetails .boxservices {
         min-height: 252px !important;
     }
@@ -103,14 +66,6 @@
 }
 
 @media only screen and (max-width: 1080px) {
-    body {
-        padding-top: 110px !important;
-    }
-
-    .header_inner_box {
-        padding: 10px 10px !important;
-    }
-
     .hero_right {
         position: relative;
         margin-bottom: -88px;
@@ -119,14 +74,6 @@
 }
 
 @media only screen and (max-width: 1069px) {
-    body {
-        padding-top: 110px !important;
-    }
-
-    .header_inner_box {
-        padding: 10px 10px !important;
-    }
-
     .contactformimg {
         width: 56%;
     }
@@ -156,10 +103,6 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .header_inner_box {
-        padding: 10px 10px !important;
-    }
-
     .outerofcontactform .row {
         align-items: center;
     }
@@ -192,26 +135,11 @@
 
 
 @media only screen and (max-width: 991px) {
-    body {
-        padding-top: 110px !important;
-    }
-
-    .header_inner_box {
-        padding: 10px 10px !important;
-    }
-
     .hero_right {
         position: relative;
         margin-bottom: -92px;
     }
 
-    .header_inner_box {
-        padding: 10px 10px !important;
-    }
-
-    .header-top-info {
-        padding: 10px 10px !important;
-    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -226,15 +154,6 @@
 
     p {
         font-size: 16px !important;
-    }
-
-    .header_inner_box {
-        padding: 10px 10px !important;
-    }
-
-    .nav-mobile {
-        display: block !important;
-        top: 55px;
     }
 
     .hero_right {
@@ -413,14 +332,6 @@
 }
 
 @media only screen and (max-width: 576px) {
-    .nav-mobile {
-        top: 50px !important;
-    }
-
-    .header-top-info {
-        padding: 10px 10px !important;
-    }
-
     .hero_right {
         position: relative;
         margin-bottom: -105px;
@@ -432,14 +343,6 @@
 }
 
 @media only screen and (max-width: 425px) {
-    .nav-mobile {
-        top: 50px !important;
-    }
-
-    .header-top-info {
-        padding: 10px 10px !important;
-    }
-
     .hero_right {
         position: relative;
         margin-bottom: -103px;
@@ -586,10 +489,6 @@
         width: 100%;
     }
 
-    .setofdown {
-        right: 115px;
-    }
-
     .bnrform {
         width: 90%;
         margin: 0 auto;
@@ -666,17 +565,6 @@
         padding-top: 100px !important;
     }
 
-    .header-top-info {
-        padding: 10px 5px !important;
-        font-size: 11px !important;
-        display: flex;
-        justify-content: space-between !important;
-    }
-
-    .header_inner_box {
-        padding: 10px 10px !important;
-    }
-
     .hero_right {
         position: relative;
         margin-bottom: -94px;
@@ -700,18 +588,6 @@
 
     .aboutimg {
         width: 95%;
-    }
-
-    .setofdown {
-        right: 95px;
-    }
-
-    .outerofmiddlecontent-1 .col-sm-6 {
-        width: 100%;
-    }
-
-    .sicon_block img {
-        width: 24% !important;
     }
 }
 

@@ -1,8 +1,12 @@
+/* Global body styles (header is fixed via header.css; content starts at the top) */
+body {
+}
+
 h2 {
     font-size: 2.3rem !important;
 }
 p {
-    font-size: 18px !important;
+    font-size: 17px !important;
 }
 
 
@@ -31,7 +35,7 @@ img {
 
 .bannercontent h1 {
     color: #fff;
-    font-size: 60px;
+    font-size: 47px;
     margin-bottom: 20px;
 }
 
@@ -42,7 +46,6 @@ img {
 
 .bannercontent p {
     color: #fff;
-    font-size: 17px;
     margin-bottom: 30px;
 }
 
@@ -499,20 +502,6 @@ img {
 }
 
 @media (max-width: 1200px) {
-    .brand {
-        width: 150px;
-    }
-
-    nav ul li a {
-        font-size: 12px;
-    }
-}
-
-@media (max-width: 991px) {
-    .brand {
-        width: 260px;
-    }
-
     .faq {
         margin-bottom: 30px;
     }
@@ -945,53 +934,6 @@ ul.ctglist li:before {
     padding-left: 0 !important;
 }
 
-.dropdown {
-    display: none;
-}
-
-.dropdown {
-    background: #fff;
-    position: absolute;
-    top: 70px;
-    box-shadow: 0 0 9px #dbdbdb;
-    padding: 8px 0;
-}
-
-.navdrop {
-    position: relative;
-}
-
-.childdrop {
-    position: absolute;
-    left: 255px;
-    background: #fff;
-    box-shadow: 0 0 9px #dbdbdb;
-    top: 0;
-    display: none;
-}
-
-.setofdowntop {
-    position: relative;
-    top: -2px;
-    left: 1px;
-}
-
-nav ul li ul li:hover .fa.fa-sort-desc {
-    color: #f47a24;
-}
-
-.setofdown {
-    position: absolute;
-    right: 61px;
-    top: 7px;
-    cursor: pointer;
-    width: 25%;
-}
-
-li.navdrop:hover ul#dropshowtwo {
-    display: block;
-}
-
 /* ===== OUR TEAM SECTION (site theme) ===== */
 .outerofourpartner1 {
     padding: 0;
@@ -1419,23 +1361,17 @@ li.navdrop:hover ul#dropshowtwo {
     border-color: #000;
 }
 
-body {
+/* body {
     padding-top: 120px;
-}
+} */
 
-img {
+/* img {
     width: 100%;
-}
+} */
 
 .outerofbanner {
-    padding: 210px 0;
+    padding-top: 100px;
 }
-
-.outerofbanner {
-    padding: 20px 0;
-}
-
-
 
 .section-paragraph p {
     font-weight: 400 !important;
