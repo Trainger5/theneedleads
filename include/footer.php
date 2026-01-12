@@ -517,40 +517,67 @@ $(document).ready(function() {
         return window.innerWidth <= 991;
     }
 
+    // Toggle full-width header when scrolling down
+    function updateHeaderWidthOnScroll() {
+        var scrolled = $(window).scrollTop() > 10;
+        $("header.navigation").toggleClass("header-full-width", scrolled);
+    }
+
+    updateHeaderWidthOnScroll();
+    $(window).on("scroll", updateHeaderWidthOnScroll);
+
+    function closeAllSubMenus(exceptSelector) {
+        var $all = $("#dropshow, #dropshowf, #dropshowftwo, #dropshowtwo");
+        if (exceptSelector) {
+            $all = $all.not(exceptSelector);
+        }
+        $all.slideUp("slow");
+    }
+
     $("#drop").click(function(e) {
         if (!isMobileNav()) return;
         e.preventDefault();
+        closeAllSubMenus("#dropshow");
         $("#dropshow").slideToggle("slow");
     });
 
     $("#dropf").click(function(e) {
         if (!isMobileNav()) return;
         e.preventDefault();
+        closeAllSubMenus("#dropshowf");
         $("#dropshowf").slideToggle("slow");
     });
 
     $("#dropftwo").click(function(e) {
         if (!isMobileNav()) return;
         e.preventDefault();
+        closeAllSubMenus("#dropshowftwo");
         $("#dropshowftwo").slideToggle("slow");
     });
 
     $("#droptwo, .navdrop > a").click(function(e) {
         if (!isMobileNav()) return;
         e.preventDefault();
+        closeAllSubMenus("#dropshowtwo");
         $("#dropshowtwo").slideToggle("slow");
     });
 
     $("#navbar-toggle").click(function() {
         $(".nav-list").slideToggle("slow");
         $("#navbar-toggle").toggleClass("active");
+
+        // When closing the mobile nav, also collapse any open submenus
+        if (!$("#navbar-toggle").hasClass("active")) {
+            $("#dropshow, #dropshowf, #dropshowftwo, #dropshowtwo").slideUp(0).removeAttr("style");
+        }
     });
 
-    // Ensure nav is reset correctly when resizing between mobile and desktop
+    // Ensure nav and submenus reset correctly when resizing between mobile and desktop
     $(window).on("resize", function() {
         if (!isMobileNav()) {
             $(".nav-list").removeAttr("style");
             $("#navbar-toggle").removeClass("active");
+            $("#dropshow, #dropshowf, #dropshowftwo, #dropshowtwo").removeAttr("style");
         }
     });
 });

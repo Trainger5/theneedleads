@@ -109,19 +109,19 @@
     </div>
 
     <div class="header-hover-zone"></div>
-    <header class="navigation">
+    <header class="container navigation">
         <!-- <div class="container"> -->
-            <div class="header-top-info">
+            <div class="container header-top-info">
     <!-- <span>Call Us for Flat 20% OFF</span> -->
     <!-- <span class="separator">|</span> -->
-    <span><i class="fa-solid fa-phone"></i> Sales: <a href="tel:+919717107250">+91-9717107250</a></span>
+    <!-- <span><i class="fa-solid fa-phone"></i> Sales: <a href="tel:+919717107250">+91-9717107250</a></span> -->
+    <!-- <span class="separator">|</span> -->
+    <span class="d-none d-md-block"><i class="fa-solid fa-phone"></i> Call: <a href="tel:+918750500075">+91-8750500075</a></span>
     <span class="separator">|</span>
-    <span class="d-none d-md-block"><i class="fa-solid fa-phone"></i> Inquiry: <a href="tel:+918447967520">+91-8447967520</a></span>
-    <span class="separator">|</span>
-    <span><i class="fa-solid fa-envelope"></i> <a href="mailto:info@theneedleads.com">info@theneedleads.com</a></span>
+    <span><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:info@theneedleads.com">info@theneedleads.com</a></span>
 </div>
 
-            <div class="header_inner_box">
+            <div class="container header_inner_box">
                 <div class="brand">
                     <a href="<?php echo $linkBase ?? ''; ?>index.php"><img src="<?php echo $assetBase ?? ''; ?>assets/img/sitelogo.png" alt="Digital marketing Agency"></a>
                 </div>
@@ -174,36 +174,31 @@
                                 <li>
                                     <a href="<?php echo $linkBase ?? ''; ?>social-media-marketing.php">Social Media Marketing</a>
                                 </li>
+                                <li>
+                                    <a href="<?php echo $linkBase ?? ''; ?>Products.php">Products</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo $linkBase ?? ''; ?>free-seo-analysis.php">Free SEO Analysis</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo $linkBase ?? ''; ?>page-speed-analysis.php">Page Speed Analysis</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo $linkBase ?? ''; ?>google-penalty-analysis.php">Google Penalty Analysis</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo $linkBase ?? ''; ?>google-partner-india.php">Google Channel Partner</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo $linkBase ?? ''; ?>our-presence.php">Our Presence</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo $linkBase ?? ''; ?>case-study.php">Case Study</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo $linkBase ?? ''; ?>blog/">Blog</a>
+                                </li>
                             </ul>
-                        </li>
-                        <li class="services_dropdown">
-                            <a href="<?php echo $linkBase ?? ''; ?>Products.php" id="dropftwo" class="product">
-                                Products <i class="fa fa-sort-desc setofdowntop" aria-hidden="true"></i>
-                            </a>
-                            <ul class="services_dropdown_box  mobile_dropdown" id="dropshowftwo">
-                                <li><a href="https://mailer123.com/" target="_blank">Mailer</a></li>
-                                <li><a href="https://pushads123.com/" target="_blank">Notify</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="services_dropdown">
-                            <a href="javascript:void()" id="dropf">Features <i class="fa fa-sort-desc setofdowntop"
-                                    aria-hidden="true"></i></a>
-                            <ul class="services_dropdown_box mobile_dropdown" id="dropshowf">
-                                <li><a href="<?php echo $linkBase ?? ''; ?>free-seo-analysis.php">Free SEO Analysis</a></li>
-                                <li><a href="<?php echo $linkBase ?? ''; ?>page-speed-analysis.php">Page Speed Analysis</a></li>
-                                <li><a href="<?php echo $linkBase ?? ''; ?>google-penalty-analysis.php">Google Penalty Analysis</a></li>
-                                <li><a href="<?php echo $linkBase ?? ''; ?>google-partner-india.php">Google Channel Partner</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="<?php echo $linkBase ?? ''; ?>our-presence.php">Our Presence</a>
-                        </li>
-                        <li>
-                            <a href="<?php echo $linkBase ?? ''; ?>case-study.php">Case Study</a>
-                        </li>
-                        <li>
-                            <a href="<?php echo $linkBase ?? ''; ?>blog/">Blog</a>
                         </li>
                         <li>
                             <a href="<?php echo $linkBase ?? ''; ?>about-us.php">About</a>
@@ -211,9 +206,9 @@
                         <li>
                             <a href="<?php echo $linkBase ?? ''; ?>contact-us.php">Contact Us</a>
                         </li>
-                        <li class="webbtnset headermenu">
+                        <!-- <li class="webbtnset headermenu">
                             <a href="<?php echo $linkBase ?? ''; ?>booking.php" class="booking-btn">Book Now ! </a>
-                        </li>
+                        </li> -->
                     </ul>
                 </nav>
             </div>

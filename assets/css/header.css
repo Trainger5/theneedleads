@@ -1,57 +1,70 @@
-header.navigation {
-    /* padding: 20px 0px; */
+/* Hover zone to reveal header on scroll (if JS uses it) */
+.header-hover-zone {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    height: 18px;
+    z-index: 1001;
+}
+
+/* =========================================
+   Header shell
+   ========================================= */
+
+header.navigation {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    right: 0;
     z-index: 1000;
-    background: #fff;
+    background: #ffffff;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
+/* Optional hidden state (can be toggled via JS) */
 header.navigation.header-hidden {
     transform: translateY(-100%);
     opacity: 0;
     pointer-events: none;
 }
 
-header.navigation .container {
-    position: relative;
-}
-
-.brand {
-    width: 250px;
-}
-
-.brand img {
+/* Full-width mode when page is scrolled */
+header.navigation.header-full-width .container {
+    max-width: 100%;
     width: 100%;
+    padding-left: 0;
+    padding-right: 0;
 }
+
+/* =========================================
+   Top info bar
+   ========================================= */
+
 .header-top-info {
-    font-size: 15px;
-    font-weight:600;
-    color: #000;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: flex-end;
-    box-shadow: 0px 0px 4px 2px #f47a24;
-    padding: 10px 100px;
-    max-height: 60px;
-    overflow: hidden;
-    transition: max-height 0.3s ease, padding 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease;
+    gap: 8px;
+    padding: 8px 80px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    /* box-shadow: 0 0 4px 1px #f47a24; */
+    background-color: #ffffff;
+    border-bottom: 2px solid #f47a24;
 }
 
-.header-top-info.header-top-info--hidden {
-    max-height: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    opacity: 0;
-    box-shadow: none;
+.header-top-info .separator {
+    margin: 0 4px;
+    color: #999;
 }
 
 .header-top-info i {
-    color: #ffa500;
     margin-right: 4px;
+    color: #f47a24;
 }
 
 .header-top-info a {
@@ -64,49 +77,431 @@ header.navigation .container {
     text-decoration: underline;
 }
 
-.header-top-info .separator {
-    margin: 0 4px;
-    color: #999;
+/* Collapsed state if ever toggled */
+.header-top-info.header-top-info--hidden {
+    max-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    opacity: 0;
+    box-shadow: none;
+    overflow: hidden;
 }
 
-.header-hover-zone {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 18px;
-    z-index: 1001;
+@media (max-width: 991.98px) {
+    .header-top-info {
+        justify-content: center;
+        padding: 8px 16px;
+        font-size: 13px;
+        text-align: center;
+    }
 }
+
+@media (max-width: 575.98px) {
+    .header-top-info {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+}
+
+/* =========================================
+   Main header bar: logo + nav
+   ========================================= */
 
 .header_inner_box {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 100px;
+    gap: 24px;
+    padding: 12px 80px;
+    background-color: #ffffff;
 }
 
-.headermenu a {
-    background: #f47a24 !important;
-    padding: 8px 23px !important;
-    border-radius: 60px;
-    color: #fff !important;
-    line-height: 2;
-    margin-top: 10px;
-}
-
-.headermenu:hover a {
-    background: #000 !important;
-}
-
-@media only screen and (max-width: 1200px) {
-    .headermenu a {
-        padding: 0 30px !important;
+@media (max-width: 1199.98px) {
+    .header_inner_box {
+        padding: 10px 32px;
+        gap: 16px;
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 991.98px) {
+    .header_inner_box {
+        padding: 10px 16px;
+    }
+}
+
+/* Logo / brand */
+.brand {
+    flex-shrink: 0;
+}
+
+.brand a,
+.brand a:visited {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.brand img {
+    display: block;
+    max-height: 50px;
+    width: auto;
+}
+
+@media (max-width: 1199.98px) {
+    .brand img {
+        max-height: 52px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .brand img {
+        max-height: 46px;
+    }
+}
+
+/* =========================================
+   Primary navigation – desktop base
+   ========================================= */
+
+.header_inner_box nav {
+    flex: 1;
+    position: relative;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 4px;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.nav-list > li {
+    position: relative;
+}
+
+.nav-list > li > a,
+.nav-list > li > a:visited {
+    display: block;
+    padding: 8px 16px;
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.nav-list > li > a:hover,
+.nav-list > li > a:focus-visible {
+    color: #f47a24;
+}
+
+/* CTA button in header */
+.headermenu a {
+    display: inline-block;
+    padding: 10px 26px;
+    border-radius: 999px;
+    background: #f47a24;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.headermenu a:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+@media (max-width: 767.98px) {
     .headermenu {
         display: none;
     }
 }
 
+/* =========================================
+   Dropdowns – desktop behaviour
+   ========================================= */
+
+.services_dropdown {
+    position: relative;
+}
+
+.services_dropdown > a {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.setofdowntop {
+    /* font-size: 12px; */
+    margin-top: -4px;
+}
+
+/* First-level dropdown */
+.services_dropdown_box {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 230px;
+    /* margin-top: 8px; */
+    padding: 8px 0;
+    list-style: none;
+    background: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    display: none;
+    z-index: 9999;
+}
+
+.services_dropdown_box li {
+    width: 100%;
+}
+
+.services_dropdown_box li a {
+    display: block;
+    padding: 8px 18px;
+    font-size: 14px;
+    color: #000000;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.services_dropdown_box li a:hover {
+    background: #f7f7f7;
+    color: #f47a24;
+}
+
+/* Show dropdown on hover (desktop only – see mobile overrides) */
+@media (min-width: 992px) {
+    .services_dropdown:hover > .services_dropdown_box {
+        display: block;
+    }
+}
+
+/* Second-level dropdown inside Services (Website Design) */
+.navdrop {
+    position: relative;
+}
+
+.navdrop > a {
+    padding-right: 32px;
+}
+
+.setofdown {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.childdrop {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    min-width: 230px;
+    margin-left: 4px;
+    padding: 8px 0;
+    list-style: none;
+    background: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .navdrop:hover > .childdrop {
+        display: block;
+    }
+}
+
+/* Legacy dropdown hook for older markup (kept for safety) */
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0 0 9px #dbdbdb;
+    padding: 8px 0;
+    display: none;
+}
+
+li.navdrop:hover ul#dropshowtwo {
+    display: block;
+}
+
+nav ul li ul li:hover .fa.fa-sort-desc {
+    color: #f47a24;
+}
+
+/* Products trigger styling */
+#dropftwo {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+#dropftwo:hover {
+    color: #f47a24;
+}
+
+/* =========================================
+   Mobile nav toggle
+   ========================================= */
+
+.nav-mobile {
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    height: 40px;
+    width: 40px;
+}
+
+/* Hamburger icon */
+#navbar-toggle {
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 24px;
+    cursor: pointer;
+}
+
+#navbar-toggle span,
+#navbar-toggle span:before,
+#navbar-toggle span:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 3px;
+    border-radius: 2px;
+    background: #000000;
+    content: "";
+    transition: all 0.3s ease;
+}
+
+#navbar-toggle span {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#navbar-toggle span:before {
+    top: -8px;
+}
+
+#navbar-toggle span:after {
+    top: 8px;
+}
+
+/* Cross state when active */
+#navbar-toggle.active span {
+    background-color: transparent;
+}
+
+#navbar-toggle.active span:before {
+    top: 0;
+    transform: rotate(45deg);
+}
+
+#navbar-toggle.active span:after {
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+/* =========================================
+   Mobile layout (<= 991px)
+   ========================================= */
+
+@media (max-width: 991.98px) {
+    .header_inner_box {
+        align-items: center;
+    }
+
+    .nav-mobile {
+        display: block;
+    }
+
+    .nav-list {
+        display: none; /* shown via jQuery slideToggle */
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        margin-top: 8px;
+        flex-direction: column;
+        align-items: flex-start;
+        background: #ffffff;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        padding: 8px 0 12px;
+        max-height: 80vh;
+        overflow-y: auto;
+        z-index: 999;
+    }
+
+    .nav-list > li {
+        width: 100%;
+    }
+
+    .nav-list > li > a {
+        width: 100%;
+        padding: 10px 18px;
+    }
+
+    /* Mobile dropdowns become accordion-style lists */
+    .services_dropdown_box {
+        position: static;
+        margin-top: 0;
+        box-shadow: none;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .services_dropdown_box li a {
+        padding: 8px 34px;
+        white-space: normal;
+    }
+
+    .navdrop {
+        padding-right: 0;
+    }
+
+    .navdrop > a {
+        padding-right: 40px;
+    }
+
+    .childdrop {
+        position: static;
+        margin-left: 0;
+        box-shadow: none;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .childdrop li a {
+        padding-left: 50px;
+    }
+
+    .setofdown {
+        right: 18px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+/* Slight tweaks for very small widths */
+@media (max-width: 575.98px) {
+    .nav-list {
+        max-height: 70vh;
+    }
+
+    .nav-list > li > a {
+        padding: 9px 16px;
+        font-size: 14px;
+    }
+}
