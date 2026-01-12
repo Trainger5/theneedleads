@@ -216,9 +216,10 @@
 
 @media only screen and (max-width: 768px) {
     .mobile_dropdown {
-	position: relative;
-	top: 0px !important;
-}
+        position: relative;
+        top: 0px !important;
+    }
+
     h2 {
         font-size: 1.8rem !important;
     }
@@ -288,9 +289,6 @@
         row-gap: 25px;
     }
 
-    /* .boxservices {
-        padding: 30px 50px;
-    } */
     .boxservices {
         padding: 40px 10px;
     }
@@ -326,10 +324,6 @@
         left: 0;
         right: 0;
     }
-
-    /* .contactformset {
-    padding-bottom: 440px;
-} */
 
     nav ul {
         position: absolute;
@@ -387,23 +381,16 @@
         width: 100%;
     }
 
-
-    /* .childdrop {
-        position: inherit;
+    .childdrop {
+        position: relative;
         left: 54px;
         width: 100%;
         padding: 0px !important;
-    } */
-     .childdrop {
-    position: relative;
-    left: 54px;
-    width: 100%;
-    padding: 0px !important;
-    top: 0;
-    top: 0;
-    bottom: 0;
-    top: 0 !important;
-}
+        top: 0;
+        top: 0;
+        bottom: 0;
+        top: 0 !important;
+    }
 
     .setofdown {
         left: 130px !important;

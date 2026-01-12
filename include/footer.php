@@ -1,197 +1,17 @@
-<!-- <style>
-.socialmedia {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 10px;
-}
-
-.socialmedia li a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: #333;
-    color: #fff;
-    font-size: 18px;
-    transition: 0.3s;
-}
-
-.socialmedia li a:hover {
-    /* background: #ff4d4d; */
-    background: #f47a24;
-    color: #fff;
-}
-</style> -->
-
-<!-- footer start -->
-<!-- <footer class="sectionpadding">
-    <div class="outeroffooter">
-            <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="footerlogo">
-                        <a href="<?php echo $linkBase ?? ''; ?>index.php"><img src="<?php echo $assetBase ?? ''; ?>assets/img/sitelogo.png"></a>
-                    </div>
-                    <p class="pt-3 ps-1">At NeedleAds Technology, we pride ourselves on our commitment to delivering
-                        exceptional results and exceeding our clients' expectations. With our proven track record of
-                        success, you can trust us to take your business to new heights.</p>
-                    <ul class="socialmedia">
-                        <li>
-                            <a href="https://www.facebook.com/profile.php?id=61552220380398">
-                                <i class="fa-brands fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/needle_ads/">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/company/103366697/admin/dashboard/">
-                                <i class="fa-brands fa-linkedin-in"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://in.pinterest.com/theneedleads/">
-                                <i class="fa-brands fa-pinterest-p"></i>
-                            </a>
-                        </li>
-                    </ul>
-
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
-                    <div class="footerlist">
-                        <h3>Explore</h3>
-                        <ul>
-                            <li>
-                                <a href="<?php echo $linkBase ?? ''; ?>index.php">Home</a>
-                            </li>
-                            <li>
-                                <a href="<?php echo $linkBase ?? ''; ?>about-us.php">About Us</a>
-                            </li>
-                            <li>
-                                <a href="<?php echo $linkBase ?? ''; ?>contact-us.php">Contact Us</a>
-                            </li>
-                            <li>
-                                <a href="<?php echo $linkBase ?? ''; ?>privacy-policy.php">Privacy Policy</a>
-                            </li>
-                            <li>
-                                <a href="<?php echo $linkBase ?? ''; ?>term-condition.php">Terms & Conditions</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
-                    <div class="footerlist">
-                        <h3>Services</h3>
-                        <ul>
-                            <li>
-                                <a href="<?php echo $linkBase ?? ''; ?>website-design.php">Website Design</a>
-                            </li>
-                            <li>
-                                <a href="<?php echo $linkBase ?? ''; ?>website-development.php">Website Development</a>
-                            </li>
-                            <li>
-                                <a href="<?php echo $linkBase ?? ''; ?>mobile-app-development.php">Mobile Application</a>
-                            </li>
-                            <li>
-                                <a href="<?php echo $linkBase ?? ''; ?>email-marketing.php">Email Marketing</a>
-                            </li>
-                            <li>
-                                <a href="<?php echo $linkBase ?? ''; ?>ppc-company-delhi.php">Google Ads</a>
-                            </li>
-                            <li>
-                                <a href="<?php echo $linkBase ?? ''; ?>social-media-marketing.php">SMM</a>
-                            </li>
-                            <li>
-                                <a href="<?php echo $linkBase ?? ''; ?>seo-company-janakpuri.php">SEO Services</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="footerlist contactinfo">
-                        <h3>Address</h3>
-                        <ul class="pl02">
-                            <li class="pl0">
-                                <h4>Head Branch</h4>
-                                <ul>
-                                    <li><a href="https://maps.app.goo.gl/eeYEakh6bU2eWKe27"><i class="fa fa-map-marker"
-                                                aria-hidden="true"></i> 146-C Hastsal, Uttam Nagar, Delhi-110059 <br>
-                                            Near Kendriya Vidyalaya</a></li>
-                                    <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i> Plot No 202,
-                                            Phase 8B, Industrial Area, Sector 74, Sahibzada Ajit Singh Nagar, Punjab
-                                            140308</a></li>
-                                    <li><a href="tel:+918750500075"><i class="fa fa-phone" aria-hidden="true"></i>
-                                            +91-8750500075</a></li>
-                                </ul>
-                                <ul>
-
-                                </ul>
-                            </li>
-                            <li class="pl0">
-                                <h4>Branch Office</h4>
-                                <ul>
-                                    <li><a href="https://maps.app.goo.gl/e26D5JVerMapDFKt9"><i class="fa fa-map-marker"
-                                                aria-hidden="true"></i> 60 Goodwin Drive, North Brunswick, New Jersey
-                                            08902 10 Briggs Ave Monroe NJ 08831</a></li>
-                                    <li><a href="tel:+17027276095"><i class="fa fa-phone" aria-hidden="true"></i>
-                                            +1(702) 727-6095</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="pl0">
-                                <h4>UK Office</h4>
-                                <ul>
-                                    <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i> 20 Dowson Close
-                                            Se5 8AS London</a></li>
-                                    <li><a href="tel:+442046022672"><i class="fa fa-phone" aria-hidden="true"></i> +44
-                                            20 4602 2672</a></li>
-                                </ul>
-                            </li>
-
-                        <ul><li>
-                            <li>
-                                <a href="mailto:info@theneedleads.com"><i class="fa fa-envelope" aria-hidden="true"></i>
-                                    info@theneedleads.com</a>
-                            </li>
-
-                            </li>
-                            </ul>
-                        </ul>
-                    </div>
-                </div>
-
-                
-
-
-
-            </div>
-    </div>
-</footer> -->
-
-
-
-<footer class="sectionpadding">
-    <div class="outeroffooter">
+<footer class="footer_mainbox text-white">
+    <div class="container pt-4">
         <div class="row">
-
-            <!-- Logo & About -->
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+            <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
                 <div class="footerlogo">
                     <a href="<?php echo $linkBase ?? ''; ?>index.php">
                         <img src="<?php echo $assetBase ?? ''; ?>assets/img/sitelogo.png">
                     </a>
                 </div>
-
-                <p class="pt-3 ps-1">
+                <p>
                     At NeedleAds Technology, we pride ourselves on our commitment to delivering
                     exceptional results and exceeding our clients' expectations. With our proven
                     track record of success, you can trust us to take your business to new heights.
                 </p>
-
                 <ul class="socialmedia">
                     <li>
                         <a href="https://www.facebook.com/profile.php?id=61552220380398">
@@ -215,9 +35,7 @@
                     </li>
                 </ul>
             </div>
-
-            <!-- Explore -->
-            <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
                 <div class="footerlist">
                     <h3>Explore</h3>
                     <ul>
@@ -229,15 +47,16 @@
                     </ul>
                 </div>
             </div>
-
-            <!-- Services -->
-            <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
                 <div class="footerlist">
+
                     <h3>Services</h3>
                     <ul>
                         <li><a href="<?php echo $linkBase ?? ''; ?>website-design.php">Website Design</a></li>
-                        <li><a href="<?php echo $linkBase ?? ''; ?>website-development.php">Website Development</a></li>
-                        <li><a href="<?php echo $linkBase ?? ''; ?>mobile-app-development.php">Mobile Application</a></li>
+                        <li><a href="<?php echo $linkBase ?? ''; ?>website-development.php">Website Development</a>
+                        </li>
+                        <li><a href="<?php echo $linkBase ?? ''; ?>mobile-app-development.php">Mobile
+                                Application</a></li>
                         <li><a href="<?php echo $linkBase ?? ''; ?>email-marketing.php">Email Marketing</a></li>
                         <li><a href="<?php echo $linkBase ?? ''; ?>ppc-company-delhi.php">Google Ads</a></li>
                         <li><a href="<?php echo $linkBase ?? ''; ?>social-media-marketing.php">SMM</a></li>
@@ -245,90 +64,113 @@
                     </ul>
                 </div>
             </div>
+        </div>
+    </div>
 
-            <!-- Address -->
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                <div class="footerlist contactinfo">
-                    <h3>Address</h3>
 
-                    <ul class="pl02">
-                        <!-- Head Branch -->
-                        <li class="pl0">
-                            <h4>Head Branch</h4>
-                            <ul>
-                                <li>
-                                    <a href="https://maps.app.goo.gl/eeYEakh6bU2eWKe27">
-                                        <i class="fa fa-map-marker"></i>
-                                        146-C Hastsal, Uttam Nagar, Delhi-110059 <br>
-                                        Near Kendriya Vidyalaya
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <i class="fa fa-map-marker"></i>
-                                        Plot No 202, Phase 8B, Industrial Area, Sector 74,
-                                        Sahibzada Ajit Singh Nagar, Punjab 140308
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="tel:+918750500075">
-                                        <i class="fa fa-phone"></i> +91-8750500075
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
 
-                        <!-- Branch Office -->
-                        <li class="pl0">
-                            <h4>Branch Office</h4>
-                            <ul>
-                                <li>
-                                    <a href="https://maps.app.goo.gl/e26D5JVerMapDFKt9">
-                                        <i class="fa fa-map-marker"></i>
-                                        60 Goodwin Drive, North Brunswick, New Jersey 08902
-                                        <br>10 Briggs Ave Monroe NJ 08831
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="tel:+17027276095">
-                                        <i class="fa fa-phone"></i> +1 (702) 727-6095
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
+    <div class="footer_bottom">
+        <div class="container  mt-4 pb-4">
+            <div class="row">
+                <h3>Address</h3>
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <div class="footerlist">
+                        <ul>
+                            
+                            <li class="pl0">
+                                <h4>Head Branch</h4>
+                                <ul>
+                                    <li>
+                                        <a href="https://maps.app.goo.gl/eeYEakh6bU2eWKe27">
+                                            <i class="fa fa-map-marker"></i>
+                                            146-C Hastsal, Uttam Nagar, Delhi-110059 <br>
+                                            Near Kendriya Vidyalaya
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://maps.app.goo.gl/DXKfvBm4qYamuAXA6">
+                                            <i class="fa fa-map-marker"></i>
+                                            Plot No 202, Phase 8B, Industrial Area, Sector 74,
+                                            Sahibzada Ajit Singh Nagar, Punjab 140308
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="tel:+918750500075">
+                                            <i class="fa fa-phone"></i> +91-8750500075
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
 
-                        <!-- UK Office -->
-                        <li class="pl0">
-                            <h4>UK Office</h4>
-                            <ul>
-                                <li>
-                                    <a href="">
-                                        <i class="fa fa-map-marker"></i>
-                                        20 Dowson Close, SE5 8AS, London
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="tel:+442046022672">
-                                        <i class="fa fa-phone"></i> +44 20 4602 2672
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <div class="footerlist">
+                       <h4>Branch Office</h4>
+                        <ul>
+                            <li class="pl0">
+                                
+                                <ul>
+                                    <li>
+                                        <a href="https://maps.app.goo.gl/e26D5JVerMapDFKt9">
+                                            <i class="fa fa-map-marker"></i>
+                                            60 Goodwin Drive, North Brunswick, New Jersey 08902
+                                            <br>10 Briggs Ave Monroe NJ 08831
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="tel:+17027276095">
+                                            <i class="fa fa-phone"></i> +1 (702) 727-6095
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
-                        <!-- Email -->
-                        <li class="pl0">
-                            <a href="mailto:info@theneedleads.com">
-                                <i class="fa fa-envelope"></i> info@theneedleads.com
-                            </a>
-                        </li>
-                    </ul>
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <div class="footerlist">
+                        <h4>UK Office</h4>
+                        <ul>
+                            <li class="pl0">
+                              
+                                <ul>
+                                    <li>
+                                        <a href="https://maps.app.goo.gl/or4NQT1aXDBDmuFc6">
+                                            <i class="fa fa-map-marker"></i>
+                                            20 Dowson Close, SE5 8AS, London
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="tel:+442046022672">
+                                            <i class="fa fa-phone"></i> +44 20 4602 2672
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="pl0">
+                                <a href="mailto:info@theneedleads.com">
+                                    <i class="fa fa-envelope"></i> info@theneedleads.com
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+        </div>
+    </div>
 
+
+    <div class="outerofcopy">
+        <div class="container">
+            <p>Copyright © 2024 All Rights Reserved by <a href="https://www.theneedleads.com/"
+                    style="color:#fff; text-decoration: none;">@NeedleAds Technology</a></p>
         </div>
     </div>
 </footer>
-
 <!--Start of Tawk.to Script-->
 <!-- <script type="text/javascript">
 var Tawk_API = Tawk_API || {},
@@ -344,24 +186,9 @@ var Tawk_API = Tawk_API || {},
 })();
 </script> -->
 
-<!-- footer end -->
-
-<!-- copyright start -->
-<div class="outerofcopy">
-    <div class="container">
-        <p>Copyright © 2024 All Rights Reserved by <a href="https://www.theneedleads.com/"
-                style="color:#fff; text-decoration: none;">@NeedleAds Technology</a></p>
-    </div>
-</div>
-<!-- copyright end -->
-<script type="text/javascript" src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-<!-- =====================================owl slider======================= -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
 </script>
-<!-- =====================================owl slider======================= -->
 <script>
 function makeContact() {
     var phoneNumber = "+918750500075"; // your number
@@ -651,3 +478,6 @@ function makeCallOrWhatsApp() {
     mirror: true    
   });
 </script>
+
+</body>
+</html>
