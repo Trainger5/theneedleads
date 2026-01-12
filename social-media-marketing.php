@@ -43,7 +43,7 @@ $canonical_url = "https://www.theneedleads.com/social-media-marketing.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <p class="mb-0">NeedleAds Technology is the best <a
+                        <p class="mb-0 text-justify">NeedleAds Technology is the best <a
                                 href="https://www.theneedleads.com/social-media-marketing.php">social media marketing
                                 agency in Delhi.</a> With our expertise in social media marketing, we help businesses in
                             Delhi and beyond achieve their digital marketing goals and boost their online presence. As a

@@ -46,7 +46,7 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-kolkata.ph
                         <div class="sectionheading">
                             <h2>Tailored Website Design Company in Kolkata</h2>
                         </div>
-                        <p>Discover tailored website design Company in Kolkata, at NeedleAds Technology, the leading web
+                        <p class="text-justify">Discover tailored website design Company in Kolkata, at NeedleAds Technology, the leading web
                             design company in Kolkata. Our dedicated team of designers and developers specializes in
                             creating captivating websites that resonate with your audience and drive results for your
                             business. From intuitive user interfaces to seamless navigation, we ensure that your website

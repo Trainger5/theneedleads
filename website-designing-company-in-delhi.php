@@ -70,18 +70,18 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-delh
                         <div class="sectionheading">
                             <h2>Building Mobile-Friendly Websites with Delhi's Web Design Experts</h2>
                         </div>
-                        <p>Everyone has a mobile in their hands! If your website doesn't look good on mobile, you're
+                        <p class="text-justify">Everyone has a mobile in their hands! If your website doesn't look good on mobile, you're
                             losing customers! NeedleAds Technology, a renowned <a
                                 href="https://www.theneedleads.com/website-designing-company-in-delhi.php">Website
                                 Designing Company In Delhi</a> with over 12 years of experience, makes it easy for you
                             to create mobile-friendly websites.</p>
-                        <p>Our expert team creates websites that look great on any screen size so all your visitors get
+                        <p class="text-justify">Our expert team creates websites that look great on any screen size so all your visitors get
                             the best experience.</p>
-                        <p>Whether you are looking for a website design and development company in Delhi, NeedleAds
+                        <p class="text-justify">Whether you are looking for a website design and development company in Delhi, NeedleAds
                             Technology offers multiple <a
                                 href="https://www.theneedleads.com/website-design-packages.php">website design
                                 packages</a> that suit your budget and needs.</p>
-                        <p>We make website design simple so you can focus on running your business. Contact NeedleAds
+                        <p class="text-justify">We make website design simple so you can focus on running your business. Contact NeedleAds
                             Technology today and learn how our expertise can create a mobile-friendly website that moves
                             you forward!</p>
                     </div>
@@ -136,21 +136,21 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-delh
                         <div class="sectionheading">
                             <h3>Trusted Website Development Company in Delhi: Your Website Partner</h3>
                         </div>
-                        <p>Finding a reliable and professional web development partner is crucial for your business
+                        <p class="text-justify">Finding a reliable and professional web development partner is crucial for your business
                             success. As a leading Web Development Agency in Delhi, we are dedicated to delivering
                             top-notch web solutions tailored to your unique needs. Our team of experts is committed to
                             transforming your ideas into reality, ensuring your online presence is compelling and
                             engaging.</p>
-                        <p>As a trusted Website Development Company in Delhi, we offer a comprehensive range of
+                        <p class="text-justify">As a trusted Website Development Company in Delhi, we offer a comprehensive range of
                             services, including custom website design, e-commerce development, and content management
                             systems. Our goal is to create websites that are visually appealing, highly functional, and
                             user-friendly. We understand the importance of a seamless user experience and strive to
                             enhance your digital footprint.</p>
-                        <p>Our approach is simple and transparent. We work closely with you to understand your business
+                        <p class="text-justify">Our approach is simple and transparent. We work closely with you to understand your business
                             objectives and deliver solutions that align with your vision. Our affordable pricing ensures
                             that businesses of all sizes can benefit from our expertise without compromising quality.
                         </p>
-                        <p>Choosing our Web Development Agency in Delhi means partnering with a team that values your
+                        <p class="text-justify">Choosing our Web Development Agency in Delhi means partnering with a team that values your
                             success. We are dedicated to ongoing support and maintenance to keep your website running
                             smoothly. Trust us to be your reliable Website Development Company in Delhi, and let us help
                             you achieve your online goals with ease and confidence.</p>

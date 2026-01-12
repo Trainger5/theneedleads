@@ -46,11 +46,11 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-gurg
                         <div class="sectionheading">
                             <h2>Affordable Website Designing Company in Gurgaon</h2>
                         </div>
-                        <p>NeedleAds Technology is a leading <b>website designing company in Gurgaon</b>, specializing
+                        <p class="text-justify">NeedleAds Technology is a leading <b>website designing company in Gurgaon</b>, specializing
                             in creating innovative and user-friendly websites. Our team of skilled designers and
                             developers has a deep understanding of the latest trends and technologies in web design,
                             ensuring that your website stands out in the digital landscape.</p>
-                        <p>From responsive design to custom graphics, we offer a wide range of services to meet your
+                        <p class="text-justify">From responsive design to custom graphics, we offer a wide range of services to meet your
                             unique needs. Whether you're a small business looking to establish your online presence or a
                             large corporation in need of a complex e-commerce platform, we have the expertise and
                             experience to bring your vision to life.</p>

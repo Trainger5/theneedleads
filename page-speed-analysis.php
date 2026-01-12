@@ -76,13 +76,13 @@ header("Location:thankyou.php");
                         <div class="sectionheading">
                             <h2>Is Your Website Page Speed Slow?</h2>
                         </div>
-                        <p><b>Identify Page Speed Problems:</b> Check if your website has slow loading times that
+                        <p class="text-justify"><b>Identify Page Speed Problems:</b> Check if your website has slow loading times that
                             may harm user experience and search engine rankings.</p>
-                        <p><b>SEO Implications:</b> Recognize the impact of slow page speed on SEO, such as lower
+                        <p class="text-justify"><b>SEO Implications:</b> Recognize the impact of slow page speed on SEO, such as lower
                             rankings and reduced organic traffic.</p>
-                        <p><b>User Experience:</b> Understand how slow page speed can result in higher bounce rates
+                        <p class="text-justify"><b>User Experience:</b> Understand how slow page speed can result in higher bounce rates
                             and decreased conversion rates, negatively affecting user experience.</p>
-                        <p class="mb-0"><b>Solutions and Suggestions:</b> Get actionable advice to boost your
+                        <p class="mb-0 text-justify"><b>Solutions and Suggestions:</b> Get actionable advice to boost your
                             website's page speed and improve user engagement.</p>
                     </div>
                 </div>

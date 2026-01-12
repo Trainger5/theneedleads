@@ -1,0 +1,112 @@
+header.navigation {
+    /* padding: 20px 0px; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+header.navigation.header-hidden {
+    transform: translateY(-100%);
+    opacity: 0;
+    pointer-events: none;
+}
+
+header.navigation .container {
+    position: relative;
+}
+
+.brand {
+    width: 250px;
+}
+
+.brand img {
+    width: 100%;
+}
+.header-top-info {
+    font-size: 15px;
+    font-weight:600;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-shadow: 0px 0px 4px 2px #f47a24;
+    padding: 10px 100px;
+    max-height: 60px;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease;
+}
+
+.header-top-info.header-top-info--hidden {
+    max-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    opacity: 0;
+    box-shadow: none;
+}
+
+.header-top-info i {
+    color: #ffa500;
+    margin-right: 4px;
+}
+
+.header-top-info a {
+    color: #000;
+    text-decoration: none;
+}
+
+.header-top-info a:hover {
+    color: #f47a24;
+    text-decoration: underline;
+}
+
+.header-top-info .separator {
+    margin: 0 4px;
+    color: #999;
+}
+
+.header-hover-zone {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 18px;
+    z-index: 1001;
+}
+
+.header_inner_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+.headermenu a {
+    background: #f47a24 !important;
+    padding: 8px 23px !important;
+    border-radius: 60px;
+    color: #fff !important;
+    line-height: 2;
+    margin-top: 10px;
+}
+
+.headermenu:hover a {
+    background: #000 !important;
+}
+
+@media only screen and (max-width: 1200px) {
+    .headermenu a {
+        padding: 0 30px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .headermenu {
+        display: none;
+    }
+}
+

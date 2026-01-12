@@ -46,7 +46,7 @@ $canonical_url = "https://www.theneedleads.com/local-seo-services.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <p class="mb-0">NeedleAds Technology is your go-to destination for top-notch local SEO services
+                        <p class="mb-0 text-justify">NeedleAds Technology is your go-to destination for top-notch local SEO services
                             in Janakpuri. As a leading <a
                                 href="https://www.theneedleads.com/local-seo-services.php">local SEO company in
                                 Janakpuri</a>, we specialize in helping businesses improve their online visibility and

@@ -42,12 +42,12 @@ $canonical_url = "https://www.theneedleads.com/about-us.php";
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                         <div class="aboutcontent">
-                            <p>NeedleAds Technology is a leading <a href="https://www.theneedleads.com/">digital
+                            <p class="text-justify">NeedleAds Technology is a leading <a href="https://www.theneedleads.com/">digital
                                     marketing company in Janakpuri</a>, Delhi, dedicated to providing innovative and
                                 results-driven digital marketing solutions to businesses of all sizes. With a focus on
                                 creativity, technology, and customer satisfaction, we strive to be your trusted partner
                                 in the digital world.</p>
-                            <p>Since 2012, NeedleAds Technology has been at the forefront of delivering innovative
+                            <p class="text-justify">Since 2012, NeedleAds Technology has been at the forefront of delivering innovative
                                 digital solutions that authorize businesses to thrive in the online world. Our passion
                                 for technology and commitment to excellence drives us to provide cutting-edge websites,
                                 robust web applications, and tailored digital marketing strategies that exceed our

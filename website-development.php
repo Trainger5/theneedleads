@@ -62,7 +62,7 @@ $canonical_url = "https://www.theneedleads.com/website-development.php";
                         <div class="sectionheading">
                             <h2>Our Services</h2>
                         </div>
-                        <p>At NeedleAds Technology, we offer comprehensive web development services in Janakpuri that
+                        <p class="text-justify">At NeedleAds Technology, we offer comprehensive web development services in Janakpuri that
                             are tailored to meet your unique business needs. Whether you're a start-up looking to
                             establish your online presence or an established business seeking to revamp your website, we
                             have the expertise and experience to deliver results.</p>

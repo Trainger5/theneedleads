@@ -28,6 +28,8 @@
     <link rel="stylesheet" href="<?php echo $assetBase ?? ''; ?>assets/css/style.css">
     <link rel="stylesheet" href="<?php echo $assetBase ?? ''; ?>assets/css/responsive.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $assetBase ?? ''; ?>assets/css/menu.css">
+    <link rel="stylesheet" href="<?php echo $assetBase ?? ''; ?>assets/css/header.css">
+    <link rel="stylesheet" href="<?php echo $assetBase ?? ''; ?>assets/css/footer.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/266dcfee24.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -106,37 +108,37 @@
         </div>
     </div>
 
-    <!-- Scrolling Info Bar -->
-    <div style="background-color: #fff; border-bottom: 2px solid orange; padding: 8px 0;">
-        <marquee behavior="scroll" direction="left" scrollamount="5"
-            style="color: #000; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 15px;">
-            Call Us for Flat 20% OFF &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-            <i class="fa-solid fa-phone" style="color: #ffa500;"></i> Sales: <a href="tel:+919717107250"
-                style="color:#000; text-decoration:none;">+91-9717107250</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-            <i class="fa-solid fa-phone" style="color: #ffa500;"></i> Inquiry: <a href="tel:+918447967520"
-                style="color:#000; text-decoration:none;">+91-8447967520</a>
-        </marquee>
-    </div>
+    <div class="header-hover-zone"></div>
     <header class="navigation">
-        <div class="container">
+        <!-- <div class="container"> -->
+            <div class="header-top-info">
+    <!-- <span>Call Us for Flat 20% OFF</span> -->
+    <!-- <span class="separator">|</span> -->
+    <span><i class="fa-solid fa-phone"></i> Sales: <a href="tel:+919717107250">+91-9717107250</a></span>
+    <span class="separator">|</span>
+    <span class="d-none d-md-block"><i class="fa-solid fa-phone"></i> Inquiry: <a href="tel:+918447967520">+91-8447967520</a></span>
+    <span class="separator">|</span>
+    <span><i class="fa-solid fa-envelope"></i> <a href="mailto:info@theneedleads.com">info@theneedleads.com</a></span>
+</div>
+
             <div class="header_inner_box">
                 <div class="brand">
                     <a href="<?php echo $linkBase ?? ''; ?>index.php"><img src="<?php echo $assetBase ?? ''; ?>assets/img/sitelogo.png" alt="Digital marketing Agency"></a>
                 </div>
                 <nav>
                     <div class="nav-mobile"><a id="navbar-toggle" href="javascript:void()"><span></span></a></div>
-                    <ul class="nav-list">
+                    <ul class="nav-list mobile_list">
                         <li>
                             <a href="<?php echo $linkBase ?? ''; ?>index.php">Home</a>
                         </li>
                         <li class="services_dropdown">
-                            <a href="javascript:void()">Services <i class="fa fa-sort-desc setofdowntop"
+                            <a href="javascript:void()" id="drop">Services <i class="fa fa-sort-desc setofdowntop"
                                     aria-hidden="true"></i></a>
-                            <ul class="services_dropdown_box">
+                            <ul class="services_dropdown_box mobile_dropdown" id="dropshow">
                                 <li>
                                     <a href="<?php echo $linkBase ?? ''; ?>seo-company-janakpuri.php">SEO Services</a>
                                 </li>
-                                <li class="navdrop">
+                                <li class="navdrop mobile_dropdown">
                                     <a href="<?php echo $linkBase ?? ''; ?>website-design.php">Website Design</a>
                                     <i class="fa fa-sort-desc setofdown" aria-hidden="true" id="droptwo"></i>
                                     <ul class="childdrop" id="dropshowtwo">
@@ -178,17 +180,16 @@
                             <a href="<?php echo $linkBase ?? ''; ?>Products.php" id="dropftwo" class="product">
                                 Products <i class="fa fa-sort-desc setofdowntop" aria-hidden="true"></i>
                             </a>
-                            <ul class="services_dropdown_box" id="dropshowftwo">
+                            <ul class="services_dropdown_box  mobile_dropdown" id="dropshowftwo">
                                 <li><a href="https://mailer123.com/" target="_blank">Mailer</a></li>
-                                <li><a href="#">Notify</a></li>
+                                <li><a href="https://pushads123.com/" target="_blank">Notify</a></li>
                             </ul>
                         </li>
 
                         <li class="services_dropdown">
-
-                            <a href="javascript:void()">Features <i class="fa fa-sort-desc setofdowntop"
+                            <a href="javascript:void()" id="dropf">Features <i class="fa fa-sort-desc setofdowntop"
                                     aria-hidden="true"></i></a>
-                            <ul class="services_dropdown_box">
+                            <ul class="services_dropdown_box mobile_dropdown" id="dropshowf">
                                 <li><a href="<?php echo $linkBase ?? ''; ?>free-seo-analysis.php">Free SEO Analysis</a></li>
                                 <li><a href="<?php echo $linkBase ?? ''; ?>page-speed-analysis.php">Page Speed Analysis</a></li>
                                 <li><a href="<?php echo $linkBase ?? ''; ?>google-penalty-analysis.php">Google Penalty Analysis</a></li>
@@ -217,7 +218,7 @@
                 </nav>
             </div>
 
-        </div>
+        <!-- </div> -->
     </header>
 
     <div class="call-back-1">

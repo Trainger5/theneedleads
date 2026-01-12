@@ -204,7 +204,7 @@ gtag('config', 'G-0GQ7EZTWNF');
         <div class="container">
             <div class="row row-gap-4 justify-content-center align-items-center hero_section">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
-                    <div class="bannercontent" data-aos="fade-right">
+                    <div class="bannercontent" data-aos="fade-up" data-aos-duration="800">
                         <h1>Best Digital Marketing Agency in Janakpuri, Delhi</h1>
                         <p>Looking to improve your brand's visibility? Partner with NeedleAds Technology! Our expert
                             team offers SEO, SMM, PPC, Web Design, and more. Contact us now!</p>
@@ -214,7 +214,7 @@ gtag('config', 'G-0GQ7EZTWNF');
                     </div>
                 </div>
 
-                <div class="col-xl-5 col-lg-5 col-md-7 col-sm-12 hero_right" data-aos="fade-left">
+                <div class="col-xl-5 col-lg-5 col-md-7 col-sm-12 hero_right" data-aos="fade-up" data-aos-duration="800">
                     <img src="./assets/img/hero_img.png" alt="">
                     <!-- <div class="bnrform">
                         <form action="bnr-form.php" method="POST" id="emailForm">
@@ -269,31 +269,31 @@ gtag('config', 'G-0GQ7EZTWNF');
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row Achieve_reverse">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-down">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/Marketing_Goals.png" alt="Digital Marketing Agency">
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-down">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
                         <div class="sectionheading section-paragraph ">
-                            <h2>Achieve Your Marketing Goals with NeedleAds Technologies</h2>
-                            <p>Are you looking for a reliable <a href="https://www.theneedleads.com/">digital
+                            <h2 data-aos="fade-up">Achieve Your Marketing Goals with NeedleAds Technologies</h2>
+                            <p class="text-justify" data-aos="fade-up" data-aos-duration="800" >Are you looking for a reliable <a href="https://www.theneedleads.com/">digital
                                     marketing agency in Janakpuri</a> that can elevate your online presence and
                                 boost your business growth? Look no further! NeedleAds Technology is here to help.
                             </p>
-                            <p>As the best digital marketing company in Janakpuri, we offer a comprehensive range of
+                            <p class="text-justify" data-aos="fade-up" data-aos-duration="800">As the best digital marketing company in Janakpuri, we offer a comprehensive range of
                                 services to meet all your digital marketing needs. Whether you need SEO, <a
                                     href="https://www.theneedleads.com/local-seo-services.php">Local SEO</a>, SMM,
                                 PPC, or Website Design services, we have the expertise to deliver outstanding
                                 results.</p>
-                            <p>Our team of experts is dedicated to providing you with personalized solutions
+                            <p class="text-justify" data-aos="fade-up" data-aos-duration="600">Our team of experts is dedicated to providing you with personalized solutions
                                 tailored to your specific requirements. We understand that every business is unique,
                                 and we work closely with you to develop strategies that align with your goals and
                                 objectives.</p>
-                            <p>Interested in learning more about our digital marketing services in Janakpuri?
+                            <p class="text-justify" data-aos="fade-up" data-aos-duration="500">Interested in learning more about our digital marketing services in Janakpuri?
                                 Contact us today at +91-8750500075, and let's discuss how we can help you achieve
                                 your business goals.</p>
                         </div>
@@ -311,25 +311,25 @@ gtag('config', 'G-0GQ7EZTWNF');
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
                         <div class="sectionheading">
-                            <h2>Google Channel Partner</h2>
+                            <h2 data-aos="fade-up" data-aos-duration="800">Google Channel Partner</h2>
                         </div>
-                        <p>Are you looking to promote your business to new heights? Joining forces with <a
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="800">Are you looking to promote your business to new heights? Joining forces with <a
                                 href="https://www.theneedleads.com/google-partner-india.php">Google Channel
                                 Partner</a> offers unparalleled opportunities for growth and innovation. Access
                             cutting-edge solutions like Google Workspace and <a href="https://cloud.google.com/">Google
                                 Cloud Platform</a> to stay ahead of the
                             curve. Benefit from premier support and resources tailored to your success, giving you
                             the tools and guidance to thrive in today's dynamic landscape.</p>
-                        <p> By aligning with Google, you instantly boost your credibility and reputation, attracting
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="700"> By aligning with Google, you instantly boost your credibility and reputation, attracting
                             more clients and solidifying your position in the market. Take advantage of the chance
                             to maximize your revenue potential and expand your business horizons. Choose to partner
                             with Google and unleash the full potential of your enterprise.</p>
-                        <div class="webbtnset">
+                        <div class="webbtnset" data-aos="fade-up" data-aos-duration="600">
                             <a href="google-partner-india.php">Explore Now</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/googlepartner.png" alt="Digital Marketing Agency">
@@ -347,15 +347,15 @@ gtag('config', 'G-0GQ7EZTWNF');
     <div class="outerofpackagesection">
         <div class="container">
             <div class="sectionheading">
-                <h2>Our Packages</h2>
+                <h2 data-aos="fade-up" data-aos-duration="800">Our Packages</h2>
             </div>
             <div class="row justify-content-center gap-2">
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12" data-aos="fade-up">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 mb-4 mb-md-0" data-aos="fade-up">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/pac2.png">
                         </div>
-                        <div class="servicecontent">
+                        <div class="servicecontent"> 
                             <h4>Google Ads PPC Package</h4>
                             <div class="webbtnset">
                                 <a href="ppc-packages.php">Read More</a>
@@ -363,7 +363,7 @@ gtag('config', 'G-0GQ7EZTWNF');
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12" data-aos="fade-down">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 mb-4 mb-md-0" data-aos="fade-down">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/pac3.png">
@@ -376,7 +376,7 @@ gtag('config', 'G-0GQ7EZTWNF');
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12" data-aos="fade-up">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 mb-4 mb-md-0" data-aos="fade-up">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/pac4.png">
@@ -439,29 +439,29 @@ gtag('config', 'G-0GQ7EZTWNF');
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row gy-3">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up-right">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
                         <div class="sectionheading">
-                            <h2>Best Digital Marketing Services in Delhi NCR</h2>
+                            <h2 data-aos="fade-up" data-aos-duration="800">Best Digital Marketing Services in Delhi NCR</h2>
                         </div>
-                        <p>Promote your brand's visibility and reach with our cutting-edge <a
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="700">Promote your brand's visibility and reach with our cutting-edge <a
                                 href="https://www.theneedleads.com/">digital marketing services in Delhi</a> and
                             Delhi NCR. As a leading digital marketing company, we understand the dynamic landscape
                             of online marketing and offer tailored solutions to meet your business goals.</p>
-                        <p>Our team of skilled professionals specializes in various digital marketing services in
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="600">Our team of skilled professionals specializes in various digital marketing services in
                             Delhi, including search engine optimization (SEO), <a
                                 href="https://www.theneedleads.com/ppc-company-delhi.php">pay-per-click</a> (PPC)
                             advertising, social media marketing, content creation, and more. Whether you're a
                             startup or a based enterprise, we have the expertise to help you achieve your goals.</p>
-                        <p>By leveraging the latest tools and techniques, we ensure your brand stands out in the
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="700">By leveraging the latest tools and techniques, we ensure your brand stands out in the
                             competitive digital space. From driving targeted traffic to your website to increasing
                             conversions and generating leads, our comprehensive solutions are designed to deliver
                             measurable results.</p>
-                        <p>Partner with us today and experience the power of strategic digital marketing to take
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="700">Partner with us today and experience the power of strategic digital marketing to take
                             your business to new heights!</p>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up-left">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img   src="assets/img/Digital_Marketing.png" alt="Digital Marketing Agency">
@@ -479,7 +479,7 @@ gtag('config', 'G-0GQ7EZTWNF');
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                     <div class="aboutcontent">
                         <div class="sectionheading">
-                            <h2 class="text-center">A Specialized Digital Marketing Agency in Delhi</h2>
+                            <h2 class="text-center" data-aos="fade-up" data-aos-duration="800">A Specialized Digital Marketing Agency in Delhi</h2>
                         </div>
                         <p class="text-center">Delhi, one of the busiest metropolises in the world, makes it
                             difficult for a business to stand out in the digital arena. We are one of the leading
@@ -516,7 +516,7 @@ gtag('config', 'G-0GQ7EZTWNF');
     <div class="outerofservicessection">
         <div class="container">
             <div class="sectionheading">
-                <h2>Our Offered Services</h2>
+                <h2 data-aos="fade-up" data-aos-duration="800">Our Offered Services</h2>
                 <p>The power of digital marketing with NeedleAds Technology! As a leading digital marketing agency
                     in Janakpuri, we offer a range of services, including SEO, SMM, PPC, and web design. Our team is
                     dedicated to helping businesses like yours succeed online. Whether you're looking to increase
@@ -590,7 +590,7 @@ gtag('config', 'G-0GQ7EZTWNF');
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
-                    <div class="callcontent">
+                    <div class="callcontent" data-aos="fade-up" data-aos-duration="800">
                         <h3>Ready To Speak With Our Marketing Expert?</h3>
                     </div>
                 </div>
@@ -616,28 +616,28 @@ gtag('config', 'G-0GQ7EZTWNF');
                     <div class="row">
                         <div class="col-12 col-lg-3 col-sm-6 col-md-6">
                             <div class="count-area-content">
-                                <div class="count-digit">96</div>
+                                <div class="count-digit counter-loaded">96</div>
                                 <span>+</span>
                                 <div class="count-title"> Client Retention </div>
                             </div>
                         </div>
                         <div class="col-12 col-lg-3 col-sm-6 col-md-6">
                             <div class="count-area-content">
-                                <div class="count-digit">12</div>
+                                <div class="count-digit counter-loaded">12</div>
                                 <span>+</span>
                                 <div class="count-title"> Years of Experience</div>
                             </div>
                         </div>
                         <div class="col-12 col-lg-3 col-sm-6 col-md-6">
                             <div class="count-area-content">
-                                <div class="count-digit">70</div>
+                                <div class="count-digit counter-loaded">70</div>
                                 <span>+</span>
                                 <div class="count-title">Profession</div>
                             </div>
                         </div>
                         <div class="col-12 col-lg-3 col-sm-6 col-md-6">
                             <div class="count-area-content">
-                                <div class="count-digit">690</div>
+                                <div class="count-digit counter-loaded">690</div>
                                 <span>+</span>
                                 <div class="count-title">Satisfied Clients</div>
                             </div>
@@ -653,8 +653,8 @@ gtag('config', 'G-0GQ7EZTWNF');
     <div class="outerofourpartner">
         <div class="container">
             <div class="sectionheading">
-                <h2>Our Partners</h2>
-                <p>Partner with NeedleAds Technology and join our roster of valued clients who trust us for
+                <h2 data-aos="fade-up" data-aos-duration="800">Our Partners</h2>
+                <p data-aos="fade-up" data-aos-duration="1000">Partner with NeedleAds Technology and join our roster of valued clients who trust us for
                     top-notch digital marketing solutions.</p>
             </div>
             <div class="owl-slider">
@@ -719,8 +719,8 @@ gtag('config', 'G-0GQ7EZTWNF');
     <div class="outerofindustriessection">
         <div class="container">
             <div class="sectionheading">
-                <h2>Industries We've Supported</h2>
-                <p>NeedleAds Technology has proudly supported a wide collection of industries, including E-Commerce,
+                <h2 data-aos="fade-up" data-aos-duration="800">Industries We've Supported</h2>
+                <p data-aos="fade-up" data-aos-duration="1000">NeedleAds Technology has proudly supported a wide collection of industries, including E-Commerce,
                     Real Estate, Hotels, Blogging, Food & Beverage, Schools, Doctors, Law Firms, Hospitals,
                     Logistics, Software Companies, Tour & Travel Agencies, and Sports Organizations. Our expertise
                     spans across diverse sectors, providing tailored advertising solutions for each unique industry.
@@ -827,56 +827,71 @@ gtag('config', 'G-0GQ7EZTWNF');
         </div>
     </div>
 </section>
+<?php
+// Load customer reviews from JSON file
+$reviews = [];
+$reviewsFile = __DIR__ . '/reviews.json';
+if (file_exists($reviewsFile)) {
+    $json = file_get_contents($reviewsFile);
+    $data = json_decode($json, true);
+    if (is_array($data)) {
+        $reviews = $data;
+    }
+}
+?>
 <section class="sectionpadding">
     <div class="outerofreview">
         <div class="container">
             <div class="sectionheading">
                 <h2>Customer Reviews</h2>
             </div>
+            <?php if (!empty($reviews)) : ?>
             <div class="owl-slider googlereview">
                 <div id="carouseltwo" class="owl-carousel">
+                    <?php foreach ($reviews as $review) : ?>
                     <div class="item">
                         <div class="reviewbox">
-                            <img src="assets/img/review/r1.jpg">
+                            <div class="review-header">
+                                <div class="review-avatar">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                </div>
+                                <div class="review-header-text">
+                                    <h3 class="reviewer-name">
+                                        <?php echo htmlspecialchars($review['reviewer_name'] ?? '', ENT_QUOTES, 'UTF-8'); ?>
+                                    </h3>
+                                    <?php if (!empty($review['reviewer_type'])) : ?>
+                                    <p class="reviewer-type">
+                                        <?php echo htmlspecialchars($review['reviewer_type'], ENT_QUOTES, 'UTF-8'); ?>
+                                    </p>
+                                    <?php endif; ?>
+                                    <?php if (!empty($review['review_date'])) : ?>
+                                    <p class="review-date">
+                                        <?php echo htmlspecialchars($review['review_date'], ENT_QUOTES, 'UTF-8'); ?>
+                                    </p>
+                                    <?php endif; ?>
+                                    <?php
+                                    $rating = isset($review['rating']) ? (int) $review['rating'] : 0;
+                                    if ($rating > 0) :
+                                    ?>
+                                    <div class="review-rating">
+                                        <?php for ($i = 1; $i <= 5; $i++) : ?>
+                                        <i class="fa fa-star<?php echo $i <= $rating ? '' : '-o'; ?>" aria-hidden="true"></i>
+                                        <?php endfor; ?>
+                                    </div>
+                                    <?php endif; ?>
+                                </div>
+                            </div>
+                            <?php if (!empty($review['review_text'])) : ?>
+                            <p class="review-text">
+                                <?php echo htmlspecialchars($review['review_text'], ENT_QUOTES, 'UTF-8'); ?>
+                            </p>
+                            <?php endif; ?>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="reviewbox">
-                            <img src="assets/img/review/r2.jpg">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="reviewbox">
-                            <img src="assets/img/review/r3.jpg">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="reviewbox">
-                            <img src="assets/img/review/r4.jpg">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="reviewbox">
-                            <img src="assets/img/review/r5.jpg">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="reviewbox">
-                            <img src="assets/img/review/r6.jpg">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="reviewbox">
-                            <img src="assets/img/review/r7.jpg">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="reviewbox">
-                            <img src="assets/img/review/r8.jpg">
-                        </div>
-                    </div>
+                    <?php endforeach; ?>
                 </div>
             </div>
+            <?php endif; ?>
             <div class="writereview">
                 <div class="webbtnset">
                     <a
@@ -891,17 +906,17 @@ gtag('config', 'G-0GQ7EZTWNF');
 <section class="sectionpadding bgsection contactformset">
     <div class="outerofcontactform">
         <div class="container">
-            <div class="row gy-3">
+            <div class="row gy-3 Your_Project">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="contactformimg">
-                        <img src="assets/img/Your Project.png">
+                        <img src="assets/img/your_project.png">
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="formcontent">
                         <div class="sectionheading">
-                            <h2>Let's Talk About Your Project</h2>
-                            <p>To start working with NeedleAds Technology, please fill out your information here to
+                            <h2 data-aos="fade-up" data-aos-duration="800">Let's Talk About Your Project</h2>
+                            <p data-aos="fade-up" data-aos-duration="700">To start working with NeedleAds Technology, please fill out your information here to
                                 send us a message. We will contact you as soon as possible.</p>
                         </div>
                         <div class="formset aboutsidimgwithform">
@@ -933,6 +948,7 @@ gtag('config', 'G-0GQ7EZTWNF');
         </div>
     </div>
 </section>
+
 <section class="sectionpadding">
     <div class="outerofourpartner1">
         <div class="container">
@@ -944,28 +960,28 @@ gtag('config', 'G-0GQ7EZTWNF');
                 <div id="carouseltwoo" class="owl-carousel">
                     <div class="item">
                         <div class="img1 text-center">
-                            <img src="assets/img/team/gourav.png" alt="team" title="team">
+                            <img src="assets/img/team/simardeepS.jpeg" alt="team" title="team">
                             <div class="contand">
-                                <h5>Gourav Jasuja</h5>
-                                <p>SEO Expert</p>
+                                <h5>Simardeep Singh</h5>
+                                <p>Digital Marketing Manager</p>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="img1 text-center">
-                            <img src="assets/img/team/sumrit.jpg" alt="team" title="team">
+                            <img src="assets/img/team/riyajudin.jpeg" alt="team" title="team">
                             <div class="contand">
-                                <h5>Sumrit Singh</h5>
-                                <p>Web Developer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="img1 text-center">
-                            <img src="assets/img/team/nchal.jpg" alt="team" title="team">
-                            <div class="contand">
-                                <h5>Anchal Dhiman </h5>
+                                <h5>Riyajudin </h5>
                                 <p>SEO Executive</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img1 text-center">
+                            <img src="assets/img/team/radhikaS.jpeg" alt="team" title="team">
+                            <div class="contand">
+                                <h5>Radhika Sharma</h5>
+                                <p>SEO Intern</p>
                             </div>
                         </div>
                     </div>
@@ -980,19 +996,19 @@ gtag('config', 'G-0GQ7EZTWNF');
                     </div>
                     <div class="item">
                         <div class="img1 text-center">
-                            <img src="assets/img/team/Ritu.jpg" alt="team" title="team">
+                            <img src="assets/img/team/amandeepS.png" alt="team" title="team">
                             <div class="contand">
-                                <h5>Ritu Chauhan</h5>
-                                <p>Business Developer</p>
+                                <h5>Amandeep Singh</h5>
+                                <p>Google Ads Executive</p>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="img1 text-center">
-                            <img src="assets/img/team/sweety.jpg" alt="team" title="team">
+                            <img src="assets/img/team/bhavika.jpeg" alt="team" title="team">
                             <div class="contand">
-                                <h5>Sweety Kumari</h5>
-                                <p>Business Developer</p>
+                                <h5>Bhavika</h5>
+                                <p>Graphic Designer</p>
                             </div>
                         </div>
                     </div>
@@ -1001,10 +1017,10 @@ gtag('config', 'G-0GQ7EZTWNF');
         </div>
     </div>
 </section>
-<section class="sectionpadding pt-0">
+<section class="sectionpadding pt-0" style="background: #f47a241f;">
     <div class="container">
         <div class="outerofpost">
-            <div class="sectionheading">
+            <div class="sectionheading" style="padding-top: 50px;">
                 <h2>Recent Blog</h2>
             </div>
             <div id="posts"></div>
@@ -1188,6 +1204,18 @@ document.addEventListener("DOMContentLoaded", function() {
             if (!response.ok) throw new Error("Failed to load posts");
             const posts = await response.json();
 
+            function resolvePostImage(path) {
+                if (!path) return "";
+                const s = String(path).trim();
+                if (!s) return "";
+                if (/^https?:\/\//i.test(s)) return s;
+                if (s.startsWith("/blog/")) return s;
+                if (s.startsWith("/")) return s;
+                if (s.startsWith("blog/assets/")) return s;
+                if (s.startsWith("assets/")) return "blog/" + s;
+                return "blog/" + s;
+            }
+
             function decodeHtmlEntities(str) {
                 const textarea = document.createElement('textarea');
                 textarea.innerHTML = str;
@@ -1205,32 +1233,39 @@ document.addEventListener("DOMContentLoaded", function() {
                 const postElement = document.createElement('div');
                 postElement.classList.add('post');
 
+                // Image thumbnail (if available)
+                if (post.post_image) {
+                    const img = document.createElement('img');
+                    img.src = resolvePostImage(post.post_image);
+                    img.alt = post.post_title || '';
+                    img.loading = 'lazy';
+                    postElement.appendChild(img);
+                }
+
+                const dateText = post.post_date
+                    ? new Date(post.post_date).toLocaleString()
+                    : "";
+
+                if (dateText) {
+                    const dateEl = document.createElement('p');
+                    dateEl.classList.add('post-date');
+                    dateEl.textContent = dateText;
+                    postElement.appendChild(dateEl);
+                }
+
                 const postTitle = document.createElement('h2');
                 postTitle.textContent = post.post_title || "";
                 postElement.appendChild(postTitle);
 
-                if (post.post_content) {
-                    const raw = post.post_content.toString();
-                    const decoded = decodeHtmlEntities(raw);
-                    const plainText = stripHtml(decoded);
-
-                    if (plainText) {
-                        const excerpt = document.createElement('p');
-                        const text = plainText.length > 180 ? plainText.slice(0, 177) + "..." : plainText;
-                        excerpt.textContent = text;
-                        postElement.appendChild(excerpt);
-                    }
-                }
-
-                const readMoreLink = document.createElement('a');
                 const slug = (post.post_name || post.slug || post.id || "").toString().trim();
-                // Use a path relative to the site root so it works
-                // both on localhost subfolders and on production
-                readMoreLink.href = "blog/post.php?id="
+                const postUrl = "blog/post.php?id="
                   + encodeURIComponent(post.id)
                   + "&slug=" + encodeURIComponent(slug);
-                readMoreLink.textContent = "Read More";
-                postElement.appendChild(readMoreLink);
+
+                postElement.style.cursor = "pointer";
+                postElement.addEventListener("click", function () {
+                    window.location.href = postUrl;
+                });
 
                 postsContainer.appendChild(postElement);
             });
@@ -1255,7 +1290,8 @@ function loadNotificationSDK() {
             await PN.init({
                 apiKey: API_KEY,
                 baseUrl: SERVER_URL,
-                serviceWorkerPath: '/pn-sw.js'
+                // Use a path relative to the current site root so it works from /theneedleads/
+                serviceWorkerPath: 'pn-sw.js'
             });
 
             console.log("✅ Push SDK ready");

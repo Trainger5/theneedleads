@@ -99,12 +99,12 @@ $canonical_url = "https://www.theneedleads.com/ppc-company-delhi.php";
                         <div class="sectionheading">
                             <h2>Boost Your PPC Campaigns with the Best PPC Company in Delhi</h2>
                         </div>
-                        <p>Looking for the best PPC campaigns? Let us tell you what a PPC campaign is. PPC campaigns
+                        <p class="text-justify">Looking for the best PPC campaigns? Let us tell you what a PPC campaign is. PPC campaigns
                             are paid adverts run on google to drive traffic and conversions to the website. In a PPC
                             campaign, a user comes to the website after clicking a PPC ad displayed on Google search
                             engine. So if you are looking to increase the sales of your business and generate leads
                             then PPC solutions are right for business and sales! </p>
-                        <p>Grab hold of such PPC adverts with us. We are a versatile <a
+                        <p class="text-justify">Grab hold of such PPC adverts with us. We are a versatile <a
                                 href="https://www.theneedleads.com/">digital marketing agency</a> located in Delhi
                             providing high performance PPC services in Delhi for companies and brands. A decade old
                             in making successful digital marketing strategies, we drive traffic, visibility and help
@@ -394,14 +394,14 @@ $canonical_url = "https://www.theneedleads.com/ppc-company-delhi.php";
                         <div class="sectionheading">
                             <h2>Why Choose NeedleAds Technology for Your PPC Services</h2>
                         </div>
-                        <p>NeedleAds Technology brings forth years of experience into the digital space. Combined
+                        <p class="text-justify">NeedleAds Technology brings forth years of experience into the digital space. Combined
                             with exposure to multiple projects and running PPC ads of different kinds, we are the
                             rockstars you need for your sales growth.</p>
-                        <p>NeedleAds Technology has a team of professionals that bring experience in growing the
+                        <p class="text-justify">NeedleAds Technology has a team of professionals that bring experience in growing the
                             marketing numbers to the table. A lot of businesses find it hard to identify channels
                             for selling their offering to the right customers online. We make things easy for every
                             client and help them become the brand by running campaigns that lead to sales.</p>
-                        <p>Ours is a clear approach of planning, analyzing and delivering what we offer. We provide
+                        <p class="text-justify">Ours is a clear approach of planning, analyzing and delivering what we offer. We provide
                             all PPC solutions and help our clients to make profits by selling their products. If you
                             are looking for a strong digital marketing strategy then we have the answer for you.</p>
 

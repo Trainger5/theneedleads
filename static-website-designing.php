@@ -45,7 +45,8 @@ $canonical_url = "https://www.theneedleads.com/static-website-designing.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <p class="mb-0">NeedleAds Technology is your premier goal for static website designing services
+                        <p class="mb-0 text-justify">NeedleAds Technology is your premier goal for static website
+                            designing services
                             in Delhi. As the best <a
                                 href="https://www.theneedleads.com/static-website-designing.php">static website
                                 designing company in Delhi</a>, we specialize in creating visually appealing and
@@ -183,7 +184,7 @@ $canonical_url = "https://www.theneedleads.com/static-website-designing.php";
 
 
 <!-- our services start -->
-<section class="sectionpadding bgsection pb-0">
+<section class="sectionpadding bgsection ">
     <div class="outerofservicessection">
         <div class="container">
             <div class="sectionheading">
@@ -246,15 +247,25 @@ $canonical_url = "https://www.theneedleads.com/static-website-designing.php";
                         </div>
                     </div>
                 </div>
-
-
-                <p class="sectionbottom">Contact NeedleAds Technology today for expert static website designing services
-                    in Delhi.</p>
             </div>
         </div>
     </div>
 </section>
 <!-- our services end -->
+
+
+<section class="sectionpadding mb-2">
+    <div class="outerofformsection aboutsidimgwithform">
+        <div class="container">
+            <h4 class="sectionbottom1 text-center"><b>Contact NeedleAds Technology today for expert static website
+                    designing services
+                    in Delhi.</b></h4>
+            <?php include './include/extras/lead-form-code.php';?>
+        </div>
+    </div>
+</section>
+
+
 
 <?php include './include/extras/website-design-our-location.php';?>
 <?php include './include/extras/form.php';?>
