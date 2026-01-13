@@ -393,6 +393,7 @@ $(document).ready(function() {
     // Features submenu (nested under About Us) - expand list when clicking label or icon
     $("#dropftwo, .navdrop-features > a").click(function(e) {
         e.preventDefault();
+        $(".navdrop-features").toggleClass("is-open");
         closeNestedSubMenus("#dropshowftwo");
         $("#dropshowftwo").slideToggle("slow");
     });
@@ -400,6 +401,7 @@ $(document).ready(function() {
     // Website Design submenu (nested under Services) - expand list when clicking label or icon
     $("#droptwo, .navdrop-webdesign > a").click(function(e) {
         e.preventDefault();
+        $(".navdrop-webdesign").toggleClass("is-open");
         closeNestedSubMenus("#dropshowtwo");
         $("#dropshowtwo").slideToggle("slow");
     });
