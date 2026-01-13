@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/website-design.php";
 ?>
 <?php include './include/header.php';?>
 
-<section class="bannersectionstr" style="
-    background: url(./assets/img/websitebnr.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner website_design_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -44,16 +41,18 @@ $canonical_url = "https://www.theneedleads.com/website-design.php";
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 cp cbg">
                         <div class="aboutcontent pltr">
-                            <div class="sectionheading">
+                            <div class="sectionheading" data-aos="fade-up">
                                 <h2>Your Premier Website Design Company in Janakpuri, Delhi</h2>
                             </div>
-                            <p class="text-justify">NeedleAds Technology is the best <a
-                                    href="https://www.theneedleads.com/website-design.php">website designing company in
+                            <p class="text-justify" data-aos="fade-up" data-aos-duration="800">NeedleAds Technology is
+                                the best <a href="https://www.theneedleads.com/website-design.php">website designing
+                                    company in
                                     Janakpuri</a>, Delhi. As a leading web design company in Janakpuri, we specialize in
                                 crafting stunning websites tailored to your unique requirements. Our team is dedicated
                                 to creating visually appealing and user-friendly websites that stand out in the digital
                                 landscape.</p>
-                            <p class="text-justify">At NeedleAds Technology, we prioritize SEO-friendly designs to provide maximum visibility
+                            <p class="text-justify" data-aos="fade-up" data-aos-duration="600">At NeedleAds Technology,
+                                we prioritize SEO-friendly designs to provide maximum visibility
                                 and reach for your online presence. Trust us to deliver top-notch web solutions that
                                 elevate your brand and drive results. Contact us today and let's bring your vision to
                                 life with our expert website designing services in Janakpuri.</p>
@@ -72,19 +71,22 @@ $canonical_url = "https://www.theneedleads.com/website-design.php";
                 <div class="row colre">
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 cp cbg">
                         <div class="aboutcontent pltr">
-                            <div class="sectionheading">
+                            <div class="sectionheading" data-aos="fade-up">
                                 <h2>Crafting Websites Responsive to All Devices</h2>
                             </div>
-                            <p class="text-justify">Crafting websites responsive to all devices is crucial in today's digital landscape. As a
+                            <p class="text-justify" data-aos="fade-up" data-aos-duration="800">Crafting websites
+                                responsive to all devices is crucial in today's digital landscape. As a
                                 leading website designing company in Janakpuri, we understand the importance of creating
                                 a seamless user experience across desktops, tablets, and mobile devices. Our expertise
                                 as a web design company in Janakpuri ensures that your website looks stunning and
                                 functions flawlessly, regardless of your visitors' devices.</p>
-                            <p>Our website designing company in Janakpuri uses the latest technologies and best
+                            <p data-aos="fade-up" data-aos-duration="700">Our website designing company in Janakpuri
+                                uses the latest technologies and best
                                 practices to create responsive websites that adapt to different screen sizes and
                                 resolutions. This approach improves the user experience, your website's visibility, and
                                 rankings on search engines.</p>
-                            <p class="text-justify">Whether you are a small business or a large corporation, having a responsive website is
+                            <p class="text-justify" data-aos="fade-up" data-aos-duration="600">Whether you are a small
+                                business or a large corporation, having a responsive website is
                                 essential in today's competitive market. Contact us today to learn more about our web
                                 design services in Janakpuri, and let us help you create a website that stands out on
                                 all devices.</p>
@@ -109,7 +111,7 @@ $canonical_url = "https://www.theneedleads.com/website-design.php";
     <div class="outerofmiddlecontent">
         <div class="container">
             <div class="middlecontentbox">
-                <div class="sectionheading">
+                <div class="sectionheading" data-aos="fade-up">
                     <h2>Does Color Play an Important Role in Website Design?</h2>
                 </div>
                 <p>Color plays a crucial role in website design, as it can evoke emotions, convey messages, and create a
@@ -131,7 +133,7 @@ $canonical_url = "https://www.theneedleads.com/website-design.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row alignset">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/ab.png" alt="Website Design for online business">
@@ -141,15 +143,17 @@ $canonical_url = "https://www.theneedleads.com/website-design.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up">
                             <h2>Is It Right to Get a Website Design Done for an Online Business?</h2>
                         </div>
-                        <p class="text-justify">Getting a website design done for an online business is not just right; it's essential. In
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="800">Getting a website design done
+                            for an online business is not just right; it's essential. In
                             today's digital age, your website is often the first point of contact for possible
                             customers. A well-designed website can help you show credibility, attract more visitors, and
                             convert them into customers. It also provides a platform to showcase your products or
                             services and reach a wider audience.</p>
-                        <p class="mb-0 text-justify">At our web design company, we specialize in creating stunning websites that are
+                        <p class="mb-0 text-justify" data-aos="fade-up" data-aos-duration="600">At our web design
+                            company, we specialize in creating stunning websites that are
                             tailored to meet your business needs. Whether you're starting a new online business or
                             looking to revamp your existing website, we can help. <a
                                 href="https://www.theneedleads.com/contact-us.php">Contact us today</a> to discuss your
@@ -166,7 +170,7 @@ $canonical_url = "https://www.theneedleads.com/website-design.php";
     <div class="outerofservicessection">
         <div class="container">
             <div class="sectionheading">
-                <h2>Our Strategy for Website Design</h2>
+                <h2 data-aos="fade-up">Our Strategy for Website Design</h2>
                 <p>Our strategy for website design focuses on delivering visually appealing and functional websites that
                     drive results. Here's how we do it:</p>
             </div>
@@ -218,12 +222,12 @@ $canonical_url = "https://www.theneedleads.com/website-design.php";
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
-                    <div class="callcontent">
+                    <div class="callcontent" data-aos="fade-up">
                         <h3>Ready to boost your online presence? Contact us today for expert website design services.
                         </h3>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12" data-aos="fade-up" data-aos-duration="800">
                     <div class="callbtn">
                         <div class="webbtnset">
                             <a href="tel:+91-8750500075"><i class="fa fa-phone"></i> Contact Us Button</a>

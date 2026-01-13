@@ -20,11 +20,8 @@ gtag('config', 'AW-11492145247');
 </script>
 
 
-<section style="
-    background: url(./assets/img/seobanner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner seo_company_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">

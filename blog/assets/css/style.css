@@ -10,7 +10,7 @@ a { word-break: break-word; }
 .blog-container {
   max-width: 1200px;
   margin: auto;
-  padding: 40px 20px;
+  padding: 160px 20px 0px 20px;
 }
 
 /* Responsive grid:

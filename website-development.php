@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/website-development.php";
 ?>
 <?php include './include/header.php';?>
 
-<section class="bannersectionstr" style="
-    background: url(assets/img/website-development-bnr.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner website_development_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
@@ -49,7 +46,7 @@ $canonical_url = "https://www.theneedleads.com/website-development.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/about-website-devlopment.png" alt="web development services">
@@ -59,10 +56,10 @@ $canonical_url = "https://www.theneedleads.com/website-development.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up">
                             <h2>Our Services</h2>
                         </div>
-                        <p class="text-justify">At NeedleAds Technology, we offer comprehensive web development services in Janakpuri that
+                        <p class="text-justify" data-aos="fade-up" data-aos="fade-up" data-aos-duration="1100">At NeedleAds Technology, we offer comprehensive web development services in Janakpuri that
                             are tailored to meet your unique business needs. Whether you're a start-up looking to
                             establish your online presence or an established business seeking to revamp your website, we
                             have the expertise and experience to deliver results.</p>
@@ -78,11 +75,11 @@ $canonical_url = "https://www.theneedleads.com/website-development.php";
 <section class="sectionpadding bgsection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Our Services Include:</h2>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="800">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/customized.png">
@@ -94,7 +91,7 @@ $canonical_url = "https://www.theneedleads.com/website-development.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1000">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/responsive-design.png">
@@ -106,7 +103,7 @@ $canonical_url = "https://www.theneedleads.com/website-development.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/cutting-edge.png">
@@ -118,7 +115,7 @@ $canonical_url = "https://www.theneedleads.com/website-development.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="2000">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/i2.png">
@@ -146,7 +143,7 @@ $canonical_url = "https://www.theneedleads.com/website-development.php";
                     delivering exceptional results. Here's a glimpse into our nitty-gritty process:</p>
             </div>
             <div class="row alignset">
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/di1.png">
@@ -158,7 +155,7 @@ $canonical_url = "https://www.theneedleads.com/website-development.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-down" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/di2.png">
@@ -170,7 +167,7 @@ $canonical_url = "https://www.theneedleads.com/website-development.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/di3.png">
@@ -182,7 +179,7 @@ $canonical_url = "https://www.theneedleads.com/website-development.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-down" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/di4.png">
@@ -194,7 +191,7 @@ $canonical_url = "https://www.theneedleads.com/website-development.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/di5.png">
@@ -206,7 +203,7 @@ $canonical_url = "https://www.theneedleads.com/website-development.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices"   data-aos="fade-down" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/di6.png">

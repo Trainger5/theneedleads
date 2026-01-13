@@ -57,12 +57,8 @@ $canonical_url = "https://www.theneedleads.com/ppc-company-delhi.php";
 }
 </script>
 
-<section class="bannersectionstr" style="
-         background: url(assets/img/ppc-banner.jpg);
-         background-repeat: no-repeat;
-         background-size: cover;
-         ">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner ppc_delhi_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
@@ -87,7 +83,7 @@ $canonical_url = "https://www.theneedleads.com/ppc-company-delhi.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row alignset align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up"   >
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/ppc-campaigns.png" alt="PPC Campaigns">
@@ -96,20 +92,20 @@ $canonical_url = "https://www.theneedleads.com/ppc-company-delhi.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up">
                             <h2>Boost Your PPC Campaigns with the Best PPC Company in Delhi</h2>
                         </div>
-                        <p class="text-justify">Looking for the best PPC campaigns? Let us tell you what a PPC campaign is. PPC campaigns
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1100">Looking for the best PPC campaigns? Let us tell you what a PPC campaign is. PPC campaigns
                             are paid adverts run on google to drive traffic and conversions to the website. In a PPC
                             campaign, a user comes to the website after clicking a PPC ad displayed on Google search
                             engine. So if you are looking to increase the sales of your business and generate leads
                             then PPC solutions are right for business and sales! </p>
-                        <p class="text-justify">Grab hold of such PPC adverts with us. We are a versatile <a
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1200">Grab hold of such PPC adverts with us. We are a versatile <a
                                 href="https://www.theneedleads.com/">digital marketing agency</a> located in Delhi
                             providing high performance PPC services in Delhi for companies and brands. A decade old
                             in making successful digital marketing strategies, we drive traffic, visibility and help
                             you generate product sales through PPC. </p>
-                        <p>Don't struggle with sales and less conversion ratio as per the ROI spend. Make the best
+                        <p data-aos="fade-up" data-aos-duration="1400">Don't struggle with sales and less conversion ratio as per the ROI spend. Make the best
                             use of PPC and roll out campaigns with us that yield high conversion each time. As the
                             leading <a href="https://www.theneedleads.com/ppc-company-delhi.php">PPC agency in
                                 Delhi</a>, we strengthen the product through keyword research, proper positioning of
@@ -132,7 +128,7 @@ $canonical_url = "https://www.theneedleads.com/ppc-company-delhi.php";
     <div class="outerofmiddlecontent-1">
         <div class="container">
             <div class="sectionheading cerclesection">
-                <h2>Delhi's Top PPC Agency for Achieving Your Sales Goals</h2>
+                <h2 data-aos="fade-up">Delhi's Top PPC Agency for Achieving Your Sales Goals</h2>
                 <p>We are a confident bunch of professionals and the most sight-after PPC company in Delhi working
                     all through to make you stand tall in the competitive digital space. We are experts in nailing
                     all types of digital advertising. And this is why our campaigns hand out results. As an
@@ -287,8 +283,8 @@ $canonical_url = "https://www.theneedleads.com/ppc-company-delhi.php";
     <div class="outerofservicessection">
         <div class="container">
             <div class="sectionheading">
-                <h2>Watch Your Sales Soar with Our PPC Campaigns</h2>
-                <p style="width: 100%; font-weight:400;">When you are cluelessly looking for a PPC ad campaign
+                <h2 data-aos="fade-up" data-aos-duration="800">Watch Your Sales Soar with Our PPC Campaigns</h2>
+                <p style="width: 100%; font-weight:400;" data-aos="fade-up" data-aos-duration="1000">When you are cluelessly looking for a PPC ad campaign
                     partner, and have no idea how to launch a successful PPC ad campaign then we are here for your
                     rescue. As an experienced PPC agency in Delhi, we turn your sales goals into reality and bring
                     traffic that converts into sales numbers. Promote your products and services with our PPC
@@ -298,7 +294,7 @@ $canonical_url = "https://www.theneedleads.com/ppc-company-delhi.php";
                     regular basis.</p>
             </div>
             <div class="row alignset justify-content-center">
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/pi1.png">
@@ -310,7 +306,7 @@ $canonical_url = "https://www.theneedleads.com/ppc-company-delhi.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-down" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/bid-icon.png">
@@ -322,7 +318,7 @@ $canonical_url = "https://www.theneedleads.com/ppc-company-delhi.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/pii2.png">
@@ -334,7 +330,7 @@ $canonical_url = "https://www.theneedleads.com/ppc-company-delhi.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-down" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/live.png">
@@ -346,7 +342,7 @@ $canonical_url = "https://www.theneedleads.com/ppc-company-delhi.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices"   data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/pii5.png">
@@ -368,7 +364,7 @@ $canonical_url = "https://www.theneedleads.com/ppc-company-delhi.php";
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
-                    <div class="callcontent">
+                    <div class="callcontent" data-aos="fade-up">
                         <h3>Want to Run PPC Ads for Your Business?</h3>
                     </div>
                 </div>
@@ -391,17 +387,17 @@ $canonical_url = "https://www.theneedleads.com/ppc-company-delhi.php";
             <div class="row alignset">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up">
                             <h2>Why Choose NeedleAds Technology for Your PPC Services</h2>
                         </div>
-                        <p class="text-justify">NeedleAds Technology brings forth years of experience into the digital space. Combined
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1100">NeedleAds Technology brings forth years of experience into the digital space. Combined
                             with exposure to multiple projects and running PPC ads of different kinds, we are the
                             rockstars you need for your sales growth.</p>
-                        <p class="text-justify">NeedleAds Technology has a team of professionals that bring experience in growing the
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1300">NeedleAds Technology has a team of professionals that bring experience in growing the
                             marketing numbers to the table. A lot of businesses find it hard to identify channels
                             for selling their offering to the right customers online. We make things easy for every
                             client and help them become the brand by running campaigns that lead to sales.</p>
-                        <p class="text-justify">Ours is a clear approach of planning, analyzing and delivering what we offer. We provide
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1500">Ours is a clear approach of planning, analyzing and delivering what we offer. We provide
                             all PPC solutions and help our clients to make profits by selling their products. If you
                             are looking for a strong digital marketing strategy then we have the answer for you.</p>
 
@@ -423,7 +419,7 @@ $canonical_url = "https://www.theneedleads.com/ppc-company-delhi.php";
 <section class="sectionpadding bgsection ourservicestwo linkset">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>How We Help You Achieve Your Sales Goals</h2>
                 <p style="width: 100%; font-weight:400;">Sales of your products and services grow overnight if your
                     business takes the right path to increasing the product display on search engines. In display
@@ -432,7 +428,7 @@ $canonical_url = "https://www.theneedleads.com/ppc-company-delhi.php";
                 </p>
             </div>
             <div class="row justify-content-center row-gap-4">
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="800">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/pii2.png">
@@ -444,7 +440,7 @@ $canonical_url = "https://www.theneedleads.com/ppc-company-delhi.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/pi2.png">
@@ -456,7 +452,7 @@ $canonical_url = "https://www.theneedleads.com/ppc-company-delhi.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="2000">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/bid-icon.png">
@@ -468,7 +464,7 @@ $canonical_url = "https://www.theneedleads.com/ppc-company-delhi.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="2500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/search2.png">

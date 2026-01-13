@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/static-website-designing.php";
 ?>
 <?php include './include/header.php';?>
 
-<section class="bannersectionstr" style="
-    background: url(assets/img/static-website.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner Static_Website_Background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
@@ -30,12 +27,11 @@ $canonical_url = "https://www.theneedleads.com/static-website-designing.php";
 </section>
 
 
-<!-- about us start -->
 <section class="sectionpadding">
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row alignset align-items-center row-gap-4">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/as.png" alt="static website designing company in Delhi">
@@ -45,7 +41,8 @@ $canonical_url = "https://www.theneedleads.com/static-website-designing.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <p class="mb-0 text-justify">NeedleAds Technology is your premier goal for static website
+                        <p class="mb-0 text-justify" data-aos="fade-up">NeedleAds Technology is your premier goal for
+                            static website
                             designing services
                             in Delhi. As the best <a
                                 href="https://www.theneedleads.com/static-website-designing.php">static website
@@ -67,19 +64,18 @@ $canonical_url = "https://www.theneedleads.com/static-website-designing.php";
         </div>
     </div>
 </section>
-<!-- about us end -->
 
 <!-- our services start -->
 <section class="sectionpadding bgsection ourservicestwo">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up" data-aos-duration="800">
                 <h2>Expert Static Website Designing Services in Delhi</h2>
                 <p>At NeedleAds Technology, we offer a wide range of static website designing services in Delhi,
                     including</p>
             </div>
             <div class="row justify-content-center alignset agn">
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices"data-aos="fade-up" data-aos-duration="800">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/di2.png">
@@ -91,7 +87,7 @@ $canonical_url = "https://www.theneedleads.com/static-website-designing.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/ai4.png">
@@ -103,7 +99,7 @@ $canonical_url = "https://www.theneedleads.com/static-website-designing.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="2000">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/i3.png">
@@ -115,7 +111,7 @@ $canonical_url = "https://www.theneedleads.com/static-website-designing.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="2500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/cms.png">
@@ -133,11 +129,10 @@ $canonical_url = "https://www.theneedleads.com/static-website-designing.php";
 </section>
 <!-- our services end -->
 
-
 <section class="sectionpadding innerpagebox">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Why Choose NeedleAds Technology for Static Website Designing?</h2>
             </div>
             <div class="row alignset justify-content-center agn">
@@ -187,12 +182,11 @@ $canonical_url = "https://www.theneedleads.com/static-website-designing.php";
 <section class="sectionpadding bgsection ">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Our Process</h2>
-
             </div>
             <div class="row justify-content-center alignset agn">
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/consultation.png">
@@ -203,7 +197,7 @@ $canonical_url = "https://www.theneedleads.com/static-website-designing.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-down" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/di3.png">
@@ -214,7 +208,7 @@ $canonical_url = "https://www.theneedleads.com/static-website-designing.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/di4.png">
@@ -225,7 +219,7 @@ $canonical_url = "https://www.theneedleads.com/static-website-designing.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices"  data-aos="fade-down" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/testing.png">
@@ -236,7 +230,7 @@ $canonical_url = "https://www.theneedleads.com/static-website-designing.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-down" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/launch.png">
@@ -253,19 +247,17 @@ $canonical_url = "https://www.theneedleads.com/static-website-designing.php";
 </section>
 <!-- our services end -->
 
-
 <section class="sectionpadding mb-2">
     <div class="outerofformsection aboutsidimgwithform">
         <div class="container">
-            <h4 class="sectionbottom1 text-center"><b>Contact NeedleAds Technology today for expert static website
+            <h4 class="sectionbottom1 text-center" data-aos="fade-up"><b>Contact NeedleAds Technology today for expert
+                    static website
                     designing services
                     in Delhi.</b></h4>
             <?php include './include/extras/lead-form-code.php';?>
         </div>
     </div>
 </section>
-
-
 
 <?php include './include/extras/website-design-our-location.php';?>
 <?php include './include/extras/form.php';?>

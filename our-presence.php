@@ -6,11 +6,8 @@ $canonical_url = "https://www.theneedleads.com/our-presence.php";
 <?php include './include/header.php';?>
 
 
-<section class="bannersectionstr" style="
-    background: url(assets/img/our-presence.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner our_presence_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
@@ -35,7 +32,7 @@ $canonical_url = "https://www.theneedleads.com/our-presence.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row alignset">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/presence.png">
@@ -45,18 +42,18 @@ $canonical_url = "https://www.theneedleads.com/our-presence.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <p class="text-justify">Our Presence" epitomizes our commitment to being where it matters most—within
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1100">Our Presence" epitomizes our commitment to being where it matters most—within
                             communities, industries, and hearts. From bustling urban centers to tranquil rural
                             landscapes, our reach extends far and wide, bridging gaps and fostering connections.</p>
-                        <p class="text-justify">With offices strategically positioned across key regions, we anchor ourselves within the
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1200">With offices strategically positioned across key regions, we anchor ourselves within the
                             fabric of local economies, offering support, expertise, and opportunity. Our physical
                             presence serves as a testament to our dedication to serving clients with integrity and
                             professionalism.</p>
-                        <p class="text-justify">In the digital realm, our online presence amplifies our impact, reaching audiences across
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1500">In the digital realm, our online presence amplifies our impact, reaching audiences across
                             the globe with compelling content and innovative solutions. Through websites, social
                             media platforms, and digital campaigns, we engage with audiences, building relationships
                             and driving results.</p>
-                        <p class="text-justify">Our presence is more than just a footprint—it's a reflection of our values, our vision,
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1700">Our presence is more than just a footprint—it's a reflection of our values, our vision,
                             and our unwavering commitment to making a difference. Whether in person or online, we
                             strive to leave a lasting impression, enriching lives and empowering communities
                             wherever we go.</p>
@@ -72,19 +69,19 @@ $canonical_url = "https://www.theneedleads.com/our-presence.php";
     <div class="outerofservicessection">
         <div class="container">
             <div class="row justify-content-center alignset agn">
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="800">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/di2.png">
                         </div>
                         <div class="servicecontent">
                             <h4>Custom Website Design</h4>
-                            <p>We create custom static websites tailored to your specific requirements and brand
+                            <p >We create custom static websites tailored to your specific requirements and brand
                                 identity.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices"data-aos="fade-up" data-aos-duration="1200">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/ai4.png">
@@ -96,7 +93,7 @@ $canonical_url = "https://www.theneedleads.com/our-presence.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices"data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/i3.png">
@@ -108,7 +105,7 @@ $canonical_url = "https://www.theneedleads.com/our-presence.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices"data-aos="fade-up" data-aos-duration="1800">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/cms.png">

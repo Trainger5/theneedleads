@@ -22,7 +22,7 @@ p {
 
 .hero_right {
     position: relative;
-    margin-bottom: -110px;
+    margin-bottom: -95px;
 }
 
 img {
@@ -1361,18 +1361,132 @@ ul.ctglist li:before {
     border-color: #000;
 }
 
-/* body {
-    padding-top: 120px;
-} */
-
-/* img {
-    width: 100%;
-} */
-
+/*======================SEO SERVICES=============*/
+.seo_company_background{
+     background: url(../img/seobanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
 .outerofbanner {
-    padding-top: 100px;
+    padding-top: 160px;
 }
 
+/*======================website-design=============*/
+.website_design_background{
+    background: url(../img/websitebnr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+/*======================Static Website=============*/
+.Static_Website_Background{
+    background: url(../img/static-website.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+/*======================dynamic-website=============*/
+.dynamic_website_background{
+       background: url(../img/bannerdynamicpage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+/*======================ecommerce-website=============*/
+.ecommerce_website_background{
+    background: url(../img/e-commerce-bnr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+/*======================website-development=============*/
+.website_development_background{
+   background: url(../img/website-development-bnr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+/*======================website-maintenance=============*/
+.website_maintenance_background{
+    background: url(../img/website-maintance-bnr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+/*======================mobile-app-development=============*/
+.mobile_app_background{
+     background: url(../img/mobile-app-development-bnr.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+/*======================ppc-company-delhi=============*/
+.ppc_delhi_background{
+         background: url(../img/ppc-banner.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+    height: 500px;
+}
+/*======================local-seo-services=============*/
+.local_seo_background{
+     background: url(../img/localseo-bnr-page.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+/*======================email-marketing=============*/
+.email-marketing_background{
+    background: url(../img/email-marketing-bnr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+/*======================social-media-marketing=============*/
+.social_media_background{
+    background: url(../img/social-media-marketing-1-bnr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+/*======================free-seo-analysis=============*/
+.free_seo_background{
+    background: url(../img/seo-bnr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+/*======================page_speed=============*/
+.page_speed_background{
+    background: url(../img/page-speed-bnr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+/*======================google_penalty=============*/
+.google_penalty_background{
+    background: url(../img/google-ads.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+/*======================google_partner=============*/
+.google_partner_background{
+    background: url(../img/google-partner-india.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+/*======================our-presence=============*/
+.our_presence_background{
+    background: url(../img/our-presence.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
 .section-paragraph p {
     font-weight: 400 !important;
     margin: 0 !important;

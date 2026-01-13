@@ -7,11 +7,8 @@ $canonical_url = "https://www.theneedleads.com/local-seo-services.php";
 
 
 
-<section class="bannersectionstr" style="
-    background: url(assets/img/localseo-bnr-page.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner local_seo_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
@@ -36,7 +33,7 @@ $canonical_url = "https://www.theneedleads.com/local-seo-services.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row alignset align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/local-seo-about.png" alt="local SEO services in Janakpuri">
@@ -46,7 +43,7 @@ $canonical_url = "https://www.theneedleads.com/local-seo-services.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <p class="mb-0 text-justify">NeedleAds Technology is your go-to destination for top-notch local SEO services
+                        <p class="mb-0 text-justify" data-aos="fade-up">NeedleAds Technology is your go-to destination for top-notch local SEO services
                             in Janakpuri. As a leading <a
                                 href="https://www.theneedleads.com/local-seo-services.php">local SEO company in
                                 Janakpuri</a>, we specialize in helping businesses improve their online visibility and
@@ -79,13 +76,13 @@ $canonical_url = "https://www.theneedleads.com/local-seo-services.php";
 <section class="sectionpadding bgsection ourservicestwo">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Expert Local SEO Services in Janakpuri</h2>
                 <p>At NeedleAds Technology, we offer a comprehensive range of local SEO services in Janakpuri,
                     including:</p>
             </div>
             <div class="row justify-content-center row-gap-4">
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="800">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/li1.png">
@@ -98,7 +95,7 @@ $canonical_url = "https://www.theneedleads.com/local-seo-services.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/li2.png">
@@ -110,7 +107,7 @@ $canonical_url = "https://www.theneedleads.com/local-seo-services.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices"  data-aos="fade-up" data-aos-duration="2000">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/li3.png">
@@ -122,7 +119,7 @@ $canonical_url = "https://www.theneedleads.com/local-seo-services.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="2500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/li4.png">
@@ -143,7 +140,7 @@ $canonical_url = "https://www.theneedleads.com/local-seo-services.php";
 <section class="sectionpadding innerpagebox">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Why Choose NeedleAds Technology for Local SEO Services in Janakpuri?</h2>
             </div>
             <div class="row alignset justify-content-center">

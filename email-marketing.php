@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/email-marketing.php";
 ?>
 <?php include './include/header.php';?>
 
-  <section class="bannersectionstr" style="
-    background: url(assets/img/email-marketing-bnr.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-        <div class="outerofbanner">
+  <section>
+        <div class="outerofbanner email-marketing_background">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
@@ -34,7 +31,7 @@ $canonical_url = "https://www.theneedleads.com/email-marketing.php";
         <div class="outerofaboutsection">
             <div class="container">
                 <div class="row alignset align-items-center">
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                         <div class="aboutsidimgwithform">
                             <div class="aboutimg">
                                 <img src="assets/img/email-about.png" alt="email marketing services">
@@ -44,7 +41,7 @@ $canonical_url = "https://www.theneedleads.com/email-marketing.php";
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                         <div class="aboutcontent">
-                            <p class="mb-0 text-justify">NeedleAds Technology is your premier choice for <a
+                            <p class="mb-0 text-justify" data-aos="fade-up">NeedleAds Technology is your premier choice for <a
                                     href="https://www.theneedleads.com/email-marketing.php">email marketing services in
                                     Delhi.</a> As the leading email marketing company and agency in Delhi, we specialize
                                 in providing innovative and results-driven email marketing campaigns that help
@@ -71,13 +68,13 @@ $canonical_url = "https://www.theneedleads.com/email-marketing.php";
     <section class="sectionpadding bgsection ourservicestwo">
         <div class="outerofservicessection">
             <div class="container">
-                <div class="sectionheading">
+                <div class="sectionheading" data-aos="fade-up">
                     <h2>Expert Email Marketing Services in Delhi</h2>
                     <p>At NeedleAds Technology, we offer a wide range of email marketing services in Delhi, including:
                     </p>
                 </div>
                 <div class="row justify-content-center row-gap-4">
-                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="800">
                         <div class="boxservices">
                             <div class="sicon">
                                 <img src="assets/img/ei1.png">
@@ -89,7 +86,7 @@ $canonical_url = "https://www.theneedleads.com/email-marketing.php";
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                         <div class="boxservices">
                             <div class="sicon">
                                 <img src="assets/img/ei2.png">
@@ -101,7 +98,7 @@ $canonical_url = "https://www.theneedleads.com/email-marketing.php";
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices"   data-aos="fade-up" data-aos-duration="2000">
                         <div class="boxservices">
                             <div class="sicon">
                                 <img src="assets/img/ei3.png">
@@ -113,7 +110,7 @@ $canonical_url = "https://www.theneedleads.com/email-marketing.php";
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="2500">
                         <div class="boxservices">
                             <div class="sicon">
                                 <img src="assets/img/ei4.png">
@@ -135,7 +132,7 @@ $canonical_url = "https://www.theneedleads.com/email-marketing.php";
     <section class="sectionpadding innerpagebox">
         <div class="outerofservicessection">
             <div class="container">
-                <div class="sectionheading">
+                <div class="sectionheading" data-aos="fade-up">
                     <h2>Why Choose NeedleAds Technology for Email Marketing?</h2>
                 </div>
                 <div class="row alignset justify-content-center">

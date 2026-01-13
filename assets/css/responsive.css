@@ -1,14 +1,14 @@
-@media only screen and (max-width:1500px) {
+/* @media only screen and (max-width:1500px) {
     .hero_right {
         position: relative;
         margin-bottom: -102px;
     }
-}
+} */
 
 @media only screen and (max-width: 1350px) {
     .hero_right {
         position: relative;
-        margin-bottom: -101px;
+        margin-bottom: -83px;
     }
 }
 
@@ -45,7 +45,7 @@
 @media only screen and (max-width: 1200px) {
     .hero_right {
         position: relative;
-        margin-bottom: -87px;
+        margin-bottom: -70px;
     }
 
     .bannersectionstr {
@@ -68,7 +68,7 @@
 @media only screen and (max-width: 1080px) {
     .hero_right {
         position: relative;
-        margin-bottom: -88px;
+        margin-bottom: -70px;
     }
 
 }
@@ -135,10 +135,13 @@
 
 
 @media only screen and (max-width: 991px) {
-    .hero_right {
+    /* .hero_right {
         position: relative;
         margin-bottom: -92px;
-    }
+    } */
+     .outerofbanner {
+    padding-top: 160px;
+}
 
 }
 
@@ -146,6 +149,9 @@
     .mobile_dropdown {
         position: relative;
         top: 0px !important;
+    }
+    .outerofbanner{
+        padding-top: 160px;
     }
 
     h2 {
@@ -158,7 +164,7 @@
 
     .hero_right {
         position: relative;
-        margin-bottom: -114px;
+        margin-bottom: -73px;
     }
 
     .contactformimg img {
@@ -334,7 +340,7 @@
 @media only screen and (max-width: 576px) {
     .hero_right {
         position: relative;
-        margin-bottom: -105px;
+        margin-bottom: -75px;
     }
 
     .aboutsidimgwithform form {
@@ -345,16 +351,16 @@
 @media only screen and (max-width: 425px) {
     .hero_right {
         position: relative;
-        margin-bottom: -103px;
+        margin-bottom: -70px;
     }
 
     .bannercontent h1 {
         font-size: 30px;
     }
-
+/* 
     .outerofbanner {
-        padding: 30px 0;
-    }
+       padding-top:60px;
+    } */
 
     .btnofset {
         width: 100% !important;
@@ -561,13 +567,10 @@
 
 
 @media only screen and (max-width: 375px) {
-    body {
-        padding-top: 100px !important;
-    }
 
     .hero_right {
         position: relative;
-        margin-bottom: -94px;
+        margin-bottom: -63px;
     }
 
     .count-digit.counter-loaded {
@@ -594,7 +597,7 @@
 @media only screen and (max-width: 320px) {
     .hero_right {
         position: relative;
-        margin-bottom: -84px;
+        margin-bottom: -54px;
     }
 
     .aboutsidimgwithform form {

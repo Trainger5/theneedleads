@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/website-maintenance.php";
 ?>
 <?php include './include/header.php';?>
 
-<section class="bannersectionstr" style="
-    background: url(assets/img/website-maintance-bnr.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner website_maintenance_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
@@ -33,18 +30,18 @@ $canonical_url = "https://www.theneedleads.com/website-maintenance.php";
     <div class="outerofmiddletow">
         <div class="container">
             <div class="contentofstrmiddle">
-                <p>Welcome to NeedleAds Technology, your premier <a
+                <p data-aos="fade-up">Welcome to NeedleAds Technology, your premier <a
                         href="https://www.theneedleads.com/website-maintenance.php">website maintenance company in
                         Janakpuri</a>, Delhi. We specialize in providing top-notch website maintenance services in
                     Janakpuri to keep your website running smoothly and efficiently. With our expert team and
                     comprehensive approach, we ensure that your website remains up-to-date, secure, and optimized for
                     performance.</p>
-                <p>At NeedleAds Technology, we understand the importance of a well-maintained website in today's digital
+                <p data-aos="fade-up" data-aos-duration="1200">At NeedleAds Technology, we understand the importance of a well-maintained website in today's digital
                     age. A website that is regularly updated and maintained not only enhances user experience but also
                     boosts your search engine rankings. As your trusted website maintenance company in Janakpuri, we
                     offer various services to meet your needs, including content updates, security patches, performance
                     optimization, and more.</p>
-                <p class="mb-0">Our team of skilled professionals is committed to providing you with the highest quality
+                <p class="mb-0" data-aos="fade-up" data-aos-duration="1300">Our team of skilled professionals is committed to providing you with the highest quality
                     of service, ensuring that your website remains a valuable asset for your business. Whether you're a
                     small business or a large corporation, we have the expertise and resources to handle all your
                     website maintenance needs.</p>
@@ -57,11 +54,11 @@ $canonical_url = "https://www.theneedleads.com/website-maintenance.php";
 <section class="sectionpadding bgsection ourservicestwo websitemaintenanceservicesection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Our Services</h2>
             </div>
             <div class="row justify-content-center">
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="800">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/regular-updates.png">
@@ -72,7 +69,7 @@ $canonical_url = "https://www.theneedleads.com/website-maintenance.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1200">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/security-checks.png">
@@ -83,7 +80,7 @@ $canonical_url = "https://www.theneedleads.com/website-maintenance.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/performance-optimization.png">
@@ -95,7 +92,7 @@ $canonical_url = "https://www.theneedleads.com/website-maintenance.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1700">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/content-management.png">
@@ -115,7 +112,7 @@ $canonical_url = "https://www.theneedleads.com/website-maintenance.php";
 <section class="sectionpadding innerpagebox">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Why Choose NeedleAds Technology for Website Maintenance?</h2>
                 <p>Delving into the intricacies of our <a
                         href="https://www.theneedleads.com/website-development.php">Web Development Process</a> reveals
@@ -185,7 +182,7 @@ $canonical_url = "https://www.theneedleads.com/website-maintenance.php";
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
-                    <div class="callcontent">
+                    <div class="callcontent" data-aos="fade-up">
                         <h3>Contact NeedleAds Technology today for professional and reliable website maintenance
                             services in Janakpuri, Delhi. Let us help you keep your website in top shape!</h3>
                     </div>

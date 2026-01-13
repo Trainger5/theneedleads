@@ -34,11 +34,8 @@ header("Location:thankyou.php");
 ?>
 
 
-<section class="bannersectionstr" style="
-    background: url(assets/img/page-speed-bnr.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner page_speed_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
@@ -63,7 +60,7 @@ header("Location:thankyou.php");
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row alignset align-items-center row-gap-4">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/pass-speed.jpg" alt="Page Speed Analysis">
@@ -71,16 +68,16 @@ header("Location:thankyou.php");
 
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" >
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up" data-aos-duration="800">
                             <h2>Is Your Website Page Speed Slow?</h2>
                         </div>
-                        <p class="text-justify"><b>Identify Page Speed Problems:</b> Check if your website has slow loading times that
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1200"><b>Identify Page Speed Problems:</b> Check if your website has slow loading times that
                             may harm user experience and search engine rankings.</p>
-                        <p class="text-justify"><b>SEO Implications:</b> Recognize the impact of slow page speed on SEO, such as lower
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1600"><b>SEO Implications:</b> Recognize the impact of slow page speed on SEO, such as lower
                             rankings and reduced organic traffic.</p>
-                        <p class="text-justify"><b>User Experience:</b> Understand how slow page speed can result in higher bounce rates
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1800"><b>User Experience:</b> Understand how slow page speed can result in higher bounce rates
                             and decreased conversion rates, negatively affecting user experience.</p>
                         <p class="mb-0 text-justify"><b>Solutions and Suggestions:</b> Get actionable advice to boost your
                             website's page speed and improve user engagement.</p>

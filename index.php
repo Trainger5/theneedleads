@@ -472,7 +472,7 @@ gtag('config', 'G-0GQ7EZTWNF');
         </div>
     </div>
 </section>
-<section class="sectionpadding pb-0 ">
+<section class="sectionpadding">
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row">

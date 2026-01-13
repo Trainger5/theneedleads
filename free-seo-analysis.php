@@ -36,11 +36,8 @@ header("Location:thankyou.php");
 }
 ?>
 
-<section class="bannersectionstr" style="
-    background: url(assets/img/seo-bnr.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner free_seo_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
@@ -65,7 +62,7 @@ header("Location:thankyou.php");
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row alignset align-items-center row-gap-4">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/peroposal.jpg" alt="free SEO analysis">
@@ -75,17 +72,17 @@ header("Location:thankyou.php");
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <p class="text-justify">In today's digital landscape, having a strong online presence is crucial for businesses to
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="800">In today's digital landscape, having a strong online presence is crucial for businesses to
                             <b>Website Audit:</b> Our free SEO analysis thoroughly evaluates your website's current
                             performance. We assess various aspects, including on-page SEO, off-page SEO, technical SEO,
                             and content quality.
                         </p>
-                        <p class="text-justify"><b>Keyword Analysis:</b> Gain insights into the performance of your current keywords and
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1200"><b>Keyword Analysis:</b> Gain insights into the performance of your current keywords and
                             discover new keyword opportunities to enhance your search engine rankings.</p>
-                        <p class="text-justify"><b>Competitor Analysis:</b> In addition to evaluating your website, our free SEO analysis
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1600"><b>Competitor Analysis:</b> In addition to evaluating your website, our free SEO analysis
                             also includes a competitor analysis. We assess your competitors' websites to identify their
                             strengths and weaknesses, helping you gain valuable insights into their SEO strategies.</p>
-                        <p class="mb-0 text-justify"><b>Transparent Reporting:</b> Transparency is critical to our free SEO analysis
+                        <p class="mb-0 text-justify" data-aos="fade-up" data-aos-duration="1800"><b>Transparent Reporting:</b> Transparency is critical to our free SEO analysis
                             process. We provide you with detailed reports that outline our findings and recommendations
                             in a clear and easy-to-understand manner.</p>
                     </div>

@@ -6,11 +6,8 @@ $canonical_url = "https://www.theneedleads.com/ecommerce-website.php";
 <?php include './include/header.php';?>
 
 
-<section class="bannersectionstr" style="
-    background: url(assets/img/e-commerce-bnr.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner ecommerce_website_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
@@ -36,14 +33,14 @@ $canonical_url = "https://www.theneedleads.com/ecommerce-website.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row alignset align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/aboutuse-commers.png" alt="Ecommerce Website Development">
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <p class="mb-0 texCenter">If you are looking for an <a
                             href="https://www.theneedleads.com/ecommerce-website.php">ecommerce website development
                             company in Delhi</a>, NeedleAds Technology is the best choice for you. We specialize in
@@ -62,19 +59,18 @@ $canonical_url = "https://www.theneedleads.com/ecommerce-website.php";
     </div>
     </div>
 </section>
-<!-- about us end -->
 
 <!-- our services start -->
 <section class="sectionpadding bgsection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Expert e-commerce website Development Services in Delhi</h2>
                 <p>At NeedleAds Technology, we offer a wide range of ecommerce website development services in Delhi,
                     including</p>
             </div>
             <div class="row justify-content-center row-gap-4">
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="800">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/e1.png">
@@ -86,7 +82,7 @@ $canonical_url = "https://www.theneedleads.com/ecommerce-website.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/e2.png">
@@ -98,7 +94,7 @@ $canonical_url = "https://www.theneedleads.com/ecommerce-website.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="2000">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/e3.png">
@@ -110,7 +106,7 @@ $canonical_url = "https://www.theneedleads.com/ecommerce-website.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="2500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/e4.png">

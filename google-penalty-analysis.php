@@ -32,11 +32,8 @@ $canonical_url = "https://www.theneedleads.com/google-penalty-analysis.php";
 ?>
 <?php include './include/header.php';?>
 
-<section class="bannersectionstr" style="
-    background: url(assets/img/google-ads.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner google_penalty_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
@@ -51,7 +48,7 @@ $canonical_url = "https://www.theneedleads.com/google-penalty-analysis.php";
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                 </div>
-            </div>
+            </div>  
         </div>
     </div>
 </section>
@@ -61,7 +58,7 @@ $canonical_url = "https://www.theneedleads.com/google-penalty-analysis.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row alignset align-items-center row-gap-4">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/google.jpg" alt="Google Penalty Analysis">
@@ -71,16 +68,20 @@ $canonical_url = "https://www.theneedleads.com/google-penalty-analysis.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up" data-aos-duration="800">
                             <h2>Which Google Penalty has Affected Your Website?</h2>
                         </div>
-                        <p><b>Identifying Penalties:</b> Identify if your site is affected by a Google penalty and
+                        <p data-aos="fade-up" data-aos-duration="1200"><b>Identifying Penalties:</b> Identify if your
+                            site is affected by a Google penalty and
                             understand its nature.</p>
-                        <p><b>Assessing Impact:</b> Evaluate how the penalty affects your site's search rankings and
+                        <p data-aos="fade-up" data-aos-duration="1500"><b>Assessing Impact:</b> Evaluate how the penalty
+                            affects your site's search rankings and
                             organic traffic.</p>
-                        <p><b>Recovery Methods:</b> Learn how to recover from the penalty and enhance your site's SEO
+                        <p data-aos="fade-up" data-aos-duration="1700"><b>Recovery Methods:</b> Learn how to recover
+                            from the penalty and enhance your site's SEO
                             performance.</p>
-                        <p class="mb-0"><b>Preventing Penalties:</b> Explore strategies to prevent future Google
+                        <p class="mb-0" data-aos="fade-up" data-aos-duration="1800"><b>Preventing Penalties:</b> Explore
+                            strategies to prevent future Google
                             penalties and uphold a strong presence in search results.</p>
                     </div>
                 </div>

@@ -6,11 +6,8 @@ $canonical_url = "https://www.theneedleads.com/google-partner-india.php";
 <?php include './include/header.php';?>
 
 
-<section class="bannersectionstr" style="
-    background: url(assets/img/google-partner-india.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner google_partner_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
@@ -40,8 +37,8 @@ $canonical_url = "https://www.theneedleads.com/google-partner-india.php";
     <div class="outerofservicessection">
         <div class="container">
             <div class="sectionheading secheadingwith">
-                <h2>Google SME Partner in India: Why Partner with NeedleAds Technology?</h2>
-                <p>As a premier Google SME Partner in India, NeedleAds Technology empowers businesses of all sizes to
+                <h2 data-aos="fade-up">Google SME Partner in India: Why Partner with NeedleAds Technology?</h2>
+                <p data-aos="fade-up" data-aos-duration="1200">As a premier Google SME Partner in India, NeedleAds Technology empowers businesses of all sizes to
                     leverage the immense potential of Google Ads. We are a team of passionate <a
                         href="https://www.theneedleads.com/">digital marketing experts</a> with a proven track record of
                     success in helping SMEs achieve their online advertising goals.
@@ -50,7 +47,7 @@ $canonical_url = "https://www.theneedleads.com/google-partner-india.php";
                 </p>
             </div>
             <div class="row justify-content-center rowgapssp">
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1200">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/googleads.jpg">
@@ -63,7 +60,7 @@ $canonical_url = "https://www.theneedleads.com/google-partner-india.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/Data-Driven.jpg">
@@ -75,7 +72,7 @@ $canonical_url = "https://www.theneedleads.com/google-partner-india.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="2000">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/Transparent-Communication.jpg">
@@ -87,7 +84,7 @@ $canonical_url = "https://www.theneedleads.com/google-partner-india.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="2500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/Focus.jpg">
@@ -99,7 +96,7 @@ $canonical_url = "https://www.theneedleads.com/google-partner-india.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="2500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/Account-Management.jpg">
@@ -123,7 +120,7 @@ $canonical_url = "https://www.theneedleads.com/google-partner-india.php";
 
 
             <div class="sectionheading">
-                <h2>Google Channel Partner in India: Benefits of Working with a Google Partner</h2>
+                <h2 data-aos="fade-up">Google Channel Partner in India: Benefits of Working with a Google Partner</h2>
                 <p>Partnering with a certified Google Channel Partner in India like NeedleAds Technology offers a
                     multitude of benefits for your SME:</p>
             </div>
@@ -178,14 +175,14 @@ $canonical_url = "https://www.theneedleads.com/google-partner-india.php";
     <div class="outerofservicessection">
         <div class="container">
             <div class="sectionheading secheadingwith">
-                <h2>The Power of Google Ads for Indian SMEs</h2>
-                <p>Google Ads is a powerful platform that allows you to reach your target audience exactly when they are
+                <h2 data-aos="fade-up">The Power of Google Ads for Indian SMEs</h2>
+                <p data-aos="fade-up" data-aos-duration="11 00">Google Ads is a powerful platform that allows you to reach your target audience exactly when they are
                     searching for products or services like yours. As a Google Channel Partner in India, NeedleAds
                     Technology can help you leverage the <a href="https://ads.google.com/">power of Google Ads</a> to.
                 </p>
             </div>
             <div class="row  rowgapssp">
-                <div class="col-lg-4 col-xl-34 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-xl-34 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices boxservicesbox">
                         <div class="sicon">
                             <img src="assets/img/Increase-Brand.jpg">
@@ -198,7 +195,7 @@ $canonical_url = "https://www.theneedleads.com/google-partner-india.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12" data-aos="fade-down" data-aos-duration="1500">
                     <div class="boxservices boxservicesbox">
                         <div class="sicon">
                             <img src="assets/img/Generate-Qualified.jpg">
@@ -210,7 +207,7 @@ $canonical_url = "https://www.theneedleads.com/google-partner-india.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices boxservicesbox">
                         <div class="sicon">
                             <img src="assets/img/Conversions.jpg">
@@ -223,7 +220,7 @@ $canonical_url = "https://www.theneedleads.com/google-partner-india.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12" data-aos="fade-down" data-aos-duration="1500">
                     <div class="boxservices boxservicesbox">
                         <div class="sicon">
                             <img src="assets/img/Boost.jpg">
@@ -235,7 +232,7 @@ $canonical_url = "https://www.theneedleads.com/google-partner-india.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices boxservicesbox">
                         <div class="sicon">
                             <img src="assets/img/Effectively.jpg">
@@ -258,7 +255,7 @@ $canonical_url = "https://www.theneedleads.com/google-partner-india.php";
 <section class="sectionpadding calltoactionformaintenance callbg">
     <div class="outerofcallsection">
         <div class="container">
-            <div class="sectionheading secheadingwith">
+            <div class="sectionheading secheadingwith" data-aos="fade-up">
                 <h2>Partner with NeedleAds Technology, Your Trusted Google Channel Partner in India</h2>
             </div>
             <div class="row">

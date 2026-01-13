@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/social-media-marketing.php";
 ?>
 <?php include './include/header.php';?>
 
-<section class="bannersectionstr" style="
-    background: url(assets/img/social-media-marketing-1-bnr.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner social_media_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
@@ -33,7 +30,7 @@ $canonical_url = "https://www.theneedleads.com/social-media-marketing.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row alignset align-items-center row-gap-4">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/social-media-about.png" alt="Social Media Marketing Services">
@@ -43,7 +40,7 @@ $canonical_url = "https://www.theneedleads.com/social-media-marketing.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <p class="mb-0 text-justify">NeedleAds Technology is the best <a
+                        <p class="mb-0 text-justify" data-aos="fade-up">NeedleAds Technology is the best <a
                                 href="https://www.theneedleads.com/social-media-marketing.php">social media marketing
                                 agency in Delhi.</a> With our expertise in social media marketing, we help businesses in
                             Delhi and beyond achieve their digital marketing goals and boost their online presence. As a
@@ -71,13 +68,13 @@ $canonical_url = "https://www.theneedleads.com/social-media-marketing.php";
 <section class="sectionpadding bgsection ourservicestwo">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Expert Social Media Marketing Services in Delhi</h2>
                 <p>At NeedleAds Technology, we specialize in providing complete social media marketing services in
                     Delhi, including:</p>
             </div>
             <div class="row justify-content-center alignset">
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/di2.png">
@@ -89,7 +86,7 @@ $canonical_url = "https://www.theneedleads.com/social-media-marketing.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-down" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/quality-content-creation.png">
@@ -101,7 +98,7 @@ $canonical_url = "https://www.theneedleads.com/social-media-marketing.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/analytics.png">
@@ -113,7 +110,7 @@ $canonical_url = "https://www.theneedleads.com/social-media-marketing.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-down" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/content-management.png">
@@ -125,7 +122,7 @@ $canonical_url = "https://www.theneedleads.com/social-media-marketing.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/ei4.png">
@@ -147,7 +144,7 @@ $canonical_url = "https://www.theneedleads.com/social-media-marketing.php";
 <section class="sectionpadding innerpagebox">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Why Choose NeedleAds Technology for Social Media Marketing?</h2>
             </div>
             <div class="row alignset justify-content-center">
