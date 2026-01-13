@@ -186,9 +186,15 @@ var Tawk_API = Tawk_API || {},
 })();
 </script> -->
 
+<!-- Core JS dependencies -->
+<script type="text/javascript" src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
 </script>
+<!-- Owl Carousel slider -->
+<script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
 <script>
 function makeContact() {
     var phoneNumber = "+918750500075"; // your number
@@ -361,6 +367,15 @@ $(document).ready(function() {
         $all.slideUp("slow");
     }
 
+    // Close only nested Website Design / Features lists
+    function closeNestedSubMenus(exceptSelector) {
+        var $all = $("#dropshowtwo, #dropshowftwo");
+        if (exceptSelector) {
+            $all = $all.not(exceptSelector);
+        }
+        $all.slideUp("slow");
+    }
+
     $("#drop").click(function(e) {
         if (!isMobileNav()) return;
         e.preventDefault();
@@ -375,17 +390,17 @@ $(document).ready(function() {
         $("#dropshowf").slideToggle("slow");
     });
 
-    $("#dropftwo").click(function(e) {
-        if (!isMobileNav()) return;
+    // Features submenu (nested under About Us) - expand list when clicking label or icon
+    $("#dropftwo, .navdrop-features > a").click(function(e) {
         e.preventDefault();
-        closeAllSubMenus("#dropshowftwo");
+        closeNestedSubMenus("#dropshowftwo");
         $("#dropshowftwo").slideToggle("slow");
     });
 
-    $("#droptwo, .navdrop > a").click(function(e) {
-        if (!isMobileNav()) return;
+    // Website Design submenu (nested under Services) - expand list when clicking label or icon
+    $("#droptwo, .navdrop-webdesign > a").click(function(e) {
         e.preventDefault();
-        closeAllSubMenus("#dropshowtwo");
+        closeNestedSubMenus("#dropshowtwo");
         $("#dropshowtwo").slideToggle("slow");
     });
 
@@ -409,7 +424,6 @@ $(document).ready(function() {
     });
 });
 </script>
-
 
 <script type="text/javascript">
 jQuery("#carouseltwoo").owlCarousel({

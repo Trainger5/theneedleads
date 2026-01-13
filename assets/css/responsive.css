@@ -103,6 +103,9 @@
 }
 
 @media only screen and (max-width: 1024px) {
+    .header_inner_box {
+        padding: 10px 32px;
+    }
     .outerofcontactform .row {
         align-items: center;
     }
@@ -138,6 +141,10 @@
     .hero_right {
         position: relative;
         margin-bottom: -92px;
+    }
+
+    .header_inner_box {
+        padding: 10px 24px;
     }
 
 }
@@ -244,15 +251,7 @@
         right: 0;
     }
 
-    nav ul {
-        position: absolute;
-        width: 91%;
-        z-index: 9;
-    }
-
-    .navbar-dropdown {
-        width: 100%;
-    }
+    /* header nav behaviour handled in assets/css/header.css */
 
     .ourservicestwo .boxservices {
         padding-left: 30px;
@@ -560,6 +559,12 @@
 
 
 
+@media only screen and (max-width: 425px) {
+    .header-top-info {
+        display: none !important;
+    }
+}
+
 @media only screen and (max-width: 375px) {
     body {
         padding-top: 100px !important;
@@ -610,5 +615,10 @@
 
     .header_inner_box {
         padding: 10px 10px !important;
+    }
+
+    .services_dropdown > a {
+        padding: 8px 10px;
+        font-size: 14px;
     }
 }

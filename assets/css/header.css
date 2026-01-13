@@ -125,7 +125,7 @@ header.navigation.header-full-width .container {
 
 @media (max-width: 991.98px) {
     .header_inner_box {
-        padding: 10px 16px;
+        padding: 10px 20px;
     }
 }
 
@@ -154,7 +154,7 @@ header.navigation.header-full-width .container {
 
 @media (max-width: 575.98px) {
     .brand img {
-        max-height: 46px;
+        max-height: 40px;
     }
 }
 
@@ -229,12 +229,13 @@ header.navigation.header-full-width .container {
 .services_dropdown > a {
     display: flex;
     align-items: center;
-    gap: 4px;
+    justify-content: space-between;
+    gap: 6px;
 }
 
 .setofdowntop {
-    /* font-size: 12px; */
-    margin-top: -4px;
+    font-size: 12px;
+    margin-top: 0;
 }
 
 /* First-level dropdown */
@@ -284,6 +285,7 @@ header.navigation.header-full-width .container {
 }
 
 .navdrop > a {
+    position: relative;
     padding-right: 32px;
 }
 
@@ -297,44 +299,17 @@ header.navigation.header-full-width .container {
 }
 
 .childdrop {
-    position: absolute;
-    top: 0;
-    left: 100%;
-    min-width: 230px;
-    margin-left: 4px;
-    padding: 8px 0;
+    position: static;
+    padding: 0;
     list-style: none;
     background: #ffffff;
-    border-radius: 4px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+    box-shadow: none;
     display: none;
 }
 
-@media (min-width: 992px) {
-    .navdrop:hover > .childdrop {
-        display: block;
-    }
-}
-
-/* Legacy dropdown hook for older markup (kept for safety) */
-.dropdown {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background: #ffffff;
-    box-shadow: 0 0 9px #dbdbdb;
-    padding: 8px 0;
-    display: none;
-}
-
-li.navdrop:hover ul#dropshowtwo {
-    display: block;
-}
-
-nav ul li ul li:hover .fa.fa-sort-desc {
-    color: #f47a24;
-}
+/* Legacy dropdown hook left for compatibility; disabled for nested lists */
+/* .dropdown, li.navdrop:hover ul#dropshowtwo { } */
 
 /* Products trigger styling */
 #dropftwo {
@@ -356,12 +331,66 @@ nav ul li ul li:hover .fa.fa-sort-desc {
 
 .nav-mobile {
     display: none;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
+    position: relative;
+    margin-left: auto;
     height: 40px;
     width: 40px;
+}
+
+/* ===== Accordion styles for main nav (Services / About Us) ===== */
+
+.nav-item {
+    position: relative;
+}
+
+.nav-item > a {
+    display: block;
+    padding: 8px 14px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.has-submenu > .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+}
+
+.nav-chevron {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-right: 2px solid #333;
+    border-bottom: 2px solid #333;
+    transform: rotate(45deg);
+    transition: transform 0.25s ease;
+}
+
+.submenu {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.25s ease;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+}
+
+.submenu li a {
+    display: block;
+    padding: 8px 16px 8px 28px;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav-item.is-open > .submenu {
+    max-height: 500px;
+}
+
+.nav-item.is-open > .nav-link .nav-chevron {
+    transform: rotate(-135deg);
 }
 
 /* Hamburger icon */
@@ -421,6 +450,7 @@ nav ul li ul li:hover .fa.fa-sort-desc {
 @media (max-width: 991.98px) {
     .header_inner_box {
         align-items: center;
+        gap: 12px;
     }
 
     .nav-mobile {
@@ -428,7 +458,7 @@ nav ul li ul li:hover .fa.fa-sort-desc {
     }
 
     .nav-list {
-        display: none; /* shown via jQuery slideToggle */
+        display: none; /* shown via JS toggle */
         position: absolute;
         top: 100%;
         right: 0;
@@ -503,5 +533,32 @@ nav ul li ul li:hover .fa.fa-sort-desc {
     .nav-list > li > a {
         padding: 9px 16px;
         font-size: 14px;
+    }
+}
+
+/* =========================================
+   Mobile full-width nav (<= 768px)
+   ========================================= */
+@media (max-width: 768px) {
+    /* Let the header container go edge-to-edge on small screens */
+    header.navigation .container {
+        max-width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Keep some inner spacing for logo + burger */
+    .header_inner_box {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    /* Make the nav_list / mobile_list span full viewport width */
+    .nav-list.mobile_list {
+        left: revert-layer;
+        right: 0;
+        width: 60vw;
+        border-radius: 0;
+        flex-direction: column;
     }
 }

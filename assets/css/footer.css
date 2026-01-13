@@ -51,7 +51,8 @@
         }
         .footerlist ul li a:hover {
             color: #f47a24;
-            padding-left: 12px;
+            /* padding-left: 12px; */
+            /* font-size: 17px; */
         }
 
         .footerlist ul li a:hover::before {
