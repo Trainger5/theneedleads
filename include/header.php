@@ -138,10 +138,14 @@
                                 <li>
                                     <a href="<?php echo $linkBase ?? ''; ?>seo-company-janakpuri.php">SEO Services</a>
                                 </li>
-                                <li class="navdrop mobile_dropdown">
-                                    <a href="<?php echo $linkBase ?? ''; ?>website-design.php">Website Design</a>
-                                    <i class="fa fa-sort-desc setofdown" aria-hidden="true" id="droptwo"></i>
+                                <li class="navdrop navdrop-webdesign mobile_dropdown">
+                                    <a href="javascript:void()">Website Design
+                                        <i class="fa fa-sort-desc setofdown" aria-hidden="true" id="droptwo"></i>
+                                    </a>
                                     <ul class="childdrop" id="dropshowtwo">
+                                        <li>
+                                            <a href="<?php echo $linkBase ?? ''; ?>website-design.php">Website Design</a>
+                                        </li>
                                         <li>
                                             <a href="<?php echo $linkBase ?? ''; ?>static-website-designing.php">Static Website Designing</a>
                                         </li>
@@ -174,20 +178,15 @@
                                 <li>
                                     <a href="<?php echo $linkBase ?? ''; ?>social-media-marketing.php">Social Media Marketing</a>
                                 </li>
+                            </ul>
+                        </li>
+                        <li class="services_dropdown">
+                            <a href="javascript:void()" id="dropf">About Us <i class="fa fa-sort-desc setofdowntop"
+                                    aria-hidden="true"></i>
+                            </a>
+                            <ul class="services_dropdown_box mobile_dropdown" id="dropshowf">
                                 <li>
-                                    <a href="<?php echo $linkBase ?? ''; ?>Products.php">Products</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo $linkBase ?? ''; ?>free-seo-analysis.php">Free SEO Analysis</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo $linkBase ?? ''; ?>page-speed-analysis.php">Page Speed Analysis</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo $linkBase ?? ''; ?>google-penalty-analysis.php">Google Penalty Analysis</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo $linkBase ?? ''; ?>google-partner-india.php">Google Channel Partner</a>
+                                    <a href="<?php echo $linkBase ?? ''; ?>about-us.php">About Us</a>
                                 </li>
                                 <li>
                                     <a href="<?php echo $linkBase ?? ''; ?>our-presence.php">Our Presence</a>
@@ -195,20 +194,34 @@
                                 <li>
                                     <a href="<?php echo $linkBase ?? ''; ?>case-study.php">Case Study</a>
                                 </li>
+                                <li class="navdrop navdrop-features mobile_dropdown">
+                                    <a href="javascript:void()">Features <i class="fa fa-sort-desc setofdown" aria-hidden="true" id="dropftwo..."></i></a>
+                                    <ul class="childdrop" id="dropshowftwo">
+                                        <li>
+                                            <a href="<?php echo $linkBase ?? ''; ?>free-seo-analysis.php">Free SEO Analysis</a>
+                                        </li>
+                                        <li>
+                                            <a href="<?php echo $linkBase ?? ''; ?>page-speed-analysis.php">Page Speed Analysis</a>
+                                        </li>
+                                        <li>
+                                            <a href="<?php echo $linkBase ?? ''; ?>google-penalty-analysis.php">Google Penalty Analysis</a>
+                                        </li>
+                                        <li>
+                                            <a href="<?php echo $linkBase ?? ''; ?>google-partner-india.php">Google Channel Partner</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="<?php echo $linkBase ?? ''; ?>Products.php">Products</a>
+                                </li>
                                 <li>
                                     <a href="<?php echo $linkBase ?? ''; ?>blog/">Blog</a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a href="<?php echo $linkBase ?? ''; ?>about-us.php">About</a>
-                        </li>
-                        <li>
                             <a href="<?php echo $linkBase ?? ''; ?>contact-us.php">Contact Us</a>
                         </li>
-                        <!-- <li class="webbtnset headermenu">
-                            <a href="<?php echo $linkBase ?? ''; ?>booking.php" class="booking-btn">Book Now ! </a>
-                        </li> -->
                     </ul>
                 </nav>
             </div>
