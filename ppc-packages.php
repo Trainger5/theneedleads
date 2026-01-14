@@ -6,11 +6,8 @@ $canonical_url = "https://www.theneedleads.com/ppc-packages.php";
 <?php include './include/header.php';?>
 
 
-<section class="bannersectionstr" style="
-    background: url(assets/img/googleads-packages.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner ppc_packages_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
@@ -38,11 +35,11 @@ $canonical_url = "https://www.theneedleads.com/ppc-packages.php";
 <section class="sectionpadding bgsection ourservicestwo websitemaintenanceservicesection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading"  data-aos="fade-up">
                 <h2>Our PPC Services Packages Includes:</h2>
             </div>
             <div class="row justify-content-center">
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="800">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/bussniss-1.jpg">
@@ -56,7 +53,7 @@ $canonical_url = "https://www.theneedleads.com/ppc-packages.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/creativity.jpg">
@@ -69,7 +66,7 @@ $canonical_url = "https://www.theneedleads.com/ppc-packages.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="2000">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/pricing.jpg">
@@ -83,7 +80,7 @@ $canonical_url = "https://www.theneedleads.com/ppc-packages.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="2500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/support.jpg">
@@ -158,7 +155,7 @@ $canonical_url = "https://www.theneedleads.com/ppc-packages.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row alignset ">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/pcc.jpg" alt="PPC company in Delhi">
@@ -168,27 +165,27 @@ $canonical_url = "https://www.theneedleads.com/ppc-packages.php";
 
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up">
                             <h2>Powerful PPC Packages for Growth</h2>
 
                         </div>
 
                         <ul>
-                            <p>PPC packages offers a range of benefits for businesses, including:</p>
+                            <p  data-aos="fade-up" data-aos-duration="900">PPC packages offers a range of benefits for businesses, including:</p>
 
-                            <li><b>Immediate Results :</b> Unlike organic search engine optimization (SEO), which
+                            <li  data-aos="fade-up" data-aos-duration="1200"><b>Immediate Results :</b> Unlike organic search engine optimization (SEO), which
                                 can take months to see results, PPC advertising allows you to start driving traffic
                                 to your website immediately.</li>
 
-                            <li><b>Targeted Advertising :</b> With PPC advertising, you can target your ads to
+                            <li  data-aos="fade-up" data-aos-duration="1500"><b>Targeted Advertising :</b> With PPC advertising, you can target your ads to
                                 specific demographics, locations, and interests, ensuring that your message reaches
                                 the right audience at the right time.</li>
 
-                            <li><b>Cost-Effective :</b> PPC advertising offers excellent value for money, as you
+                            <li  data-aos="fade-up" data-aos-duration="1700"><b>Cost-Effective :</b> PPC advertising offers excellent value for money, as you
                                 only pay when someone clicks on your ad. With proper management and optimization,
                                 you can achieve a high ROI on your advertising spend.</li>
 
-                            <li><b>Measurable Results :</b> PPC advertising provides detailed analytics and
+                            <li  data-aos="fade-up" data-aos-duration="1800"><b>Measurable Results :</b> PPC advertising provides detailed analytics and
                                 reporting, allowing you to track the performance of your campaigns in real-time and
                                 make data-driven decisions to optimize your advertising strategy.</li>
                         </ul>
@@ -204,7 +201,7 @@ $canonical_url = "https://www.theneedleads.com/ppc-packages.php";
 <section class=" sectionpadding accordion">
     <div class="faqsectioncolapsable">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading"  data-aos="fade-up" >
                 <h2 class="minpackghead">Affordable <span class="blue">PPC Packages</span> for Small Businesses</h2>
                 <p>Need help attracting new customers? Our super-charged PPC package helps small businesses like
                     yours get noticed online for way less than you think! We offer simple PPC plans (think Google

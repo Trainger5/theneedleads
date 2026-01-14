@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/seo-services-in-hyderabad.php";
 ?>
 <?php include './include/header.php';?>
 
-<section style="
-    background: url(assets/img/seobanner-new.png);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner seo_hyderabad_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -34,7 +31,7 @@ $canonical_url = "https://www.theneedleads.com/seo-services-in-hyderabad.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12"data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/siteaboutseo.png" alt="SEO agency in Hyderabad">
@@ -44,20 +41,20 @@ $canonical_url = "https://www.theneedleads.com/seo-services-in-hyderabad.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <p>NeedleAds Technology is the best <a
+                        <p data-aos="fade-up" data-aos-duration="800">NeedleAds Technology is the best <a
                                 href="https://www.theneedleads.com/seo-services-in-hyderabad.php">SEO company in
                                 Hyderabad</a>! We specialize in providing top-notch SEO services to help businesses
                             achieve higher search engine rankings and drive organic traffic. With our proven strategies
                             and expert team, we’ve helped numerous websites secure top positions on Google, increasing
                             visibility and conversions.</p>
 
-                        <p>We understand that every business is unique. That’s why we tailor our SEO services to meet
+                        <p data-aos="fade-up" data-aos-duration="1200">We understand that every business is unique. That’s why we tailor our SEO services to meet
                             the specific needs of your business. Our team of SEO specialists is dedicated to researching
                             your industry, analyzing your competitors, and implementing useful SEO techniques to
                             guarantee your website ranks higher on search engines. Whether you are a local business or a
                             global brand, we have the expertise to enhance your online presence.</p>
 
-                        <p>As a leading SEO agency in Hyderabad, our services go beyond just keyword rankings. We focus
+                        <p data-aos="fade-up" data-aos-duration="1400">As a leading SEO agency in Hyderabad, our services go beyond just keyword rankings. We focus
                             on improving your website’s overall performance, including on-page and off-page
                             optimization, content creation, and technical SEO. Our goal is to drive targeted traffic to
                             your site and convert visitors into loyal customers.</p>
@@ -73,7 +70,7 @@ $canonical_url = "https://www.theneedleads.com/seo-services-in-hyderabad.php";
     <div class="outerofcallsection outer-paddding callbg">
         <div class="container">
             <div class="row">
-                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12"data-aos="fade-up">
                     <div class="callcontent">
                         <h3>Ready to boost your rankings? </h3>
                     </div>
@@ -95,13 +92,13 @@ $canonical_url = "https://www.theneedleads.com/seo-services-in-hyderabad.php";
     <div class="outerofservicessection">
         <div class="container">
             <div class="sectionheading">
-                <h2>Why Choose Our SEO Company in Hyderabad?</h2>
-                <p>We take pride in being one of the leading SEO companies in Hyderabad, known for delivering tangible
+                <h2 data-aos="fade-up">Why Choose Our SEO Company in Hyderabad?</h2>
+                <p data-aos="fade-up" data-aos-duration="1200">We take pride in being one of the leading SEO companies in Hyderabad, known for delivering tangible
                     results and boosting online visibility for businesses across industries. Here’s why you should
                     choose us:</p>
             </div>
             <div class="row alignset">
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices"data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/track.png">
@@ -113,7 +110,7 @@ $canonical_url = "https://www.theneedleads.com/seo-services-in-hyderabad.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices"data-aos="fade-down" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/global.png">
@@ -125,7 +122,7 @@ $canonical_url = "https://www.theneedleads.com/seo-services-in-hyderabad.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices"data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/seo-expert.png">
@@ -137,7 +134,7 @@ $canonical_url = "https://www.theneedleads.com/seo-services-in-hyderabad.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices"data-aos="fade-down" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/seo-services.png">
@@ -149,7 +146,7 @@ $canonical_url = "https://www.theneedleads.com/seo-services-in-hyderabad.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices"data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/find-report.png">
@@ -161,7 +158,7 @@ $canonical_url = "https://www.theneedleads.com/seo-services-in-hyderabad.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices"data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/cost.png">
@@ -186,8 +183,8 @@ $canonical_url = "https://www.theneedleads.com/seo-services-in-hyderabad.php";
     <div class="outerdivsection">
         <div class="container">
             <div class="sectionheading">
-                <h2>How SEO Works</h2>
-                <p>When we have a website for SEO, we check its ranking, and after that, we suggest relevant keywords
+                <h2 data-aos="fade-up">How SEO Works</h2>
+                <p data-aos="fade-up" data-aos-duration="1200">When we have a website for SEO, we check its ranking, and after that, we suggest relevant keywords
                     for the website. We optimize the on-page by adding a title and description meta. And add header
                     tags. We also do content optimization, taking care that there is no <a
                         href="https://developers.google.com/search/docs/essentials/spam-policies?hl=hi">keyword
@@ -376,14 +373,14 @@ $canonical_url = "https://www.theneedleads.com/seo-services-in-hyderabad.php";
     <div class="outerofservicessection">
         <div class="container">
             <div class="sectionheading">
-                <h2>Our SEO Services in Hyderabad:</h2>
-                <p>We provide SEO services in Hyderabad designed to help your business achieve better rankings and
+                <h2 data-aos="fade-up">Our SEO Services in Hyderabad:</h2>
+                <p data-aos="fade-up" data-aos-duration="1200">We provide SEO services in Hyderabad designed to help your business achieve better rankings and
                     increase organic traffic. Our expert team works tirelessly to deliver measurable results through the
                     following services:
                 </p>
             </div>
             <div class="row justify-content-center align-items-center row-gap-4">
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices"data-aos="fade-up" data-aos-duration="800">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/webdite-optimization.png">
@@ -396,7 +393,7 @@ $canonical_url = "https://www.theneedleads.com/seo-services-in-hyderabad.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices"data-aos="fade-up" data-aos-duration="1200">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/contnet-optimization.png">
@@ -409,7 +406,7 @@ $canonical_url = "https://www.theneedleads.com/seo-services-in-hyderabad.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices"data-aos="fade-up" data-aos-duration="1400">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/backlink.png">
@@ -422,7 +419,7 @@ $canonical_url = "https://www.theneedleads.com/seo-services-in-hyderabad.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices"data-aos="fade-up" data-aos-duration="1600">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/technical-seo.png">
@@ -438,7 +435,7 @@ $canonical_url = "https://www.theneedleads.com/seo-services-in-hyderabad.php";
 
 
 
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices"data-aos="fade-up" data-aos-duration="1800">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/local-seo-mini-icon.png">
@@ -453,7 +450,7 @@ $canonical_url = "https://www.theneedleads.com/seo-services-in-hyderabad.php";
                 </div>
 
 
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices"data-aos="fade-up" data-aos-duration="2000">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/keyword-research.png">

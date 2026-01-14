@@ -6,11 +6,8 @@ $canonical_url = "https://www.theneedleads.com/contact-us.php";
 <?php include './include/header.php';?>
 
 
-<section class="bannersectionstr" style="
-    background: url(assets/img/contactus.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner contact_us_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
@@ -167,7 +164,7 @@ $canonical_url = "https://www.theneedleads.com/contact-us.php";
     <div class="outerofservicessection">
         <div class="container">
             <div class="row justify-content-center alignset agn">
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12"  data-aos="fade-up" data-aos-duration="800">
                     <div class="boxservices">
                         <div class="servicecontent">
                             <div class="iconsetofcontact">
@@ -195,7 +192,7 @@ $canonical_url = "https://www.theneedleads.com/contact-us.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12"  data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="servicecontent">
                             <div class="iconsetofcontact">
@@ -220,7 +217,7 @@ $canonical_url = "https://www.theneedleads.com/contact-us.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12"  data-aos="fade-up" data-aos-duration="2000">
                     <div class="boxservices contactpagesetdetails">
                         <div class="servicecontent">
                             <div class="iconsetofcontact">

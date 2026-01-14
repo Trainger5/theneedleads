@@ -1,10 +1,10 @@
 /* Global body styles (header is fixed via header.css; content starts at the top) */
-body {
-}
+body {}
 
 h2 {
     font-size: 2.3rem !important;
 }
+
 p {
     font-size: 17px !important;
 }
@@ -179,7 +179,7 @@ img {
     background: #fff;
 }
 
-.boxservices{
+.boxservices {
     box-shadow: 0 0 11px #054a8024;
 }
 
@@ -203,8 +203,9 @@ img {
 } */
 
 .bgsection {
-	background: #f47a241f;
+    background: #f47a241f;
 }
+
 .count-icon img {
     width: 17%;
 }
@@ -974,12 +975,10 @@ ul.ctglist li:before {
     position: absolute;
     inset: 0;
     border-radius: 20px;
-    background: linear-gradient(
-        120deg,
-        transparent,
-        rgba(244, 122, 36, 0.12),
-        transparent
-    );
+    background: linear-gradient(120deg,
+            transparent,
+            rgba(244, 122, 36, 0.12),
+            transparent);
     opacity: 0;
     transition: opacity 0.3s ease;
 }
@@ -1362,18 +1361,19 @@ ul.ctglist li:before {
 }
 
 /*======================SEO SERVICES=============*/
-.seo_company_background{
-     background: url(../img/seobanner.jpg);
+.seo_company_background {
+    background: url(../img/seobanner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
 }
+
 .outerofbanner {
     padding-top: 160px;
 }
 
 /*======================website-design=============*/
-.website_design_background{
+.website_design_background {
     background: url(../img/websitebnr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1381,22 +1381,23 @@ ul.ctglist li:before {
 }
 
 /*======================Static Website=============*/
-.Static_Website_Background{
+.Static_Website_Background {
     background: url(../img/static-website.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
 }
+
 /*======================dynamic-website=============*/
-.dynamic_website_background{
-       background: url(../img/bannerdynamicpage.jpg);
+.dynamic_website_background {
+    background: url(../img/bannerdynamicpage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
 }
 
 /*======================ecommerce-website=============*/
-.ecommerce_website_background{
+.ecommerce_website_background {
     background: url(../img/e-commerce-bnr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1404,89 +1405,218 @@ ul.ctglist li:before {
 }
 
 /*======================website-development=============*/
-.website_development_background{
-   background: url(../img/website-development-bnr.jpg);
+.website_development_background {
+    background: url(../img/website-development-bnr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
 }
+
 /*======================website-maintenance=============*/
-.website_maintenance_background{
+.website_maintenance_background {
     background: url(../img/website-maintance-bnr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
 }
+
 /*======================mobile-app-development=============*/
-.mobile_app_background{
-     background: url(../img/mobile-app-development-bnr.jpeg);
+.mobile_app_background {
+    background: url(../img/mobile-app-development-bnr.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
 }
+
 /*======================ppc-company-delhi=============*/
-.ppc_delhi_background{
-         background: url(../img/ppc-banner.jpg);
-         background-repeat: no-repeat;
-         background-size: cover;
-    height: 500px;
-}
-/*======================local-seo-services=============*/
-.local_seo_background{
-     background: url(../img/localseo-bnr-page.jpeg);
+.ppc_delhi_background {
+    background: url(../img/ppc-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
 }
+
+/*======================local-seo-services=============*/
+.local_seo_background {
+    background: url(../img/localseo-bnr-page.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
 /*======================email-marketing=============*/
-.email-marketing_background{
+.email-marketing_background {
     background: url(../img/email-marketing-bnr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
 }
+
 /*======================social-media-marketing=============*/
-.social_media_background{
+.social_media_background {
     background: url(../img/social-media-marketing-1-bnr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
 }
+
 /*======================free-seo-analysis=============*/
-.free_seo_background{
+.free_seo_background {
     background: url(../img/seo-bnr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
 }
+
 /*======================page_speed=============*/
-.page_speed_background{
+.page_speed_background {
     background: url(../img/page-speed-bnr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
 }
+
 /*======================google_penalty=============*/
-.google_penalty_background{
+.google_penalty_background {
     background: url(../img/google-ads.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
 }
+
 /*======================google_partner=============*/
-.google_partner_background{
+.google_partner_background {
     background: url(../img/google-partner-india.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
 }
+
 /*======================our-presence=============*/
-.our_presence_background{
+.our_presence_background {
     background: url(../img/our-presence.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
 }
+
+/*======================Products.php=============*/
+.Products_background {
+    background: url(../img/portfolio/portfoliobnr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+/*======================case-study=============*/
+.case_study_background {
+    background: url(../img/portfolio/portfoliobnr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+/*======================about-us=============*/
+.about_us_background {
+    background: url(../img/about-us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+/*======================contact-us=============*/
+.contact_us_background {
+    background: url(../img/contactus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+/*======================ppc-packages=============*/
+.ppc_packages_background {
+    background: url(../img/googleads-packages.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+/*======================seo-packages=============*/
+.seo_packages_background {
+    background: url(../img/search-engine-optimization.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+/*======================website-design-packages=============*/
+.website_design_packages_background {
+    background: url(../img/Website-Design-Packages.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 560px !important;
+}
+
+/*======================seo-company-in-kolkata=============*/
+.seo_kolkata_background,
+.seo_ahmedabad_background,
+.seo_pune_background,
+.seo_hyderabad_background,
+.seo_chennai_background,
+.seo_bangalore_background,
+.seo_jaipur_background,
+.seo_lucknow_background,
+.seo_kanpur_background,
+.seo_indore_background,
+.seo_ghaziabad_background,
+.about_us_background,
+.seo_nagpur_background,
+.seo_baroda_background,
+.seo_gujarat_background ,
+.seo_rajkot_background,
+.seo_vadodara_background {
+    background: url(../img/seobanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+
+/*======================seo-agency-bangalore=============*/
+/* .seo_bangalore_background{
+    background: url(../img/seobanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+} */
+/*======================seo-company-in-chennai=============*/
+/* .seo_chennai_background{
+    background: url(../img/seobanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+} */
+/*======================seo-services-in-hyderabad=============*/
+/* .seo_hyderabad_background{
+    background: url(../img/seobanner-new.png);
+    background-repeat: no-repeat;   
+    background-size: cover;
+    height: 500px;
+} */
+/*======================seo-agency-pune=============*/
+/* .seo_pune_background{
+    background: url(../img/seobanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+} */
+/*======================seo-company-in-ahmedabad=============*/
+/* .seo_ahmedabad_background{
+    background: url(../img/seobanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+} */
+
 .section-paragraph p {
     font-weight: 400 !important;
     margin: 0 !important;
@@ -2405,4 +2535,3 @@ form.form-sec {
     border-color: #f47a24;
     font-weight: 600;
 }
-

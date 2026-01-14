@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/seo-company-ghaziabad.php";
 ?>
 <?php include './include/header.php';?>
 
-<section style="
-    background: url(assets/img/seobanner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner seo_ghaziabad_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -33,7 +30,7 @@ $canonical_url = "https://www.theneedleads.com/seo-company-ghaziabad.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/siteabout1.png" alt="SEO Company in Janakpuri">
@@ -43,10 +40,10 @@ $canonical_url = "https://www.theneedleads.com/seo-company-ghaziabad.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up">
                             <h2>Boost Your Online Presence with NeedleAds Technology's SEO Company in Ghaziabad</h2>
                         </div>
-                        <p>Welcome to NeedleAds Technology, the leading provider of <b>SEO Company in Ghaziabad</b>.
+                        <p data-aos="fade-up" data-aos-duration="1200">Welcome to NeedleAds Technology, the leading provider of <b>SEO Company in Ghaziabad</b>.
                             Our mission is to empower businesses in Ghaziabad by enhancing their online visibility
                             and driving quality traffic to their websites. With our expertise in search engine
                             optimization, we craft customized strategies tailored to the unique needs of businesses
@@ -65,26 +62,26 @@ $canonical_url = "https://www.theneedleads.com/seo-company-ghaziabad.php";
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Tailored SEO Strategies for Ghaziabad Businesses</h2>
             </div>
-            <p class="text-center">At NeedleAds Technology, we understand that every business is unique, which is
+            <p class="text-center"data-aos="fade-up" data-aos-duration="1100">At NeedleAds Technology, we understand that every business is unique, which is
                 why we offer personalized SEO solutions designed to meet the specific needs of businesses in
                 Ghaziabad. Our comprehensive approach to SEO encompasses a range of techniques aimed at improving
                 your website's visibility and driving targeted traffic.</p>
 
-            <p class="text-center">Our process begins with a thorough analysis of your business objectives, target
+            <p class="text-center"data-aos="fade-up" data-aos-duration="1200">Our process begins with a thorough analysis of your business objectives, target
                 audience, and competitors. We conduct in-depth keyword research to identify relevant search terms
                 that potential customers are using to find businesses like yours in Ghaziabad. Armed with this data,
                 we optimize your website's on-page elements, including meta tags, headings, and content, to ensure
                 maximum visibility in search engine results.</p>
 
-            <p class="text-center">In addition to on-page optimization, we focus on building your website's
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1400">In addition to on-page optimization, we focus on building your website's
                 authority through strategic link building and off-page optimization tactics. Our team leverages
                 various channels such as content marketing, social media, and digital PR to attract high-quality
                 backlinks and improve your website's credibility in the eyes of search engines.</p>
 
-            <p class="text-center">As the top <b>SEO company in Ghaziabad</b>, we are committed to delivering
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1600">As the top <b>SEO company in Ghaziabad</b>, we are committed to delivering
                 measurable results and driving growth for your business. Partner with NeedleAds Technology and let
                 us help you unlock the full potential of your online presence in Ghaziabad.</p>
 
@@ -100,14 +97,14 @@ $canonical_url = "https://www.theneedleads.com/seo-company-ghaziabad.php";
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up">
                             <h3>The Importance of SEO for Ghaziabad Businesses</h3>
                         </div>
-                        <p>In today's digital age, having a strong online presence is essential for businesses in
+                        <p data-aos="fade-up" data-aos-duration="1200">In today's digital age, having a strong online presence is essential for businesses in
                             Ghaziabad to thrive in the competitive market. SEO plays a crucial role in enhancing
                             visibility, attracting targeted traffic, and increasing brand awareness. </p>
 
-                        <p>Investing in SEO services is not just about improving your website's rankings; it's about
+                        <p data-aos="fade-up" data-aos-duration="1400">Investing in SEO services is not just about improving your website's rankings; it's about
                             establishing your brand as a credible authority in your industry. With the right SEO
                             strategy in Ghaziabad, you can stay ahead of the competition and achieve long-term
                             success in the dynamic market of Ghaziabad.</p>
@@ -131,7 +128,7 @@ $canonical_url = "https://www.theneedleads.com/seo-company-ghaziabad.php";
 <section class="sectionpadding innerpagebox">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h3>Why Choose NeedleAds Technology for SEO Services in Ghaziabad?</h3>
             </div>
             <div class="row alignset justify-content-center agn">

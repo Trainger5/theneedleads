@@ -6,7 +6,7 @@ $canonical_url = "https://www.theneedleads.com/Products.php";
 <?php include './include/header.php';?>
 
 
-    <style>
+    <!-- <style>
      .thank-you-message {
          position: fixed;
          top: 20px;
@@ -30,7 +30,7 @@ $canonical_url = "https://www.theneedleads.com/Products.php";
          transform: translateY(-3px);
          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
      }
-     </style>
+     </style> -->
 
      <script>
      // Show the message
@@ -42,11 +42,8 @@ $canonical_url = "https://www.theneedleads.com/Products.php";
      }, 3000);
      </script>
 
-<section class="bannersectionstr" style="
-    background: url(assets/img/portfolio/portfoliobnr.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-         <div class="outerofbanner">
+<section>
+         <div class="outerofbanner Products_background">
              <div class="container">
                  <div class="row">
                      <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">

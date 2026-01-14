@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/seo-services-in-indore.php";
 ?>
 <?php include './include/header.php';?>
 
-<section style="
-    background: url(assets/img/seobanner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner seo_indore_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -33,7 +30,7 @@ $canonical_url = "https://www.theneedleads.com/seo-services-in-indore.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/siteabout1.png" alt="SEO Company in Janakpuri">
@@ -43,10 +40,10 @@ $canonical_url = "https://www.theneedleads.com/seo-services-in-indore.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up">
                             <h2>Elevate Your Online Presence with NeedleAds Technology's SEO Services in Indore</h2>
                         </div>
-                        <p>NeedleAds Technology, the leading provider of <b>SEO services in Indore</b>. Our goal is to
+                        <p data-aos="fade-up" data-aos-duration="1100">NeedleAds Technology, the leading provider of <b>SEO services in Indore</b>. Our goal is to
                             empower businesses like yours by enhancing their online visibility and driving quality
                             traffic to their websites. Leveraging our expertise in search engine optimization, we craft
                             customized strategies tailored to the unique needs of businesses in Indore. From
@@ -67,15 +64,15 @@ $canonical_url = "https://www.theneedleads.com/seo-services-in-indore.php";
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Tailored SEO Strategies for Indore Businesses</h2>
             </div>
-            <p class="text-center">At NeedleAds Technology, we understand that every business is unique, which is why we
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1200">At NeedleAds Technology, we understand that every business is unique, which is why we
                 offer personalized SEO solutions in Indore. designed to meet the specific needs of businesses. Our
                 comprehensive approach to SEO encompasses a range of techniques aimed at improving your website's
                 visibility and driving targeted traffic.</p>
 
-            <p class="text-center">Our process begins with a thorough analysis of your business objectives, target
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1400">Our process begins with a thorough analysis of your business objectives, target
                 audience, and competitors. We conduct in-depth keyword research to identify relevant search terms that
                 potential customers are using to find businesses like yours in Indore. Armed with this data, we optimize
                 your website's on-page elements, including meta tags, headings, and content, to ensure maximum
@@ -83,14 +80,14 @@ $canonical_url = "https://www.theneedleads.com/seo-services-in-indore.php";
 
             </p>
 
-            <p class="text-center">In addition to on-page optimization, we focus on building your website's authority
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1600">In addition to on-page optimization, we focus on building your website's authority
                 through strategic link building and off-page optimization tactics. Our team leverages various channels
                 such as content marketing, social media, and digital PR to attract high-quality backlinks and improve
                 your website's credibility in the eyes of search engines.
             </p>
 
 
-            <p class="text-center">As the top <b>SEO agency in Indore</b>, we are committed to delivering measurable
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1800">As the top <b>SEO agency in Indore</b>, we are committed to delivering measurable
                 results and driving growth for your business. Partner with NeedleAds Technology and let us help you
                 unlock the full potential of your online presence in Indore.</p>
 
@@ -106,21 +103,21 @@ $canonical_url = "https://www.theneedleads.com/seo-services-in-indore.php";
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up">
                             <h3>The Importance of SEO for Indore Businesses</h3>
                         </div>
-                        <p>In today's digital age, having a strong online presence is essential for businesses in Indore
+                        <p data-aos="fade-up" data-aos-duration="1100">In today's digital age, having a strong online presence is essential for businesses in Indore
                             to thrive in the competitive market. SEO plays a crucial role in enhancing visibility,
                             attracting targeted traffic, and increasing brand awareness. By optimizing your website for
                             relevant keywords we can improve your rankings in search engine results pages (SERPs) and
                             reach potential customers who are actively searching for your products or services.</p>
-                        <p>Investing in SEO services is not just about improving your website's rankings; it's about
+                        <p data-aos="fade-up" data-aos-duration="1200">Investing in SEO services is not just about improving your website's rankings; it's about
                             establishing your brand as a credible authority in your industry. With the right SEO
                             strategy in place, you can stay ahead of the competition and achieve long-term success in
                             the dynamic market of Indore.</p>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/siteabout2.png">
@@ -138,7 +135,7 @@ $canonical_url = "https://www.theneedleads.com/seo-services-in-indore.php";
 <section class="sectionpadding innerpagebox">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h3>Why Choose NeedleAds Technology for SEO Services in Indore?</h3>
             </div>
             <div class="row alignset justify-content-center agn">

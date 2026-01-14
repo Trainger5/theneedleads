@@ -6,11 +6,8 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-ahmedabad.php";
 <?php include './include/header.php';?>
 
 
-<section style="
-    background: url(assets/img/seobanner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner seo_ahmedabad_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -34,7 +31,7 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-ahmedabad.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12"data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/siteabout1.png" alt="SEO Company in Janakpuri">
@@ -45,9 +42,9 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-ahmedabad.php";
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
                         <div class="sectionheading">
-                            <h2>Empower Your Business with Top-Notch SEO Company in Ahmedabad</h2>
+                            <h2 data-aos="fade-up" data-aos-duration="800">Empower Your Business with Top-Notch SEO Company in Ahmedabad</h2>
                         </div>
-                        <p>Welcome to NeedleAds Technology, your go-to destination for premium <b>SEO Company in
+                        <p data-aos="fade-up" data-aos-duration="1200">Welcome to NeedleAds Technology, your go-to destination for premium <b>SEO Company in
                                 Ahmedabad</b>. Our mission is simple yet powerful: to propel your business to new
                             heights through strategic SEO solutions tailored to the unique landscape of Ahmedabad.
                             As the leading <b>SEO company in Ahmedabad</b>, we understand the dynamics of the local
@@ -67,25 +64,25 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-ahmedabad.php";
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading"data-aos="fade-up">
                 <h2>Bespoke SEO Strategies for Ahmedabad's Thriving Businesses</h2>
             </div>
-            <p class="text-center">At NeedleAds Technology, we pride ourselves on offering bespoke SEO strategies
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1000">At NeedleAds Technology, we pride ourselves on offering bespoke SEO strategies
                 designed to meet the diverse needs of businesses in Ahmedabad. With our deep understanding of the
                 local market nuances and consumer behavior, we craft customized solutions that resonate with your
                 target audience and drive tangible results.</p>
-            <p class="text-center">Our approach begins with a thorough analysis of your business objectives,
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1200">Our approach begins with a thorough analysis of your business objectives,
                 industry landscape, and competitor landscape. We conduct comprehensive keyword research to identify
                 high-value keywords relevant to your niche and location. By optimizing your website's on-page
                 elements, creating engaging content, and implementing advanced SEO techniques, we ensure that your
                 website ranks prominently in search engine results pages (SERPs).</p>
 
 
-            <p class="text-center">In addition to on-page optimization, we focus on building your website's
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1400">In addition to on-page optimization, we focus on building your website's
                 authority through strategic link building and off-page optimization strategies. From content
                 marketing to social media engagement, we employ a multi-faceted approach to enhance your online
                 visibility and attract quality traffic.</p>
-            <p class="text-center">As the best <b>SEO company in Ahmedabad</b>, we are committed to delivering
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1600"  >As the best <b>SEO company in Ahmedabad</b>, we are committed to delivering
                 measurable results and driving growth for your business. Partner with NeedleAds Technology and let
                 us help you unlock the full potential of your online presence in Ahmedabad.</p>
 
@@ -101,19 +98,19 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-ahmedabad.php";
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
                         <div class="sectionheading">
-                            <h3>The Impact of SEO on Ahmedabad Businesses</h3>
+                            <h3 data-aos="fade-up">The Impact of SEO on Ahmedabad Businesses</h3>
                         </div>
-                        <p>In a bustling city like Ahmedabad, having a strong online presence is crucial for
+                        <p data-aos="fade-up" data-aos-duration="1200">In a bustling city like Ahmedabad, having a strong online presence is crucial for
                             businesses to thrive in the competitive market. SEO plays a pivotal role in enhancing
                             visibility, attracting targeted traffic, and boosting conversions.</p>
-                        <p>By optimizing your website for relevant keywords and providing valuable content, you can
+                        <p data-aos="fade-up" data-aos-duration="1400">By optimizing your website for relevant keywords and providing valuable content, you can
                             improve your rankings in search engine results pages (SERPs) and increase your chances
                             of being found by potential customers. Additionally, with the growing trend of mobile
                             and local searches, local SEO has become indispensable for businesses targeting
                             customers in Ahmedabad.</p>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12"data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/siteabout2.png">
@@ -129,7 +126,7 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-ahmedabad.php";
 <section class="sectionpadding innerpagebox">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h3>Why Choose NeedleAds Technology for SEO Services in Ahmedabad?</h3>
             </div>
             <div class="row alignset justify-content-center agn">

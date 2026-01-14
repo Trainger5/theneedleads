@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/seo-companies-in-gujarat.php";
 ?>
 <?php include './include/header.php';?>
 
-<section style="
-    background: url(assets/img/seobanner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner seo_gujarat_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -33,7 +30,7 @@ $canonical_url = "https://www.theneedleads.com/seo-companies-in-gujarat.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12"data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/siteabout1.png" alt="SEO Company in Janakpuri">
@@ -43,11 +40,11 @@ $canonical_url = "https://www.theneedleads.com/seo-companies-in-gujarat.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading"data-aos="fade-up">
                             <h2>Unlock Your Business Potential with NeedleAds Technology's SEO Company in Gujarat
                             </h2>
                         </div>
-                        <p>NeedleAds Technology, your premier destination for top-tier <b>SEO Company in
+                        <p data-aos="fade-up" data-aos-duration="1200">NeedleAds Technology, your premier destination for top-tier <b>SEO Company in
                                 Gujarat</b>. As the leading SEO company in the region, we specialize in helping
                             businesses thrive in the digital landscape. Our tailored <b>SEO solutions in
                                 Gujarat</b>. are designed to enhance your online visibility, attract quality
@@ -68,28 +65,28 @@ $canonical_url = "https://www.theneedleads.com/seo-companies-in-gujarat.php";
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Customized SEO Strategies for Businesses in Gujarat</h2>
             </div>
-            <p class="text-center">At NeedleAds Technology, we understand that every business is unique, which is
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1100">At NeedleAds Technology, we understand that every business is unique, which is
                 why we offer customized <b>SEO strategies </b>tailored to the specific needs of businesses in
                 Gujarat. Our comprehensive approach to SEO covers all aspects of digital marketing, ensuring that
                 your website ranks prominently in search engine results and drives targeted traffic to your
                 business.</p>
 
-            <p class="text-center">Our process begins with a detailed analysis of your business objectives, target
+            <p class="text-center"data-aos="fade-up" data-aos-duration="1200">Our process begins with a detailed analysis of your business objectives, target
                 audience, and competitors. We conduct thorough keyword research to identify high-value keywords
                 relevant to your industry and location. By optimizing your website's on-page elements, creating
                 quality content, and implementing effective link building strategies, we ensure that your website is
                 well-positioned to rank for these keywords and attract potential customers.
             </p>
 
-            <p class="text-center">In addition to on-page optimization, we focus on building your website's
+            <p class="text-center"data-aos="fade-up" data-aos-duration="1400">In addition to on-page optimization, we focus on building your website's
                 authority through strategic off-page tactics such as content marketing, social media engagement, and
                 digital PR. By establishing your brand as an authority in your industry, we help you earn valuable
                 backlinks and improve your website's credibility in the eyes of search engines.</p>
 
-            <p class="text-center">As the trusted <b>SEO company in Gujarat</b>, we are committed to delivering
+            <p class="text-center"data-aos="fade-up" data-aos-duration="1600">As the trusted <b>SEO company in Gujarat</b>, we are committed to delivering
                 measurable results and driving growth for your business. Partner with NeedleAds Technology and let
                 us help you unlock the full potential of your online presence in Gujarat.
             </p>
@@ -105,21 +102,21 @@ $canonical_url = "https://www.theneedleads.com/seo-companies-in-gujarat.php";
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up">
                             <h3>The Importance of SEO for Businesses in Gujarat</h3>
                         </div>
-                        <p>In today's digital age, having a strong online presence is essential for businesses in
+                        <p data-aos="fade-up" data-aos-duration="1200">In today's digital age, having a strong online presence is essential for businesses in
                             Gujarat to succeed in the competitive market. SEO plays a crucial role in enhancing
                             visibility, attracting targeted traffic, and increasing brand awareness. We can improve
                             your rankings in search engine results pages (SERPs) and reach potential customers who
                             are actively searching for your products or services.</p>
-                        <p>Investing in SEO services is not just about improving your website's rankings; it's about
+                        <p data-aos="fade-up" data-aos-duration="1400">Investing in SEO services is not just about improving your website's rankings; it's about
                             establishing your brand as a credible authority in your industry. With the right<b> SEO
                                 strategy in Gujrat</b>, you can stay ahead of the competition and achieve long-term
                             success in the dynamic market of Gujarat.</p>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/siteabout2.png">
@@ -136,7 +133,7 @@ $canonical_url = "https://www.theneedleads.com/seo-companies-in-gujarat.php";
 <section class="sectionpadding innerpagebox">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h3>Why Choose NeedleAds Technology for SEO Services in Gujarat?</h3>
             </div>
             <div class="row alignset justify-content-center agn">

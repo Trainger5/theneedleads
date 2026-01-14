@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/website-design-packages.php";
 ?>
 <?php include './include/header.php';?>
 
-<section class="bannersectionstr" style="
-    background: url(assets/img/Website-Design-Packages.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner  website_design_packages_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
@@ -37,11 +34,11 @@ $canonical_url = "https://www.theneedleads.com/website-design-packages.php";
 <section class="sectionpadding bgsection ourservicestwo websitemaintenanceservicesection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading"  data-aos="fade-up">
                 <h2>Affordable Website Design Packages in India</h2>
             </div>
             <div class="row justify-content-center">
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="800">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/bussniss-1.jpg">
@@ -54,7 +51,7 @@ $canonical_url = "https://www.theneedleads.com/website-design-packages.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/creativity.jpg">
@@ -68,7 +65,7 @@ $canonical_url = "https://www.theneedleads.com/website-design-packages.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="2000">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/pricing.jpg">
@@ -81,7 +78,7 @@ $canonical_url = "https://www.theneedleads.com/website-design-packages.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="2500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/support.jpg">
@@ -178,11 +175,11 @@ $canonical_url = "https://www.theneedleads.com/website-design-packages.php";
 <section class="sectionpadding bgsection ourservicestwo websitemaintenanceservicesection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>SEO-Friendly Website Development Packages In India</h2>
             </div>
             <div class="row justify-content-center">
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/bussniss-1.jpg">
@@ -194,7 +191,7 @@ $canonical_url = "https://www.theneedleads.com/website-design-packages.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-down" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/creativity.jpg">
@@ -206,7 +203,7 @@ $canonical_url = "https://www.theneedleads.com/website-design-packages.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/pricing.jpg">
@@ -219,7 +216,7 @@ $canonical_url = "https://www.theneedleads.com/website-design-packages.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-down" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/support.jpg">
@@ -242,8 +239,8 @@ $canonical_url = "https://www.theneedleads.com/website-design-packages.php";
     <div class="faqsectioncolapsable">
         <div class="container">
             <div class="sectionheading">
-                <h2 class="minpackghead">Affordable <span class="blue">Website Design Packages</span> in India</h2>
-                <p>Find affordable website design packages in India that cater to your business needs. Our website
+                <h2 class="minpackghead" data-aos="fade-up">Affordable <span class="blue">Website Design Packages</span> in India</h2>
+                <p data-aos="fade-up" data-aos-duration="1500">Find affordable website design packages in India that cater to your business needs. Our website
                     design and website development packages offer high-quality solutions at competitive prices. Improve
                     your online presence with our customizable website development packages in India.</p>
             </div>

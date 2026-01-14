@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/seo-packages.php";
 ?>
 <?php include './include/header.php';?>
 
-<section class="bannersectionstr" style="
-    background: url(assets/img/search-engine-optimization.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner seo_packages_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
@@ -36,11 +33,11 @@ $canonical_url = "https://www.theneedleads.com/seo-packages.php";
 <section class="sectionpadding bgsection ourservicestwo websitemaintenanceservicesection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Choose Our Affordable SEO Packages</h2>
             </div>
             <div class="row justify-content-center">
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices"  data-aos="fade-up" data-aos-duration="800">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/bussniss-1.jpg">
@@ -54,7 +51,7 @@ $canonical_url = "https://www.theneedleads.com/seo-packages.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices"  data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/creativity.jpg">
@@ -67,7 +64,7 @@ $canonical_url = "https://www.theneedleads.com/seo-packages.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices"  data-aos="fade-up" data-aos-duration="2000">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/pricing.jpg">
@@ -80,7 +77,7 @@ $canonical_url = "https://www.theneedleads.com/seo-packages.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices"  data-aos="fade-up" data-aos-duration="2500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/support.jpg">
@@ -104,12 +101,12 @@ $canonical_url = "https://www.theneedleads.com/seo-packages.php";
         <div class="container">
 
 
-            <div class="sectionheading">
+            <div class="sectionheading"  data-aos="fade-up">
                 <h2>Our Range of Search Engine Optimization Packages</h2>
             </div>
 
             <div class="row alignset justify-content-center">
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="servicecontent">
                             <h4>Starter Package</h4>
@@ -120,7 +117,7 @@ $canonical_url = "https://www.theneedleads.com/seo-packages.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-down" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="servicecontent">
                             <h4>Standard Package</h4>
@@ -132,7 +129,7 @@ $canonical_url = "https://www.theneedleads.com/seo-packages.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="servicecontent">
                             <h4>Advanced Package</h4>

@@ -6,7 +6,7 @@ $canonical_url = "https://www.theneedleads.com/about-us.php";
 <?php include './include/header.php';?>
 
 
-<style>
+<!-- <style>
 /* Simple notification message styling */
 .thank-you-message {
     position: fixed;
@@ -21,7 +21,7 @@ $canonical_url = "https://www.theneedleads.com/about-us.php";
     display: none;
     z-index: 1000;
 }
-</style>
+</style> -->
 
 
 <script>
@@ -34,11 +34,8 @@ setTimeout(function() {
 }, 3000);
 </script>
 
-<section class="bannersectionstr" style="
-    background: url(assets/img/portfolio/portfoliobnr.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner case_study_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">

@@ -7,10 +7,8 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-bangalore.php";
 
 
 <section style="
-    background: url(assets/img/seobanner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+">
+    <div class="outerofbanner seo_bangalore_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -34,7 +32,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-bangalore.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/siteabout1.png" alt="SEO Company in Janakpuri">
@@ -44,10 +42,10 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-bangalore.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading"data-aos="fade-up">
                             <h2>Maximize Your Online Presence with Our Bangalore SEO Agency</h2>
                         </div>
-                        <p>NeedleAds Technology, the leading <b>SEO agency in Bangalore</b> dedicated to helping
+                        <p  data-aos="fade-up" data-aos-duration="1100">NeedleAds Technology, the leading <b>SEO agency in Bangalore</b> dedicated to helping
                             businesses thrive in the digital landscape. With our comprehensive SEO solutions, we
                             empower businesses to enhance their online visibility, attract targeted traffic, and
                             achieve measurable results. As a trusted <b>SEO company in Bangalore</b>, we understand
@@ -67,33 +65,33 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-bangalore.php";
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Customized SEO Solutions for Bangalore Businesses</h2>
             </div>
-            <p class="text-center">At NeedleAds Technology, we take pride in being a top-tier <b>SEO agency in
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1100">At NeedleAds Technology, we take pride in being a top-tier <b>SEO agency in
                     Bangalore</b>, dedicated to delivering personalized solutions that drive tangible results for
                 our clients. With years of experience in the industry, we understand the evolving dynamics of the
                 Bangalore market and employ strategic SEO techniques to help businesses stand out in the crowded
                 digital space.
-            <p class="text-center">Our approach begins with a comprehensive assessment of your business goals,
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1300">Our approach begins with a comprehensive assessment of your business goals,
                 target audience, and competition. We conduct thorough keyword research to identify high-value
                 keywords relevant to your industry and location, ensuring that your website ranks prominently in
                 Bangalore-specific search results. By optimizing your website's on-page elements, content, and
                 technical aspects, we enhance its visibility and relevance to search engines.
 
             </p>
-            <p class="text-center">In addition to on-page optimization, our <b>Bangalore SEO agency</b> specializes
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1500">In addition to on-page optimization, our <b>Bangalore SEO agency</b> specializes
                 in off-page strategies aimed at building your website's authority and credibility. From strategic
                 link building to content marketing and social media engagement, we create a robust online presence
                 that attracts valuable backlinks and drives organic traffic.
             </p>
-            <p class="text-center">We understand that every business is unique, which is why we tailor our <b>SEO
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1700">We understand that every business is unique, which is why we tailor our <b>SEO
                     solutions</b> to meet your specific needs and objectives. Whether you're looking to increase
                 brand awareness, drive website traffic, or boost conversions, our team of experts is committed to
                 delivering results that exceed your expectations.
 
             </p>
-            <p class="text-center">Partner with NeedleAds Technology today and take the first step towards
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1900">Partner with NeedleAds Technology today and take the first step towards
                 maximizing your online presence in Bangalore. Contact us to schedule a consultation and learn more
                 about how our customized SEO solutions can help your business thrive in the competitive digital
                 landscape of Bangalore.
@@ -110,21 +108,21 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-bangalore.php";
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading"data-aos="fade-up">
                             <h3>Experienced SEO Services in Bangalore</h3>
                         </div>
-                        <p>As the <b>best SEO company in Bangalore</b>, NeedleAds Technology is committed to helping
+                        <p  data-aos="fade-up" data-aos-duration="1100">As the <b>best SEO company in Bangalore</b>, NeedleAds Technology is committed to helping
                             businesses navigate the complexities of the digital world and achieve their online
                             goals. With a team of experienced professionals and a proven track record of success, we
                             offer a comprehensive suite of SEO services tailored to meet the unique needs of
                             businesses in Bangalore.</p>
-                        <p>From on-page optimization to off-page strategies, we have the expertise and resources to
+                        <p data-aos="fade-up" data-aos-duration="1500">From on-page optimization to off-page strategies, we have the expertise and resources to
                             help you succeed online. Partner with us today and let us help you unlock the full
                             potential of your business in the bustling city of Bangalore. Contact NeedleAds
                             Technology to schedule a consultation and take the first step towards digital success.
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/siteabout2.png">

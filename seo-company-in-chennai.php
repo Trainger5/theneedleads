@@ -6,11 +6,8 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-chennai.php";
 <?php include './include/header.php';?>
 
 
-<section style="
-    background: url(assets/img/seobanner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner seo_chennai_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -34,7 +31,7 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-chennai.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12"data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/siteabout1.png" alt="SEO Company in Janakpuri">
@@ -44,10 +41,10 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-chennai.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading"data-aos="fade-up">
                             <h2>Enhance Your Online Presence with SEO Company in Chennai.</h2>
                         </div>
-                        <p>NeedleAds Technology, the premier <b>SEO company in Chennai</b> dedicated to helping
+                        <p data-aos="fade-up" data-aos-duration="1200">NeedleAds Technology, the premier <b>SEO company in Chennai</b> dedicated to helping
                             businesses thrive in the digital realm. With our comprehensive SEO solutions, we empower
                             businesses to amplify their online visibility, attract targeted traffic, and achieve
                             measurable results. As a trusted <b>SEO agency in Chennai</b>, we understand the unique
@@ -68,30 +65,30 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-chennai.php";
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading"data-aos="fade-up">
                 <h2>Customized SEO Solutions for Chennai Businesses</h2>
             </div>
-            <p class="text-center">At NeedleAds Technology, we take pride in being a top-tier <b>SEO agency in
+            <p class="text-center"data-aos="fade-up" data-aos-duration="1200">At NeedleAds Technology, we take pride in being a top-tier <b>SEO agency in
                     Chennai</b>, committed to delivering personalized solutions that yield tangible results for our
                 clients. With years of experience in the industry, we grasp the evolving dynamics of the Chennai
                 market and deploy strategic SEO techniques to help businesses stand out in the competitive digital
                 landscape.</p>
-            <p class="text-center">Our approach commences with a comprehensive evaluation of your business goals,
+            <p class="text-center"data-aos="fade-up" data-aos-duration="1400">Our approach commences with a comprehensive evaluation of your business goals,
                 target audience, and competitors. We conduct meticulous keyword research to pinpoint high-value
                 keywords relevant to your industry and locale, ensuring your website ranks prominently in
                 Chennai-specific search results. By optimizing your website's on-page elements, content, and
                 technical aspects, we enhance its visibility and relevance to search engines.
             </p>
-            <p class="text-center">Additionally, our <b>Chennai SEO agency</b> specializes in off-page strategies
+            <p class="text-center"data-aos="fade-up" data-aos-duration="1600">Additionally, our <b>Chennai SEO agency</b> specializes in off-page strategies
                 aimed at bolstering your website's authority and credibility. From strategic link building to
                 content marketing and social media engagement, we forge a robust online presence that garners
                 valuable backlinks and drives organic traffic.
             </p>
-            <p class="text-center">Understanding that every business is unique, we tailor our <b>SEO solutions</b>
+            <p class="text-center"data-aos="fade-up" data-aos-duration="1700">Understanding that every business is unique, we tailor our <b>SEO solutions</b>
                 to align with your specific objectives. Whether you seek to bolster brand visibility, drive website
                 traffic, or enhance conversions, our team of experts is dedicated to exceeding your expectations.
             </p>
-            <p class="text-center">Partner with NeedleAds Technology today to embark on a journey towards maximizing
+            <p class="text-center"data-aos="fade-up" data-aos-duration="1800">Partner with NeedleAds Technology today to embark on a journey towards maximizing
                 your online presence in Chennai. Reach out to us to schedule a consultation and explore how our
                 customized SEO solutions can propel your business to new heights in the competitive digital
                 landscape of Chennai.
@@ -109,22 +106,22 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-chennai.php";
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up">
                             <h3>Experienced SEO Services in Chennai</h3>
                         </div>
-                        <p>As the best <b>SEO company in Chennai</b>, NeedleAds Technology is committed to guiding
+                        <p data-aos="fade-up" data-aos-duration="1100">As the best <b>SEO company in Chennai</b>, NeedleAds Technology is committed to guiding
                             businesses through the intricacies of the digital realm and achieving their online
                             aspirations. With a seasoned team of professionals and a proven track record of success,
                             we offer a comprehensive suite of SEO services tailored to cater to the unique
                             requirements of businesses in Chennai.</p>
-                        <p>From meticulous on-page optimization to strategic off-page tactics, we possess the
+                        <p data-aos="fade-up" data-aos-duration="1300">From meticulous on-page optimization to strategic off-page tactics, we possess the
                             expertise and resources to facilitate your online success. Partner with us today and
                             unlock the full potential of your business in the vibrant city of Chennai. Contact
                             NeedleAds Technology to schedule a consultation and take the initial step towards
                             realizing digital triumph.</p>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12"data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/siteabout2.png">

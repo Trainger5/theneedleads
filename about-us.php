@@ -8,11 +8,8 @@ $canonical_url = "https://www.theneedleads.com/about-us.php";
 
     <?php include './include/header.php';?>
 
-    <section class="bannersectionstr" style="
-    background: url(assets/img/about-us.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-        <div class="outerofbanner">
+    <section>
+        <div class="outerofbanner about_us_background">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
@@ -32,7 +29,7 @@ $canonical_url = "https://www.theneedleads.com/about-us.php";
         <div class="outerofaboutsection">
             <div class="container">
                 <div class="row alignset align-items-center">
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                         <div class="aboutsidimgwithform">
                             <div class="aboutimg">
                                 <img src="assets/img/aboutpage.png" alt="business discussion">
@@ -42,12 +39,12 @@ $canonical_url = "https://www.theneedleads.com/about-us.php";
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                         <div class="aboutcontent">
-                            <p class="text-justify">NeedleAds Technology is a leading <a href="https://www.theneedleads.com/">digital
+                            <p class="text-justify"  data-aos="fade-up" data-aos-duration="800">NeedleAds Technology is a leading <a href="https://www.theneedleads.com/">digital
                                     marketing company in Janakpuri</a>, Delhi, dedicated to providing innovative and
                                 results-driven digital marketing solutions to businesses of all sizes. With a focus on
                                 creativity, technology, and customer satisfaction, we strive to be your trusted partner
                                 in the digital world.</p>
-                            <p class="text-justify">Since 2012, NeedleAds Technology has been at the forefront of delivering innovative
+                            <p class="text-justify" data-aos="fade-up" data-aos-duration="1200">Since 2012, NeedleAds Technology has been at the forefront of delivering innovative
                                 digital solutions that authorize businesses to thrive in the online world. Our passion
                                 for technology and commitment to excellence drives us to provide cutting-edge websites,
                                 robust web applications, and tailored digital marketing strategies that exceed our
@@ -119,13 +116,13 @@ $canonical_url = "https://www.theneedleads.com/about-us.php";
     <section class="sectionpadding ourservicestwo aboutinnerservices">
         <div class="outerofservicessection">
             <div class="container">
-                <div class="sectionheading">
+                <div class="sectionheading" data-aos="fade-up">
                     <h2>Our Services</h2>
                     <p>At NeedleAds Technology, we offer complete digital marketing services to help businesses achieve
                         their goals. Our services include</p>
                 </div>
                 <div class="row justify-content-center alignset">
-                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                         <div class="boxservices">
                             <div class="sicon">
                                 <img src="assets/img/i3.png">
@@ -140,7 +137,7 @@ $canonical_url = "https://www.theneedleads.com/about-us.php";
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-down" data-aos-duration="1500" >
                         <div class="boxservices">
                             <div class="sicon">
                                 <img src="assets/img/i1.png">
@@ -154,7 +151,7 @@ $canonical_url = "https://www.theneedleads.com/about-us.php";
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                         <div class="boxservices">
                             <div class="sicon">
                                 <img src="assets/img/pi3.png">
@@ -169,7 +166,7 @@ $canonical_url = "https://www.theneedleads.com/about-us.php";
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices"  data-aos="fade-down" data-aos-duration="1500">
                         <div class="boxservices">
                             <div class="sicon">
                                 <img src="assets/img/ei1.png">
@@ -183,7 +180,7 @@ $canonical_url = "https://www.theneedleads.com/about-us.php";
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices"  data-aos="fade-up" data-aos-duration="1500">
                         <div class="boxservices">
                             <div class="sicon">
                                 <img src="assets/img/pii3.png">
@@ -198,7 +195,7 @@ $canonical_url = "https://www.theneedleads.com/about-us.php";
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices"  data-aos="fade-down" data-aos-duration="1500">
                         <div class="boxservices">
                             <div class="sicon">
                                 <img src="assets/img/di4.png">
@@ -213,7 +210,7 @@ $canonical_url = "https://www.theneedleads.com/about-us.php";
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                         <div class="boxservices">
                             <div class="sicon">
                                 <img src="assets/img/bullhorn.png">
@@ -228,7 +225,7 @@ $canonical_url = "https://www.theneedleads.com/about-us.php";
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices"  data-aos="fade-down" data-aos-duration="1500">
                         <div class="boxservices">
                             <div class="sicon">
                                 <img src="assets/img/analytics.png">

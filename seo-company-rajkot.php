@@ -6,11 +6,8 @@ $canonical_url = "https://www.theneedleads.com/seo-company-rajkot.php";
 <?php include './include/header.php';?>
 
 
-<section style="
-    background: url(assets/img/seobanner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner seo_rajkot_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -34,7 +31,7 @@ $canonical_url = "https://www.theneedleads.com/seo-company-rajkot.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/siteabout1.png" alt="SEO Company in Janakpuri">
@@ -44,10 +41,10 @@ $canonical_url = "https://www.theneedleads.com/seo-company-rajkot.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading"data-aos="fade-up">
                             <h2>Elevate Your Online Presence with NeedleAds Technology's SEO Company in Rajkot</h2>
                         </div>
-                        <p>Discover the power of NeedleAds Technology's SEO services tailored for businesses in
+                        <p data-aos="fade-up" data-aos-duration="1200">Discover the power of NeedleAds Technology's SEO services tailored for businesses in
                             Rajkot. As a leading SEO company, we specialize in delivering customized strategies to
                             enhance your online visibility and drive qualified traffic. Our team is dedicated to
                             understanding your unique business goals and crafting strategies that resonate with your
@@ -65,26 +62,26 @@ $canonical_url = "https://www.theneedleads.com/seo-company-rajkot.php";
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading"data-aos="fade-up" data-aos-duration="800">
                 <h2>Customized SEO Solutions for Mumbai Businesses</h2>
             </div>
-            <p class="text-center">At NeedleAds Technology, we recognize that every business in Rajkot is distinct,
+            <p class="text-center"data-aos="fade-up" data-aos-duration="1200">At NeedleAds Technology, we recognize that every business in Rajkot is distinct,
                 requiring tailored SEO approaches to thrive in the digital realm. Our holistic SEO methodology
                 encompasses meticulous research and analysis to understand your business landscape, target audience,
                 and competition thoroughly. We conduct comprehensive keyword research, identifying high-impact terms
                 to optimize your website's visibility.</p>
 
-            <p class="text-center">Our strategic implementation covers both on-page and off-page optimization
+            <p class="text-center"data-aos="fade-up" data-aos-duration="1400">Our strategic implementation covers both on-page and off-page optimization
                 techniques, ensuring your website ranks prominently on search engine results pages (SERPs). From
                 optimizing meta tags and content to building authoritative backlinks, we deploy a multifaceted
                 approach to elevate your website's authority and drive organic traffic.</p>
 
-            <p class="text-center">Moreover, our commitment to transparency means you're kept informed throughout
+            <p class="text-center"data-aos="fade-up" data-aos-duration="1600">Moreover, our commitment to transparency means you're kept informed throughout
                 the journey. We provide regular progress reports, enabling you to track the effectiveness of our
                 strategies and witness tangible results firsthand.
             </p>
 
-            <p class="text-center">As your trusted <b>SEO Company in Rajkot</b>, we are dedicated to your success.
+            <p class="text-center"data-aos="fade-up" data-aos-duration="1800">As your trusted <b>SEO Company in Rajkot</b>, we are dedicated to your success.
                 Our proven track record, coupled with a client-centric approach, ensures we deliver measurable
                 outcomes that propel your business forward in the competitive digital landscape.</p>
         </div>
@@ -98,22 +95,22 @@ $canonical_url = "https://www.theneedleads.com/seo-company-rajkot.php";
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up">
                             <h3>The Role of SEO in Driving Business Success in Rajkot</h3>
                         </div>
-                        <p>In today's digitally-driven landscape, establishing a robust online presence is
+                        <p data-aos="fade-up" data-aos-duration="1200">In today's digitally-driven landscape, establishing a robust online presence is
                             imperative for businesses in Rajkot to thrive. SEO serves as the cornerstone of online
                             visibility, enabling businesses to connect with their target audience effectively. By
                             optimizing your website for relevant keywords we can enhance your visibility on search
                             engines, attract qualified leads, and drive conversions.</p>
-                        <p>Investing in professional <b>SEO services</b> empowers Rajkot businesses to stay ahead of
+                        <p data-aos="fade-up" data-aos-duration="1400">Investing in professional <b>SEO services</b> empowers Rajkot businesses to stay ahead of
                             the competition and capitalize on emerging opportunities in the digital marketplace.
                             With NeedleAds Technology as your SEO partner, you can navigate the complexities of SEO
                             with confidence, knowing that your business is equipped to achieve sustainable growth
                             and long-term success.</p>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12"data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/siteabout2.png">
@@ -129,7 +126,7 @@ $canonical_url = "https://www.theneedleads.com/seo-company-rajkot.php";
 <section class="sectionpadding innerpagebox">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading"data-aos="fade-up">
                 <h3>Why Choose NeedleAds Technology for SEO Services in Rajkot?</h3>
             </div>
             <div class="row alignset justify-content-center agn">

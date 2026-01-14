@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-lucknow.php";
 ?>
 <?php include './include/header.php';?>
 
-<section style="
-    background: url(assets/img/seobanner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner seo_lucknow_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -33,7 +30,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-lucknow.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/siteabout1.png" alt="SEO Company in Janakpuri">
@@ -43,10 +40,10 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-lucknow.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading"data-aos="fade-up">
                             <h2>Unlock Your Online Potential with Our SEO Agency in Lucknow</h2>
                         </div>
-                        <p>NeedleAds Technology, your premier destination for cutting-edge <b>SEO services in
+                        <p data-aos="fade-up" data-aos-duration="1200">NeedleAds Technology, your premier destination for cutting-edge <b>SEO services in
                                 Lucknow</b>. As the top-rated SEO agency in the city, we specialize in helping
                             businesses like yours achieve digital success through strategic search engine
                             optimization (SEO) techniques. With our team of experienced professionals and a deep
@@ -66,36 +63,36 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-lucknow.php";
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Tailored SEO Strategies for Lucknow Businesses</h2>
             </div>
-            <p class="text-center">At NeedleAds Technology, we understand that every business is unique, and that's
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1100">At NeedleAds Technology, we understand that every business is unique, and that's
                 why we offer customized SEO strategies designed to meet the specific needs of businesses in Lucknow.
                 Our comprehensive approach to SEO covers all aspects of digital marketing, ensuring that your
                 website ranks prominently in search engine results and drives targeted traffic to your business.</p>
 
 
-            <p class="text-center">We begin by conducting a thorough analysis of your business goals, target
+            <p class="text-center"data-aos="fade-up" data-aos-duration="1200">We begin by conducting a thorough analysis of your business goals, target
                 audience, and competitors. Our team of experts performs in-depth keyword research to identify
                 high-value keywords relevant to your industry
             </p>
 
 
-            <p class="text-center">In addition to on-page optimization, we focus on building your website's
+            <p class="text-center"data-aos="fade-up" data-aos-duration="1400">In addition to on-page optimization, we focus on building your website's
                 authority through strategic off-page tactics such as content marketing, social media engagement, and
                 digital PR. By establishing your brand as an authority in your industry, we help you earn valuable
                 backlinks and improve your website's credibility in the eyes of search engines.</p>
 
 
 
-            <p class="text-center">As the leading <b>SEO agency in Lucknow</b>, we are committed to delivering
+            <p class="text-center"data-aos="fade-up" data-aos-duration="1600">As the leading <b>SEO agency in Lucknow</b>, we are committed to delivering
                 measurable results and driving growth for your business. Partner with NeedleAds Technology and let
                 us help you unlock the full potential of your online presence in Lucknow.</p>
 
 
 
 
-            <p class="text-center">Partner with NeedleAds Technology today and take the first step towards
+            <p class="text-center"data-aos="fade-up" data-aos-duration="1800">Partner with NeedleAds Technology today and take the first step towards
                 maximizing your online presence in Mumbai. Contact us to schedule a consultation and learn more
                 about how our <b>customized SEO solutions</b> can help your business thrive in the competitive
                 digital landscape of Mumbai.</p>
@@ -112,19 +109,19 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-lucknow.php";
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading"data-aos="fade-up">
                             <h3>The Importance of SEO for Lucknow Businesses</h3>
                         </div>
-                        <p>In today's digital age, having a strong online presence is essential for businesses in
+                        <p data-aos="fade-up" data-aos-duration="1100">In today's digital age, having a strong online presence is essential for businesses in
                             Lucknow to succeed in the competitive market. SEO plays a crucial role in enhancing
                             visibility, attracting targeted traffic, and boosting conversions.</p>
-                        <p>Investing in SEO services is not just about improving your website's rankings; it's about
+                        <p data-aos="fade-up" data-aos-duration="1200">Investing in SEO services is not just about improving your website's rankings; it's about
                             establishing your brand as a credible authority in your industry. With the right SEO
                             strategy in place, you can stay ahead of the competition and achieve long-term success
                             in the dynamic market of Lucknow.</p>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/siteabout2.png">
@@ -141,7 +138,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-lucknow.php";
 <section class="sectionpadding innerpagebox">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h3>Why Choose NeedleAds Technology for SEO Services in Lucknow?</h3>
             </div>
             <div class="row alignset justify-content-center agn">

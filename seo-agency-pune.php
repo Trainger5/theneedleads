@@ -6,11 +6,8 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-pune.php";
 <?php include './include/header.php';?>
 
 
-<section style="
-    background: url(assets/img/seobanner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner seo_pune_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -34,7 +31,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-pune.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12"data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/siteabout1.png" alt="SEO Company in Janakpuri">
@@ -44,9 +41,9 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-pune.php";
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
                         <div class="sectionheading">
-                            <h2>Transform Your Online Presence with Premier SEO Agency in Pune</h2>
+                            <h2 data-aos="fade-up"  >Transform Your Online Presence with Premier SEO Agency in Pune</h2>
                         </div>
-                        <p>Embark on a journey of digital success with NeedleAds Technology, Premier <b>SEO Agency
+                        <p data-aos="fade-up" data-aos-duration="1200">Embark on a journey of digital success with NeedleAds Technology, Premier <b>SEO Agency
                                 in Pune</b>. Our mission is to propel businesses to new heights through strategic
                             SEO solutions tailored to the dynamic Pune market. We understand that every business is
                             unique, which is why we offer personalized strategies that drive tangible results.</p>
@@ -62,13 +59,13 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-pune.php";
     <div class="outerofservicessection">
         <div class="container">
             <div class="sectionheading">
-                <h2>Pioneering SEO Strategies for Pune's Thriving Businesses</h2>
+                <h2 data-aos="fade-up">Pioneering SEO Strategies for Pune's Thriving Businesses</h2>
             </div>
-            <p class="text-center">At NeedleAds Technology, we don't just offer <b>SEO services in Pune</b> – we
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1200">At NeedleAds Technology, we don't just offer <b>SEO services in Pune</b> – we
                 offer solutions. Our team of experts dives deep into the intricacies of your business and the Pune
                 market to craft strategies that resonate with your target audience. From on-page optimization to
                 off-page tactics, we leave no stone unturned in our quest to elevate your online presence.</p>
-            <p class="text-center">Our approach is holistic, focusing on not just improving rankings but also
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1400">Our approach is holistic, focusing on not just improving rankings but also
                 enhancing user experience and driving conversions. We believe in transparency and collaboration,
                 keeping you informed every step of the way. With NeedleAds Technology as your SEO partner in Pune,
                 you can rest assured that your business is in capable hands.
@@ -87,25 +84,25 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-pune.php";
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
                         <div class="sectionheading">
-                            <h3>The Importance of SEO for Pune Businesses</h3>
+                            <h3 data-aos="fade-up">The Importance of SEO for Pune Businesses</h3>
                         </div>
-                        <p>In a rapidly growing city like Pune, having a strong online presence is crucial for
+                        <p data-aos="fade-up">In a rapidly growing city like Pune, having a strong online presence is crucial for
                             businesses to stand out in the competitive market. With consumers increasingly turning
                             to the internet to search for products and services, ranking high in search engine
                             results has become essential for business success.
                         </p>
-                        <p>SEO not only improves your website's visibility but also enhances your brand's
+                        <p data-aos="fade-up" data-aos-duration="1200">SEO not only improves your website's visibility but also enhances your brand's
                             credibility and authority. By optimizing your website for relevant keywords and
                             providing valuable content, you can attract targeted traffic and generate more leads and
                             conversions.
                         </p>
-                        <p>Moreover, with the rise of mobile usage, local SEO has become more important than ever.
+                        <p data-aos="fade-up" data-aos-duration="1400">Moreover, with the rise of mobile usage, local SEO has become more important than ever.
                             Optimizing your website for local searches ensures that your business appears in local
                             listings and maps, making it easier for potential customers in Pune to find and engage
                             with your brand.</p>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12"data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/siteabout2.png">
@@ -121,7 +118,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-pune.php";
 <section class="sectionpadding innerpagebox">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h3>Trusted SEO Agency in Pune | Best SEO Company Pune</h3>
             </div>
             <div class="row alignset justify-content-center agn">

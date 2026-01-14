@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-jaipur.php";
 ?>
 <?php include './include/header.php';?>
 
-<section style="
-    background: url(assets/img/seobanner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner seo_jaipur_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -33,7 +30,7 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-jaipur.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/siteabout1.png" alt="SEO Company in Janakpuri">
@@ -42,11 +39,11 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-jaipur.php";
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                    <div class="aboutcontent">
-                        <div class="sectionheading">
+                    <div class="aboutcontent"data-aos="fade-up">
+                        <div class="sectionheading" >
                             <h2>Welcome to NeedleAds Technology - Your Trusted SEO Company in Jaipur.</h2>
                         </div>
-                        <p>Welcome to NeedleAds Technology, the premier destination for top-notch <b>SEO Company in
+                        <p data-aos="fade-up" data-aos-duration="1200">Welcome to NeedleAds Technology, the premier destination for top-notch <b>SEO Company in
                                 Jaipur</b>. As a leading SEO company, we specialize in crafting tailored strategies
                             that drive tangible results for businesses of all sizes. With our deep understanding of
                             the local market dynamics and consumer behavior in Jaipur, we're well-equipped to
@@ -66,25 +63,25 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-jaipur.php";
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading"data-aos="fade-up">
                 <h2>Customized SEO Solutions for Businesses in Jaipur</h2>
             </div>
-            <p class="text-center">At NeedleAds Technology, we understand that every business is unique, and that's
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1100">At NeedleAds Technology, we understand that every business is unique, and that's
                 why we offer bespoke SEO solutions tailored to the specific needs of businesses in Jaipur. Our
                 comprehensive approach to SEO encompasses everything from on-page optimization to off-page tactics,
                 ensuring that your website ranks prominently in search engine results and attracts quality traffic.
             </p>
-            <p class="text-center">Our process begins with a thorough analysis of your business objectives, target
+            <p class="text-center"data-aos="fade-up" data-aos-duration="1200">Our process begins with a thorough analysis of your business objectives, target
                 audience, and competitors. We conduct extensive keyword research to identify high-value keywords
                 relevant to your industry. By optimizing your website's on-page elements, including meta tags,
                 headings, and content, we ensure that your site is fully optimized for search engines and ranks well
                 for these keywords.
             </p>
-            <p class="text-center">In addition to on-page optimization, we focus on building your website's
+            <p class="text-center"data-aos="fade-up" data-aos-duration="1400">In addition to on-page optimization, we focus on building your website's
                 authority through strategic link building and off-page optimization techniques. Our team leverages
                 various channels such as content marketing, social media, and digital PR to attract quality
                 backlinks and enhance your website's credibility.</p>
-            <p class="text-center">As the best SEO company in Jaipur, we are committed to delivering measurable
+            <p class="text-center"data-aos="fade-up" data-aos-duration="1600">As the best SEO company in Jaipur, we are committed to delivering measurable
                 results and driving growth for your business. Partner with NeedleAds Technology and let us help you
                 unlock the full potential of your online presence in Jaipur.</p>
 
@@ -96,7 +93,7 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-jaipur.php";
 <section class="sectionpadding innerpagebox">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading"data-aos="fade-up">
                 <h3>Why Choose NeedleAds Technology for SEO Services in Jaipur?</h3>
             </div>
             <div class="row alignset justify-content-center agn">
