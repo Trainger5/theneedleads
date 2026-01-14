@@ -179,7 +179,7 @@ $canonical_url = "https://www.theneedleads.com/static-website-designing.php";
 
 
 <!-- our services start -->
-<section class="sectionpadding bgsection ">
+<section class="sectionpadding bgsection pb-0">
     <div class="outerofservicessection">
         <div class="container">
             <div class="sectionheading" data-aos="fade-up">
@@ -241,6 +241,10 @@ $canonical_url = "https://www.theneedleads.com/static-website-designing.php";
                         </div>
                     </div>
                 </div>
+
+
+                <p class="sectionbottom">Contact NeedleAds Technology today for expert static website designing services
+                    in Delhi.</p>
             </div>
         </div>
     </div>

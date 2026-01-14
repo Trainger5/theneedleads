@@ -18,13 +18,12 @@ $canonical_url = "https://www.theneedleads.com/dynamic-website.php";
                             <a href="tel:+91-8750500075"><i class="fa fa-phone"></i> Have a Project to Discuss?</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 <!-- about us start -->
 <section class="sectionpadding">
@@ -132,9 +131,8 @@ $canonical_url = "https://www.theneedleads.com/dynamic-website.php";
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- our services end -->
+    </section>
+    <!-- about us end -->
 
 <section class="sectionpadding innerpagebox">
     <div class="outerofservicessection">
@@ -152,38 +150,67 @@ $canonical_url = "https://www.theneedleads.com/dynamic-website.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices">
-                    <div class="boxservices">
-                        <div class="servicecontent">
-                            <h4>Customized Solutions</h4>
-                            <p> We understand that every business is unique, so we offer customized solutions tailored
-                                to your specific needs and goals.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices">
-                    <div class="boxservices">
-                        <div class="servicecontent">
-                            <h4>Cutting-Edge Technology</h4>
-                            <p>We stay updated with the latest trends and technologies in dynamic website design to
-                                provide our clients with the best possible solutions.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices">
-                    <div class="boxservices">
-                        <div class="servicecontent">
-                            <h4>Affordable Pricing</h4>
-                            <p>We offer competitive pricing for our dynamic website designing services, ensuring maximum
-                                value for your investment.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- <p class="sectionbottom mt-3">Contact NeedleAds Technology today for expert ecommerce website development services in Delhi and take your online business to the next level</p> -->
             </div>
         </div>
+    </section>
+    <!-- our services end -->
+
+    <section class="sectionpadding innerpagebox">
+  <div class="outerofservicessection">
+    <div class="container">
+      <div class="sectionheading">
+        <h2>Why Choose NeedleAds Technology for Dynamic Website Designing?</h2>
+      </div>
+        <div class="row">
+          <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices">
+            <div class="boxservices">
+              <!-- <div class="sicon">
+                <img src="assets/img/i3.png">
+              </div> -->
+              <div class="servicecontent">
+                <h4>Expertise</h4>
+                <p>With years of experience in the industry, we have the expertise to deliver dynamic website designs that meet and exceed our clients' expectations.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices">
+            <div class="boxservices">
+              <!-- <div class="sicon">
+                <img src="assets/img/i2.png">
+              </div> -->
+              <div class="servicecontent">
+                <h4>Customized Solutions</h4>
+                <p> We understand that every business is unique, so we offer customized solutions tailored to your specific needs and goals.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices">
+            <div class="boxservices">
+              <!-- <div class="sicon">
+                <img src="assets/img/i1.png">
+              </div> -->
+              <div class="servicecontent">
+                <h4>Cutting-Edge Technology</h4>
+                <p>We stay updated with the latest trends and technologies in dynamic website design to provide our clients with the best possible solutions.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices">
+            <div class="boxservices">
+              <!-- <div class="sicon">
+                <img src="assets/img/i4.png">
+              </div> -->
+              <div class="servicecontent">
+                <h4>Affordable Pricing</h4>
+                <p>We offer competitive pricing for our dynamic website designing services, ensuring maximum value for your investment.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- <p class="sectionbottom mt-3">Contact NeedleAds Technology today for expert ecommerce website development services in Delhi and take your online business to the next level</p> -->
+        </div>
     </div>
+  </div>
 </section>
 
 <!-- our services start -->
@@ -192,7 +219,7 @@ $canonical_url = "https://www.theneedleads.com/dynamic-website.php";
         <div class="container">
             <div class="sectionheading" data-aos="fade-up" data-aos-duration="600">
                 <h2>Our Process</h2>
-
+              
             </div>
             <div class="row justify-content-center alignset agn">
                 <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up"
@@ -203,7 +230,10 @@ $canonical_url = "https://www.theneedleads.com/dynamic-website.php";
                         </div>
                         <div class="servicecontent">
                             <h4>Consultation</h4>
-                            <p> We start by understanding your business requirements and goals.</p>
+                            <p>  We start by understanding your business requirements and goals.</p>
+                            <!--<div class="webbtnset">-->
+                            <!--    <a href="contact-us.php">Read More</a>-->
+                            <!--</div>-->
                         </div>
                     </div>
                 </div>
@@ -216,6 +246,9 @@ $canonical_url = "https://www.theneedleads.com/dynamic-website.php";
                         <div class="servicecontent">
                             <h4>Design</h4>
                             <p>Our expert designers create a custom design for your website.</p>
+                            <!--<div class="webbtnset">-->
+                            <!--    <a href="contact-us.php">Read More</a>-->
+                            <!--</div>-->
                         </div>
                     </div>
                 </div>
@@ -228,6 +261,9 @@ $canonical_url = "https://www.theneedleads.com/dynamic-website.php";
                         <div class="servicecontent">
                             <h4>Development</h4>
                             <p> We develop your website using the latest technologies and best practices.</p>
+                            <!--<div class="webbtnset">-->
+                            <!--    <a href="contact-us.php">Read More</a>-->
+                            <!--</div>-->
                         </div>
                     </div>
                 </div>
@@ -239,7 +275,10 @@ $canonical_url = "https://www.theneedleads.com/dynamic-website.php";
                         </div>
                         <div class="servicecontent">
                             <h4>Testing</h4>
-                            <p> We thoroughly test your website to ensure it is bug-free and functions smoothly.</p>
+                            <p>  We thoroughly test your website to ensure it is bug-free and functions smoothly.</p>
+                            <!--<div class="webbtnset">-->
+                            <!--    <a href="contact-us.php">Read More</a>-->
+                            <!--</div>-->
                         </div>
                     </div>
                 </div>
@@ -251,7 +290,10 @@ $canonical_url = "https://www.theneedleads.com/dynamic-website.php";
                         </div>
                         <div class="servicecontent">
                             <h4>Launch</h4>
-                            <p> Once you are satisfied with the design and functionality, we launch your website.</p>
+                            <p>  Once you are satisfied with the design and functionality, we launch your website.</p>
+                            <!--<div class="webbtnset">-->
+                            <!--    <a href="contact-us.php">Read More</a>-->
+                            <!--</div>-->
                         </div>
                     </div>
                 </div>
@@ -263,13 +305,16 @@ $canonical_url = "https://www.theneedleads.com/dynamic-website.php";
                         </div>
                         <div class="servicecontent">
                             <h4>Maintenance</h4>
-                            <p> We provide ongoing maintenance and support to keep your website running smoothly.</p>
+                            <p>   We provide ongoing maintenance and support to keep your website running smoothly.</p>
+                            <!--<div class="webbtnset">-->
+                            <!--    <a href="contact-us.php">Read More</a>-->
+                            <!--</div>-->
                         </div>
                     </div>
                 </div>
 
 
-
+                
             </div>
         </div>
     </div>
@@ -307,9 +352,9 @@ $canonical_url = "https://www.theneedleads.com/dynamic-website.php";
           </div>
         </div>
       </form> -->
-            <?php include './include/extras/lead-form-code.php';?>
-        </div>
+<?php include './include/extras/lead-form-code.php';?>
     </div>
+  </div>
 </section>
 <!-- form end -->
 
@@ -317,4 +362,4 @@ $canonical_url = "https://www.theneedleads.com/dynamic-website.php";
 
 <?php include './include/extras/website-design-our-location.php';?>
 
-<?php include './include/footer.php';?>
+    <?php include './include/footer.php';?>

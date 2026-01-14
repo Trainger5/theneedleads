@@ -79,7 +79,7 @@ header("Location:thankyou.php");
                             rankings and reduced organic traffic.</p>
                         <p class="text-justify" data-aos="fade-up" data-aos-duration="1800"><b>User Experience:</b> Understand how slow page speed can result in higher bounce rates
                             and decreased conversion rates, negatively affecting user experience.</p>
-                        <p class="mb-0 text-justify"><b>Solutions and Suggestions:</b> Get actionable advice to boost your
+                        <p class="mb-0"><b>Solutions and Suggestions:</b> Get actionable advice to boost your
                             website's page speed and improve user engagement.</p>
                     </div>
                 </div>
