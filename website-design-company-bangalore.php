@@ -46,7 +46,7 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-bangalore.
                         <div class="sectionheading">
                             <h2>Comprehensive Website Design Company in Bangalore</h2>
                         </div>
-                        <p>NeedleAds Technology is a leading <b>website design company in Bangalore</b>, offering
+                        <p class="text-justify">NeedleAds Technology is a leading <b>website design company in Bangalore</b>, offering
                             comprehensive solutions to businesses of all sizes. Our team of skilled designers
                             specializes in creating visually stunning and user-friendly websites that help businesses
                             establish a strong online presence. From responsive design to custom features, our

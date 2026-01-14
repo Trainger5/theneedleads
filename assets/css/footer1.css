@@ -1,0 +1,135 @@
+footer.sectionpadding {
+    background: #303030;
+    padding: 50px 100px;
+}
+
+footer p {
+    color: #fff;
+}
+
+.footerlist h3 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.footerlist ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    padding-left: 5px;
+}
+
+.footerlist ul li {
+    padding-bottom: 11px;
+}
+
+.footerlist ul li:last-child {
+    padding-bottom: 0;
+}
+
+.footerlist ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footerlist a:hover {
+    color: #f47a24;
+}
+
+.footerlist ul li h4 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+.footerlogo{
+    width: 250px;
+    height: auto;
+}
+.footerlogo .a {
+    width: 250px;
+    height: auto;
+}
+
+.contactinfo ul li {
+    position: relative;
+    padding-left: 26px;
+}
+
+.contactinfo ul li a i.fa {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    font-size: 20px;
+}
+
+.contactinfo ul li a i.fa.fa-envelope {
+    font-size: 18px !important;
+}
+
+.socialmedia {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.socialmedia li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #333;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.socialmedia li a:hover {
+    background: #f47a24;
+    color: #fff;
+}
+
+ul.socialmedia {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.socialmedia li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+ul.socialmedia li:first-child {
+    padding-left: 0;
+}
+
+ul.socialmedia li a i.fa {
+    font-size: 20px;
+    color: #fff;
+}
+
+.outerofcopy {
+    background: #000;
+    border-top: solid 1px #4e4e4e;
+}
+
+.outerofcopy p {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 20px 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    footer .row {
+        row-gap: 25px;
+    }
+}

@@ -45,7 +45,7 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-nagpur.php
                         <div class="sectionheading">
                             <h2>Professional Website Design Services in Nagpur</h2>
                         </div>
-                        <p>As a leading <b>website design company in Nagpur</b>, NeedleAds Technology is committed to
+                        <p class="text-justify">As a leading <b>website design company in Nagpur</b>, NeedleAds Technology is committed to
                             delivering professional and innovative <b>web design Services in Nagpur</b> tailored to meet
                             your specific business needs. Our team of experienced designers combines creativity with
                             technical expertise to create visually stunning and user-friendly websites that engage

@@ -46,7 +46,7 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-in-indore.
                         <div class="sectionheading">
                             <h2>Comprehensive Website Design Company in Indore</h2>
                         </div>
-                        <p>NeedleAds Technology is a leading <b>website design company in Indore</b>, dedicated to
+                        <p class="text-justify">NeedleAds Technology is a leading <b>website design company in Indore</b>, dedicated to
                             providing comprehensive solutions for businesses seeking to establish a strong online
                             presence. Our expert team specializes in crafting visually stunning and highly functional
                             websites tailored to your specific needs. Whether you're a small business or a large
@@ -100,7 +100,7 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-in-indore.
                         <div class="sectionheading">
                             <h3>Additional Benefits</h3>
                         </div>
-                        <p>In addition to our core website design services, NeedleAds Technology offers a range of
+                        <p class="text-justify">In addition to our core website design services, NeedleAds Technology offers a range of
                             additional benefits to clients in Indore. This includes responsive design, ensuring that
                             your website looks and functions seamlessly across all devices and screen sizes. We also
                             optimize your website for search engines, making it easier for potential customers to find

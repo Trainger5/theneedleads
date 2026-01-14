@@ -28,6 +28,8 @@
     <link rel="stylesheet" href="<?php echo $assetBase ?? ''; ?>assets/css/style.css">
     <link rel="stylesheet" href="<?php echo $assetBase ?? ''; ?>assets/css/responsive.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $assetBase ?? ''; ?>assets/css/menu.css">
+    <link rel="stylesheet" href="<?php echo $assetBase ?? ''; ?>assets/css/header.css">
+    <link rel="stylesheet" href="<?php echo $assetBase ?? ''; ?>assets/css/footer.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/266dcfee24.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -125,14 +127,14 @@
                 </div>
                 <nav>
                     <div class="nav-mobile"><a id="navbar-toggle" href="javascript:void()"><span></span></a></div>
-                    <ul class="nav-list">
+                    <ul class="nav-list mobile_list">
                         <li>
                             <a href="<?php echo $linkBase ?? ''; ?>index.php">Home</a>
                         </li>
                         <li class="services_dropdown">
-                            <a href="javascript:void()">Services <i class="fa fa-sort-desc setofdowntop"
+                            <a href="javascript:void()" id="drop">Services <i class="fa fa-sort-desc setofdowntop"
                                     aria-hidden="true"></i></a>
-                            <ul class="services_dropdown_box">
+                            <ul class="services_dropdown_box mobile_dropdown" id="dropshow">
                                 <li>
                                     <a href="<?php echo $linkBase ?? ''; ?>seo-company-janakpuri.php">SEO Services</a>
                                 </li>
@@ -224,7 +226,7 @@
                 </nav>
             </div>
 
-        </div>
+        <!-- </div> -->
     </header>
 
     <div class="call-back-1">
