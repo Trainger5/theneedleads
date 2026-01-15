@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/social-media-advertising-agency-i
 ?>
 <?php include './include/header.php';?>
 
-<section style="
-    background: url(assets/img/Social-media-bnr.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner social_mumbai_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -33,7 +30,7 @@ $canonical_url = "https://www.theneedleads.com/social-media-advertising-agency-i
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="1100">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/google-site.png" alt="SEO Company in Janakpuri">
@@ -41,7 +38,7 @@ $canonical_url = "https://www.theneedleads.com/social-media-advertising-agency-i
 
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="1100">
                     <div class="aboutcontent">
                         <div class="sectionheading">
                             <h2>Empower Your Brand with Strategic Social Media Advertising in Mumbai</h2>
@@ -66,18 +63,18 @@ $canonical_url = "https://www.theneedleads.com/social-media-advertising-agency-i
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
                 <h2>Comprehensive Social Media Advertising Solutions Tailored to Your Needs in Mumbai</h2>
             </div>
-            <p class="text-center">NeedleAds Technology offers a comprehensive range of <b>social media advertising
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1200">NeedleAds Technology offers a comprehensive range of <b>social media advertising
                     services</b> designed to help businesses thrive in Mumbai's competitive market. From campaign
                 planning and creative development to ad placement and performance tracking, we handle every aspect of
                 your social media advertising campaign to ensure maximum effectiveness and ROI.</p>
-            <p class="text-center">Our team leverages advanced targeting options, audience segmentation, and ad
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1300">Our team leverages advanced targeting options, audience segmentation, and ad
                 optimization techniques to reach the right audience with the right message at the right time in Mumbai.
                 Whether you're looking to drive website traffic, generate leads, or increase sales, our <b>social media
                     advertising experts in Mumbai</b> can help you achieve your goals.</p>
-            <p class="text-center">With NeedleAds as your <b>social media advertising partner in Mumbai</b>, you can
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1400">With NeedleAds as your <b>social media advertising partner in Mumbai</b>, you can
                 expect transparency, accountability, and measurable results. We provide detailed reporting and insights
                 that allow you to track the performance of your campaigns and make data-driven decisions to optimize
                 your ROI.</p>

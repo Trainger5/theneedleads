@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-pune.php";
 ?>
 <?php include './include/header.php';?>
 
-<section style="
-    background: url(assets/img/location-banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner website_design_pune_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -33,7 +30,7 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-pune.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/website.png" alt="SEO Company in Janakpuri">
@@ -43,10 +40,10 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-pune.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up">
                             <h2>Comprehensive Website Design Company in Pune</h2>
                         </div>
-                        <p class="text-justify">NeedleAds Technology is a leading <b>website design company in Pune</b>, offering
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1100">NeedleAds Technology is a leading <b>website design company in Pune</b>, offering
                             comprehensive solutions to businesses of all sizes. Our team of expert <b>website designers
                                 in Pune</b> specializes in creating visually stunning and user-friendly websites that
                             help businesses establish a strong online presence. From responsive design to custom
@@ -64,24 +61,24 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-pune.php";
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Tailored Website Design Company in Pune</h2>
             </div>
-            <p class="text-center">At NeedleAds Technology, we understand that every business is unique, which is why we
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1100">At NeedleAds Technology, we understand that every business is unique, which is why we
                 offer tailored <b>Website Design Company in Pune</b>. Our process begins with a detailed consultation
                 where we discuss your goals, target audience, and brand identity. Based on this information, our team
                 develops a customized strategy to create a website that meets your specific requirements and exceeds
                 your expectations.
             </p>
 
-            <p class="text-center">Our <b>website designers in Pune</b> leverage the latest design trends and
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1200">Our <b>website designers in Pune</b> leverage the latest design trends and
                 technologies to create visually appealing websites that are both functional and user-friendly. We pay
                 attention to every detail, from color schemes to typography, to ensure that your website stands out in
                 the competitive online landscape. Additionally, our websites are optimized for performance and
                 responsiveness, ensuring a seamless browsing experience across all devices and screen sizes.
             </p>
 
-            <p class="text-center">In addition to design, we also offer website development services to bring your
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1300">In addition to design, we also offer website development services to bring your
                 vision to life. Our team of skilled developers can create custom features and functionality to enhance
                 the user experience and drive conversions. Whether you need a simple brochure website or a complex
                 e-commerce platform, we have the expertise and experience to deliver exceptional results.</p>
@@ -97,25 +94,25 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-pune.php";
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up">
                             <h3>Additional Benefits</h3>
                         </div>
-                        <p class="text-justify">In addition to our core <b>website design services</b>, NeedleAds Technology offers a range
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1100">In addition to our core <b>website design services</b>, NeedleAds Technology offers a range
                             of additional benefits to clients in Pune. These include search engine optimization (SEO)
                             services, digital marketing solutions, e-commerce development, and website hosting.
                         </p>
 
 
-                        <p class="text-justify">Our SEO experts can optimize your website to improve its visibility and ranking on search
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1200">Our SEO experts can optimize your website to improve its visibility and ranking on search
                             engine results pages, driving organic traffic and increasing conversions. Our digital
                             marketing services encompass social media marketing, pay-per-click advertising, content
                             marketing, and more, helping you reach your target audience effectively.</p>
-                        <p class="text-justify">Furthermore, our e-commerce development services can help you establish an online store that
+                        <p class="text-justify"data-aos="fade-up" data-aos-duration="1300">Furthermore, our e-commerce development services can help you establish an online store that
                             drives sales and maximizes revenue. With NeedleAds Technology as your trusted partner, you
                             can achieve your business goals and thrive in the digital world.</p>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="1100">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/siteabout2.png">
@@ -132,7 +129,7 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-pune.php";
 <section class="sectionpadding innerpagebox">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h3>Why Choose NeedleAds Technology for Website Design in Pune?</h3>
             </div>
             <div class="row alignset justify-content-center agn">

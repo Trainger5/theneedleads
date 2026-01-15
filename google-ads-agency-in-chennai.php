@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-chennai.php"
 ?>
 <?php include './include/header.php';?>
 
-<section style="
-    background: url(assets/img/google-ads-bnr-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;\">
-  <div class="outerofbanner">
+<section>
+  <div class="outerofbanner google_chennai_background">
     <div class="container">
       <div class="row">
         <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -32,7 +29,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-chennai.php"
   <div class="outerofaboutsection">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
           <div class="aboutsidimgwithform">
             <div class="aboutimg">
               <img src="assets/img/google-site.png" alt="SEO Company in Janakpuri">
@@ -42,11 +39,11 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-chennai.php"
         </div>
         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
           <div class="aboutcontent">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
               <h2>Unlock the Power of Google Ads with Expertise in Chennai</h2>
             </div>
-            <p>NeedleAds Technology stands as a beacon of Google Ads Agency in Chennai, offering unparalleled expertise in Google Ads. Our agency specializes in propelling businesses forward through strategic online advertising. With a team of seasoned professionals and a proven track record, we help businesses across Chennai achieve their marketing goals and amplify their return on investment (ROI) with Google Ads.</p>
-            <p>As your dedicated Google Ads partner, we provide holistic services customized to your unique requirements. From meticulous keyword research and captivating ad creation to meticulous campaign management and ongoing optimization, we deploy advanced strategies and industry best practices to ensure your ads soar above the competition and deliver tangible results.</p>
+            <p data-aos="fade-up" data-aos-duration="1100">NeedleAds Technology stands as a beacon of Google Ads Agency in Chennai, offering unparalleled expertise in Google Ads. Our agency specializes in propelling businesses forward through strategic online advertising. With a team of seasoned professionals and a proven track record, we help businesses across Chennai achieve their marketing goals and amplify their return on investment (ROI) with Google Ads.</p>
+            <p data-aos="fade-up" data-aos-duration="1200">As your dedicated Google Ads partner, we provide holistic services customized to your unique requirements. From meticulous keyword research and captivating ad creation to meticulous campaign management and ongoing optimization, we deploy advanced strategies and industry best practices to ensure your ads soar above the competition and deliver tangible results.</p>
           </div>
         </div>
       </div>
@@ -59,12 +56,12 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-chennai.php"
 <section class="sectionpadding bgsection seoservicessection">
   <div class="outerofservicessection">
     <div class="container">
-      <div class="sectionheading">
+      <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
         <h2>Customized Google Ads Agency in Chennai</h2>
       </div>
-      <p class="text-center">At NeedleAds Technology, we believe in the power of tailor-made solutions. Each business is distinct, and our approach reflects this diversity. Our journey begins with a deep dive into understanding your business objectives, target audience demographics, and competitive landscape in Chennai. This comprehensive analysis serves as the foundation for crafting a bespoke Google Ads strategy that aligns perfectly with your goals.</p>
-      <p class="text-center">Whether your aim is to boost website traffic, generate high-quality leads, or drive conversions, our <b>Google Ads services in Chennai</b> are meticulously designed to meet your specific needs. We leverage a potent blend of advanced targeting options, compelling ad copy, and data-driven insights to ensure your ads resonate with your audience and yield maximum returns on your advertising investment.</p>
-      <p class="text-center">As a premier <b>Google Ads company in Chennai</b>, transparency, communication, and accountability are at the core of our values. We keep you informed every step of the way, providing regular reports and actionable insights that empower you to make informed decisions and optimize your advertising campaigns for superior performance.</p>
+      <p class="text-center" data-aos="fade-up" data-aos-duration="1200">At NeedleAds Technology, we believe in the power of tailor-made solutions. Each business is distinct, and our approach reflects this diversity. Our journey begins with a deep dive into understanding your business objectives, target audience demographics, and competitive landscape in Chennai. This comprehensive analysis serves as the foundation for crafting a bespoke Google Ads strategy that aligns perfectly with your goals.</p>
+      <p class="text-center" data-aos="fade-up" data-aos-duration="1300">Whether your aim is to boost website traffic, generate high-quality leads, or drive conversions, our <b>Google Ads services in Chennai</b> are meticulously designed to meet your specific needs. We leverage a potent blend of advanced targeting options, compelling ad copy, and data-driven insights to ensure your ads resonate with your audience and yield maximum returns on your advertising investment.</p>
+      <p class="text-center"data-aos="fade-up" data-aos-duration="1400">As a premier <b>Google Ads company in Chennai</b>, transparency, communication, and accountability are at the core of our values. We keep you informed every step of the way, providing regular reports and actionable insights that empower you to make informed decisions and optimize your advertising campaigns for superior performance.</p>
     </div>
   </div>
 </section>
@@ -75,7 +72,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-chennai.php"
 <section class="sectionpadding innerpagebox pb-0">
   <div class="outerofservicessection">
     <div class="container">
-      <div class="sectionheading">
+      <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
         <h3>Why Choose NeedleAds Technology as Your Google Ads Partner in Chennai?</h3>
       </div>
         <div class="row alignset justify-content-center agn">

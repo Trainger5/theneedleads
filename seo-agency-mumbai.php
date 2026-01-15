@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-mumbai.php";
 ?>
 <?php include './include/header.php';?>
 
-<section style="
-    background: url(assets/img/seobanner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner seo_mumbai_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -32,7 +29,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-mumbai.php";
 <section class="sectionpadding pb-0">
     <div class="outerofaboutsection">
         <div class="container">
-            <div class="row">
+            <div class="row" data-aos="fade-up" data-aos-duration="1100">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
@@ -67,28 +64,28 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-mumbai.php";
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Customized SEO Solutions for Mumbai Businesses</h2>
             </div>
-            <p class="text-center">At NeedleAds Technology, we take pride in being a premier SEO agency in Mumbai,
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1100">At NeedleAds Technology, we take pride in being a premier SEO agency in Mumbai,
                 dedicated to delivering personalized solutions that drive tangible results for our clients. With
                 years of experience in the industry, we understand the evolving dynamics of the Mumbai market and
                 employ strategic SEO techniques to help businesses stand out in the crowded digital space.</p>
-            <p class="text-center">Our approach begins with a comprehensive assessment of your business goals,
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1200">Our approach begins with a comprehensive assessment of your business goals,
                 target audience, and competition. We conduct thorough keyword research to identify high-value
                 keywords relevant to your industry and location, ensuring that your website ranks prominently in
                 Mumbai-specific search results. By optimizing your website's on-page elements, content, and
                 technical aspects, we enhance its visibility and relevance to search engines.
             </p>
-            <p class="text-center">In addition to on-page optimization, our <b>Mumbai SEO agency</b> specializes in
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1300">In addition to on-page optimization, our <b>Mumbai SEO agency</b> specializes in
                 off-page strategies aimed at building your website's authority and credibility. From strategic link
                 building to content marketing and social media engagement, we create a robust online presence that
                 attracts valuable backlinks and drives organic traffic.</p>
-            <p class="text-center">We understand that every business is unique, which is why we tailor our <b>SEO
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1400">We understand that every business is unique, which is why we tailor our <b>SEO
                     solutions </b>to meet your specific needs and objectives. Whether you're looking to increase
                 brand awareness, drive website traffic, or boost conversions, our team of experts is committed to
                 delivering results that exceed your expectations.</p>
-            <p class="text-center">Partner with NeedleAds Technology today and take the first step towards
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1500">Partner with NeedleAds Technology today and take the first step towards
                 maximizing your online presence in Mumbai. Contact us to schedule a consultation and learn more
                 about how our <b>customized SEO solutions</b> can help your business thrive in the competitive
                 digital landscape of Mumbai.</p>
@@ -102,7 +99,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-mumbai.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="1100">
                     <div class="aboutcontent">
                         <div class="sectionheading">
                             <h3>Professional SEO Services in Janakpuri, Delhi</h3>
@@ -119,7 +116,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-mumbai.php";
                             digital success.</p>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12"data-aos="fade-up" data-aos-duration="1100">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/siteabout2.png">

@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-kolkata.ph
 ?>
 <?php include './include/header.php';?>
 
-<section style="
-    background: url(assets/img/location-banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner website_design_kolkata_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -33,7 +30,7 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-kolkata.ph
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/website.png" alt="SEO Company in Janakpuri">
@@ -41,12 +38,12 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-kolkata.ph
 
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" >
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up">
                             <h2>Tailored Website Design Company in Kolkata</h2>
                         </div>
-                        <p class="text-justify">Discover tailored website design Company in Kolkata, at NeedleAds Technology, the leading web
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1100">Discover tailored website design Company in Kolkata, at NeedleAds Technology, the leading web
                             design company in Kolkata. Our dedicated team of designers and developers specializes in
                             creating captivating websites that resonate with your audience and drive results for your
                             business. From intuitive user interfaces to seamless navigation, we ensure that your website
@@ -65,34 +62,34 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-kolkata.ph
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Customized Website Solutions for Your Business Needs</h2>
             </div>
-            <p class="text-center">At NeedleAds Technology, we understand that every business is unique, which is why we
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1100">At NeedleAds Technology, we understand that every business is unique, which is why we
                 offer customized <b>website design Company in Kolkata</b>. Our process begins with a comprehensive
                 analysis of your business objectives, target audience, and industry landscape. Based on our findings, we
                 develop a tailored strategy to create a website that reflects your brand identity and meets the specific
                 needs of your audience.</p>
 
 
-            <p class="text-center">Our team of experienced designers leverages the latest design trends and technologies
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1200">Our team of experienced designers leverages the latest design trends and technologies
                 to craft visually stunning websites that leave a lasting impression. We focus on creating user-friendly
                 interfaces and intuitive navigation to ensure a seamless browsing experience for your visitors.
                 Additionally, our skilled developers work diligently to ensure that your website is fast, secure, and
                 optimized for search engines.</p>
 
 
-            <p class="text-center">In addition to design and development, we offer ongoing support and maintenance to
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1300">In addition to design and development, we offer ongoing support and maintenance to
                 keep your website running smoothly. Whether you need updates, troubleshooting, or technical assistance,
                 our team is always here to help.</p>
 
 
-            <p class="text-center">In addition to our core website design and development services, NeedleAds Technology
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1400">In addition to our core website design and development services, NeedleAds Technology
                 offers a range of additional benefits to clients in Kolkata. These include search engine optimization
                 (SEO) services, digital marketing solutions, website maintenance, and ongoing support.</p>
 
 
-            <p class="text-center">Our SEO experts can optimize your website to improve its visibility and ranking on
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1500">Our SEO experts can optimize your website to improve its visibility and ranking on
                 search engine results pages, driving organic traffic and increasing conversions. Our digital marketing
                 services encompass social media marketing, pay-per-click advertising, content marketing, and more,
                 helping you reach your target audience effectively.</p>
@@ -108,7 +105,7 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-kolkata.ph
 <section class="sectionpadding innerpagebox">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
                 <h3>Why Choose NeedleAds Technology for Your Website Design Needs?</h3>
             </div>
             <div class="row alignset justify-content-center agn">

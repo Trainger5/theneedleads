@@ -24,11 +24,8 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-gurgaon.php";
 }
 </script>
 
-<section style="
-    background: url(assets/img/seobanner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner seo_gurgaon_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -54,7 +51,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-gurgaon.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row justify-content-center align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/siteabout1.png" alt="SEO Company in Gurgaon">
@@ -64,10 +61,10 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-gurgaon.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading"data-aos="fade-up">
                             <h2>SEO Services in Gurgaon</h2>
                         </div>
-                        <p>By nature, search engine optimization is one of the crucial components of digital
+                        <p data-aos="fade-up" data-aos-duration="1100">By nature, search engine optimization is one of the crucial components of digital
                             marketing. No matter what the size, the business needs to be online visible to attract
                             custom; SEO holds the key to getting it done. Given the huge number of businesses and
                             startups, the demand for <a href="https://www.theneedleads.com/seo-agency-gurgaon.php">SEO
@@ -88,8 +85,8 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-gurgaon.php";
     <div class="outerofservicessection">
         <div class="container">
             <div class="sectionheading">
-                <h2>Benefits of Hiring SEO Company in Gurgaon</h2>
-                <p>The greatest benefit of SEO Company in Gurgaon is increased online visibility. Optimizing your
+                <h2 data-aos="fade-up">Benefits of Hiring SEO Company in Gurgaon</h2>
+                <p data-aos="fade-up" data-aos-duration="1100">The greatest benefit of SEO Company in Gurgaon is increased online visibility. Optimizing your
                     website with relevant keywords and high quality content, your business will probably be on the
                     very top of search results when any potential customer searches for the related products or
                     services. The kind of visibility can be translated to build more brand awareness and establish
@@ -253,7 +250,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-gurgaon.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row justify-content-center align-items-center gap-4">
-                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="sideviewform">
                         <div class="bnrform">
                             <form action="vadodaramail.php" method="POST" id="emailForm">
@@ -310,7 +307,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-gurgaon.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="1100">
                     <div class="aboutcontent">
                         <div class="sectionheading mb-2">
                             <h2>How to Choose the Right SEO Agency in Gurgaon</h2>

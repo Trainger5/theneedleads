@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/smo-company-gurgaon.php";
 ?>
 <?php include './include/header.php';?>
 
-<section style="
-    background: url(assets/img/Social-media-bnr.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner smo_gurgaon_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -32,7 +29,7 @@ $canonical_url = "https://www.theneedleads.com/smo-company-gurgaon.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="1100">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/smo-site.png" alt="SEO Company in Janakpuri">
@@ -40,7 +37,7 @@ $canonical_url = "https://www.theneedleads.com/smo-company-gurgaon.php";
 
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="1100">
                     <div class="aboutcontent">
                         <div class="sectionheading">
                             <h2>Boost Your Social Media Presence with SMO Company in Gurgaon</h2>
@@ -63,17 +60,17 @@ $canonical_url = "https://www.theneedleads.com/smo-company-gurgaon.php";
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
                 <h2>Tailored SMO Solutions to Suit Your Business Needs</h2>
             </div>
-            <p class="text-center">At NeedleAds Technology, we understand that social media optimization (SMO) is not
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1200">At NeedleAds Technology, we understand that social media optimization (SMO) is not
                 just about having a presence on various platforms; it's about leveraging these platforms strategically
                 to achieve your business objectives. Our SMO services are meticulously crafted to cater to the unique
                 needs and goals of each client we work with. We kickstart our process by conducting an in-depth analysis
                 of your current social media presence, your industry landscape, and your target audience's preferences
                 and behaviors. This research forms the foundation upon which we build a customized SMO strategy tailored
                 specifically for your business.</p>
-            <p>Once we've gained insights into your business and its social media landscape, our team of seasoned SMO
+            <p data-aos="fade-up" data-aos-duration="1300">Once we've gained insights into your business and its social media landscape, our team of seasoned SMO
                 experts gets to work. We focus on creating engaging and relevant content that resonates with your
                 audience, ensuring it aligns seamlessly with your brand identity and messaging. Whether it's captivating
                 posts, eye-catching images, or compelling videos, we utilize various multimedia formats to capture and
@@ -81,7 +78,7 @@ $canonical_url = "https://www.theneedleads.com/smo-company-gurgaon.php";
                 meaningful interactions on social media. That's why we actively engage with your audience, responding
                 promptly to comments, messages, and inquiries to foster meaningful connections and build brand loyalty.
             </p>
-            <p>In addition to organic efforts, we also harness the power of paid advertising on social media platforms
+            <p data-aos="fade-up" data-aos-duration="1400">In addition to organic efforts, we also harness the power of paid advertising on social media platforms
                 to amplify your reach and drive targeted traffic to your website. Our team meticulously designs and
                 implements tailored advertising campaigns that align with your business objectives and resonate with
                 your audience. Throughout the entire process, we prioritize transparency and accountability. We provide

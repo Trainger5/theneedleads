@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-surat.php";
 ?>
 <?php include './include/header.php';?>
 
-<section style="
-    background: url(assets/img/google-ads-bnr-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner google_surat_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -32,7 +29,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-surat.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/google-site.png" alt="SEO Company in Janakpuri">
@@ -42,16 +39,17 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-surat.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up">
                             <h2>Unlock the Potential of Leads with Google Ads Agency in Surat</h2>
                         </div>
-                        <p>Embark on a journey to digital success with NeedleAds Technology, the leading <b>Google Ads
+                        <p data-aos="fade-up" data-aos-duration="1100">Embark on a journey to digital success with NeedleAds Technology, the leading <b>Google Ads
                                 agency in Surat</b>. As pioneers in the realm of
-                        <p>pay-per-click (PPC)</p> advertising, we specialize in crafting high-impact Google Ads
+                        <p data-aos="fade-up" data-aos-duration="1200">pay-per-click (PPC)</p>
+                        <p data-aos="fade-up" data-aos-duration="1300"> advertising, we specialize in crafting high-impact Google Ads
                         campaigns that drive tangible results for businesses across Surat. With a focus on precision
                         targeting, compelling ad copy, and strategic bidding, we empower our clients to reach their
                         target audience effectively and achieve their marketing objectives.</p>
-                        <p>At NeedleAds, we understand the intricacies of the Surat market and leverage our expertise to
+                        <p data-aos="fade-up" data-aos-duration="1400">At NeedleAds, we understand the intricacies of the Surat market and leverage our expertise to
                             deliver tailored solutions that resonate with local audiences. Whether you're looking to
                             increase website traffic, generate leads, or boost sales, our team of Google Ads experts is
                             dedicated to maximizing your ROI and accelerating your business growth.</p>
@@ -66,22 +64,22 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-surat.php";
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Customized Google Ads Solutions for Surat Businesses</h2>
             </div>
-            <p class="text-center">At NeedleAds Technology, we recognize that every business in Surat is unique, with
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1100">At NeedleAds Technology, we recognize that every business in Surat is unique, with
                 its own set of goals, challenges, and target audience. That's why we take a personalized approach to
                 Google Ads, ensuring that each campaign is meticulously crafted to align with your specific requirements
                 and objectives.</p>
-            <p class="text-center">Our journey begins with a comprehensive consultation, where we delve deep into
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1200">Our journey begins with a comprehensive consultation, where we delve deep into
                 understanding your business, industry, competitors, and target market in Surat. Armed with these
                 insights, we develop a bespoke Google Ads strategy that is tailored to your business needs and designed
                 to deliver maximum impact.</p>
-            <p class="text-center">From keyword research and ad creation to campaign management and optimization, our
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1300">From keyword research and ad creation to campaign management and optimization, our
                 team of Google Ads specialists works tirelessly to ensure that your ads are visible to the right
                 audience at the right time. We continuously monitor campaign performance, making data-driven adjustments
                 to maximize your ROI and drive continuous improvement.</p>
-            <p class="text-center">With NeedleAds as your <b>Google Ads partner in Surat</b>, you can expect
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1400">With NeedleAds as your <b>Google Ads partner in Surat</b>, you can expect
                 transparency, professionalism, and unwavering commitment to your success. We keep you informed every
                 step of the way, providing regular reports and actionable insights that enable you to make informed
                 decisions and optimize your advertising campaigns for optimal results.</p>
@@ -94,7 +92,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-surat.php";
 <section class="sectionpadding innerpagebox pb-0">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
                 <h3>Why Choose NeedleAds Technology as Your Google Ads Agency in Surat?</h3>
             </div>
             <div class="row alignset justify-content-center agn">

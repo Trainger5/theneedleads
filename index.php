@@ -31,7 +31,6 @@ $canonical_url = "https://www.theneedleads.com/";
 }
 </script>
 
-
 <script type="application/ld+json">
 {
     "@context": "https://schema.org/",
@@ -272,10 +271,10 @@ gtag('config', 'G-0GQ7EZTWNF');
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
-                            <img src="assets/img/Marketing_Goals.png" alt="Digital Marketing Agency">
+                            <img src="assets/img/Marketing_Goals.png" loading="lazy" alt="Digital Marketing Agency">
                         </div>
                     </div>
-                </div>
+                </div> 
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
                         <div class="sectionheading section-paragraph ">
@@ -329,10 +328,10 @@ gtag('config', 'G-0GQ7EZTWNF');
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12"  data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
-                            <img src="assets/img/googlepartner.png" alt="Digital Marketing Agency">
+                            <img src="assets/img/googlepartner.png" alt="Digital Marketing Agency" loading="lazy">
                         </div>
                     </div>
                 </div>
@@ -464,7 +463,7 @@ gtag('config', 'G-0GQ7EZTWNF');
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
-                            <img   src="assets/img/Digital_Marketing.png" alt="Digital Marketing Agency">
+                            <img   src="assets/img/Digital_Marketing.png" alt="Digital Marketing Agency" loading="lazy">
                         </div>
                     </div>
                 </div>
@@ -533,9 +532,9 @@ gtag('config', 'G-0GQ7EZTWNF');
                             <h4>SEO</h4>
                             <p>Optimize Your Online Success with Expert SEO Strategies!</p>
                             <div class="webbtnset">
-                                <a href="https://www.theneedleads.com/seo-company-janakpuri.php">Read More</a>
+                                <a href="seo-company-janakpuri.php">Read More</a>
                             </div>
-                        </div>
+                        </div>  
                     </div>
                 </div>
                 <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12" data-aos="fade-down">
@@ -547,7 +546,7 @@ gtag('config', 'G-0GQ7EZTWNF');
                             <h4>SMM</h4>
                             <p>Boost Your Brand's Social Presence with SMM Solutions!</p>
                             <div class="webbtnset">
-                                <a href="https://www.theneedleads.com/social-media-marketing.php">Read More</a>
+                                <a href="social-media-marketing.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -561,7 +560,7 @@ gtag('config', 'G-0GQ7EZTWNF');
                             <h4>Google Ads (PPC)</h4>
                             <p>Drive Clicks, Convert Customers: PPC Perfected!</p>
                             <div class="webbtnset">
-                                <a href="https://www.theneedleads.com/ppc-company-delhi.php">Read More</a>
+                                <a href="ppc-company-delhi.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -575,7 +574,7 @@ gtag('config', 'G-0GQ7EZTWNF');
                             <h4>Website Design</h4>
                             <p>Crafting a Website for Your Success!</p>
                             <div class="webbtnset">
-                                <a href="https://www.theneedleads.com/website-design.php">Read More</a>
+                                <a href="website-design.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -606,8 +605,8 @@ gtag('config', 'G-0GQ7EZTWNF');
     </div>
 </section>
 <!-- counter down start -->
-<section class="sectionpadding counerdownstr"
-    style="background: url(assets/img/bgcounter.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+<section class="sectionpadding counerdownstr counerdownstr_background"
+    style="">
     <div class="overlay"></div>
     <div class="outerofcountersection">
         <div class="container">
@@ -907,19 +906,19 @@ if (file_exists($reviewsFile)) {
     <div class="outerofcontactform">
         <div class="container">
             <div class="row gy-3 Your_Project">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="contactformimg">
-                        <img src="assets/img/your_project.png">
+                        <img src="assets/img/your_project.png" loading="lazy">
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="formcontent">
                         <div class="sectionheading">
                             <h2 data-aos="fade-up" data-aos-duration="800">Let's Talk About Your Project</h2>
-                            <p data-aos="fade-up" data-aos-duration="700">To start working with NeedleAds Technology, please fill out your information here to
+                            <p data-aos="fade-up" data-aos-duration="1200">To start working with NeedleAds Technology, please fill out your information here to
                                 send us a message. We will contact you as soon as possible.</p>
                         </div>
-                        <div class="formset aboutsidimgwithform">
+                        <div class="formset aboutsidimgwithform" data-aos="fade-up" data-aos-duration="1200">
                             <form action="contact-form.php" method="POST" id="emailForm">
                                 <div class="mb-3">
                                     <i class="fa fa-user" aria-hidden="true"></i> <input type="text" name="name"

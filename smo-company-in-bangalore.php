@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/smo-company-in-bangalore.php";
 ?>
 <?php include './include/header.php';?>
 
-<section style="
-    background: url(assets/img/Social-media-bnr.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section >
+    <div class="outerofbanner smo_bangalore_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -32,7 +29,7 @@ $canonical_url = "https://www.theneedleads.com/smo-company-in-bangalore.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="1100">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/smo-site.png" alt="SEO Company in Janakpuri">
@@ -42,10 +39,10 @@ $canonical_url = "https://www.theneedleads.com/smo-company-in-bangalore.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
                             <h2>Tailored Social Media Optimization Services in Bangalore</h2>
                         </div>
-                        <p>As a leading <b>SMO company in Bangalore</b>, NeedleAds Technology specializes in providing
+                        <p data-aos="fade-up" data-aos-duration="1200">As a leading <b>SMO company in Bangalore</b>, NeedleAds Technology specializes in providing
                             tailored social media optimization (SMO) services to businesses of all sizes. Our expert
                             team understands the importance of harnessing the power of social media platforms to enhance
                             brand visibility, engage with target audiences, and drive business growth. With a focus on
@@ -64,14 +61,14 @@ $canonical_url = "https://www.theneedleads.com/smo-company-in-bangalore.php";
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
                 <h2>Comprehensive SMO Strategies</h2>
             </div>
-            <p class="text-center">At NeedleAds Technology, we recognize that every business is unique, and there is no
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1200">At NeedleAds Technology, we recognize that every business is unique, and there is no
                 one-size-fits-all approach to social media optimization. That's why we take a personalized approach to
                 understand your brand, target audience, and industry landscape before crafting tailored SMO strategies.
                 Our comprehensive services encompass:</p>
-            <ul>
+            <ul data-aos="fade-up" data-aos-duration="1300">
                 <li><b>Social Media Audit:</b> We start by conducting a thorough audit of your existing social media
                     presence to identify strengths, weaknesses, and areas for improvement.</li>
                 <li><b>Strategy Development:</b> Based on our audit findings and your business objectives, we develop a

@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-gurg
 ?>
 <?php include './include/header.php';?>
 
-<section style="
-    background: url(assets/img/location-banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner website_designing_gurgaon_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -33,7 +30,7 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-gurg
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/website.png" alt="SEO Company in Janakpuri">
@@ -43,14 +40,14 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-gurg
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up">
                             <h2>Affordable Website Designing Company in Gurgaon</h2>
                         </div>
-                        <p class="text-justify">NeedleAds Technology is a leading <b>website designing company in Gurgaon</b>, specializing
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1100">NeedleAds Technology is a leading <b>website designing company in Gurgaon</b>, specializing
                             in creating innovative and user-friendly websites. Our team of skilled designers and
                             developers has a deep understanding of the latest trends and technologies in web design,
                             ensuring that your website stands out in the digital landscape.</p>
-                        <p class="text-justify">From responsive design to custom graphics, we offer a wide range of services to meet your
+                        <p class="text-justify"data-aos="fade-up" data-aos-duration="1200">From responsive design to custom graphics, we offer a wide range of services to meet your
                             unique needs. Whether you're a small business looking to establish your online presence or a
                             large corporation in need of a complex e-commerce platform, we have the expertise and
                             experience to bring your vision to life.</p>
@@ -66,28 +63,28 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-gurg
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
                 <h2>Tailored Website Design and Development Services in Gurgaon</h2>
             </div>
-            <p class="text-center">At NeedleAds Technology, we understand that every business is unique, which is why we
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1200">At NeedleAds Technology, we understand that every business is unique, which is why we
                 offer tailored <b>website design and development services in Gurgaon</b>. Our process begins with a
                 thorough understanding of your business objectives, target audience, and industry landscape. We
                 collaborate closely with you to gather insights and requirements that will shape the design and
                 functionality of your website.</p>
 
 
-            <p class="text-center">Our team of designers works tirelessly to create a visually stunning and intuitive
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1300">Our team of designers works tirelessly to create a visually stunning and intuitive
                 website that reflects your brand identity and resonates with your audience. We pay attention to every
                 detail, from color schemes to typography, to ensure that your website is visually appealing and easy to
                 navigate.</p>
 
 
-            <p class="text-center">In addition to design, our team of developers ensures that your website is fully
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1400">In addition to design, our team of developers ensures that your website is fully
                 functional and optimized for performance. We prioritize user experience, ensuring that your website
                 loads quickly and works seamlessly across all devices and browsers.</p>
 
-
-            <p class="text-center">Partnering with NeedleAds Technology means partnering with a team that is dedicated
+ 
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1500">Partnering with NeedleAds Technology means partnering with a team that is dedicated
                 to your success. We provide ongoing support and maintenance to ensure that your website remains
                 up-to-date and secure. Our goal is not just to deliver a website but to create a digital asset that
                 drives growth and helps you achieve your business objectives in Gurgaon.</p>

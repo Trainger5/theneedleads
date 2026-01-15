@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/smo-company-noida.php";
 ?>
 <?php include './include/header.php';?>
 
-<section style="
-    background: url(assets/img/Social-media-bnr.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner smo_noida_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -32,7 +29,7 @@ $canonical_url = "https://www.theneedleads.com/smo-company-noida.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="1100">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/smo-site.png" alt="SEO Company in Janakpuri">
@@ -40,7 +37,7 @@ $canonical_url = "https://www.theneedleads.com/smo-company-noida.php";
 
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="1100">
                     <div class="aboutcontent">
                         <div class="sectionheading">
                             <h2>Empower Your Brand with SMO Company in Noida</h2>
@@ -65,16 +62,16 @@ $canonical_url = "https://www.theneedleads.com/smo-company-noida.php";
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
                 <h2>Tailored SMO Solutions for Your Business Growth</h2>
             </div>
-            <p class="text-center">At NeedleAds Technology, we understand that every business is unique, and that's why
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1200">At NeedleAds Technology, we understand that every business is unique, and that's why
                 we offer customized <b>SMO Services in Noida</b> to meet your specific needs and goals. Our approach
                 begins with a comprehensive assessment of your current social media presence and an analysis of your
                 industry landscape and target audience. Based on our findings, we develop a personalized SMO strategy
                 that aligns with your brand identity and business objectives.</p>
-            <p><b>Our SMO services include:</b></p>
-            <ul>
+            <p data-aos="fade-up" data-aos-duration="1300"><b>Our SMO services include:</b></p>
+            <ul data-aos="fade-up" data-aos-duration="1400">
                 <li>Social Media Audit: We conduct a detailed audit of your existing social media profiles to identify
                     areas for improvement and opportunities for growth.</li>
                 <li>Strategy Development: Our team works closely with you to develop a strategic SMO plan that outlines

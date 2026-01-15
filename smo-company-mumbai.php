@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/smo-company-mumbai.php";
 ?>
 <?php include './include/header.php';?>
 
-<section style="
-    background: url(assets/img/Social-media-bnr.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner smo_mumbai_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -32,7 +29,7 @@ $canonical_url = "https://www.theneedleads.com/smo-company-mumbai.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/smo-site.png" alt="SEO Company in Janakpuri">
@@ -40,9 +37,9 @@ $canonical_url = "https://www.theneedleads.com/smo-company-mumbai.php";
 
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
                             <h2>Comprehensive Social Media Optimization Company in Mumbai</h2>
                         </div>
                         <p>NeedleAds Technology, a leading <b>SMO company in Mumbai</b>, offers comprehensive solutions
@@ -64,10 +61,10 @@ $canonical_url = "https://www.theneedleads.com/smo-company-mumbai.php";
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Tailored SMO Services in Mumbai</h2>
             </div>
-            <p class="text-center">In today's digital landscape, a robust social media presence is crucial for business
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1100">In today's digital landscape, a robust social media presence is crucial for business
                 success. At NeedleAds Technology, we understand this significance and specialize in delivering tailored
                 <b>SMO services in Mumbai</b>. Our seasoned professionals delve deep into understanding your brand
                 identity, target audience, and industry dynamics to create strategies that deliver measurable results.
@@ -75,16 +72,16 @@ $canonical_url = "https://www.theneedleads.com/smo-company-mumbai.php";
                 our comprehensive SMO services are designed to meet your unique requirements.</p>
 
 
-            <p class="text-center">We begin by conducting a thorough audit of your existing social media presence and
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1200">We begin by conducting a thorough audit of your existing social media presence and
                 competitive landscape. Based on our findings, we develop a customized strategy that aligns with your
                 business goals and objectives. Our services encompass content creation, community management, paid
                 advertising, influencer partnerships, and analytics tracking. By leveraging the latest tools and
                 technologies, we ensure that your brand stays ahead of the curve in the ever-evolving social media
                 landscape.</p>
-            <div class="sectionheading mb-0 pt-3">
+            <div class="sectionheading mb-0 pt-3" data-aos="fade-up" data-aos-duration="1300">
                 <h2>Additional Benefits</h2>
             </div>
-            <p class="text-center">In addition to our core SMO services, we provide comprehensive analytics and
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1400">In addition to our core SMO services, we provide comprehensive analytics and
                 reporting, allowing you to monitor the performance of your social media campaigns effectively. Moreover,
                 our team stays abreast of the latest trends and algorithm changes, ensuring that your brand maintains a
                 competitive edge in the dynamic social media landscape.</p>

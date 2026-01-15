@@ -172,7 +172,8 @@ img {
 
 .boxservices {
     /* box-shadow: 0 0 11px #dbdbdb; */
-    padding: 30px 30px;
+    /* padding: 30px 30px; */
+    padding: 30px 20px;
     border-radius: 12px;
     transition: .3s;
     text-align: center;
@@ -783,10 +784,19 @@ ul.ctglist li:before {
     margin: 0;
 }
 
-.ourservicestwo .boxservices {
+/* .ourservicestwo .boxservices {
     padding-left: 20px;
     padding-right: 20px;
+} */
+.lazy-img {
+    filter: blur(5px);
+    transition: filter 0.4s ease;
 }
+
+.lazy-img.loaded {
+    filter: blur(0);
+}
+
 
 .calltoactionformaintenance .callcontent h3 {
     font-size: 27px;
@@ -1047,9 +1057,9 @@ ul.ctglist li:before {
     width: 100%;
 }
 
-.ouerofportfolio li.nav-item {
+/* .ouerofportfolio li.nav-item {
     padding-right: 30px;
-}
+} */
 
 .ouerofportfolio li.nav-item a.nav-link.active {
     background: #000;
@@ -1556,7 +1566,33 @@ ul.ctglist li:before {
     height: 560px !important;
 }
 
-/*======================seo-company-in-kolkata=============*/
+.Role_in_Website_Design_background {
+    background: url(../img/bgcounter2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.website_designing_delhi_background,
+.website_designing_noida_background,
+.website_designing_gurgaon_background,
+.website_design_mumbai_background,
+.website_design_kolkata_background,
+.website_design_bangalore_background,
+.web_design_chennai_background,
+.website_design_hyderabad,
+.website_design_pune_background,
+.website_design_ahmedabad_background {
+    background: url(../img/location-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+/*======================seo-company=============*/
+.seo_delhi_background,
+.seo_gurgaon_background,
+.seo_mumbai_background,
 .seo_kolkata_background,
 .seo_ahmedabad_background,
 .seo_pune_background,
@@ -1571,7 +1607,7 @@ ul.ctglist li:before {
 .about_us_background,
 .seo_nagpur_background,
 .seo_baroda_background,
-.seo_gujarat_background ,
+.seo_gujarat_background,
 .seo_rajkot_background,
 .seo_vadodara_background {
     background: url(../img/seobanner.jpg);
@@ -1580,42 +1616,56 @@ ul.ctglist li:before {
     height: 500px;
 }
 
-
-/*======================seo-agency-bangalore=============*/
-/* .seo_bangalore_background{
-    background: url(../img/seobanner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-} */
-/*======================seo-company-in-chennai=============*/
-/* .seo_chennai_background{
-    background: url(../img/seobanner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-} */
-/*======================seo-services-in-hyderabad=============*/
-/* .seo_hyderabad_background{
+.seo_noida_background {
     background: url(../img/seobanner-new.png);
-    background-repeat: no-repeat;   
-    background-size: cover;
-    height: 500px;
-} */
-/*======================seo-agency-pune=============*/
-/* .seo_pune_background{
-    background: url(../img/seobanner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-} */
-/*======================seo-company-in-ahmedabad=============*/
-/* .seo_ahmedabad_background{
-    background: url(../img/seobanner.jpg);
+}
+
+/*======================SMM-company-our-locations=============*/
+.smo_delhi_background,
+.smo_mumbai_background,
+.smo_bangalore_background,
+.smo_jaipur_background,
+.smo_noida_background,
+.smo_gurgaon_background,
+.social_mumbai_background {
+    background: url(../img/Social-media-bnr.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-} */
+}
+
+/*======================Google Ads (PPC)=============*/
+.google_delhi_background,
+.google_mumbai_background,
+.google_chennai_background,
+.google_surat_background,
+.google_jaipur_background,
+.google_noida_background {
+    background: url(../img/google-ads-bnr-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+/*======================google-ads-agency-in-delhi=============*/
+.Ready_to_Grow {
+    background: url(../img/bgcounter-n.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*======================home counter-background=============*/
+.counerdownstr_background {
+    background: url(../img/bgcounter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 
 .section-paragraph p {
     font-weight: 400 !important;

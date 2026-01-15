@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-mumbai.php";
 ?>
 <?php include './include/header.php';?>
 
-<section style="
-    background: url(assets/img/google-ads-bnr-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner google_mumbai_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -32,20 +29,19 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-mumbai.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/google-site.png" alt="SEO Company in Janakpuri">
                         </div>
-
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up">
                             <h2>Unlock Your Business Potential with Google Ads Agency in Mumbai</h2>
                         </div>
-                        <p>At NeedleAds Technology, we specialize in helping businesses in Mumbai harness the power of
+                        <p data-aos="fade-up" data-aos-duration="1100">At NeedleAds Technology, we specialize in helping businesses in Mumbai harness the power of
                             Google Ads to drive growth and achieve their marketing objectives. As a leading <b>Google
                                 Ads agency in Mumbai</b>, we understand the importance of targeted advertising in
                             reaching the right audience and maximizing returns on investment. Our team of certified
@@ -63,20 +59,20 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-mumbai.php";
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Tailored Google Ads Agency in Mumbai </h2>
             </div>
-            <p class="text-center">Our comprehensive Google Ads services are designed to meet the unique needs of
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1100">Our comprehensive Google Ads services are designed to meet the unique needs of
                 businesses in Mumbai. We begin by conducting a thorough analysis of your business goals, target
                 audience, and competitors to develop a customized Google Ads strategy. Leveraging advanced targeting
                 techniques, compelling ad creatives, and data-driven optimization, we ensure your ads stand out in the
                 crowded online marketplace and drive meaningful results.</p>
-            <p class="text-center">As your Google Ads partner in Mumbai, we handle all aspects of your campaign, from
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1200">As your Google Ads partner in Mumbai, we handle all aspects of your campaign, from
                 keyword research and ad copywriting to bid management and performance tracking. Our goal is to maximize
                 your return on investment by continually refining your campaigns to improve efficiency and drive
                 conversions.</p>
-            <p class="text-center">With NeedleAds Technology, you can expect:</p>
-            <ul>
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1300">With NeedleAds Technology, you can expect:</p>
+            <ul data-aos="fade-up" data-aos-duration="1400">
                 <li><b>Expertise:</b> Our team consists of Google Ads certified professionals with extensive experience
                     in managing campaigns across various industries in Mumbai.</li>
                 <li><b>Personalized Approach:</b> We take the time to understand your business objectives and tailor our
@@ -95,7 +91,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-mumbai.php";
 <section class="sectionpadding innerpagebox pb-0">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
                 <h3>Why Choose NeedleAds Technology as Your Google Ads Partner in Mumbai?</h3>
             </div>
             <div class="row alignset justify-content-center agn">

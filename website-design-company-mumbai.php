@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-in-mumbai.
 ?>
 <?php include './include/header.php';?>
 
-<section style="
-    background: url(assets/img/location-banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner  website_design_mumbai_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -33,7 +30,7 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-in-mumbai.
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/website.png" alt="SEO Company in Janakpuri">
@@ -43,10 +40,10 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-in-mumbai.
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up">
                             <h2>Comprehensive Website Design and Development Solutions in Mumbai</h2>
                         </div>
-                        <p class="text-justify">NeedleAds Technology is one of the best <b>website design Company in Mumbai</b>. As a leading
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1100">NeedleAds Technology is one of the best <b>website design Company in Mumbai</b>. As a leading
                             web design company, we specialize in creating stunning and functional websites that help
                             businesses thrive online. Our team of skilled designers and developers works closely with
                             clients to understand their unique needs and objectives. Whether you need a simple
@@ -65,23 +62,23 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-in-mumbai.
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Tailored Website Design and Development Services in Mumbai</h2>
             </div>
-            <p class="text-center">At NeedleAds Technology, we understand that every business is different, which is why
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1100">At NeedleAds Technology, we understand that every business is different, which is why
                 we offer tailored <b>website design services in Mumbai</b>. Our process begins with a detailed
                 consultation where we discuss your goals, target audience, and brand identity. Based on this
                 information, our team creates a customized strategy to design and develop a website that reflects your
                 unique personality and resonates with your audience.</p>
 
 
-            <p class="text-center">Our designers focus on creating visually appealing layouts that are easy to navigate
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1200">Our designers focus on creating visually appealing layouts that are easy to navigate
                 and optimized for user experience. We pay attention to every detail, from color schemes to typography,
                 to ensure that your website is visually stunning and cohesive. Meanwhile, our developers work behind the
                 scenes to ensure that your website is fast, secure, and fully functional.</p>
 
 
-            <p class="text-center">In addition to design and development, we also offer website maintenance and support
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1300">In addition to design and development, we also offer website maintenance and support
                 services to ensure that your website remains up-to-date and secure. Whether you need regular updates or
                 technical assistance, our team is here to help you every step of the way.</p>
         </div>

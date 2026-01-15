@@ -39,11 +39,8 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-noid
 }
 </script>
 
-<section style="
-    background: url(assets/img/location-banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner website_designing_noida_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -68,7 +65,7 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-noid
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="1100">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/Web Design Company.png" alt="web design company in Noida">
@@ -76,7 +73,7 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-noid
 
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="1100">
                     <div class="aboutcontent">
                         <div class="sectionheading">
                             <h2>Noida's Leading Web Design Company</h2>
@@ -110,27 +107,27 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-noid
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Premier Website Development Company in Noida</h2>
             </div>
-            <p class="text-center">At NeedleAds Technology, we pride ourselves on being the premier website development
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1100">At NeedleAds Technology, we pride ourselves on being the premier website development
                 company in Noida. We are dedicated to providing Best web solutions to businesses of all sizes. As a
                 leading Website Design Company in Noida, we specialize in creating visually stunning and highly
                 functional websites that effectively represent your brand and engage your audience.</p>
 
-            <p class="text-center">Our team of experienced professionals combines creativity with technical expertise to
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1200">Our team of experienced professionals combines creativity with technical expertise to
                 provide customized web design and development services tailored to your specific needs. As a renowned
                 Web Design Company in Noida, we ensure that every website we create is aesthetically pleasing and
                 optimized for performance and user experience. We aim to help you establish a strong online presence
                 that drives traffic and converts visitors into loyal customers.</p>
 
-            <p class="text-center">NeedleAds Technology is the Best Website Development Company in Noida. We offer a
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1300">NeedleAds Technology is the Best Website Development Company in Noida. We offer a
                 comprehensive range of services, including responsive web design, e-commerce development, <a
                     href="https://en.wikipedia.org/wiki/Content_management_system">content management systems</a>, and
                 search engine optimization. We utilize the latest technologies and industry best practices to ensure
                 that your website is visually appealing, secure, scalable, and easy to navigate.</p>
 
-            <p class="text-center">Partner with NeedleAds Technology, the trusted <a
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1400">Partner with NeedleAds Technology, the trusted <a
                     href="https://www.theneedleads.com/website-designing-company-in-noida.php">Website Development
                     Company in Noida</a>. Let us help you take your business to the next level with a website that
                 reflects your brand's identity and values.</p>
@@ -146,24 +143,24 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-noid
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
                             <h3>Advance Web Development Company in Noida</h3>
                         </div>
-                        <p class="text-justify">NeedleAds Technology is an advanced Web Development Company in Noida. We're known for
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1200">NeedleAds Technology is an advanced Web Development Company in Noida. We're known for
                             creating modern websites that look great and work flawlessly. Our team uses the latest
                             technology to build websites that are easy to use and look amazing on any device.</p>
-                        <p class="text-justify">As a leading Website Development Company in Noida, we offer various services, including
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1300">As a leading Website Development Company in Noida, we offer various services, including
                             custom web development, e-commerce solutions, and responsive web design. We focus on making
                             websites that look good and help businesses grow by attracting more customers.</p>
-                        <p class="text-justify">At NeedleAds Technology, we understand the importance of having a website that works well for
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1400">At NeedleAds Technology, we understand the importance of having a website that works well for
                             your business. That's why we ensure our websites are fast, secure, and easy to manage. We
                             aim to help you succeed online by creating an outstanding website.</p>
-                        <p class="text-justify">If you're looking for an easy and reliable Web Development Company in Noida, choose NeedleAds
+                        <p class="text-justify"data-aos="fade-up" data-aos-duration="1500">If you're looking for an easy and reliable Web Development Company in Noida, choose NeedleAds
                             Technology. Let us help you build a website that takes your business to the next level.</p>
 
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="1100">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/Web-Development -Company.png"

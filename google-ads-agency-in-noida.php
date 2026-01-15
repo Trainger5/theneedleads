@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-noida.php";
 ?>
 <?php include './include/header.php';?>
 
-<section style="
-    background: url(assets/img/google-ads-bnr-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner google_noida_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
@@ -38,7 +35,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-noida.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row justify-content-center ">
-                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="1100">
 
                     <div class="sideviewform">
                         <div class="bnrform">
@@ -98,13 +95,13 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-noida.php";
                 </div>
                 <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
                     <div class="aboutcontent ">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
                             <h5 style="color: #f85a03;">Drive More Traffic & Sales</h5>
 
                             <h2>Trusted Google Ads Agency in Noida </h2>
                         </div>
 
-                        <p>Looking for a reliable <a
+                        <p data-aos="fade-up" data-aos-duration="1100">Looking for a reliable <a
                                 href="https://www.theneedleads.com/google-ads-agency-in-noida.php">Google Ads agency in
                                 Noida</a> to boost your online visibility and drive more
                             conversions? Look no further than NeedleAds Technology. As a leading Google AdWords agency
@@ -115,7 +112,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-noida.php";
                             strategies to
                             optimize your campaigns for maximum ROI.</p>
 
-                        <ul class="webseticon ">
+                        <ul class="webseticon " data-aos="fade-up" data-aos-duration="1100" >
                             <li><img src="assets/img/google-adwords.png"><b>Comprehensive Google AdWords Services : </b>
                                 From keyword research and ad copywriting to bid
                                 management and performance tracking, we offer a comprehensive suite of Google AdWords
@@ -136,13 +133,13 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-noida.php";
 <section class="sectionpadding innerpagebox bgsection ">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading"data-aos="fade-up" data-aos-duration="1100" >
                 <h2>Our Google AdWords Services</h2>
-                <p>Our Google AdWords services in Noida cover all aspects of campaign management, from setting up your
+                <p >Our Google AdWords services in Noida cover all aspects of campaign management, from setting up your
                     ads to continuously monitoring and optimizing them for better results. Our services include:</p>
             </div>
             <div class="row alignset justify-content-center">
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1100">
                     <div class="boxservices">
                         <div class="servicecontent">
                             <h4>Keyword Research</h4>
@@ -151,7 +148,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-noida.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-down" data-aos-duration="1100">
                     <div class="boxservices">
                         <div class="servicecontent">
                             <h4>Ad Creation</h4>
@@ -159,7 +156,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-noida.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1100">
                     <div class="boxservices">
                         <div class="servicecontent">
                             <h4>Campaign Setup</h4>
@@ -167,7 +164,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-noida.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-down" data-aos-duration="1100">
                     <div class="boxservices">
                         <div class="servicecontent">
                             <h4>Performance Tracking</h4>
@@ -178,7 +175,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-noida.php";
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1100">
                     <div class="boxservices">
                         <div class="servicecontent">
                             <h4>Optimization</h4>
@@ -197,7 +194,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-noida.php";
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
-                    <div class="callcontent">
+                    <div class="callcontent" data-aos="fade-up" data-aos-duration="1100">
                         <h3>Are you ready to boost your business with Google Ads?</h3>
                     </div>
                 </div>
@@ -219,7 +216,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-noida.php";
         <div class="container">
             <div class="row">
 
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="1100">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/google-ads.png" alt="Google Ads ">
@@ -228,17 +225,17 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-noida.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
                             <h2>Why Choose NeedleAds Technology?</h2>
                         </div>
-                        <p>As a leading Google Ads agency in Noida, NeedleAds Technology offers services designed to
+                        <p data-aos="fade-up" data-aos-duration="1200">As a leading Google Ads agency in Noida, NeedleAds Technology offers services designed to
                             maximize your online visibility and generate high-quality leads. Our expertise in <a
                                 href="https://ads.google.com/intl/en_IN/home/">Google Ads</a> (formerly known as Google
                             AdWords) helps businesses of all sizes, from startups to set enterprises, reach their target
                             audience effectively. With a team of certified professionals, we ensure that your ad
                             campaigns are optimized for the best performance. </p>
-                        <h5>Here’s why you should choose NeedleAds Technology:</h5>
-                        <ul>
+                        <h5 data-aos="fade-up" data-aos-duration="1300">Here’s why you should choose NeedleAds Technology:</h5>
+                        <ul data-aos="fade-up" data-aos-duration="1400">
                             <li><b>Tailored Ad Strategies : </b> We create customized Google Ads campaigns that align
                                 with your business goals, ensuring maximum impact and ROI.
                             </li>
@@ -270,7 +267,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-noida.php";
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
                 <h2>Google Ads Campaigns with NeedleAds Technology</h2>
                 <p>Google Ads offers a variety of campaign types to help businesses achieve specific marketing
                     objectives. Whether you're looking to drive sales, generate leads, or increase website traffic,
@@ -282,7 +279,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-noida.php";
 
 
             <div class="row">
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1100">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/shopping-ads.png">
@@ -299,7 +296,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-noida.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/videos-ads.png">
@@ -318,7 +315,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-noida.php";
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1800">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/app-ads.png">
@@ -336,7 +333,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-noida.php";
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="2200">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/search-ads.png">
@@ -354,7 +351,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-noida.php";
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="2400">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/display-ads.png">
@@ -372,7 +369,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-noida.php";
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="2600">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/champion.png">
@@ -400,7 +397,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-noida.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12"data-aos="fade-up" data-aos-duration="1100">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/google-tools.png" alt="google ads tools">
@@ -409,10 +406,10 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-noida.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
                             <h2>Your Success is Our Priority</h2>
                         </div>
-                        <p>NeedleAds Technology is passionate about helping our clients grow their businesses. Our team
+                        <p data-aos="fade-up" data-aos-duration="1400">NeedleAds Technology is passionate about helping our clients grow their businesses. Our team
                             of experts is dedicated to delivering the best Google AdWords services in Noida by creating
                             campaigns tailored to your specific needs. Whether you're looking to increase website
                             traffic, generate leads, or improve sales, we are here to guide you every step of the way.

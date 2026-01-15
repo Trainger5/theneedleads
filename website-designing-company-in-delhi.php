@@ -28,11 +28,8 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-delh
 }
 </script>
 
-<section style="
-    background: url(assets/img/location-banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner website_designing_delhi_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -57,7 +54,7 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-delh
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/website-design.png" alt="Website Designing Company In Delhi">
@@ -67,21 +64,21 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-delh
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
                             <h2>Building Mobile-Friendly Websites with Delhi's Web Design Experts</h2>
                         </div>
-                        <p class="text-justify">Everyone has a mobile in their hands! If your website doesn't look good on mobile, you're
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1200">Everyone has a mobile in their hands! If your website doesn't look good on mobile, you're
                             losing customers! NeedleAds Technology, a renowned <a
                                 href="https://www.theneedleads.com/website-designing-company-in-delhi.php">Website
                                 Designing Company In Delhi</a> with over 12 years of experience, makes it easy for you
                             to create mobile-friendly websites.</p>
-                        <p class="text-justify">Our expert team creates websites that look great on any screen size so all your visitors get
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1300">Our expert team creates websites that look great on any screen size so all your visitors get
                             the best experience.</p>
-                        <p class="text-justify">Whether you are looking for a website design and development company in Delhi, NeedleAds
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1400">Whether you are looking for a website design and development company in Delhi, NeedleAds
                             Technology offers multiple <a
                                 href="https://www.theneedleads.com/website-design-packages.php">website design
                                 packages</a> that suit your budget and needs.</p>
-                        <p class="text-justify">We make website design simple so you can focus on running your business. Contact NeedleAds
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1500">We make website design simple so you can focus on running your business. Contact NeedleAds
                             Technology today and learn how our expertise can create a mobile-friendly website that moves
                             you forward!</p>
                     </div>
@@ -96,30 +93,30 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-delh
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Affordable Website Designing Agency in Delhi: Quality You Can Trust</h2>
             </div>
-            <p class="text-center">NeedleAds Technology, a renowned website designing agency in Delhi, assures you that
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1100">NeedleAds Technology, a renowned website designing agency in Delhi, assures you that
                 you will not have to compromise on quality. We offer affordable website design packages with over 12
                 years of experience. We design great websites with your needs and budget in mind.</p>
 
 
-            <p class="text-center">Whether you run a small or large business, we can help you strengthen your online
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1200">Whether you run a small or large business, we can help you strengthen your online
                 presence. Our designs are attractive and user-friendly, so your website will look great on both mobile
                 and desktop.</p>
 
-            <p class="text-center">We can create static, dynamic, landing, corporate, customised, and blogging websites
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1300">We can create static, dynamic, landing, corporate, customised, and blogging websites
                 at very good prices.</p>
 
-            <p class="text-center">Your website will look fantastic and work flawlessly on any device! Fast loading
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1400">Your website will look fantastic and work flawlessly on any device! Fast loading
                 times, SEO optimization, and clear navigation ensure a great user experience. Our clean design and
                 smooth functionality will keep visitors engaged. </p>
 
-            <p class="text-center">Calls to action and social media links will drive results. We'll handle HTTPS
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1500">Calls to action and social media links will drive results. We'll handle HTTPS
                 security, console verification, and Google Analytics setup. Plus, unique content, modern fonts, and an
                 optimized colour scheme will make your website stand out!</p>
 
-            <p class="text-center">With NeedleAds Technology, you get a website and a trusted partner to support your
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1600">With NeedleAds Technology, you get a website and a trusted partner to support your
                 online success. <a href="tel:8750500075">Contact us today</a> and learn how we can help you on your
                 digital journey!</p>
         </div>
@@ -132,7 +129,7 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-delh
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                    <div class="aboutcontent">
+                    <div class="aboutcontent" data-aos="fade-up" data-aos-duration="1100">
                         <div class="sectionheading">
                             <h3>Trusted Website Development Company in Delhi: Your Website Partner</h3>
                         </div>
@@ -156,7 +153,7 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-delh
                             you achieve your online goals with ease and confidence.</p>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="1100">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/website-development.png" alt="Website Development Company in Delhi">
@@ -172,12 +169,12 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-delh
 <section class="sectionpadding ourservicestwo">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
                 <h2>Our Website Designing Services</h2>
             </div>
             <div class="row alignset justify-content-center agn">
 
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1100">
                     <div class="boxservices">
 
                         <div class="servicecontent">
@@ -187,7 +184,7 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-delh
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-down" data-aos-duration="1100">
                     <div class="boxservices">
 
                         <div class="servicecontent">
@@ -197,7 +194,7 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-delh
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1100">
                     <div class="boxservices">
 
                         <div class="servicecontent">
@@ -207,7 +204,7 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-delh
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-down" data-aos-duration="1100">
                     <div class="boxservices">
 
                         <div class="servicecontent">
@@ -218,7 +215,7 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-delh
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1100">
                     <div class="boxservices">
                         <div class="servicecontent">
                             <h4>SEO-Friendly Design</h4>
@@ -226,7 +223,7 @@ $canonical_url = "https://www.theneedleads.com/website-designing-company-in-delh
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-down" data-aos-duration="1100">
                     <div class="boxservices">
                         <div class="servicecontent">
                             <h4>Website Redesign</h4>

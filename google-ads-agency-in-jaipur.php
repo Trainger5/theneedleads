@@ -6,11 +6,8 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-jaipur.php";
 <?php include './include/header.php';?>
 
 
-<section style="
-    background: url(assets/img/google-ads-bnr-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner google_jaipur_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -33,7 +30,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-jaipur.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/google-site.png" alt="SEO Company in Janakpuri">
@@ -43,14 +40,14 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-jaipur.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up">
                             <h2>Unlock the Potential of Google Ads with NeedleAds in Jaipur</h2>
                         </div>
-                        <p>Embark on a digital journey of growth and success with NeedleAds Technology, the premier
+                        <p data-aos="fade-up" data-aos-duration="1100">Embark on a digital journey of growth and success with NeedleAds Technology, the premier
                             Google Ads agency in Jaipur. With a team of seasoned experts and a proven track record of
                             delivering exceptional results, we specialize in crafting highly effective Google Ads
                             campaigns tailored to the unique needs of businesses in Jaipur.</p>
-                        <p>At NeedleAds, we understand the dynamic landscape of the Jaipur market and leverage our
+                        <p data-aos="fade-up" data-aos-duration="1300">At NeedleAds, we understand the dynamic landscape of the Jaipur market and leverage our
                             expertise to create impactful PPC strategies that drive tangible outcomes. From keyword
                             research and ad creation to campaign optimization and performance tracking, we ensure that
                             your ads stand out in the competitive online arena, helping you reach your target audience
@@ -66,21 +63,21 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-jaipur.php";
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Tailored Google Ads Solutions for Jaipur Businesses</h2>
             </div>
-            <p class="text-center">As a leading <b>Google Ads agency in Jaipur</b>, NeedleAds Technology is committed to
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1100">As a leading <b>Google Ads agency in Jaipur</b>, NeedleAds Technology is committed to
                 helping businesses thrive in the digital realm. We believe in the power of precision targeting and
                 strategic optimization to maximize ROI and deliver measurable results for our clients.</p>
-            <p class="text-center">Our approach begins with a thorough understanding of your business goals, target
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1200">Our approach begins with a thorough understanding of your business goals, target
                 audience, and competitive landscape in Jaipur. We conduct in-depth market research and keyword analysis
                 to identify lucrative opportunities and craft customized Google Ads campaigns that resonate with your
                 audience and drive engagement.</p>
-            <p class="text-center">From text ads to display ads and shopping campaigns, we employ a diverse range of ad
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1300">From text ads to display ads and shopping campaigns, we employ a diverse range of ad
                 formats to ensure maximum visibility and impact for your brand in Jaipur. Our team continuously monitors
                 campaign performance, making data-driven adjustments to optimize ad spend, improve click-through rates,
                 and boost conversions.</p>
-            <p class="text-center">With NeedleAds as your <b>Google Ads partner in Jaipur</b>, you can expect
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1400">With NeedleAds as your <b>Google Ads partner in Jaipur</b>, you can expect
                 transparency, accountability, and unwavering dedication to your success. We keep you informed every step
                 of the way, providing detailed reports and actionable insights that empower you to make informed
                 decisions and drive continuous improvement.</p>
@@ -93,7 +90,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-jaipur.php";
 <section class="sectionpadding innerpagebox pb-0">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
                 <h3>Why Choose NeedleAds Technology for Google Ads in Jaipur?</h3>
             </div>
             <div class="row alignset justify-content-center agn">

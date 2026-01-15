@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-delhi.php";
 ?>
 <?php include './include/header.php';?>
 
-<section style="
-    background: url(assets/img/google-ads-bnr-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner google_delhi_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12">
@@ -35,7 +32,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-delhi.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/google-site.png" alt="SEO Company in Janakpuri">
@@ -45,10 +42,10 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-delhi.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up">
                             <h2>Trusted Google Ads Agency in Delhi</h2>
                         </div>
-                        <p>NeedleAds Technology is a leading <a
+                        <p data-aos="fade-up" data-aos-duration="1100">NeedleAds Technology is a leading <a
                                 href="https://www.theneedleads.com/google-ads-agency-in-delhi.php">Google Ads Agency in
                                 Delhi</a>, and you’ll receive top-tier advertising strategies that will help your
                             business gain the attention it deserves. Our Google Ads Experts in Delhi specialize in
@@ -66,13 +63,13 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-delhi.php";
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
                 <h2>Grow Your Business with Targeted Google Ads Campaigns</h2>
             </div>
-            <p class="text-center">Drive Traffic, Increase Leads, and Maximize Conversions with NeedleAds Technology –
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1200">Drive Traffic, Increase Leads, and Maximize Conversions with NeedleAds Technology –
                 Delhi’s Premier Google Ads Agency.</p>
 
-            <div class="webbtnset text-center">
+            <div class="webbtnset text-center" data-aos="fade-up" data-aos-duration="1300">
                 <a href="tel:+91-8750500075">Get a Free Consultation</a>
             </div>
 
@@ -84,9 +81,8 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-delhi.php";
 <section class="sectionpadding innerpagebox ">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
                 <h3>Why Choose NeedleAds Technology as Your Google Ads Agency in Delhi?</h3>
-
             </div>
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -108,11 +104,11 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-delhi.php";
 <section class="sectionpadding bgsection ourservicestwo">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Our Google Ads Services:</h2>
             </div>
             <div class="row justify-content-center align-items-center row-gap-4">
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1100">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/keyword-research.png">
@@ -125,7 +121,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-delhi.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/optimization.png">
@@ -138,7 +134,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-delhi.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1800">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/ei3.png">
@@ -151,7 +147,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-delhi.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="2200">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/Conversions.jpg">
@@ -166,7 +162,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-delhi.php";
                 </div>
 
 
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="2500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/remarketing.png">
@@ -190,7 +186,7 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-delhi.php";
 <section class="sectionpadding innerpagebox ">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
                 <h2>Our Success in Numbers</h2>
                 <p>At NeedleAds Technology, our commitment to delivering measurable results sets us apart as the leading
                     Google Ads Agency Delhi businesses trust. We’ve helped numerous clients across various industries
@@ -226,9 +222,8 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-delhi.php";
 <section class="sectionpadding bgsection ">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading"data-aos="fade-up" data-aos-duration="1100">
                 <h2>How Our Process Works</h2>
-
             </div>
             <div class="row justify-content-center alignset agn">
                 <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
@@ -287,9 +282,8 @@ $canonical_url = "https://www.theneedleads.com/google-ads-agency-in-delhi.php";
 
 
 
-<section class="sectionpadding mb-4"
-    style="background: url(assets/img/bgcounter-n.png); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
-    <div class="outerofmiddlecontent">
+<section class="sectionpadding mb-4 Ready_to_Grow">
+    <div class="outerofmiddlecontent ">
         <div class="container">
             <div class="middlecontentbox">
                 <div class="sectionheading">

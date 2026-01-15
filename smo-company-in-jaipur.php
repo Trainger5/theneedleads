@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/smo-company-in-jaipur.php";
 ?>
 <?php include './include/header.php';?>
 
-<section style="
-    background: url(assets/img/Social-media-bnr.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner smo_jaipur_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -32,7 +29,7 @@ $canonical_url = "https://www.theneedleads.com/smo-company-in-jaipur.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="1100">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/smo-site.png" alt="SEO Company in Janakpuri">
@@ -40,7 +37,7 @@ $canonical_url = "https://www.theneedleads.com/smo-company-in-jaipur.php";
 
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="1100">
                     <div class="aboutcontent">
                         <div class="sectionheading">
                             <h2>Expert Social Media Optimization Services in Jaipur</h2>
@@ -66,15 +63,15 @@ $canonical_url = "https://www.theneedleads.com/smo-company-in-jaipur.php";
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
                 <h2>Tailored SMO Strategies for Your Business</h2>
             </div>
-            <p class="text-center">As a leading SMO company in Jaipur, we believe in taking a customized approach to
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1200">As a leading SMO company in Jaipur, we believe in taking a customized approach to
                 every client's social media needs. Our process begins with a thorough understanding of your business,
                 target audience, and industry landscape. We conduct in-depth research to identify key insights and
                 trends, allowing us to develop a tailored SMO strategy that aligns with your objectives.</p>
-            <p><b>Our comprehensive SMO services include</b></p>
-            <ul>
+            <p data-aos="fade-up" data-aos-duration="1300"><b>Our comprehensive SMO services include</b></p>
+            <ul data-aos="fade-up" data-aos-duration="1400">
                 <li><b>Social Media Audit:</b> We start by auditing your existing social media presence to assess
                     strengths, weaknesses, and opportunities for improvement.</li>
                 <li><b>Strategy Development:</b> Based on our audit findings and your business goals, we develop a

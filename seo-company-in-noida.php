@@ -6,10 +6,8 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-noida.php";
 <?php include './include/header.php';?>
 
 <section style="
-    background: url(assets/img/seobanner-new.png);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+">
+    <div class="outerofbanner seo_noida_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
@@ -34,7 +32,7 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-noida.php";
 <section class="sectionpadding ">
     <div class="outerofaboutsection">
         <div class="container">
-            <div class="row justify-content-center ">
+            <div class="row justify-content-center " data-aos="fade-up" data-aos-duration="1100">
                 <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
 
                     <div class="sideviewform">
@@ -126,12 +124,12 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-noida.php";
     <div class="outerofservicessection">
         <div class="container">
             <div class="sectionheading">
-                <h2>Our SEO Services in Noida</h2>
-                <p>As a leading SEO agency in Noida, NeedleAds Technology offers services to help your business
+                <h2 data-aos="fade-up">Our SEO Services in Noida</h2>
+                <p data-aos="fade-up" data-aos-duration="1100">As a leading SEO agency in Noida, NeedleAds Technology offers services to help your business
                     thrive online. Our services include:</p>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1100">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/keyword-research.png">
@@ -147,7 +145,7 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-noida.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1100">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/on-page-optimization.png">
@@ -166,7 +164,7 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-noida.php";
 
 
 
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1100">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/records.png">
@@ -185,7 +183,7 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-noida.php";
                 </div>
 
 
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1100">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/t-seo.png">
@@ -203,7 +201,7 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-noida.php";
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1100">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/local-seo-mini-icon.png">
@@ -222,7 +220,7 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-noida.php";
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1100">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/seo-audit.png">
@@ -239,7 +237,7 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-noida.php";
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1100">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/marketing.png">
@@ -345,7 +343,7 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-noida.php";
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
-                    <div class="callcontent">
+                    <div class="callcontent" data-aos="fade-up" data-aos-duration="1100">
                         <h3>Ready to Grow Your Business on Google?</h3>
                     </div>
                 </div>
@@ -367,7 +365,7 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-noida.php";
         <div class="container">
             <div class="row">
 
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/About-Us.png" alt="Why Choose NeedleAds Technology">
@@ -376,16 +374,16 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-noida.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
                             <h2>Why Choose NeedleAds Technology?</h2>
                         </div>
-                        <p>NeedleAds Technology is a renowned SEO company in Noida, offering comprehensive SEO
+                        <p data-aos="fade-up" data-aos-duration="1200">NeedleAds Technology is a renowned SEO company in Noida, offering comprehensive SEO
                             solutions designed to enhance your website’s visibility and attract targeted traffic.
                             Our expertise extends beyond Noida, serving clients in Greater Noida and the surrounding
                             regions. Here’s why businesses trust us for their SEO needs:
                         </p>
 
-                        <ul>
+                        <ul data-aos="fade-up" data-aos-duration="1300">
                             <li><b>Proven Expertise : </b> With years of experience, NeedleAds Technology has a
                                 proven track record in delivering successful SEO campaigns. Our team of SEO experts
                                 is skilled in the latest techniques and strategies to ensure your business stands
@@ -426,7 +424,7 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-noida.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
                             <h3>Looking for SEO Service in Noida?</h3>
                         </div>
                         <p>NeedleAds Technology is your go-to solution for top-notch SEO services in Noida. We
@@ -435,7 +433,7 @@ $canonical_url = "https://www.theneedleads.com/seo-company-in-noida.php";
                         </p>
 
 
-                        <div class="webbtnset">
+                        <div class="webbtnset" data-aos="fade-up" data-aos-duration="1100">
                             <a href="contact-us.php">Send Enquiry</a>
                         </div>
                     </div>

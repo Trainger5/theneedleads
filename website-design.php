@@ -106,8 +106,7 @@ $canonical_url = "https://www.theneedleads.com/website-design.php";
     </div>
 </section>
 
-<section class="sectionpadding"
-    style="background: url(assets/img/bgcounter2.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+<section class="sectionpadding Role_in_Website_Design_background">
     <div class="outerofmiddlecontent">
         <div class="container">
             <div class="middlecontentbox">

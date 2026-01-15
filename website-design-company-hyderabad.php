@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-hyderabad.
 ?>
 <?php include './include/header.php';?>
 
-<section style="
-    background: url(assets/img/location-banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner website_design_hyderabad">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -34,7 +31,7 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-hyderabad.
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                    <div class="aboutsidimgwithform">
+                    <div class="aboutsidimgwithform" data-aos="fade-up">
                         <div class="aboutimg">
                             <img src="assets/img/website.png" alt="SEO Company in Janakpuri">
                         </div>
@@ -43,10 +40,10 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-hyderabad.
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up">
                             <h2>Comprehensive website design company in Hyderabad</h2>
                         </div>
-                        <p class="text-justify">NeedleAds Technology is a leading <b>website design company in Hyderabad</b>, offering
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="1100">NeedleAds Technology is a leading <b>website design company in Hyderabad</b>, offering
                             comprehensive solutions to businesses of all sizes. Our team of expert website designers in
                             Hyderabad specializes in creating visually stunning and user-friendly websites that help
                             businesses establish a strong online presence. From responsive design to custom features, we
@@ -63,24 +60,24 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-hyderabad.
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Tailored Website Design Services in Hyderabad</h2>
             </div>
-            <p class="text-center">At NeedleAds Technology, we understand that every business is unique, which is why we
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1100">At NeedleAds Technology, we understand that every business is unique, which is why we
                 offer tailored <b>website design services in Hyderabad</b>. Our process begins with a detailed
                 consultation where we discuss your goals, target audience, and brand identity. Based on this
                 information, our team develops a customized strategy to create a website that meets your specific
                 requirements and exceeds your expectations.</p>
 
 
-            <p class="text-center">Our <b>website designers in Hyderabad</b> leverage the latest design trends and
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1200">Our <b>website designers in Hyderabad</b> leverage the latest design trends and
                 technologies to create visually appealing websites that are both functional and user-friendly. We pay
                 attention to every detail, from color schemes to typography, to ensure that your website stands out in
                 the competitive online landscape. Additionally, our websites are optimized for performance and
                 responsiveness, ensuring a seamless browsing experience across all devices and screen sizes.</p>
 
 
-            <p class="text-center">In addition to design, we also offer website development services to bring your
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1300">In addition to design, we also offer website development services to bring your
                 vision to life. Our team of skilled developers can create custom features and functionality to enhance
                 the user experience and drive conversions. Whether you need a simple brochure website or a complex
                 e-commerce platform, we have the expertise and experience to deliver exceptional results.</p>
@@ -94,7 +91,7 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-hyderabad.
 <section class="sectionpadding innerpagebox">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h3>Why Choose NeedleAds Technology for Website Design in Hyderabad?
                 </h3>
             </div>

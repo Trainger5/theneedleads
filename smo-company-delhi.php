@@ -5,11 +5,8 @@ $canonical_url = "https://www.theneedleads.com/smo-company-delhi.php";
 ?>
 <?php include './include/header.php';?>
 
-<section style="
-    background: url(assets/img/Social-media-bnr.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner smo_delhi_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -32,7 +29,7 @@ $canonical_url = "https://www.theneedleads.com/smo-company-delhi.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/smo-site.png" alt="SEO Company in Janakpuri">
@@ -40,12 +37,12 @@ $canonical_url = "https://www.theneedleads.com/smo-company-delhi.php";
 
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutcontent">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up" data-aos-duration="1100">
                             <h2>Comprehensive Social Media Optimization Solutions</h2>
                         </div>
-                        <p>NeedleAds Technology stands as a prominent <b>SMO company in Delhi</b>, offering
+                        <p data-aos="fade-up" data-aos-duration="1200">NeedleAds Technology stands as a prominent <b>SMO company in Delhi</b>, offering
                             comprehensive solutions to enhance your brand's presence across various social media
                             platforms. With our expert team of professionals, we tailor strategies that resonate with
                             your target audience, ensuring maximum engagement and brand visibility.</p>
@@ -60,23 +57,23 @@ $canonical_url = "https://www.theneedleads.com/smo-company-delhi.php";
 <section class="sectionpadding bgsection seoservicessection">
     <div class="outerofservicessection">
         <div class="container">
-            <div class="sectionheading">
+            <div class="sectionheading" data-aos="fade-up">
                 <h2>Tailored SMO company in Delhi</h2>
             </div>
-            <p class="text-center">At NeedleAds Technology, we recognize the significance of a strong social media
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1100">At NeedleAds Technology, we recognize the significance of a strong social media
                 presence in today's digital landscape. As a leading <b>SMO agency in Delhi</b>, we take a personalized
                 approach to meet your specific requirements. Our seasoned professionals delve deep into understanding
                 your brand, audience demographics, and industry trends to craft strategies that yield tangible results.
             </p>
 
 
-            <p class="text-center">From creating compelling content to managing ad campaigns, we handle every aspect of
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1200">From creating compelling content to managing ad campaigns, we handle every aspect of
                 your social media presence with finesse. Our goal is to drive meaningful interactions, foster brand
                 loyalty, and ultimately boost your business's bottom line.</p>
-            <div class="sectionheading mb-0 pt-3">
+            <div class="sectionheading mb-0 pt-3" data-aos="fade-up" data-aos-duration="1300">
                 <h2>Additional Benefits</h2>
             </div>
-            <p class="text-center">In addition to our core SMO services, we offer comprehensive analytics and reporting,
+            <p class="text-center" data-aos="fade-up" data-aos-duration="1400">In addition to our core SMO services, we offer comprehensive analytics and reporting,
                 allowing you to track the performance of your social media campaigns effectively. Moreover, our team
                 stays updated with the latest trends and algorithm changes, ensuring that your brand maintains a
                 competitive edge in the dynamic social media landscape.</p>

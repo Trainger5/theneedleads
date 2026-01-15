@@ -29,11 +29,8 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
 }
 </style>
 
-<section style="
-    background: url(assets/img/seobanner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div class="outerofbanner">
+<section>
+    <div class="outerofbanner seo_delhi_background">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
@@ -58,7 +55,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
     <div class="outerofaboutsection">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
                     <div class="aboutsidimgwithform">
                         <div class="aboutimg">
                             <img src="assets/img/siteabout-1.png" alt="SEO Company in Delhi">
@@ -68,17 +65,17 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutcontent aboutcontent-res ">
-                        <div class="sectionheading">
+                        <div class="sectionheading" data-aos="fade-up">
                             <h2>Best SEO Agency in Delhi for Fast Results</h2>
                         </div>
-                        <p>Lagging in the SEO game? We are committed to giving the best results in SEO rankings. Our
+                        <p data-aos="fade-up" data-aos-duration="1100">Lagging in the SEO game? We are committed to giving the best results in SEO rankings. Our
                             <a href="https://www.theneedleads.com/seo-agency-delhi.php">SEO agency in Delhi</a>
                             comprises experts with years of expertise in launching SEO-focused websites. Get started
                             with targeted SEO optimization to fulfill the business demand, and we make it happen
                             quickly for you!
                         </p>
 
-                        <ul>
+                        <ul data-aos="fade-up" data-aos-duration="1400">
                             <li>Get Fast Results</li>
                             <li>Rank High</li>
                             <li>Increase Sales</li>
@@ -89,7 +86,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
 
                         </ul>
 
-                        <div class="webbtns ">
+                        <div class="webbtns" data-aos="fade-up" data-aos-duration="1500">
                             <div class="webbtnset webbtn-1">
                                 <a href="free-seo-analysis.php">Get the Free SEO Audit</a>
                             </div>
@@ -111,11 +108,11 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
 <!-- Our new section for Seo  Start  -->
 <div class="outerofservicessection sectionpadding bgsection linkset">
     <div class="container">
-        <div class="sectionheading">
+        <div class="sectionheading" data-aos="fade-up">
             <h2>Be SEO Focused, Achieve High Ranking and Enhance Business</h2>
         </div>
         <div class="row justify-content-center alignset agn">
-            <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+            <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1100">
                 <div class="boxservices">
                     <div class="sicon">
                         <img src="assets/img/dp-1.png">
@@ -129,7 +126,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+            <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-down" data-aos-duration="1100">
                 <div class="boxservices">
                     <div class="sicon">
                         <img src="assets/img/dp-2.png">
@@ -143,7 +140,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+            <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1100">
                 <div class="boxservices">
                     <div class="sicon">
                         <img src="assets/img/dp-3.png">
@@ -156,7 +153,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+            <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-down" data-aos-duration="1100">
                 <div class="boxservices">
                     <div class="sicon">
                         <img src="assets/img/dp-4.png">
@@ -171,7 +168,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
                 </div>
             </div>
 
-            <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+            <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1100">
                 <div class="boxservices">
                     <div class="sicon">
                         <img src="assets/img/dp-5.png">
@@ -186,7 +183,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
                 </div>
             </div>
 
-            <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices">
+            <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 ppcservices" data-aos="fade-down" data-aos-duration="1100">
                 <div class="boxservices">
                     <div class="sicon">
                         <img src="assets/img/dp-6.png">
@@ -212,12 +209,12 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
     <div class="outerofservicessection">
         <div class="container">
             <div class="sectionheading">
-                <h2>What We Offer in SEO Services</h2>
+                <h2 data-aos="fade-up">What We Offer in SEO Services</h2>
 
-                <p>Ask for SEO Support, and We Are Here for You with the Best SEO Packages</p>
+                <p data-aos="fade-up" data-aos-duration="1100">Ask for SEO Support, and We Are Here for You with the Best SEO Packages</p>
             </div>
             <div class="row row-gap-4">
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1100">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/sr-1.png">
@@ -231,7 +228,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices"data-aos="fade-up" data-aos-duration="1300">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/sr-2.png">
@@ -245,7 +242,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/sr-3.png">
@@ -260,7 +257,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
                 </div>
 
 
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1700">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/dp-4.png">
@@ -274,7 +271,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="1900">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/sr-4.png">
@@ -289,7 +286,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
                 </div>
 
 
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="2100">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/sr-6.png">
@@ -303,7 +300,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
                 </div>
 
 
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="2300">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/sr-7.png">
@@ -317,7 +314,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
                 </div>
 
 
-                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 ppcservices" data-aos="fade-up" data-aos-duration="2500">
                     <div class="boxservices">
                         <div class="sicon">
                             <img src="assets/img/sr-8.png">
@@ -344,10 +341,10 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
 
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12  margin_sec">
                     <div class="aboutcontent ">
-                        <div class="sectionheading">
+                        <div class="sectionheading"data-aos="fade-up">
                             <h2>How We Make You Rank High on SEO </h2>
                         </div>
-                        <p>As a reliable SEO agency in Delhi, cracking into the search engine ranking can be
+                        <p data-aos="fade-up" data-aos-duration="1100">As a reliable SEO agency in Delhi, cracking into the search engine ranking can be
                             challenging. If you are unaware of the crucial SEO tactics, ranking the website can take
                             longer. Our SEO experts understand this concern and work relentlessly to rank your site.
                         </p>
@@ -359,9 +356,9 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
 
 
 
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" >
                     <div class="row row-gap-4">
-                        <div class="col-xl-6 col-lg-12 col-md-6 col-sm-12">
+                        <div class="col-xl-6 col-lg-12 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1100">
                             <div class="box_block">
                                 <div class="row">
                                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
@@ -381,7 +378,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
 
                         </div>
 
-                        <div class="col-xl-6 col-lg-12 col-md-6 col-sm-12">
+                        <div class="col-xl-6 col-lg-12 col-md-6 col-sm-12" data-aos="fade-down" data-aos-duration="1100">
                             <div class="box_block">
                                 <div class="row">
                                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
@@ -402,8 +399,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
                         </div>
 
 
-                        <div class="col-xl-6 col-lg-12 col-md-6 col-sm-12">
-
+                        <div class="col-xl-6 col-lg-12 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1100">
                             <div class="box_block">
                                 <div class="row">
                                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
@@ -424,8 +420,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
                         </div>
 
 
-                        <div class="col-xl-6 col-lg-12 col-md-6 col-sm-12">
-
+                        <div class="col-xl-6 col-lg-12 col-md-6 col-sm-12" data-aos="fade-down" data-aos-duration="1100">
                             <div class="box_block">
                                 <div class="row">
                                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
@@ -460,9 +455,8 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
     <div class="outerofservicessection">
         <div class="container">
             <div class="sectionheading">
-                <h2>Best SEO Agency for Your Business</h2>
-
-                <p>We provide fast results and make sure you lead the SEO ranking in less time. Our experts in SEO
+                <h2 data-aos="fade-up">Best SEO Agency for Your Business</h2>
+                <p data-aos="fade-up" data-aos-duration="1100">We provide fast results and make sure you lead the SEO ranking in less time. Our experts in SEO
                     are always at work to understand your demands and tailor SEO tactics that provide assured
                     results.</p>
             </div>
@@ -531,7 +525,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
             </div>
 
             <div class="row row-gap-4 justify-content-center align-items-center">
-                <div class="col-xl-4 col-lg-4  col-md-6 col-sm-12">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1100">
                     <div class="box_block">
                         <div class="row">
                             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
@@ -550,7 +544,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
 
                 </div>
 
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1100">
                     <div class="box_block">
                         <div class="row">
                             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
@@ -570,7 +564,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
                 </div>
 
 
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1100">
 
                     <div class="box_block">
                         <div class="row">
@@ -590,7 +584,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
                 </div>
 
 
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1100">
                     <div class="box_block">
                         <div class="row">
                             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
@@ -610,7 +604,7 @@ $canonical_url = "https://www.theneedleads.com/seo-agency-delhi.php";
                 </div>
 
 
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1100">
                     <div class="box_block">
                         <div class="row">
                             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">

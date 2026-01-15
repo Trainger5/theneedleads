@@ -13,9 +13,9 @@
 }
 
 @media only screen and (max-width: 1263px) {
-    .boxservices {
+    /* .boxservices {
         padding: 30px 20px;
-    }
+    } */
 
     .contactformimg {
         left: 0;
@@ -160,9 +160,9 @@
         top: 0px !important;
     }
 
-    .outerofbanner {
+    /* .outerofbanner {
         padding-top: 160px;
-    }
+    } */
 
     .porsetofside {
         display: none !important;
@@ -232,9 +232,9 @@
         row-gap: 25px;
     }
 
-    .boxservices {
+    /* .boxservices {
         padding: 40px 10px;
-    }
+    } */
 
     .callcontent h3 {
         font-size: 32px;
@@ -270,10 +270,10 @@
 
     /* header nav behaviour handled in assets/css/header.css */
 
-    .ourservicestwo .boxservices {
+    /* .ourservicestwo .boxservices {
         padding-left: 30px;
         padding-right: 50px;
-    }
+    } */
 
     .outerofformsection .row .col-md-3 {
         width: 100%;

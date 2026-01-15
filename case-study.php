@@ -57,7 +57,7 @@ setTimeout(function() {
 <section class="sectionpadding">
     <div class="ouerofportfolio">
         <div class="container">
-            <ul class="nav nav-tabs" role="tablist">
+            <ul class="nav nav-tabs gap-3" role="tablist">
                 <li class="nav-item webbtnset">
                     <a class="nav-link active" data-bs-toggle="tab" href="#web-design">Website Design</a>
                 </li>
