@@ -204,7 +204,7 @@ gtag('config', 'G-0GQ7EZTWNF');
             <div class="row row-gap-4 justify-content-center align-items-center hero_section">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
                     <div class="bannercontent" data-aos="fade-up" data-aos-duration="800">
-                        <h1>Best Digital Marketing Agency in Janakpuri, Delhi</h1>
+                        <h1>Best Digital Marketing Agency </h1>
                         <p>Looking to improve your brand's visibility? Partner with NeedleAds Technology! Our expert
                             team offers SEO, SMM, PPC, Web Design, and more. Contact us now!</p>
                         <div class="webbtn">
