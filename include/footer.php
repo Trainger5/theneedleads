@@ -1,7 +1,7 @@
 <footer class="footer_mainbox text-white pt-4">
     <div class="container pt-4">
-        <div class="row">
-            <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+        <div class="row footer_topbox">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
                 <div class="footerlogo">
                     <a href="<?php echo $linkBase ?? ''; ?>index.php">
                         <img src="<?php echo $assetBase ?? ''; ?>assets/img/sitelogo.png">
@@ -35,7 +35,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
                 <div class="footerlist">
                     <h3>Explore</h3>
                     <ul>
@@ -47,7 +47,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
                 <div class="footerlist">
 
                     <h3>Services</h3>
@@ -71,9 +71,9 @@
 
     <div class="footer_bottom">
         <div class="container  mt-4 pb-4">
-            <div class="row">
+            <div class="row footer_bottombox">
                 <h3>Address</h3>
-                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
                     <div class="footerlist">
                         <ul>
                             
@@ -105,7 +105,7 @@
 
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
                     <div class="footerlist">
                        <h4>Branch Office</h4>
                         <ul>
@@ -130,7 +130,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
                     <div class="footerlist">
                         <h4>UK Office</h4>
                         <ul>
