@@ -522,5 +522,392 @@ function makeCallOrWhatsApp() {
   });
 </script>
 
+<!-- Global form validation -->
+<script>
+(function() {
+    function clearErrors(form) {
+        if (!form) return;
+        var errorTexts = form.querySelectorAll(".nl-field-error");
+        errorTexts.forEach(function(el) {
+            if (el.parentNode) {
+                el.parentNode.removeChild(el);
+            }
+        });
+        var errorInputs = form.querySelectorAll(".nl-field-error-input");
+        errorInputs.forEach(function(el) {
+            el.classList.remove("nl-field-error-input");
+        });
+    }
+
+    function showError(el, message) {
+        if (!el || !message) return;
+        var container = el.closest(".mb-3, .mb3, .form-group") || el.parentElement || el;
+        var errorEl = container.querySelector(".nl-field-error");
+        if (!errorEl) {
+            errorEl = document.createElement("div");
+            errorEl.className = "nl-field-error";
+            container.appendChild(errorEl);
+        }
+        errorEl.textContent = message;
+        el.classList.add("nl-field-error-input");
+    }
+
+    function applyServerErrorFromQuery() {
+        var params = new URLSearchParams(window.location.search || "");
+        var code = params.get("form_error");
+        if (!code) return;
+
+        var message = "";
+        var selector = null;
+
+        if (code === "invalid_name") {
+            message = "Please enter a valid name with at least 4 letters.";
+            selector = "[name*='name' i]";
+        } else if (code === "invalid_email") {
+            message = "Please enter a valid email address.";
+            selector = "input[type='email'], [name*='email' i]";
+        } else if (code === "invalid_phone") {
+            message = "Please enter a valid phone number (7-15 digits).";
+            selector = "[name*='phone' i], [name*='number' i], [name*='mobile' i]";
+        }
+
+        if (!message || !selector) return;
+
+        var form = document.querySelector("form");
+        if (!form) return;
+
+        var field = form.querySelector(selector);
+        if (field) {
+            clearErrors(form);
+            showError(field, message);
+            try {
+                field.focus();
+            } catch (e) {}
+        }
+    }
+
+    function normalizeLetters(str) {
+        return (str || "").replace(/[^A-Za-z]/g, "");
+    }
+
+    function isValidName(value) {
+        var cleaned = normalizeLetters(value);
+        return cleaned.length >= 4;
+    }
+
+    function isValidEmail(value) {
+        var v = (value || "").trim();
+        if (!v) return false;
+        var pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return pattern.test(v);
+    }
+
+    function isValidPhone(value) {
+        var digits = (value || "").replace(/\D/g, "");
+        return digits.length >= 7 && digits.length <= 15;
+    }
+
+    function attachValidation(form) {
+        if (!form) return;
+        form.addEventListener("submit", function(e) {
+            var elements = Array.prototype.slice.call(form.elements);
+            var firstErrorField = null;
+
+            clearErrors(form);
+
+            elements.forEach(function(el) {
+                if (!el.name) return;
+                var val = (el.value || "").trim();
+                var nameLower = el.name.toLowerCase();
+
+                // Name validation
+                if (nameLower.indexOf("name") !== -1 && el.type === "text") {
+                    if (!isValidName(val)) {
+                        showError(el, "Please enter a valid name with at least 4 letters.");
+                        firstErrorField = firstErrorField || el;
+                    }
+                }
+
+                // Email validation
+                if (el.type === "email" || nameLower.indexOf("email") !== -1) {
+                    if (!isValidEmail(val)) {
+                        showError(el, "Please enter a valid email address.");
+                        firstErrorField = firstErrorField || el;
+                    }
+                }
+
+                // Phone / number validation
+                if (nameLower.indexOf("phone") !== -1 || nameLower.indexOf("number") !== -1 || nameLower.indexOf("mobile") !== -1) {
+                    if (!isValidPhone(val)) {
+                        showError(el, "Please enter a valid phone number (7-15 digits).");
+                        firstErrorField = firstErrorField || el;
+                    }
+                }
+            });
+
+            if (form.querySelector(".nl-field-error")) {
+                e.preventDefault();
+                if (firstErrorField && typeof firstErrorField.focus === "function") {
+                    firstErrorField.focus();
+                }
+            }
+        });
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        var forms = document.querySelectorAll("form");
+        forms.forEach(function(form) {
+            // Skip admin / blog / auth forms by simple heuristic
+            var action = (form.getAttribute("action") || "").toLowerCase();
+            var id = (form.id || "").toLowerCase();
+            var isAdmin = action.indexOf("blog/admin") !== -1 || window.location.pathname.indexOf("/blog/admin") !== -1;
+            if (isAdmin) return;
+
+            attachValidation(form);
+        });
+
+        applyServerErrorFromQuery();
+    });
+})();
+</script>
+
+<!-- Chatbot widget -->
+<div class="nl-chatbot-container">
+    <div class="nl-chatbot nl-chatbot-collapsed">
+        <div class="nl-chatbot-header" id="nlChatbotHeader">
+            <div class="nl-chatbot-header-text">
+                <span class="nl-chatbot-header-title">NeedleAds Assistant</span>
+                <span class="nl-chatbot-header-subtitle">Ask us anything about our services</span>
+            </div>
+            <button type="button" class="nl-chatbot-header-toggle" aria-label="Close chat" id="nlChatbotToggleBtn">×</button>
+        </div>
+        <div class="nl-chatbot-body" id="nlChatbotBody">
+            <div class="nl-chatbot-messages" id="nlChatMessages"></div>
+            <form class="nl-chatbot-form" id="nlChatForm">
+                <input
+                    type="text"
+                    id="nlChatInput"
+                    class="nl-chatbot-input"
+                    placeholder="Type your question..."
+                    autocomplete="off"
+                />
+                <button type="submit" class="nl-chatbot-send-btn" aria-label="Send message">➤</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="nl-chatbot-launcher" id="nlChatLauncher" role="button" aria-label="Chat with NeedleAds">
+    <i class="fa fa-comments nl-chatbot-launcher-icon" aria-hidden="true"></i>
+</div>
+
+<script>
+(function() {
+    var messagesEl = document.getElementById("nlChatMessages");
+    var chatForm = document.getElementById("nlChatForm");
+    var chatInput = document.getElementById("nlChatInput");
+    var headerEl = document.getElementById("nlChatbotHeader");
+    var bodyEl = document.getElementById("nlChatbotBody");
+    var toggleBtn = document.getElementById("nlChatbotToggleBtn");
+    var container = document.querySelector(".nl-chatbot");
+    var launcher = document.getElementById("nlChatLauncher");
+
+    if (!messagesEl || !chatForm || !chatInput || !container) {
+        return;
+    }
+
+    var state = "waitingForQuestion"; // waitingForQuestion -> waitingForDetailsMessage -> completed
+    var firstQuestion = "";
+    var greeted = false;
+
+    function scrollToBottom() {
+        messagesEl.scrollTop = messagesEl.scrollHeight;
+    }
+
+    function addMessage(text, who) {
+        if (!text) return;
+        var msg = document.createElement("div");
+        msg.className = "nl-chat-message " + (who === "user" ? "nl-chat-message--user" : "nl-chat-message--bot");
+        msg.textContent = text;
+        messagesEl.appendChild(msg);
+        scrollToBottom();
+    }
+
+    function openChat() {
+        container.classList.remove("nl-chatbot-collapsed");
+        if (toggleBtn) {
+            toggleBtn.textContent = "–";
+        }
+    }
+
+    function closeChat() {
+        container.classList.add("nl-chatbot-collapsed");
+        if (toggleBtn) {
+            toggleBtn.textContent = "+";
+        }
+    }
+
+    function validateDetails(name, email, phone) {
+        var cleanedName = (name || "").replace(/[^a-zA-Z]/g, "");
+        if (!cleanedName || cleanedName.length < 4) {
+            return "Please enter a valid name with at least 4 letters.";
+        }
+
+        var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailPattern.test((email || "").trim())) {
+            return "Please enter a valid email address.";
+        }
+
+        var digits = (phone || "").replace(/\D/g, "");
+        if (digits.length < 7 || digits.length > 15) {
+            return "Please enter a valid phone number.";
+        }
+
+        return "";
+    }
+
+    function extractDetailsFromText(text) {
+        var raw = (text || "").trim();
+        if (!raw) {
+            return { error: "Please share your Name, Email and Phone in one message." };
+        }
+
+        // Email
+        var emailMatch = raw.match(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i);
+        if (!emailMatch) {
+            return { error: "Please include a valid email in your message." };
+        }
+        var email = emailMatch[0];
+
+        // Phone: grab largest digit sequence with at least 7 digits
+        var digitSequences = raw.match(/\d+/g) || [];
+        var phoneDigits = "";
+        digitSequences.forEach(function(seq) {
+            if (seq.length > phoneDigits.length) {
+                phoneDigits = seq;
+            }
+        });
+        if (!phoneDigits || phoneDigits.length < 7) {
+            return { error: "Please include a valid phone number in your message." };
+        }
+
+        // Name: text with email and phone removed
+        var namePart = raw.replace(email, " ");
+        namePart = namePart.replace(phoneDigits, " ");
+        namePart = namePart.replace(/[:,\-]/g, " ");
+
+        // Remove common leading phrases
+        namePart = namePart.replace(/^(my name is|i am|this is)\s+/i, "");
+        namePart = namePart.replace(/\s+/g, " ").trim();
+
+        var validationError = validateDetails(namePart, email, phoneDigits);
+        if (validationError) {
+            return { error: validationError };
+        }
+
+        return { name: namePart, email: email, phone: phoneDigits, error: "" };
+    }
+
+    // Initial greeting when chat opens first time
+    function ensureGreeting() {
+        if (greeted) return;
+        addMessage("Hi! I’m the NeedleAds assistant. How can I help you today?", "bot");
+        greeted = true;
+    }
+
+    // Header / toggle collapse
+    function toggleCollapsed() {
+        if (container.classList.contains("nl-chatbot-collapsed")) {
+            openChat();
+            ensureGreeting();
+        } else {
+            closeChat();
+        }
+    }
+
+    if (headerEl) {
+        headerEl.addEventListener("click", function(e) {
+            // Avoid double-trigger when clicking the button
+            if (e.target === toggleBtn) return;
+            toggleCollapsed();
+        });
+    }
+    if (toggleBtn) {
+        toggleBtn.addEventListener("click", function(e) {
+            e.stopPropagation();
+            closeChat();
+        });
+    }
+    if (launcher) {
+        launcher.classList.add("nl-chatbot-launcher--awake");
+        setTimeout(function() {
+            launcher.classList.remove("nl-chatbot-launcher--awake");
+        }, 8000);
+        launcher.addEventListener("click", function(e) {
+            e.preventDefault();
+            toggleCollapsed();
+        });
+    }
+
+    // Main chat question form
+    chatForm.addEventListener("submit", function(e) {
+        e.preventDefault();
+        var text = (chatInput.value || "").trim();
+        if (!text) return;
+
+        addMessage(text, "user");
+        chatInput.value = "";
+
+        if (state === "waitingForQuestion") {
+            firstQuestion = text;
+            addMessage("May I ask your:- Name, E-mail and Phone Number?", "bot");
+            addMessage("Once you share these, our team can contact you with the best solution.", "bot");
+            state = "waitingForDetailsMessage";
+        } else if (state === "waitingForDetailsMessage") {
+            var details = extractDetailsFromText(text);
+            if (details.error) {
+                addMessage(details.error, "bot");
+                return;
+            }
+
+            var name = details.name;
+            var email = details.email;
+            var phone = details.phone;
+
+            // Show parsed details back to user as confirmation style
+            addMessage("Got it. Name: " + name + " | Email: " + email + " | Phone: " + phone, "bot");
+
+            var formData = new FormData();
+            formData.append("name", name);
+            formData.append("email", email);
+            formData.append("phone", phone);
+            formData.append("result", "Chatbot lead - First question: " + (firstQuestion || ""));
+
+            fetch("sendmail.php", {
+                method: "POST",
+                body: formData
+            })
+            .then(function(res) { return res.text(); })
+            .then(function(textResponse) {
+                var t = (textResponse || "").trim();
+                if (t === "already") {
+                    addMessage("We already have your details. Our team will contact you shortly.", "bot");
+                } else if (t === "success") {
+                    addMessage("Thank you, " + name + ". Your details have been shared with our team. We’ll reach out soon.", "bot");
+                } else {
+                    addMessage("Thanks, " + name + ". There was a small issue saving your details, but we’ve still received your request.", "bot");
+                }
+                state = "completed";
+            })
+            .catch(function() {
+                addMessage("Thanks. There was a problem submitting your details. Please try again or call us directly.", "bot");
+            });
+        } else {
+            // After details, keep chat conversational (simple acknowledgement)
+            addMessage("Thank you for your message. Our team will review it and get back to you shortly.", "bot");
+        }
+    });
+})();
+</script>
+
 </body>
 </html>

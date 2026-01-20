@@ -8,7 +8,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Validate email
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        echo "Invalid email format";
+        $ref = $_SERVER['HTTP_REFERER'] ?? 'index.php';
+        $separator = (strpos($ref, '?') === false) ? '?' : '&';
+        header('Location: ' . $ref . $separator . 'form_error=invalid_email');
         exit;
     }
 
