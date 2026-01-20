@@ -108,7 +108,6 @@
         </div>
     </div>
 
-    <div class="header-hover-zone"></div>
     <header class="container navigation">
         <!-- <div class="container"> -->
     
@@ -125,13 +124,13 @@
                 </div>
                 </div>
                 <div class="nav_bar">
-                        <div class="container header-top-info">
-        <div class="top-info">
-      <span class="d-none d-md-block text-white"><i class="fa-solid fa-phone"></i> Call: <a href="tel:+918750500075">+91-8750500075</a></span>
-      <span class="separator">|</span>
-      <span class="text-white"><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:info@theneedleads.com">info@theneedleads.com</a></span>
-    </div>
-    </div>  
+                        <div class=" header-top-info">
+                            <div class="top-info">
+                        <span class="d-none d-md-block text-white"><i class="fa-solid fa-phone"></i> Call: <a href="tel:+918750500075">+91-8750500075</a></span>
+                        <span class="separator d-none d-md-block">|</span>
+                        <span class="text-white"><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:info@theneedleads.com">info@theneedleads.com</a></span>
+                        </div>
+                        </div>  
 
                
                 <nav class="fw-bold">

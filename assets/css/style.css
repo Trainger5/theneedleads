@@ -28,14 +28,17 @@ p {
 img {
     width: 100%;
 }
-
+.form_box {
+    width: 70%;
+    margin: 0 auto;
+}
 .text-justify {
     text-align: justify
 }
 
 .bannercontent h1 {
     color: #fff;
-    font-size: 47px;
+    font-size: 60px;
     margin-bottom: 20px;
 }
 
@@ -141,7 +144,7 @@ img {
 }
 
 .aboutimg {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -716,7 +719,9 @@ ul.ctglist li:before {
     top: 8px;
     left: 0;
 }
-
+.socialmedia li  a {
+    text-decoration: none;
+}
 .blogdetailimg {
     border-radius: 12px;
     overflow: hidden;
@@ -1390,14 +1395,14 @@ ul.ctglist li:before {
 
 .outerofbanner {
     padding-top: 160px;
+    padding-bottom: 50px;
 }
-
 /*======================website-design=============*/
 .website_design_background {
     background: url(../img/websitebnr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 620px;
 }
 
 /*======================Static Website=============*/
@@ -1405,7 +1410,7 @@ ul.ctglist li:before {
     background: url(../img/static-website.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 620px;
 }
 
 /*======================dynamic-website=============*/
@@ -1413,7 +1418,7 @@ ul.ctglist li:before {
     background: url(../img/bannerdynamicpage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 620px;
 }
 
 /*======================ecommerce-website=============*/
@@ -1421,7 +1426,7 @@ ul.ctglist li:before {
     background: url(../img/e-commerce-bnr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 620px;
 }
 
 /*======================website-development=============*/
@@ -1429,7 +1434,7 @@ ul.ctglist li:before {
     background: url(../img/website-development-bnr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 620px;
 }
 
 /*======================website-maintenance=============*/
@@ -1437,7 +1442,7 @@ ul.ctglist li:before {
     background: url(../img/website-maintance-bnr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 620px;
 }
 
 /*======================mobile-app-development=============*/
@@ -1445,7 +1450,7 @@ ul.ctglist li:before {
     background: url(../img/mobile-app-development-bnr.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 620px;
 }
 
 /*======================ppc-company-delhi=============*/
@@ -1453,7 +1458,7 @@ ul.ctglist li:before {
     background: url(../img/ppc-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 620px;
 }
 
 /*======================local-seo-services=============*/
@@ -1461,7 +1466,7 @@ ul.ctglist li:before {
     background: url(../img/localseo-bnr-page.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 620px;
 }
 
 /*======================email-marketing=============*/
@@ -1469,7 +1474,7 @@ ul.ctglist li:before {
     background: url(../img/email-marketing-bnr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 620px;
 }
 
 /*======================social-media-marketing=============*/
@@ -1477,7 +1482,7 @@ ul.ctglist li:before {
     background: url(../img/social-media-marketing-1-bnr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 620px;
 }
 
 /*======================free-seo-analysis=============*/
@@ -1485,7 +1490,7 @@ ul.ctglist li:before {
     background: url(../img/seo-bnr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 620px;
 }
 
 /*======================page_speed=============*/
@@ -1493,7 +1498,7 @@ ul.ctglist li:before {
     background: url(../img/page-speed-bnr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 620px;
 }
 
 /*======================google_penalty=============*/
@@ -1501,7 +1506,7 @@ ul.ctglist li:before {
     background: url(../img/google-ads.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 620px;
 }
 
 /*======================google_partner=============*/
@@ -1509,7 +1514,7 @@ ul.ctglist li:before {
     background: url(../img/google-partner-india.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 620px;
 }
 
 /*======================our-presence=============*/
@@ -1517,7 +1522,7 @@ ul.ctglist li:before {
     background: url(../img/our-presence.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 620px;
 }
 
 /*======================Products.php=============*/
@@ -1525,7 +1530,7 @@ ul.ctglist li:before {
     background: url(../img/portfolio/portfoliobnr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 620px;
 }
 
 /*======================case-study=============*/
@@ -1533,7 +1538,7 @@ ul.ctglist li:before {
     background: url(../img/portfolio/portfoliobnr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 620px;
 }
 
 /*======================about-us=============*/
@@ -1541,7 +1546,7 @@ ul.ctglist li:before {
     background: url(../img/about-us.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 620px;
 }
 
 /*======================contact-us=============*/
@@ -1549,7 +1554,7 @@ ul.ctglist li:before {
     background: url(../img/contactus.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 620px;
 }
 
 /*======================ppc-packages=============*/
@@ -1557,7 +1562,7 @@ ul.ctglist li:before {
     background: url(../img/googleads-packages.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 550px;
+    height: 620px;
 }
 
 /*======================seo-packages=============*/
@@ -1565,7 +1570,7 @@ ul.ctglist li:before {
     background: url(../img/search-engine-optimization.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 620px;
 }
 
 /*======================website-design-packages=============*/
@@ -1573,7 +1578,7 @@ ul.ctglist li:before {
     background: url(../img/Website-Design-Packages.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 560px !important;
+    height: 620px !important;
 }
 
 .Role_in_Website_Design_background {
@@ -1596,7 +1601,7 @@ ul.ctglist li:before {
     background: url(../img/location-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 620px;
 }
 
 /*======================seo-company=============*/
@@ -1623,14 +1628,14 @@ ul.ctglist li:before {
     background: url(../img/seobanner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 620px;
 }
 
 .seo_noida_background {
     background: url(../img/seobanner-new.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 620px;
 }
 
 /*======================SMM-company-our-locations=============*/
@@ -1644,7 +1649,7 @@ ul.ctglist li:before {
     background: url(../img/Social-media-bnr.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 620px;
 }
 
 /*======================Google Ads (PPC)=============*/
@@ -1657,7 +1662,7 @@ ul.ctglist li:before {
     background: url(../img/google-ads-bnr-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 550px;
+    height: 620px;
 }
 
 /*======================google-ads-agency-in-delhi=============*/
@@ -1676,6 +1681,14 @@ ul.ctglist li:before {
     background-attachment: fixed;
 }
 
+/*======================website designing -background=============*/
+.hero_section_bg{
+    background: url(../img/location-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 620px;
+}
 
 .section-paragraph p {
     font-weight: 400 !important;
