@@ -204,9 +204,8 @@ gtag('config', 'G-0GQ7EZTWNF');
             <div class="row row-gap-4 justify-content-center align-items-center hero_section">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
                     <div class="bannercontent" data-aos="fade-up" data-aos-duration="800">
-                        <h1>Best Digital Marketing Agency in Janakpuri, Delhi</h1>
-                        <p>Looking to improve your brand's visibility? Partner with NeedleAds Technology! Our expert
-                            team offers SEO, SMM, PPC, Web Design, and more. Contact us now!</p>
+                        <h1>AI-Powered Digital Marketing Agency in Delhi for Smart Growth</h1>
+                        <p>Harness cutting-edge AI technology to dominate your market! NeedleAds Technology combines artificial intelligence with expert SEO, automated social media campaigns, predictive analytics, conversion-optimized web design, and data-driven strategies. Let's future-proof your brand!</p>
                         <div class="webbtn">
                             <a href="tel:+91-8750500075"><i class="fa fa-phone"></i> Have a Project to Discuss?</a>
                         </div>
@@ -396,8 +395,9 @@ gtag('config', 'G-0GQ7EZTWNF');
 <!-- form start -->
 <section class="sectionpadding pt-0">
     <div class="outerofformsection aboutsidimgwithform" data-aos="fade-up">
-        <div class="container">
-            <form method="post" action="lead-form.php" id="emailForm">
+        <div class="container-fluid">
+            <div class="form_box">
+                <form method="post" action="lead-form.php" id="emailForm">
                 <div class="row">
                     <div class="col-md-2">
                         <div class="mb3">
@@ -430,6 +430,9 @@ gtag('config', 'G-0GQ7EZTWNF');
                     </div>
                 </div>
             </form>
+
+            </div>
+
         </div>
     </div>
 </section>
@@ -480,25 +483,25 @@ gtag('config', 'G-0GQ7EZTWNF');
                         <div class="sectionheading">
                             <h2 class="text-center" data-aos="fade-up" data-aos-duration="800">A Specialized Digital Marketing Agency in Delhi</h2>
                         </div>
-                        <p class="text-center">Delhi, one of the busiest metropolises in the world, makes it
+                        <p class="text-center" data-aos="fade-up" data-aos-duration="800">Delhi, one of the busiest metropolises in the world, makes it
                             difficult for a business to stand out in the digital arena. We are one of the leading
                             digital marketing agencies in the country, so here is where we can help you. As a
                             leading digital marketing agency, our expertise lies in crafting tailored strategies
                             that help your business succeed in the increasingly competitive online landscape.</p>
-                        <p class="text-center">In our role as a leading <a href="https://www.theneedleads.com/">digital
+                        <p class="text-center" data-aos="fade-up" data-aos-duration="800">In our role as a leading <a href="https://www.theneedleads.com/">digital
                                 marketing agency in Delhi</a>, we are
                             well-versed in the unique needs of businesses operating in this vibrant city. There are
                             many elements to digital marketing, but our team of experts is equipped with the
                             knowledge and skills to navigate the complexities and deliver exceptional results to our
                             clients.</p>
-                        <p class="text-center">In our digital marketing agency in Delhi, we place a high priority on
+                        <p class="text-center" data-aos="fade-up" data-aos-duration="800">In our digital marketing agency in Delhi, we place a high priority on
                             transparency, collaboration, and results. In order to ensure that our strategies are
                             aligned with the vision for success of our clients, we work closely with them to
                             understand their goals, challenges, and objectives. It does not matter if you are
                             looking to <a href="https://www.theneedleads.com/seo-company-janakpuri.php">increase
                                 website traffic</a>, boost conversions, or enhance brand awareness, we have the
                             tools and expertise to make it happen.</p>
-                        <p class="text-center">A strong online presence is essential for business success in today's
+                        <p class="text-center" data-aos="fade-up" data-aos-duration="800">A strong online presence is essential for business success in today's
                             digital age as it plays an integral role in attracting new clients. With the help of our
                             digital marketing services in Delhi, we can help you achieve your business goals by
                             reaching out to new audiences, driving sales, and achieving your business goals with the
@@ -516,7 +519,7 @@ gtag('config', 'G-0GQ7EZTWNF');
         <div class="container">
             <div class="sectionheading">
                 <h2 data-aos="fade-up" data-aos-duration="800">Our Offered Services</h2>
-                <p>The power of digital marketing with NeedleAds Technology! As a leading digital marketing agency
+                <p data-aos="fade-up" data-aos-duration="800">The power of digital marketing with NeedleAds Technology! As a leading digital marketing agency
                     in Janakpuri, we offer a range of services, including SEO, SMM, PPC, and web design. Our team is
                     dedicated to helping businesses like yours succeed online. Whether you're looking to increase
                     your online visibility, drive more traffic to your website, or improve your general digital

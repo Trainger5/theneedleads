@@ -108,24 +108,32 @@
         </div>
     </div>
 
-    <div class="header-hover-zone"></div>
     <header class="container navigation">
         <!-- <div class="container"> -->
-            <div class="container header-top-info">
+    
     <!-- <span>Call Us for Flat 20% OFF</span> -->
     <!-- <span class="separator">|</span> -->
-    <!-- <span><i class="fa-solid fa-phone"></i> Sales: <a href="tel:+919717107250">+91-9717107250</a></span> -->
-    <!-- <span class="separator">|</span> -->
-    <span class="d-none d-md-block"><i class="fa-solid fa-phone"></i> Call: <a href="tel:+918750500075">+91-8750500075</a></span>
-    <span class="separator">|</span>
-    <span><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:info@theneedleads.com">info@theneedleads.com</a></span>
-</div>
+       <!-- <span><i class="fa-solid fa-phone"></i> Sales: <a href="tel:+919717107250">+91-9717107250</a></span> -->
+      <!-- <span class="separator">|</span> -->
+
 
             <div class="container header_inner_box">
+                <div class="nav_log">
                 <div class="brand">
                     <a href="<?php echo $linkBase ?? ''; ?>index.php"><img src="<?php echo $assetBase ?? ''; ?>assets/img/sitelogo.png" alt="Digital marketing Agency"></a>
                 </div>
-                <nav>
+                </div>
+                <div class="nav_bar">
+                        <div class=" header-top-info">
+                            <div class="top-info">
+                        <span class="d-none d-md-block text-white"><i class="fa-solid fa-phone"></i> Call: <a href="tel:+918750500075">+91-8750500075</a></span>
+                        <span class="separator d-none d-md-block">|</span>
+                        <span class="text-white"><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:info@theneedleads.com">info@theneedleads.com</a></span>
+                        </div>
+                        </div>  
+
+               
+                <nav class="fw-bold">
                     <div class="nav-mobile"><a id="navbar-toggle" href="javascript:void()"><span></span></a></div>
                     <ul class="nav-list mobile_list">
                         <li>
@@ -224,6 +232,7 @@
                         </li>
                     </ul>
                 </nav>
+                 </div>
             </div>
 
         <!-- </div> -->

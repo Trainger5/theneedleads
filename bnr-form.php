@@ -16,15 +16,27 @@ $errorMessage = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Get data from form  
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $number = $_POST['number'];
-    $service = $_POST['service'];
-    $message = $_POST['message'];
+    $name = trim($_POST['name'] ?? '');
+    $email = trim($_POST['email'] ?? '');
+    $number = trim($_POST['number'] ?? '');
+    $service = trim($_POST['service'] ?? '');
+    $message = trim($_POST['message'] ?? '');
+
+    // Validate name (at least 4 letters)
+    $lettersOnly = preg_replace('/[^A-Za-z]/', '', $name);
+    if (strlen($lettersOnly) < 4) {
+        $errorMessage = "Invalid name";
+    }
 
     // Validate email
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    if (empty($errorMessage) && !filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $errorMessage = "Invalid email format";
+    }
+
+    // Validate phone (7-15 digits)
+    $digits = preg_replace('/\D/', '', $number);
+    if (empty($errorMessage) && (strlen($digits) < 7 || strlen($digits) > 15)) {
+        $errorMessage = "Invalid phone number";
     }
 
     // If there's no error, proceed with sending the email
