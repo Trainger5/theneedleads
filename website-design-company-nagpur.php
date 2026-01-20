@@ -5,10 +5,7 @@ $canonical_url = "https://www.theneedleads.com/website-design-company-nagpur.php
 ?>
 <?php include './include/header.php';?>
 
-<section style="
-    background: url(assets/img/location-banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;">
+<section class="hero_section_bg">
     <div class="outerofbanner">
         <div class="container">
             <div class="row">
