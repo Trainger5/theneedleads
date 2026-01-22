@@ -14,6 +14,10 @@
 
 
 @media only screen and (max-width: 1400px) {
+        .hero_right {
+        position: relative;
+        margin-bottom: -145px;
+    }
 
     .bannercontent h1 {
         font-size: 50px;
@@ -22,13 +26,20 @@
     width: 100%;
 }
 }
+@media only screen and (max-width: 1399px) {
+        .hero_right {
+        position: relative;
+        margin-bottom: -133px;
+    }
+}
+
 
 
 
 @media only screen and (max-width: 1350px) {
     .hero_right {
         position: relative;
-        margin-bottom: -83px;
+        margin-bottom: -133px;
     }
     .bannercontent h1 {
         font-size: 45px;
@@ -69,7 +80,7 @@
     }
     .hero_right {
         position: relative;
-        margin-bottom: -70px;
+        margin-bottom: -132px;
     }
 
     .bannersectionstr {
@@ -90,10 +101,17 @@
    
 }
 
+@media only screen and (max-width: 1199px) {
+        .hero_right {
+        position: relative;
+        margin-bottom: -118px;
+    }
+}
+
 @media only screen and (max-width: 1080px) {
     .hero_right {
         position: relative;
-        margin-bottom: -70px;
+        margin-bottom: -120px;
     }
 
 }
@@ -210,7 +228,7 @@
 
     .hero_right {
         position: relative;
-        margin-bottom: -73px;
+        margin-bottom: -123px;
     }
 
     .contactformimg img {
@@ -375,10 +393,28 @@
 
 }
 
+@media only screen and (max-width: 767px) {
+        .hero_right {
+        position: relative;
+        margin-bottom: -145px;
+    }
+}
+
+
 @media only screen and (max-width: 576px) {
     .hero_right {
         position: relative;
-        margin-bottom: -75px;
+        margin-bottom: -143px;
+    }
+
+    .aboutsidimgwithform form {
+        padding: 50px 20px !important;
+    }
+}
+@media only screen and (max-width: 476px) {
+    .hero_right {
+        position: relative;
+        margin-bottom: -125px;
     }
 
     .aboutsidimgwithform form {
@@ -606,6 +642,10 @@
 
 
 @media only screen and (max-width: 425px) {
+        .hero_right {
+        position: relative;
+        margin-bottom: -122px;
+    }
     .header-top-info {
         display: none !important;
     }
@@ -615,7 +655,7 @@
 
     .hero_right {
         position: relative;
-        margin-bottom: -63px;
+        margin-bottom: -114px;
     }
 
     .count-digit.counter-loaded {
@@ -642,7 +682,7 @@
 @media only screen and (max-width: 320px) {
     .hero_right {
         position: relative;
-        margin-bottom: -54px;
+        margin-bottom: -104px;
     }
 
     .aboutsidimgwithform form {
