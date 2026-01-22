@@ -204,8 +204,11 @@ gtag('config', 'G-0GQ7EZTWNF');
             <div class="row row-gap-4 justify-content-center align-items-center hero_section">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
                     <div class="bannercontent" data-aos="fade-up" data-aos-duration="800">
-                        <h1>AI-Powered Digital Marketing Agency in Delhi for Smart Growth</h1>
-                        <p>Harness cutting-edge AI technology to dominate your market! NeedleAds Technology combines artificial intelligence with expert SEO, automated social media campaigns, predictive analytics, conversion-optimized web design, and data-driven strategies. Let's future-proof your brand!</p>
+                        <!-- <h1>AI-Powered Digital Marketing Agency in Delhi for Smart Growth</h1> -->
+                        <h1>Best Digital Marketing Agency in Janakpuri, Delhi</h1>
+                        <!-- <p>Harness cutting-edge AI technology to dominate your market! NeedleAds Technology combines artificial intelligence with expert SEO, automated social media campaigns, predictive analytics, conversion-optimized web design, and data-driven strategies. Let's future-proof your brand!</p> -->
+                        <p>Looking to improve your brand's visibility? Partner with NeedleAds Technology! Our expert
+                            team offers SEO, SMM, PPC, Web Design, and more. Contact us now!</p>
                         <div class="webbtn">
                             <a href="tel:+91-8750500075"><i class="fa fa-phone"></i> Have a Project to Discuss?</a>
                         </div>
