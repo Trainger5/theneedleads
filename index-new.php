@@ -4,6 +4,8 @@
    $canonical_url = "https://www.theneedleads.com/";
    ?>
 <?php include './include/header.php';?>
+
+
 <section class="bannersectionstr">
    <div class="pad_top">
       <div class="container">
@@ -638,7 +640,9 @@
             <li>Up to 10 target keywords</li>
 
          </ul>
-         <a href="#" class="btn-outline">Start Now</a>
+         <!-- <a href="#" class="btn-outline">Start Now</a> -->
+         <button  onclick="openPopup()" class="btn-outline open-btn">Start Now</button>
+         
       </div>
       <!-- GROWTH -->
       <div class="price-card active" data-aos="fade-up" >
@@ -660,7 +664,8 @@
             <li>Quarterly strategy review calls</li>
 
          </ul>
-         <a href="#" class="btn-fill">Get Started</a>
+         <!-- <a href="#" class="btn-fill">Get Started</a> -->
+         <button  onclick="openPopup()" class="btn-outline open-btn">Get Started</button>
       </div>
       <!-- ENTERPRISE -->
       <div class="price-card" data-aos="fade-up" >
@@ -680,11 +685,13 @@
             <li>Unlimited keywords</li>
             <li>Monthly strategy sessions</li>
          </ul>
-         <a href="#" class="btn-outline">Contact Sales</a>
+         <button  onclick="openPopup()" class="btn-outline open-btn">Contact Sales</button>
       </div>
    </div>
    </div>
 </section>
+
+
 <script>
    const faqs = document.querySelectorAll('.faq-item');
    

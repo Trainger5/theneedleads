@@ -170,6 +170,27 @@
                     style="color:#fff; text-decoration: none;">@NeedleAds Technology</a></p>
         </div>
     </div>
+
+
+<div id="spopup-overlay" class="spopup-overlay">
+  <div class="spopup-box">
+    <span id="spopup-close" class="spopup-close">✕</span>
+
+    <h2 class="spopup-title">Welcome 🎉</h2>
+    <p class="spopup-sub">Fill the form to get special offers</p>
+
+    <form id="spopup-form">
+      <input class="spopup-input" type="text" placeholder="Your Name" required>
+      <input class="spopup-input" type="email" placeholder="Email Address" required>
+      <input class="spopup-input" type="tel" placeholder="Phone Number" required>
+      <textarea class="spopup-input" placeholder="Your Message..." rows="3"></textarea>
+      <button class="spopup-btn" type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+
+
+
 </footer>
 <!--Start of Tawk.to Script-->
 <!-- <script type="text/javascript">
@@ -908,6 +929,52 @@ function makeCallOrWhatsApp() {
     });
 })();
 </script>
+
+
+<script>
+window.addEventListener("load", function(){
+
+  const popup = document.getElementById("spopup-overlay");
+  const closeBtn = document.getElementById("spopup-close");
+  const form = document.getElementById("spopup-form");
+
+  if(!popup) return;
+
+  // 🔥 agar pehle dikh chuka hai to kabhi na dikhao
+  if(localStorage.getItem("sitePopupShown") === "yes"){
+      popup.style.display = "none";
+      return;
+  }
+
+  // first website load → show popup
+  popup.style.display = "flex";
+  localStorage.setItem("sitePopupShown","yes");
+
+  // close button
+  if(closeBtn){
+    closeBtn.onclick = () => popup.style.display = "none";
+  }
+
+  // form submit
+  if(form){
+    form.addEventListener("submit", function(e){
+      e.preventDefault();
+      popup.style.display = "none";
+      alert("Thank you! We will contact you soon 😊");
+    });
+  }
+
+});
+</script>
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
