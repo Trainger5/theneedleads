@@ -47,36 +47,56 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'needleadsagency@gmail.com'; // SMTP username
-            $mail->Password = 'ceovzkarzpcbguys'; // SMTP app-specific password 
+            $mail->Username = 'theneedleads@gmail.com'; // SMTP username
+            $mail->Password = 'bqkhuhvbgoxuiwes'; // SMTP app-specific password 
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 587;
 
             // Recipients
-            $mail->setFrom('needleadsagency@gmail.com', 'Needleads');
-            $mail->addAddress('needleadsagency@gmail.com');
-            $mail->addCC('theneedleads@gmail.com');
+            $mail->setFrom('theneedleads@gmail.com', 'Needleads');
+            $mail->addAddress('theneedleads@gmail.com');
+            $mail->addCC('needleadsagency@gmail.com');
 
             // Content
             $mail->isHTML(true);
-            $mail->Subject = 'Hi New Enquiry on Banner Form | Needleads India';
+            $mail->Subject = 'Hi New Enquiry on Homepage Banner Form | Needleads India';
             $mail->Body = "Name: $name<br>Email: $email<br>Phone Number: $number<br>Services: $service<br>Message: $message";
             $mail->AltBody = "Name: $name\nEmail: $email\nPhone Number: $number\nServices: $service\nMessage: $message";
 
             // Send the email
             $mail->send();
-            echo 'Email has been sent';
+            // echo 'Email has been sent'; // Removed to prevent JSON corruption
 
             // Log data to a log file
             $logFile = 'form-submissions.log';
             $logData = date("Y-m-d H:i:s") . " | Name: $name, Email: $email, Phone Number: $number, Service: $service, Message: $message" . PHP_EOL;
             file_put_contents($logFile, $logData, FILE_APPEND);
 
+            // If AJAX request, return JSON
+            if (isset($_POST['ajax']) && $_POST['ajax'] === '1') {
+                // Disable error reporting for cleaner JSON
+                error_reporting(0);
+                ini_set('display_errors', 0);
+                
+                // Clear any previous output
+                if (ob_get_length()) ob_clean();
+                
+                header('Content-Type: application/json');
+                echo json_encode(['status' => 'success', 'message' => 'Email has been sent']);
+                exit();
+            }
+
             // Redirect to thankyou.php after form submission
             header("Location: thankyou.php");
             exit();
 
         } catch (Exception $e) {
+            if (isset($_POST['ajax']) && $_POST['ajax'] === '1') {
+                header('Content-Type: application/json');
+                http_response_code(500);
+                echo json_encode(['status' => 'error', 'message' => "Message could not be sent. Mailer Error: {$mail->ErrorInfo}"]);
+                exit();
+            }
             echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
         }
     }

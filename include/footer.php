@@ -176,17 +176,27 @@
   <div class="spopup-box">
     <span id="spopup-close" class="spopup-close">✕</span>
 
-    <h2 class="spopup-title">Welcome 🎉</h2>
-    <p class="spopup-sub">Fill the form to get special offers</p>
+    <h2 class="spopup-title">Get in Touch</h2>
+    <!-- <p class="spopup-sub">Fill the form to get special offers</p> -->
 
-    <form id="spopup-form">
-      <input class="spopup-input" type="text" placeholder="Your Name" required>
-      <input class="spopup-input" type="email" placeholder="Email Address" required>
-      <input class="spopup-input" type="tel" placeholder="Phone Number" required>
-      <textarea class="spopup-input" placeholder="Your Message..." rows="3"></textarea>
-      <button class="spopup-btn" type="submit">Submit</button>
+    <form id="spopup-form" action="<?php echo $linkBase ?? ''; ?>bnr-form.php" method="POST">
+      <input class="spopup-input" type="text" name="name" placeholder="Your Name" required>
+      <input class="spopup-input" type="email" name="email" placeholder="Email Address" required>
+      <input class="spopup-input" type="tel" name="number" placeholder="Phone Number" required>
+      <textarea class="spopup-input" name="message" placeholder="Your Message..." rows="3"></textarea>
+      <input type="hidden" name="service" value="Popup Form Enquiry">
+      <button class="spopup-btn" type="submit">Get Started Now</button>
     </form>
   </div>
+</div>
+
+<!-- "Thank You" Modal -->
+<div id="thankyou-modal" class="thankyou-modal">
+    <div class="thankyou-box">
+        <i class="fa fa-check-circle"></i>
+        <h3>Thank You!</h3>
+        <p>Your message has been sent successfully.</p>
+    </div>
 </div>
 
 
@@ -956,11 +966,59 @@ window.addEventListener("load", function(){
   }
 
   // form submit
+  // form submit
   if(form){
     form.addEventListener("submit", function(e){
       e.preventDefault();
-      popup.style.display = "none";
-      alert("Thank you! We will contact you soon 😊");
+      
+      const btn = form.querySelector('.spopup-btn');
+      const originalText = btn.innerHTML;
+      btn.innerHTML = 'Sending... <i class="fa fa-spinner fa-spin"></i>';
+      btn.disabled = true;
+
+      const formData = new FormData(form);
+      formData.append('ajax', '1'); // Tell backend to return JSON
+
+      fetch('bnr-form.php', {
+          method: 'POST',
+          body: formData
+      })
+      .then(response => response.text()) // Get text first to debug
+      .then(text => {
+          try {
+              const data = JSON.parse(text); // Try parsing JSON
+              if(data.status === 'success'){
+                  // 1. Hide form popup
+                  popup.style.display = "none";
+                  
+                  // 2. Show thank you modal
+                  const thankYouModal = document.getElementById('thankyou-modal');
+                  if(thankYouModal){
+                      thankYouModal.style.display = 'flex';
+                      
+                      // 3. Hide after 3 seconds
+                      setTimeout(() => {
+                          thankYouModal.style.display = 'none';
+                      }, 3000);
+                  }
+                  form.reset();
+              } else {
+                  alert(data.message || 'Something went wrong. Please try again.');
+              }
+          } catch (e) {
+              console.error('JSON Parse Error:', e);
+              console.log('Server Response:', text);
+              alert('Error: The server returned an invalid response. Please check console for details.');
+          }
+      })
+      .catch(error => {
+          console.error('Network/Fetch Error:', error);
+          alert('A network error occurred. Please try again.');
+      })
+      .finally(() => {
+          btn.innerHTML = originalText;
+          btn.disabled = false;
+      });
     });
   }
 
