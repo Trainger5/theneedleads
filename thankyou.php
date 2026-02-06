@@ -18,6 +18,7 @@
     display:flex;
     flex-direction:column;
     align-items:center;
+    margin:190px 0px 90px 0px;
   ">
 
     <img src="assets/img/sitelogo.png" alt="Logo"
