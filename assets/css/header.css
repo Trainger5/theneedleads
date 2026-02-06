@@ -64,7 +64,7 @@ header.navigation.header-full-width .container {
 .header-top-info a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
 }
 
@@ -581,6 +581,9 @@ header.navigation.header-full-width .container {
     border-radius: 0;
     flex-direction: column;
     left: -300px;
+}
+.top-info {
+    display: none;
 }
 }
 

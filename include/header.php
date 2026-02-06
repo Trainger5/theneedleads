@@ -18,7 +18,6 @@
     <meta name="geo.position" content="28.621927;77.087476" />
     <meta name="ICBM" content="28.621927, 77.087476" />
     <meta name="msvalidate.01" content="7EDD16BE0E2EBADEEBC8AE5E6248694D" />
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="text/fave" href="<?php echo $assetBase ?? ''; ?>assets/img/fave.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -37,9 +36,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,300&family=Roboto:wght@300;400;700&display=swap"
      rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-
-
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JYL2T45EPK">
@@ -124,13 +120,15 @@
                 </div>
                 </div>
                 <div class="nav_bar">
-                        <div class=" header-top-info">
-                            <div class="top-info">
-                        <span class="d-none d-md-block text-white"><i class="fa-solid fa-phone"></i> Call: <a href="tel:+918750500075">+91-8750500075</a></span>
+                    <div class=" header-top-info">
+                        <div class="top-info">
+                        <span class="d-none d-md-block text-white"><i class="fa-solid fa-phone"></i> Call: <a href="tel:+918750500075">+91-8750500075</a>
+                        </span>
                         <span class="separator d-none d-md-block">|</span>
-                        <span class="text-white"><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:info@theneedleads.com">info@theneedleads.com</a></span>
-                        </div>
-                        </div>  
+                        <span class="text-white"><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:info@theneedleads.com">info@theneedleads.com</a>
+                        </span>
+                    </div>
+                </div>  
 
                
                 <nav class="fw-bold">

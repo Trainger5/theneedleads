@@ -222,7 +222,8 @@
     }
 
     .bannercontent h1 {
-        font-size: 45px;
+        font-size: 30px;
+        padding-top: 40px;
         text-align: center;
     }
 
@@ -392,9 +393,6 @@
         margin-bottom: -70px;
     }
 
-    .bannercontent h1 {
-        font-size: 30px;
-    }
 
     /* 
     .outerofbanner {
@@ -453,9 +451,6 @@
         margin-bottom: 0;
     }
 
-    .bannercontent h1 {
-        font-size: 25px;
-    }
 
     .breadcrumb {
         display: none;
